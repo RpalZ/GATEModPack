@@ -75,6 +75,12 @@
   "waystones": {
     "waystone": true
   },
+  "camera": {
+    "image_frame": true
+  },
+  "corpse": {
+    "corpse": true
+  },
   "superbwarfare": {
     "dps_generator": true,
     "vehicle_deployer": true,
@@ -84,6 +90,12 @@
   },
   "balm": {
     "jade": true
+  },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "info": true,
+    "showcustomname": true
   },
   "ae2": {
     "part_icon": true,

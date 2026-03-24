@@ -14,7 +14,7 @@
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
-	help-level: normal;
+	help-level: verbose;
 
 	/**
 	 * Where EMI should pull stacks from to populate the index.
@@ -430,7 +430,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.unknown";
+	copy-recipe-id: "key.keyboard.c";
 
 	/**
 	 * In edit mode, hide the hovered stack
@@ -468,14 +468,14 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.
 	 * These are typically developer facing and compatibility related, and not useful
 	 * for players.
 	 */
-	show-recipe-decorators: false;
+	show-recipe-decorators: true;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe
