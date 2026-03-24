@@ -10,17 +10,17 @@
 	#REALISTIC - Uses animated sprite sheets with complex textures (current system)
 	#VANILA - Vanilla-like simple textures with color phases (better performance)
 	#Allowed Values: REALISTIC, REALISTIC_2, VANILA
-	particleRenderMode = "REALISTIC"
+	particleRenderMode = "REALISTIC_2"
 	#Scales the size of all explosion particles across all render modes.
 	#1.0 = default size, 0.1 = 10% of default, 5.0 = 500% of default.
 	#Range: 0.1 ~ 5.0
-	particleSizeScale = 1.0
+	particleSizeScale = 0.54
 	#Internal flag: marks whether the first-time setup screen has been shown.
 	firstLaunchComplete = true
 	#
 	#Core explosion visual effects
 	#Enables the main fiery glow particles (glow, glow_2, sglow). Disabling this can significantly improve performance.
-	enableExplosionParticles = true
+	enableExplosionParticles = false
 	#
 	#Plasma particle effects
 	#Enables or disables plasma sparks entirely.
@@ -46,7 +46,7 @@
 	#0.0 = no sparks, 1.0 = default amount, 2.0 = double amount.
 	#Higher values can impact performance.
 	#Range: 0.0 ~ 5.0
-	lineSparkAmountMultiplier = 1.0
+	lineSparkAmountMultiplier = 0.5
 	#
 	#Configuration for the ground dust cloud effect
 	#Enables or disables the dust cloud effect from explosions.
@@ -55,12 +55,12 @@
 	#Lower values can improve performance on weaker PCs.
 	#0.0 = minimum particles, 1.0 = default quality.
 	#Range: 0.0 ~ 1.0
-	groundDustQuality = 1.0
+	groundDustQuality = 0.5
 	#Dust Propagation Quality. Controls how often dust particles check for the ground beneath them.
 	#A value of 1 means every particle checks (highest quality, high performance cost).
 	#A value of 10 means every 10th particle checks (default performance).
 	#Range: 1 ~ 20
-	groundDustRaycastFrequency = 10
+	groundDustRaycastFrequency = 6
 	#
 	#Configuration for the ground mist effect
 	#Enables or disables the mist cloud effect from explosions.
@@ -69,7 +69,7 @@
 	#Lower values can improve performance on weaker PCs.
 	#0.0 = minimum particles, 1.0 = default quality.
 	#Range: 0.0 ~ 1.0
-	groundMistQuality = 1.0
+	groundMistQuality = 0.5
 	#Mist Propagation Quality. Controls how often mist particles check for the ground beneath them.
 	#A value of 1 means every particle checks (highest quality, high performance cost).
 	#A value of 10 means every 10th particle checks (default performance).

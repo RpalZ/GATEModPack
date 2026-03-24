@@ -71,7 +71,7 @@
 	#0.1 = very ray-like, 0.95 = almost a perfect sphere.
 	#Default: 0.7 (70%)
 	#Range: 0.1 ~ 0.95
-	craterCoreRatio = 0.65
+	craterCoreRatio = 0.5
 
 #
 #Async crater pipeline (off-thread ray geometry + main-thread batched application)
@@ -82,10 +82,10 @@
 	#WARNING: When asynchronous and multi-threaded mode is enabled - destruction of VS objects - does not work.
 	enableAsyncCrater = true
 	#Maximum number of threads for off-thread crater geometry precomputation.
-	#0 = Auto (use all available: 16)
+	#0 = Auto (use all available: 12)
 	#1 = Single-threaded
-	#2-16 = Custom thread count for this system
-	#Range: 0 ~ 16
+	#2-12 = Custom thread count for this system
+	#Range: 0 ~ 12
 	craterMaxThreads = 0
 	#Maximum number of blocks to evaluate/apply per server tick when building a crater.
 	#Higher values complete faster but can cause small TPS dips.
@@ -200,16 +200,16 @@
 		enableAmbientCaveDust = true
 
 #Settings for chunk scanning and block indexing system.
-#System detected: 16 CPU threads available
+#System detected: 12 CPU threads available
 #Configuration ranges are automatically adjusted for your system
 [Scan]
 	#Maximum number of threads to use for chunk scanning.
-	#Available range for your system: 0-16 threads
-	#0 = Auto-detect (recommended): uses all 16 available threads
+	#Available range for your system: 0-12 threads
+	#0 = Auto-detect (recommended): uses all 12 available threads
 	#1 = Single-threaded (slowest but safest)
-	#2-16 = Custom thread count for this system
-	#Your system supports up to 16 concurrent threads
-	#Range: 0 ~ 16
+	#2-12 = Custom thread count for this system
+	#Your system supports up to 12 concurrent threads
+	#Range: 0 ~ 12
 	maxScanThreads = 0
 	#How much CPU power to use for chunk scanning (1-100%).
 	#100% = Maximum speed, uses all available threads intensively

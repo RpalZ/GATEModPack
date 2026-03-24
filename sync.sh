@@ -2,7 +2,7 @@
 
 # --- CONFIGURATION ---
 # The "Live" folder where you are playing/modding
-GAME_DIR="$HOME/Documents/curseforge/minecraft/Instances/GATE/"
+GAME_DIR="$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/GATE-1.1/minecraft/"
 
 # Your GitHub Repo folder
 REPO_DIR="$HOME/Desktop/GATEModPack/"
