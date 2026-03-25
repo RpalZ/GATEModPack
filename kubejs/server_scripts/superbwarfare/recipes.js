@@ -22,3 +22,4 @@ ServerEvents.recipes(event => {
     event.remove({id: "tacz:misc/blood_strike_1"})
     event.remove({id: "tacz:gun/m320"})
 })
+

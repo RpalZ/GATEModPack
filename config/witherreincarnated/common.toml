@@ -11,7 +11,7 @@
 	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 30.0
 	"Laser Damage (default: 3.0)" = 3.0
 	"Charge Damage (default: 30.0)" = 30.0
-	"Charge Disable Shield Time (in ticks, default: 400)" = 400
+	"Charge Disable Shield Time (in ticks, default: 400)" = 100
 
 ["WITHER: AI"]
 	"Disable Charge Attack (default: false)" = false
