@@ -2,7 +2,7 @@
 [Primary_Shrapnel_Settings]
 	#The amount of shrapnel after the explosion. Higher = more lag.
 	#Range: 0 ~ 1000
-	shrapnelCount = 50
+	shrapnelCount = 25
 	#The amount of shrapnel damage. (2 points = 1 heart)
 	#Range: 1.0 ~ 10000.0
 	shrapnelDamage = 6.0

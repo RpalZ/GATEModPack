@@ -26,9 +26,25 @@ ServerEvents.tags("entity_type", event => {
     })
 
     event.add(customTags.heavyProjectiles, "fcp:malyutka")
+    event.add(customTags.heavyProjectiles, "fcp:wire_guided_hellfire")
+    event.add(customTags.heavyProjectiles, "superbwarfare:wire_guide_missile")
+    event.add(customTags.heavyProjectiles, "ashvehicle:agm114")
+
 
     event.add(customTags.custom, "#" + customTags.heavyProjectiles)
     event.add(customTags.custom, "#" + customTags.mediumProjectiles)
     event.add(customTags.custom, "#" + customTags.lightProjeciles)
 
+
+    // event.add()
+
 }) 
+
+
+ServerEvents.tags("item", event => {
+    event.add("superbwarfare:military_armor", "@warborn")
+    event.add("superbwarfare:military_armor", "@brimm")
+})
+
+
+

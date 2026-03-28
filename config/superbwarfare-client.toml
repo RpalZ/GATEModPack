@@ -5,7 +5,7 @@
 
 [kill_message]
 	#Set true if you want to show kill message
-	show_kill_message = true
+	show_kill_message = false
 	#The max count of kill messages to show concurrently
 	#Range: 1 ~ 20
 	kill_message_count = 5

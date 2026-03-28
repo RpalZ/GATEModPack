@@ -4,6 +4,8 @@ const $HitResultType = Java.loadClass(
   "net.minecraft.world.phys.HitResult$Type",
 );
 
+const $ProjectileImpactEvent = "net.minecraftforge.event.entity.ProjectileImpactEvent"
+
 global.onProjectileImpact = (event) => {
   // 1. In Forge 1.20.1, the getter is getRayTraceResult()
   const ray = event.getRayTraceResult();
@@ -17,15 +19,16 @@ global.onProjectileImpact = (event) => {
   if (!ray) return;
 
   // 3. Check if we hit an ENTITY
+  
   let isEntity = ray.getType() === $HitResultType.ENTITY;
   if (!isEntity) return;
 
   // 4. Get the entity and check its type
   const targetEntity = ray.getEntity();
 
-  if (owner) {
-    owner.tell(Text.aqua(`[GATE]: Projectile type: ${projectile.getType()}`));
-  }
+  // if (owner) {
+  //   owner.tell(Text.aqua(`[GATE]: Projectile type: ${projectile.getType()}`));
+  // }
 
   // In KubeJS, .type returns the ResourceLocation (e.g., "minecraft:wither")
   if (targetEntity.type === "minecraft:wither") {
@@ -94,10 +97,19 @@ global.onProjectileImpact = (event) => {
   }
 };
 
+
+
 // Register the listener AFTER the function is defined
 ForgeEvents.onEvent(
-  "net.minecraftforge.event.entity.ProjectileImpactEvent",
+  $ProjectileImpactEvent,
   (event) => {
     global.onProjectileImpact(event);
   },
 );
+
+
+ForgeEvents.onEvent($ProjectileImpactEvent, (event) => {
+  global.debugProjectileImpact(event);
+});
+
+//      
