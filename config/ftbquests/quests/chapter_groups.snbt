@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "0FFECF43B1AA7173", title: "The Beginning" }
+		{ id: "512657B907DC593B", title: "Technology" }
+		{ id: "7A2C563D6EFC2809", title: "Magic" }
+	]
+}

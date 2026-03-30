@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "512657B907DC593B"
+	id: "2DE047DB37981E79"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&7&rWith the world of tech you can do anything! (mostly). "
+			""
+			"Here you can automate your resources and become stronger using science!"
+		]
+		id: "72DE04CAE8F6BF13"
+		subtitle: "Welcome"
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F4C183BF50F9FA8"
+			title: "Unlock Tech"
+			type: "custom"
+		}]
+		title: "Science!"
+		x: 2.0d
+		y: -3.0d
+	}]
+	title: "Chapter I"
+}

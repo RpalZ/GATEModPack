@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elves"
+	group: "0FFECF43B1AA7173"
+	id: "3EC3407131B0D126"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as an elf"]
+		id: "7C4474A24A9EF35C"
+		tasks: [{
+			icon: "minecraft:feather"
+			id: "2ED0C04B474E8B81"
+			title: "Nature's Blessing"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Elves"
+}

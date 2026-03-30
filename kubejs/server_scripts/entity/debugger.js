@@ -2,7 +2,7 @@ EntityEvents.hurt((event) => {
   const { source, damage, entity } = event;
   // This tells you exactly what the 'source.type' is
 
-  if(source.getImmediate() == null) return
+  if (source.getImmediate() == null) return;
 
   let tags = source
     .getImmediate()
@@ -12,8 +12,6 @@ EntityEvents.hurt((event) => {
     .toList();
 
   function getSourceInfo() {
-
-    
     event
       .getLevel()
       .tell(
@@ -23,8 +21,6 @@ EntityEvents.hurt((event) => {
       );
   }
   //
-  
-  
 
   let entityTags = entity
     .getEntityType()
@@ -59,13 +55,37 @@ EntityEvents.hurt((event) => {
   // source.player.tell(Text.blue(source.getImmediate().getType().toString().includes("superbwarfare")))
 });
 
-ServerEvents.customCommand("getNbt", event => {
-  let nbt = event.player.getNbt()
+ServerEvents.customCommand("getNbt", (event) => {
+  let nbt = event.player.getNbt();
 
-  FilesJS.writeFile('kubejs/config/debug/playerNbt.json', NBT.toJson(nbt))
-  event.level.tell(Text.gold("Check !"))
-})
+  FilesJS.writeFile("kubejs/config/debug/playerNbt.json", NBT.toJson(nbt));
+  event.level.tell(Text.gold("Check !"));
+});
 
+ServerEvents.customCommand("injectNbt", (event) => {
+  let custom = {
+    hello: "im nbt",
+    tree: {
+      tree1: "lol",
+    },
+  };
+
+  let theNbt = NBT.toTagCompound(JSON.stringify(custom));
+
+  let player = event.getPlayer();
+  
+  // if(player.persistentData == null){
+  //   player.persistentData = {}
+  // }
+
+  // let health = player.mergeNbt({Health: 100})
+  
+
+  player.persistentData.merge(theNbt)
+  
+  console.log(`[GATE]: ${theNbt}`)
+  player.tell(`done lol check ${player.getNbt().contains("hello")}`);
+});
 
 // global.onDamageEvent = (event) => {
 
@@ -74,7 +94,6 @@ ServerEvents.customCommand("getNbt", event => {
 //     let entity = event.getEntity()
 
 //     if (!entity.getEntityType().toString().includes("wither")) return
-
 
 //     let level = entity.getLevel()
 
@@ -95,26 +114,22 @@ ServerEvents.customCommand("getNbt", event => {
 
 //     if (!entity.getEntityType().toString().includes("wither")) return
 
-
 //     let msg = `[GATE][ATTACK_EVENT]: ${entity.getEntityType().toString()} has been attacked with ${damage}`
 
 //     level.tell(Text.aqua(msg))
 //     console.log(msg)
 
-// };      
-
+// };
 
 global.debugProjectileImpact = (event) => {
-
   const ray = event.getRayTraceResult();
   const projectile = event.getProjectile();
   const owner = projectile.getOwner();
   const level = projectile.level;
-  
 
   // console.log(`[GATE]: Actual Projectile ${projectile}`)
 
   // level.tell(Text.gold(`[GATE]: Actual Projectile`))
+};
 
 
-}

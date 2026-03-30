@@ -90,6 +90,63 @@
       "origins:hunger_over_time": true,
       "origins:fragile": true,
       "origins:phantomize_overlay": true
+    },
+    "origin:human": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:elytra": true,
+      "origins:throw_ender_pearl": true,
+      "origins:fresh_air": true
+    },
+    "origin:vampire": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:elytra": true,
+      "origins:throw_ender_pearl": true,
+      "origins:fresh_air": true,
+      "gate:vampire": true,
+      "origins:burn_in_daylight": true
+    },
+    "origincustom:human": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:elytra": true,
+      "origins:throw_ender_pearl": true,
+      "origins:fresh_air": true
+    },
+    "origincustom:vampire": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:elytra": true,
+      "origins:throw_ender_pearl": true,
+      "origins:fresh_air": true
+    },
+    "origincustom:undefined": {
+      "enabled": true,
+      "origins:fire_immunity": true,
+      "origins:elytra": true,
+      "origins:throw_ender_pearl": true,
+      "origins:fresh_air": true
+    },
+    "gate:human": {
+      "enabled": true
+    },
+    "gate:vampire": {
+      "enabled": true,
+      "gate:vampire": true,
+      "origins:burn_in_daylight": true
+    },
+    "origin:elf": {
+      "enabled": true
+    },
+    "gate:elf": {
+      "enabled": true
+    },
+    "gate:orc": {
+      "enabled": true
+    },
+    "origin:orc": {
+      "enabled": true
     }
   }
 }

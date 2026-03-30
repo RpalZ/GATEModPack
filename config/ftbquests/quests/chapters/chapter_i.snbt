@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_i"
+	group: "7A2C563D6EFC2809"
+	icon: "minecraft:golden_apple"
+	id: "4E619074F1B8F8D4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Welcome to Magic!"
+			""
+			"If you are a non human, you may already notice that you have an inherent spell given to you."
+			""
+			"In the world of magic, spells are sacred, defying the laws of physics. Use these to your advantage."
+		]
+		id: "045E93802D34D4C7"
+		tasks: [{
+			icon: "waystones:return_scroll"
+			id: "04DC5842338F1122"
+			title: "Unlock Magic"
+			type: "custom"
+		}]
+		title: "Not So Science"
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "Chapter I"
+}

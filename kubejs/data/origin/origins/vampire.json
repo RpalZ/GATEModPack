@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "gate:vampire"
+    ],
+    "icon": "minecraft:redstone",
+    "order": 2,
+    "impact": 1,
+    "name": "Vampire",
+    "description": "Creatures of bloodthirst. They feed on blood and the fears of others longing their vitality."
+}

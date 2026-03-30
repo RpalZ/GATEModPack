@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: "0FFECF43B1AA7173"
+	id: "29D8A11EBD2DCB10"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as a human."]
+		id: "70928DDA102E2518"
+		tasks: [{
+			icon: "minecraft:player_head"
+			id: "57B6F68F35683C49"
+			title: "The Ordinary"
+			type: "custom"
+		}]
+		x: -2.0d
+		y: -1.5d
+	}]
+	title: "Humans"
+}

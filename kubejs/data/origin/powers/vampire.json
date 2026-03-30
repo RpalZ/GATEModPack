@@ -1,0 +1,11 @@
+
+{
+    "type": "origins:resource",
+    "name": "lifesteal",
+    "min": 0,
+    "max": 5,
+    "description": "Allows the bearer of this power to usurp their enemies' vitality based on their damage",
+    "hud_render": {
+        "should_render": false
+    }
+}

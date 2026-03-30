@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampier"
+	group: "0FFECF43B1AA7173"
+	id: "78F3BC8A12C08206"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as a vampire"]
+		id: "5D1963C8299480E9"
+		tasks: [{
+			icon: "undergarden:blood_globule"
+			id: "051700C9843FD136"
+			title: "Born From Blood"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Vampires"
+}
