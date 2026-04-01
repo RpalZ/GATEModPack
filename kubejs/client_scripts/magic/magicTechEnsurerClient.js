@@ -10,16 +10,16 @@ ItemEvents.rightClicked((event) => {
   const level = event.getLevel();
 
   if (!playerMagic && hasMagic) {
-    player.setStatusMessage(
-      Text.of("You need to unlock magic to use this item...").yellow().italic(),
-    );
+    // player.setStatusMessage(
+    //   Text.of("You need to unlock magic to use this item...").yellow().italic(),
+    // );
     event.cancel();
     // Force inventory resync to prevent client-side ghosting
   }
   if (!playerTech && hasTech) {
-    player.setStatusMessage(
-      Text.of("You need to unlock tech to use this item...").yellow().italic(),
-    );
+    // player.setStatusMessage(
+    //   Text.of("You need to unlock tech to use this item...").yellow().italic(),
+    // );
     event.cancel();
     // Force inventory resync to prevent client-side ghosting
     // player.containerMenu.sendAllContents();

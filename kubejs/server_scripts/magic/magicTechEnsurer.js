@@ -8,6 +8,8 @@ ItemEvents.rightClicked((event) => {
 
   const level = event.getLevel();
 
+//   level.tell(`magic: ${playerMagic}, tech: ${playerTech}`)
+
   if (!playerMagic && hasMagic) {
     player.setStatusMessage(
       Text.of("You need to unlock magic to use this item...").yellow().italic(),
