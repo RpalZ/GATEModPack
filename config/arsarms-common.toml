@@ -1,0 +1,9 @@
+#Projectile damage amplifier for TaCZ Gun projectiles.
+#The higher the value, the greater the damage.
+#Range: 0.0 ~ 1.0
+damageMultiplier = 1.0
+#Magic damage amplifier for TaCZ Gun projectiles.
+#The higher the value, the less damage.
+#Range: 0.01 ~ 100.0
+damageAmplifier = 15.0
+

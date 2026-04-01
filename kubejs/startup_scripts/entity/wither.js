@@ -79,16 +79,16 @@ global.onProjectileImpact = (event) => {
     if (newHealth <= 0) {
       targetEntity.kill(); // Ensure it actually dies and drops stars
     }
-    console.log(
-      `[GATE]: Explosion Pierce! Wither took ${finalDmg} damage from ${projectile.getType()}`,
-    );
-    if (owner) {
-      owner.tell(
-        Text.red(
-          `[GATE]: Explosion Pierce! Wither took ${finalDmg} damage from ${projectile.getType()}.`,
-        ),
-      );
-    }
+    // console.log(
+    //   `[GATE]: Explosion Pierce! Wither took ${finalDmg} damage from ${projectile.getType()}`,
+    // );
+    // if (owner) {
+    //   owner.tell(
+    //     Text.red(
+    //       `[GATE]: Explosion Pierce! Wither took ${finalDmg} damage from ${projectile.getType()}.`,
+    //     ),
+    //   );
+    // }
 
     projectile.discard();
 

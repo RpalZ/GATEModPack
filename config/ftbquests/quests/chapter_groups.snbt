@@ -3,5 +3,7 @@
 		{ id: "0FFECF43B1AA7173", title: "The Beginning" }
 		{ id: "512657B907DC593B", title: "Technology" }
 		{ id: "7A2C563D6EFC2809", title: "Magic" }
+		{ id: "6D2B89F1088DF239", title: "Mid Game" }
+		{ id: "281DB5D4513659A7", title: "End Game" }
 	]
 }

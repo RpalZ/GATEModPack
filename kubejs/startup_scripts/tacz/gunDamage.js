@@ -2,7 +2,7 @@ const $EntityHurtByGunEvent = Java.loadClass("com.tacz.guns.api.event.common.Ent
 
 
 
-ForgeEvents.onEvent($EntityHurtByGunEvent, (event) => {
-    global.onEntityHurtByGun(event)
+// ForgeEvents.onEvent($EntityHurtByGunEvent, (event) => {
+//     global.onEntityHurtByGun(event)
 
-})
+// })

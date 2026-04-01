@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,

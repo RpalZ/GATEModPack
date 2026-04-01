@@ -8,9 +8,9 @@ function handleWither(event) {
     .getTags()
     .map((t) => t.location().toString())
     .toList();
-  let level = targetEntity.getLevel();
+  // let level = targetEntity.getLevel();
 
-  let message = `[GATE]: Target Entity Detected by Bullet Damage ${bullet.getType().toString()} with Bullet Tags: ${tags} with Entity: ${targetEntity.getType().toString()}`;
+  // let message = `[GATE]: Target Entity Detected by Bullet Damage ${bullet.getType().toString()} with Bullet Tags: ${tags} with Entity: ${targetEntity.getType().toString()}`;
 
   // console.log(message);
   // level.tell(message);
@@ -45,8 +45,13 @@ function handleWither(event) {
   }
 }
 
-global.onEntityHurtByGun = (event) => {
-  handleWither(event);
-};
+// global.onEntityHurtByGun = (event) => {
+//   handleWither(event);
+// };
 
 // ForgeEvents.onEvent("com.tacz.guns.api.event.common.EntityHurtByGunEvent$Post")
+
+TimelessGunEvents.entityHurtByGunPost(event => {
+  handleWither(event)
+});
+

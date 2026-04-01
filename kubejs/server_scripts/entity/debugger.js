@@ -55,37 +55,6 @@ EntityEvents.hurt((event) => {
   // source.player.tell(Text.blue(source.getImmediate().getType().toString().includes("superbwarfare")))
 });
 
-ServerEvents.customCommand("getNbt", (event) => {
-  let nbt = event.player.getNbt();
-
-  FilesJS.writeFile("kubejs/config/debug/playerNbt.json", NBT.toJson(nbt));
-  event.level.tell(Text.gold("Check !"));
-});
-
-ServerEvents.customCommand("injectNbt", (event) => {
-  let custom = {
-    hello: "im nbt",
-    tree: {
-      tree1: "lol",
-    },
-  };
-
-  let theNbt = NBT.toTagCompound(JSON.stringify(custom));
-
-  let player = event.getPlayer();
-  
-  // if(player.persistentData == null){
-  //   player.persistentData = {}
-  // }
-
-  // let health = player.mergeNbt({Health: 100})
-  
-
-  player.persistentData.merge(theNbt)
-  
-  console.log(`[GATE]: ${theNbt}`)
-  player.tell(`done lol check ${player.getNbt().contains("hello")}`);
-});
 
 // global.onDamageEvent = (event) => {
 
