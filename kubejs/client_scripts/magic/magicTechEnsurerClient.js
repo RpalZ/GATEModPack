@@ -9,19 +9,82 @@ ItemEvents.rightClicked((event) => {
 
   const level = event.getLevel();
 
+
+   if (item.isBlock()) return;
+  if (item.isEdible()) return;
+
   if (!playerMagic && hasMagic) {
-    // player.setStatusMessage(
-    //   Text.of("You need to unlock magic to use this item...").yellow().italic(),
-    // );
+    player.setStatusMessage(
+      Text.of("You need to unlock magic to use this item...").yellow().italic(),
+    );
     event.cancel();
     // Force inventory resync to prevent client-side ghosting
   }
   if (!playerTech && hasTech) {
-    // player.setStatusMessage(
-    //   Text.of("You need to unlock tech to use this item...").yellow().italic(),
-    // );
+    player.setStatusMessage(
+      Text.of("You need to unlock tech to use this item...").yellow().italic(),
+    );
     event.cancel();
     // Force inventory resync to prevent client-side ghosting
     // player.containerMenu.sendAllContents();
   }
 });
+
+PlayerEvents.spellPreCast((event) => {
+  const player = event.getPlayer();
+
+  if (!player) return;
+  const isMagic = player.persistentData.getBoolean("isMagic");
+
+  if (!isMagic) {
+    player.setStatusMessage(
+      Text.of("You need to unlock magic to cast spells...").yellow().italic(),
+    );
+
+    event.cancel();
+  }
+});
+
+TimelessGunEvents.gunFire((event) => {
+  const player = event.getShooter();
+  if (!player.isPlayer()) return;
+
+  const hasTech = player.getPersistentData().getBoolean("isTech");
+  // player.tell(hasTech)
+
+ 
+
+  if (!hasTech) {
+    player.setStatusMessage(
+      Text.of("Your hands lack the dexterity...").yellow().italic(),
+    );
+
+    event.cancel();
+  }
+});
+
+function sbw() {
+  let $Minecraft = Java.loadClass("net.minecraft.client.Minecraft");
+
+  global.mousePreEvent = (event) => {
+    let player = $Minecraft.getInstance().player;
+    if (!player) return;
+    let item = player.getMainHandItem();
+    let SBWtag = "superbwarfare:gun";
+
+    if ($Minecraft.getInstance().currentScreen) return
+
+    let hasTech = player.persistentData.getBoolean("isTech");
+
+    if (!hasTech && item.hasTag(SBWtag)) {
+      player.setStatusMessage(
+        Text.of("Your hands lack the dexterity...").yellow().italic(),
+      );
+      // player.give(item.copyAndClear())
+      event.setCanceled(true)
+    }
+  };
+}
+
+
+sbw()
