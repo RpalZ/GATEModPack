@@ -43,7 +43,7 @@ ServerEvents.tags("entity_type", event => {
 
 ServerEvents.tags("item", event => {
     event.add("superbwarfare:military_armor", "@warborn")
-    event.add("superbwarfare:military_armor", "@brimm")
+    // event.add("superbwarfare:military_armor", "@brimm")
 })
 
 

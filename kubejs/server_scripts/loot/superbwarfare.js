@@ -7,7 +7,7 @@ LootJS.modifiers((event) => {
     .removeLoot("superbwarfare:handgun_ammo_box")
     .pool((p) => {
       p.rolls([1, 7]);
-      p.randomChance(0.1);
+      p.randomChance(0.3);
       p.addWeightedLoot(
         [1,5],
         [
