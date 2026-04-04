@@ -2,11 +2,11 @@ EntityEvents.hurt(event => {
   const player = event.getSource().getActual()
   
   const damage = event.getDamage()
-  const playerNbt = player.getNbt()
-
+  
   if(!player) return
   if(!player.isPlayer()) return
- 
+  
+  const playerNbt = player.getNbt()
    let humanNbt = playerNbt
       .get("cardinal_components")
       .get("origins:origin")
