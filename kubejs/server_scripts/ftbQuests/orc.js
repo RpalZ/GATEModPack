@@ -24,6 +24,7 @@ FTBQuestsEvents.customTask(orcTask, (event) => {
     if(isOrc){
         task.setProgress(1)
         player.persistentData.merge({isMagic:true})
+        player.give(Item.of("traveloptics:evocation_echo"))
 
     }
 

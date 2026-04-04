@@ -24,6 +24,7 @@ FTBQuestsEvents.customTask(elfTask, (event) => {
     if(isElf){
         task.setProgress(1)
         player.persistentData.merge({isMagic:true})
+        player.give(Item.of("traveloptics:nature_echo"))
     }
 
     // level.tell(playerNbt)

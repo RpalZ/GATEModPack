@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Wrath",
+    "description": "15% additional evocation power",
+    "modifier": {
+        "name": "Wrath",
+        "attribute": "irons_spellbooks:evocation_spell_power",
+        "value": 0.15,
+        "operation": "addition"
+    }
+}

@@ -24,6 +24,7 @@ FTBQuestsEvents.customTask(vampTask, (event) => {
     if(isVampire){
         task.setProgress(1)
         player.persistentData.merge({isMagic:true})
+        player.give(Item.of("traveloptics:blood_echo"))
 
     }
 

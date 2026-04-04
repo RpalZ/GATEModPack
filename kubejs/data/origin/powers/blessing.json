@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Blessing",
+    "description": "15% additional nature power",
+    "modifier": {
+        "name": "Blessing",
+        "attribute": "irons_spellbooks:nature_spell_power",
+        "value": 0.15,
+        "operation": "addition"
+    }
+}

@@ -7,14 +7,16 @@ What should i Do for my Modpack right now:
 - Configure FTB quests and their progression. Make sure each race has their own quest line [done]
 
 
+-each race has their own starting mana and their attributes
+
 
 -how to filter different items according to magic and tech?
 
 - there will be magic and tech tag in all magic and tech items
 - to find out if player can use this item, player will have persistent data whether they are magic or tech becuz down the road they can unlock either ok.
 
-- buff magic irons spells
-- buff magic ars
+- buff magic irons spells 2x
+- buff magic ars 2x
 - configure irons spells
 - configure boss's bosses
 - configure irons boss

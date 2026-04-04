@@ -1,7 +1,10 @@
 PlayerEvents.respawned(event => {
     const player = event.getPlayer()
     const isMagic = player.persistentData.getBoolean("isMagic")
+
     
+    
+    player.setAttributeBaseValue("irons_spellbooks:spell_power", 5)
     // player.tell(isMagic)
     if(isMagic) return 
     // player.tell("Hi this is fired")

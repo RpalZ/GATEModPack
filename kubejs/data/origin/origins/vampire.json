@@ -1,6 +1,7 @@
 {
     "powers": [
-        "gate:vampire"
+        "gate:lifesteal",
+        "gate:bloodbath"
     ],
     "icon": "minecraft:redstone",
     "order": 2,

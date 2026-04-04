@@ -105,7 +105,10 @@
       "origins:throw_ender_pearl": true,
       "origins:fresh_air": true,
       "gate:vampire": true,
-      "origins:burn_in_daylight": true
+      "origins:burn_in_daylight": true,
+      "gate:lifesteal": true,
+      "gate:bloodbath": true,
+      "gate:bb": true
     },
     "origincustom:human": {
       "enabled": true,
@@ -134,19 +137,34 @@
     "gate:vampire": {
       "enabled": true,
       "gate:vampire": true,
-      "origins:burn_in_daylight": true
+      "origins:burn_in_daylight": true,
+      "gate:lifesteal": true,
+      "gate:bloodbath": true,
+      "gate:bb": true
     },
     "origin:elf": {
-      "enabled": true
+      "enabled": true,
+      "gate:blessing": true,
+      "origins:sprint_jump": true,
+      "origins:like_air": true
     },
     "gate:elf": {
-      "enabled": true
+      "enabled": true,
+      "gate:blessing": true,
+      "origins:sprint_jump": true,
+      "origins:like_air": true
     },
     "gate:orc": {
-      "enabled": true
+      "enabled": true,
+      "origins:strong_arms": true,
+      "origins:natural_armor": true,
+      "gate:orcwrath": true
     },
     "origin:orc": {
-      "enabled": true
+      "enabled": true,
+      "origins:strong_arms": true,
+      "origins:natural_armor": true,
+      "gate:orcwrath": true
     }
   }
 }

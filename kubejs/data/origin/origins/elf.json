@@ -1,5 +1,9 @@
 {
-    
+    "powers": [
+        "gate:blessing",
+        "origins:sprint_jump",
+        "origins:like_air"
+    ],
     "icon": "minecraft:feather",
     "order": 3,
     "impact": 1,
