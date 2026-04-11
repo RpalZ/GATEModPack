@@ -4,7 +4,8 @@ const $HitResultType = Java.loadClass(
   "net.minecraft.world.phys.HitResult$Type",
 );
 
-const $ProjectileImpactEvent = "net.minecraftforge.event.entity.ProjectileImpactEvent"
+const $ProjectileImpactEvent =
+  "net.minecraftforge.event.entity.ProjectileImpactEvent";
 
 global.onProjectileImpact = (event) => {
   // 1. In Forge 1.20.1, the getter is getRayTraceResult()
@@ -19,7 +20,7 @@ global.onProjectileImpact = (event) => {
   if (!ray) return;
 
   // 3. Check if we hit an ENTITY
-  
+
   let isEntity = ray.getType() === $HitResultType.ENTITY;
   if (!isEntity) return;
 
@@ -37,9 +38,10 @@ global.onProjectileImpact = (event) => {
 
     //have to do some filtering later on probably
 
-    let proj = projectile.entityType.getTags().map((t) => t.location().toString()).toList();
-
-
+    let proj = projectile.entityType
+      .getTags()
+      .map((t) => t.location().toString())
+      .toList();
 
     if (!proj.contains("gate:custom")) return;
 
@@ -73,12 +75,21 @@ global.onProjectileImpact = (event) => {
       return;
     }
 
-    let newHealth = targetEntity.health - finalDmg;
-    targetEntity.setHealth(newHealth);
-
-    if (newHealth <= 0) {
-      targetEntity.kill(); // Ensure it actually dies and drops stars
+    let damageSource;
+    if (owner) {
+      // Attributes the kill to the player who shot the projectile
+      damageSource = level.damageSources().indirectMagic(projectile, owner);
+    } else {
+      damageSource = level.damageSources().magic();
     }
+
+    targetEntity.attack(damageSource, finalDmg);
+    // let newHealth = targetEntity.health - finalDmg;
+    // targetEntity.setHealth(newHealth);
+
+    // if (newHealth <= 0) {
+    //   targetEntity.kill(); // Ensure it actually dies and drops stars
+    // }
     // console.log(
     //   `[GATE]: Explosion Pierce! Wither took ${finalDmg} damage from ${projectile.getType()}`,
     // );
@@ -97,19 +108,13 @@ global.onProjectileImpact = (event) => {
   }
 };
 
-
-
 // Register the listener AFTER the function is defined
-ForgeEvents.onEvent(
-  $ProjectileImpactEvent,
-  (event) => {
-    global.onProjectileImpact(event);
-  },
-);
-
+ForgeEvents.onEvent($ProjectileImpactEvent, (event) => {
+  global.onProjectileImpact(event);
+});
 
 ForgeEvents.onEvent($ProjectileImpactEvent, (event) => {
   global.debugProjectileImpact(event);
 });
 
-//      
+//

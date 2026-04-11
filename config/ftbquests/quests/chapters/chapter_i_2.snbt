@@ -480,6 +480,11 @@
 				"&4&o\"There must be a way to get even stronger\"&r&r"
 			]
 			id: "3C6500736BA4FCB9"
+			rewards: [{
+				id: "1E485E0BD7E756C7"
+				item: "kubejs:hero_gem"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E6BF3EAA8695D04"
 				title: "End?"

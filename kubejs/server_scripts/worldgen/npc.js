@@ -68,3 +68,13 @@ LevelEvents.loaded(event => {
 
 })
 
+LevelEvents.beforeExplosion(event => {
+  const level = event.getLevel()
+  const dimension = level.getDimension()
+
+
+  if(dimension.toString() == "gate:leaders_world") {
+    event.cancel()
+    return
+  }
+})
