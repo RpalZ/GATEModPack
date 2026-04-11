@@ -463,12 +463,18 @@
 					type: "all_table"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:wither"
-				id: "16531EF201E07445"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "16531EF201E07445"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "759FC7A54DC21047"
+					type: "checkmark"
+				}
+			]
 			x: 22.0d
 			y: 4.5d
 		}
