@@ -1,0 +1,16 @@
+{
+	id: "2E9170D7A3A92728"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "minecraft:netherite_block" }
+		{ count: 4, item: "minecraft:diamond_block" }
+		{
+			type: "xp"
+			xp: 5000
+		}
+		{ count: 5, item: "minecraft:gold_block" }
+		{ count: 2, item: "superbwarfare:cemented_carbide_block" }
+	]
+	title: "Ashmaw"
+}

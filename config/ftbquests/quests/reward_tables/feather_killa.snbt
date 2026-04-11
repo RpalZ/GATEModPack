@@ -1,0 +1,15 @@
+{
+	id: "05759EF81744F7BB"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			type: "xp"
+			xp: 500
+		}
+		{ count: 5, item: "minecraft:diamond_block" }
+		{ count: 3, item: "minecraft:gold_block" }
+		{ count: 5, item: "minecraft:iron_block" }
+	]
+	title: "Feather Killa"
+}

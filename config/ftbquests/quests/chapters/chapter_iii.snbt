@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iii"
+	group: "6D2B89F1088DF239"
+	id: "1BA590D288B1A250"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "61CA71F2A65B0171"
+			tasks: [{
+				id: "5DB44384BA783EB9"
+				title: "Final Step"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61CA71F2A65B0171"]
+			id: "5E66F197D6DA73F9"
+			rewards: [{
+				id: "0A143364C101F73C"
+				type: "xp"
+				xp: 5000
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "5A74B5D2B6A4FAEB"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E66F197D6DA73F9"]
+			id: "023B9345FAF2ABCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "360D65F3C1D10592"
+				table_id: 3355587268833781544L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6E56CD7ACDB7CC7F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["023B9345FAF2ABCC"]
+			id: "69712D8B4DFADE6C"
+			rewards: [{
+				id: "20184AA503448040"
+				type: "xp"
+				xp: 15000
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "47D161DC58170B48"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["69712D8B4DFADE6C"]
+			id: "7439F90F2ECE4041"
+			rewards: [{
+				id: "440888B765AD64D2"
+				type: "xp"
+				xp: 42000
+			}]
+			tasks: [{
+				entity: "darkdoppelganger:dark_doppelganger"
+				id: "4F8555E94BA16D96"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7439F90F2ECE4041"]
+			id: "79D58811F20E6909"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "040A8CEBFE74389C"
+					table_id: 6355883631033652097L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50617DBA29053246"
+					table_id: 3355587268833781544L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17C5E3F1C217801A"
+					table_id: 3869070679369315650L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				id: "1181D05896168D61"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["79D58811F20E6909"]
+			id: "4701732E94298B2A"
+			tasks: [{
+				id: "3A4B4ADF226AA370"
+				title: "Truly the end?"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+	]
+	title: "Chapter III"
+}

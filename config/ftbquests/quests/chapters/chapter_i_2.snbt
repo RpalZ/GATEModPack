@@ -1,0 +1,493 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_i_2"
+	group: "6D2B89F1088DF239"
+	id: "6CB996386DE98E97"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&o&o&7For generations, the world was trapped in a cycle of mindless violence known as the Great War. Each of the great races tore each other apart over old grudges and stolen land, turning the overworld into a graveyard of fallen empires. But just as the war reached its bloodiest point, a terrifying, unnatural miasma began to spread.&r"
+				""
+				"&o&7Entire cities vanished instantly with a cold, empty void that swallowed everything in its path. Faced with an entity that could not be understood, the warring races reluctantly concede with one another. Enemies of a millenia dropped their pride to sign the Pact of the Gate, uniting their magic and technology into a single, desperate army. The Great War is over, but a much darker battle has begun against a shadow that threatens to erase existence itself.&r&r&r"
+				""
+				"&4&o\"Who is behind all of this?\"&r&r"
+			]
+			id: "46B96E1D0D8B7BCA"
+			tasks: [{
+				id: "11A022A00DBEAE16"
+				title: "The Great War"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46B96E1D0D8B7BCA"]
+			description: [
+				"&6&oIn search of true power, one must prove themselves to be worthy to confront the evil that beckons us. We as unison are not a force to be underestimated. That said, it is up to individuals to be strong to carry each other as a whole. Lay those adventurers and may they find the keys to enter the realm of the source!&r&r"
+				""
+				"&4&o\"Prove yourself and make quick work of small frys!\"&r&r"
+			]
+			id: "79F4974E23BC93AA"
+			rewards: [{
+				auto: "enabled"
+				id: "54817231C4FAF88E"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Prove Yourself."
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6083DDE285B4E762"
+				title: "Kill Pillagers"
+				type: "kill"
+				value: 15L
+			}]
+			title: "First Quest"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79F4974E23BC93AA"]
+			description: [
+				"&o&6Upon slaying the corrupted that pillaged our neighbors, an eye was obtained...&r&r"
+				""
+				"&4&o\"Maybe this could prove to be useful one day\"&r&r"
+			]
+			id: "6983BBC406DF52C0"
+			rewards: [{
+				id: "061AD04A9B69FE3E"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5FD49FDBF739A26B"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6983BBC406DF52C0"]
+			description: [
+				"&6&oWith the spread of the miasma spanning across the horizons. Evil is prevalent and it does not spare birds. Found in the vast Savannah, a legendary bird blessed by divinity turned to its creator. Blasphemous behavior surrounds it as he terrorizes with his army.&r&r"
+				""
+				"&4&o\"Slay him for your justice will not be unpaid\"&r&r"
+			]
+			id: "083CFC179D001044"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65B66E0A7C54E669"
+				table_id: 393395330844260283L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3F489A33CF0BA1BB"
+				title: "Kill the Wretched Umvuthi"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Blasphemic Claws"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["083CFC179D001044"]
+			description: [
+				"&6&oCertain discoveries reveal that the said ruins were left with the scribes \"Those who conquered the 3 elements of the mighty scales can guarantee to be a candidate for the warden...\"&r&r"
+				""
+				"&4&o\"Defeat the 3 Elemental Dragons and make yourself some nice armor...\"&r&r"
+			]
+			id: "4AB16D387D6EC80E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33995B0FBD969F1E"
+				table_id: 5771323239423225015L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					icon: "iceandfire:dragonscales_red"
+					id: "4C9ACA2EFBD1FFE2"
+					title: "Kill the Fire Dragon"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					icon: "iceandfire:dragonscales_blue"
+					id: "4F6AE3EF1241C8CC"
+					title: "Kill the Ice Dragon"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:lightning_dragon"
+					icon: "iceandfire:dragonscales_electric"
+					id: "6E41CA77A782958D"
+					title: "Kill the Lightning Dragon"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dragon Slayer"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4AB16D387D6EC80E"]
+			description: [
+				"&6&oAmongst the vast lands they have conquered are also the vast seas and amongst the deep comes a disruption of the ancient waters.. A one eyed ancient sea creature formulated by the disruption is discovered terrorizing local fishermen.&r&r"
+				""
+				"&4&o\"Theres too much going on...\"&r&r"
+			]
+			id: "60B654D17B7CB092"
+			rewards: [
+				{
+					id: "620451DF97ECEC58"
+					item: {
+						Count: 1
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "686508C3A264AA18"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "18DA3EF80B327ADF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The One Piece"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60B654D17B7CB092"]
+			description: [
+				"&6&oWith great conquest comes with great dangers. The Faded One leaves nothing to spare across the overworld, not even the deserts. In the desert, there lies a body of thousand scales powerful enough to wipe a nation. It terrors with its stealth and shreds flesh with its sword-like teeth.&r&r"
+				""
+				"&4&o\"Whos the Faded One?\"&r&r"
+			]
+			id: "6F83DB86DDEEC3E3"
+			rewards: [
+				{
+					id: "7034A16F2FA1E68D"
+					item: {
+						Count: 1
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38C919973048B2A3"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: {
+					Count: 1
+					id: "block_factorys_bosses:sandworm_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3E82228B273E906D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mutant Desert"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F83DB86DDEEC3E3"]
+			description: [
+				"&6&oWith the desert monstrosity defeated, another threat emerges from the otherside of the spectrum. A large body of frost with Yeti-like features not to be confused with his brothers. He sleeps within the cold ice in which he gatekeeps the icy key to the GATE.&r&r"
+				""
+				"&4&o\"Another one to kill...\".&r&r"
+			]
+			id: "65CB799F7BDA155A"
+			rewards: [
+				{
+					id: "69ACCAD2AEFB7543"
+					item: {
+						Count: 1
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "328C259C999F80E1"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "212F347F8F191009"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Which one?"
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["65CB799F7BDA155A"]
+			description: [
+				"&6&oAs the Miasma thickens, vision becomes dark and alliances become blurry. The Ashlord, Vice General of the dragonborne Race has gotten corrupted and lay terror in his castle with his army of undead. A large bounty is put to his head and one who vanquish him will be honored for his life.&r&r"
+				""
+				"&4&o\"He's gon' crazy...\"&r&r"
+			]
+			id: "05D47E456E31A632"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6408D22E83F116B7"
+				table_id: 3355587268833781544L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				icon: "block_factorys_bosses:dragon_bone"
+				id: "55EB700ADE53A0A9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Fallen Dragon King"
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["05D47E456E31A632"]
+			description: [
+				"&6&o\"With 14 Stone Bricks and a gem catalyst, one can form a loop to the Undergarden\". Another scribe was discovered amongst the ruins of the miasma. This could lead to something much greater.&r&r"
+				""
+				"&4&o\"Where are they getting this?\"&r&r"
+			]
+			id: "500788D5D57F78D7"
+			rewards: [{
+				id: "01BCF02127DA3F2B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "58FDEE51D0C8A384"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			title: "A New World?"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			id: "3D29D62B789C153D"
+			tasks: [{
+				id: "4D17ABE368E1C711"
+				title: "Tips"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D29D62B789C153D"]
+			id: "72C07498213720CB"
+			rewards: [{
+				id: "45CB4649A08443F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "346226743338EE88"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D29D62B789C153D"]
+			id: "79270999F64D5EB1"
+			rewards: [{
+				id: "3A24C082AF79F0F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44DB3ACC78232C19"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["500788D5D57F78D7"]
+			description: [
+				"&6&oAdventurers found this new world to be grotesque full of irregulars never even seen of. However, many believe there is a world underground waiting to be discovered. Is it death or treasure?&r&r"
+				""
+				"&4&o\"I sure do hope its treasure...\"&r&r"
+			]
+			id: "4FF6DE3CD28DABE8"
+			rewards: [{
+				id: "6439287645C00D92"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "79DC2B9094EBFC5E"
+				structure: "undergarden:catacombs"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FF6DE3CD28DABE8"]
+			description: [
+				"&6&oUpon seeing the Catacomb, many miasmic remnant resides on such golems. One would say they are influenced by the corruption that took place.&r&r"
+				""
+				"&4&o\"They pack a punch\"&r&r"
+			]
+			id: "35788DB7EB17912E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "685EEC5CFD42C7B6"
+					table_id: 393395330844260283L
+					type: "random"
+				}
+				{
+					id: "755E1EDC37274CF4"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "74DA2B8FF8E66953"
+				type: "kill"
+				value: 10L
+			}]
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35788DB7EB17912E"]
+			description: [
+				"&6&oUpon slaying the golems, it buries a mark of coal and death. Could this be a lead for another thing? Upon discoveries a fallen scribe, \"one must form a soul ritual bearing the three heads of the cursed skulls\"&r&r"
+				""
+				"&4&o\"I just gotta kill the wither?\"&r&r"
+			]
+			id: "11EBA947CA6F6434"
+			rewards: [
+				{
+					id: "5BDB0D3EE9BDB2CA"
+					item: {
+						Count: 1
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C543F182F4CCD6E"
+					table_id: 3355587268833781544L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "16531EF201E07445"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11EBA947CA6F6434"]
+			description: [
+				"&o&6As the wither fell along its tainted wings, so as the evil with it. For now, the commoners and dwellers rejoice as their worry fades. However, levels of miasma still span across the deeper dimensions. Something tells the people that it requires more than a collaboration of forces to vanquish it.&r&r"
+				""
+				"&4&o\"There must be a way to get even stronger\"&r&r"
+			]
+			id: "3C6500736BA4FCB9"
+			tasks: [{
+				id: "7E6BF3EAA8695D04"
+				title: "End?"
+				type: "checkmark"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+	]
+	title: "Chapter I"
+}

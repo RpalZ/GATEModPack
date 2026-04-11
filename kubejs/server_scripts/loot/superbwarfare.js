@@ -6,10 +6,10 @@ LootJS.modifiers((event) => {
     .removeLoot("superbwarfare:shotgun_ammo_box")
     .removeLoot("superbwarfare:handgun_ammo_box")
     .pool((p) => {
-      p.rolls([1, 7]);
-      p.randomChance(0.3);
+      p.rolls([1, 5]);
+      p.randomChance(0.03);
       p.addWeightedLoot(
-        [1,5],
+        [1,2],
         [
           Item.of("tacz:ammo", 36, '{AmmoId:"tacz:30_06"}').withChance(10),
           Item.of("tacz:ammo", 60, '{AmmoId:"tacz:9mm"}').withChance(30),
@@ -17,9 +17,11 @@ LootJS.modifiers((event) => {
           Item.of('tacz:ammo', 60, '{AmmoId:"tacz:556x45"}').withChance(20),
           Item.of('tacz:ammo', 60, '{AmmoId:"tacz:762x39"}').withChance(20),
           Item.of('tacz:ammo', 36, '{AmmoId:"tacz:12g"}').withChance(20),
-          Item.of('tacz:ammo', 60, '{AmmoId:"tacz:545x39"}').withChance(20),
           Item.of('tacz:ammo', 60, '{AmmoId:"tacz:45acp"}').withChance(30)
         ],
       );
     });
+
+    event.addLootTypeModifier(LootType.CHEST)
+    .removeLoot(Ingredient.of("#superbwarfare:blueprint"))
 });

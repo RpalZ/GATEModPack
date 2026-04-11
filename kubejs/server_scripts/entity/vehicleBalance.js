@@ -21,7 +21,6 @@ EntityEvents.hurt(event => {
 
     if(!tags.contains("forge:bosses")) return
 
-    let dmg = event.getDamage()
 
     // player.attack(event.source, dmg * 1.5)
 

@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ii"
+	group: "6D2B89F1088DF239"
+	id: "7978A173146F39D6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CB996386DE98E97"]
+			id: "5DBF17299A0DE31E"
+			rewards: [{
+				id: "5D86CC3DCFD90267"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EA2F82403092B2D"
+				title: "Story Contineu"
+				type: "checkmark"
+			}]
+			title: "Story Continue"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DBF17299A0DE31E"]
+			id: "7E2ECADBF5753E0B"
+			rewards: [
+				{
+					id: "5A949C67F4FE4255"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "592AC75AD72D830F"
+					table_id: 6355883631033652097L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "48095B87EE5D9FF0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E2ECADBF5753E0B"]
+			id: "5FB3D665CD41869F"
+			rewards: [
+				{
+					id: "5DD9A5828FC3E8D8"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "34D78B5610DDCBC6"
+					item: {
+						Count: 1
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "538E1F0F45C1723A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FB3D665CD41869F"]
+			id: "0FE651D356CB46EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56FCFD3E1EBCD388"
+					table_id: 3355587268833781544L
+					type: "all_table"
+				}
+				{
+					id: "3E87B7B4F5476E29"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "4D948E6A4EF4E792"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FE651D356CB46EF"]
+			id: "05D0DB6789B4538D"
+			rewards: [
+				{
+					id: "13334E56068E28B8"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "1A8A9184CD731EE0"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "50ABED2EAE033CF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05D0DB6789B4538D"]
+			id: "7DAE690D826E7B66"
+			rewards: [
+				{
+					id: "567315B0289F371C"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "121125B7181B9205"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			tasks: [{
+				entity: "traveloptics:enraged_dead_king"
+				id: "67E5923E9C71AAB3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7DAE690D826E7B66"]
+			id: "6E6E267A2E4701AC"
+			rewards: [{
+				id: "50B70C137A50938D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "737CB8DBAC2F20B5"
+				title: "story continue"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E6E267A2E4701AC"]
+			id: "5843DA256AA06E05"
+			rewards: [
+				{
+					id: "3B9C22E4D41E6A10"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74831C788E52F038"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F1AE7526665BEF"
+					table_id: 3869070679369315650L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "1F6DAC2F92DFFC6F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5843DA256AA06E05"]
+			id: "58617F3E045ACF32"
+			rewards: [
+				{
+					id: "10D0CC7DDF425DB7"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A19E7C1612864D6"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				id: "03851B3CF7844F06"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58617F3E045ACF32"]
+			id: "21CF7E618D1C486E"
+			rewards: [
+				{
+					id: "58542FE7C64D502A"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BC3FAFDE3C3731E"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "6CB83A8CAAAC0B15"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21CF7E618D1C486E"]
+			id: "1680504501FCFF80"
+			rewards: [
+				{
+					id: "1DF11E99896991FA"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "303A9931CC21ED2E"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08A3B3832D782FE3"
+					table_id: 3869070679369315650L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "045951494557872A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1680504501FCFF80"]
+			id: "46EDEABF8BD324D7"
+			rewards: [{
+				id: "668DCA508EFC4DD3"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3E9CE5A5042C905C"
+				title: "End Again?"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: -0.5d
+		}
+	]
+	title: "Chapter II"
+}

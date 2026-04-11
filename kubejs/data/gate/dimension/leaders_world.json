@@ -1,0 +1,18 @@
+{
+  "type": "gate:void_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:cold_ocean",
+      "lakes": false,
+      "features": true,
+      "layers": [
+        {
+          "height": 100,
+          "block": "minecraft:water"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

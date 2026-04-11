@@ -6,17 +6,306 @@
 	id: "29D8A11EBD2DCB10"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as a human."]
-		id: "70928DDA102E2518"
-		tasks: [{
-			icon: "minecraft:player_head"
-			id: "57B6F68F35683C49"
-			title: "The Ordinary"
-			type: "custom"
-		}]
-		x: -2.0d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			description: ["You are born as a human."]
+			id: "70928DDA102E2518"
+			tasks: [{
+				icon: "minecraft:player_head"
+				id: "57B6F68F35683C49"
+				title: "The Ordinary"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70928DDA102E2518"]
+			description: ["As a human, you really got nothing to defend yourself. So why not get an everyday carry?"]
+			id: "6E37EE8CEC6AE081"
+			rewards: [
+				{
+					id: "25BA001E03F23753"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							ArsArmsIsArsMode: 0b
+							GunCurrentAmmoCount: 17
+							GunFireMode: "SEMI"
+							GunId: "tacz:glock_17"
+							HasBulletInBarrel: 1b
+							InteractionHandID: "MAIN_HAND"
+							LastAmmoCount: 17
+							LastGunDamage: 0.0f
+							LastShootTimestamp: 1775450152728L
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 36
+					id: "39DA12486575328E"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0662F1915029CDAF"
+				title: "Getting started"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E37EE8CEC6AE081"]
+			description: ["A little bonus."]
+			id: "2130ECD13A039084"
+			rewards: [{
+				id: "1EFA4ED1F38ADAE1"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2AA5513C44419C0D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Chop em"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2130ECD13A039084"]
+			description: [
+				"Thats pretty much the basics for being a human."
+				""
+				"[ \"Check out the \", { \"text\": \"Technology\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72DE04CAE8F6BF13\" } }, \" chapter to make yourself stronger!\" ]"
+				""
+				"Dont forget to check out the main chapters too! "
+			]
+			id: "5D14867DE98A0852"
+			tasks: [{
+				id: "1DB9D2F20AF11768"
+				title: "Advance!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4172C7DA5E8A34AD"]
+			description: ["A starter shop"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+			id: "3BF671DCF2539BAF"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "7A67163342F9B83B"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:9mm"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "0CC8B6D457AAC4AE"
+				item: { Count: 32, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "9mm"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: ["A shop for more... supplies."]
+			id: "4172C7DA5E8A34AD"
+			optional: true
+			tasks: [{
+				id: "5B4AF8AC74B61397"
+				title: "Need More Ammo?"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4172C7DA5E8A34AD"]
+			description: ["A starter shop"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+			id: "64C3A441CFF39C6F"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "7405EC05D814C1B5"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:12g"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "0894FED78B61E92B"
+				item: { Count: 32, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "12 G"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4172C7DA5E8A34AD"]
+			description: ["A starter shop"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+			id: "267DA0DB2D054E13"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "6FCC24B81232AFED"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x39"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "657D1398624EC1BC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "762"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4172C7DA5E8A34AD"]
+			description: ["A starter shop"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+			id: "574DD69C9FB13B7D"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "6F2345E58D28ED96"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:556x45"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "62177892CC438BCC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "556"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4172C7DA5E8A34AD"]
+			description: ["A starter shop"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45acp"
+				}
+			}
+			id: "48751403CA1CDB3D"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "0D68E9C6294C090B"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45acp"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "1447B8345EFC54E8"
+				item: { Count: 32, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "45"
+			x: -6.5d
+			y: 2.5d
+		}
+	]
 	title: "Humans"
 }

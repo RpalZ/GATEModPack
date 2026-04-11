@@ -1,0 +1,15 @@
+{
+  "name": "gate:story/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "gate:story/main/leaders_hallway",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

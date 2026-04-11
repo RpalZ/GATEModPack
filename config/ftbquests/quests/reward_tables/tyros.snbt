@@ -1,0 +1,12 @@
+{
+	id: "35B1B3489EAFF542"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 3, item: "minecraft:netherite_block" }
+		{ count: 5, item: "minecraft:diamond_block" }
+		{ count: 64, item: "minecraft:quartz" }
+		{ count: 5, item: "superbwarfare:cemented_carbide_block" }
+	]
+	title: "tyros"
+}

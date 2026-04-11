@@ -7,11 +7,11 @@ imbuedItemsRequireLearning = false
 #If true, to use a spell on an imbued item, the rarity of the spell must be gained
 imbuedItemsRequireRarity = false
 #If true, the spell on an imbued item will be obfuscated, if the user doesnt know it
-ImbuedItemsObfuscate = true
+ImbuedItemsObfuscate = false
 #The spells listed in the defaultLearntSpells, will instead be the only spells that are not learnt by default
 invertDefaultSpells = false
 #A list of spells that the player will already know
-defaultLearntSpells = ["irons_spellbooks:firebolt", "irons_spellbooks:icicle"]
+defaultLearntSpells = []
 #The spells listed in the excludeRandomLearntSpells, will instead be the only spells that can be learnt from the Unfinished Manuscript
 invertUnfinishedManuscript = false
 #A list of spells that will not be able to be learnt through the Unfinished Manuscript
@@ -23,5 +23,5 @@ excludeLearnSpells = ["irons_spellbooks:heartstop"]
 failChance = 0.3
 #The default starting rarity, only applies to new players
 #Allowed Values: NONE, COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-startingRarity = "RARE"
+startingRarity = "LEGENDARY"
 

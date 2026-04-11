@@ -1,0 +1,16 @@
+{
+	id: "5017DBE891C72CB7"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			type: "xp"
+			xp: 5000
+		}
+		{ count: 32, item: "iceandfire:dragonscales_red" }
+		{ count: 32, item: "iceandfire:dragonscales_blue" }
+		{ count: 32, item: "iceandfire:dragonscales_electric" }
+		{ count: 2, item: "minecraft:netherite_ingot" }
+	]
+	title: "Dragonslayer"
+}

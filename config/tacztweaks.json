@@ -24,8 +24,8 @@
   },
   "modifiers": {
     "damage": {
-      "addend": 2.0,
-      "multiplier": 1.0,
+      "addend": 0.0,
+      "multiplier": 1.6,
       "function": ""
     },
     "playerDamage": {
@@ -35,7 +35,7 @@
     },
     "headshot": {
       "addend": 0.0,
-      "multiplier": 1.4,
+      "multiplier": 1.6,
       "function": ""
     },
     "playerHeadshot": {
@@ -45,7 +45,7 @@
     },
     "armorIgnore": {
       "addend": 0.0,
-      "multiplier": 1.0,
+      "multiplier": 1.7,
       "function": ""
     },
     "speed": {
@@ -150,12 +150,12 @@
     "mtsFix": true
   },
   "tweaks": {
-    "audibleFirstPersonGunSounds": false,
+    "audibleFirstPersonGunSounds": true,
     "forceFirstPersonShootingSound": false,
-    "betterMonoConversion": false,
-    "betterInaccuracy": false,
+    "betterMonoConversion": true,
+    "betterInaccuracy": true,
     "betterGunTilt": false,
-    "bulletProtection": false,
+    "bulletProtection": true,
     "endermenEvadeBullets": false,
     "disableRefitOnAdventure": false,
     "infiniteAmmoDisablesConsumption": false,
