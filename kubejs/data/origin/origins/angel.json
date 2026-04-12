@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "origins:elytra",
+        "gate:angel",
+        "origins:like_air",
+        "origins:launch_into_air",
+        "origins:aerial_combatant",
+        "origins:slow_falling"
+    ],
+    "icon": "mekanism:hdpe_elytra",
+    "order": 6,
+    "impact": 1,
+    "name": "Celestial",
+    "description": "Divine Entities"
+}

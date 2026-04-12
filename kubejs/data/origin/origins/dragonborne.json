@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "origins:strong_arms",
+        "origins:natural_armor",
+        "gate:fire",
+        "origins:carnivore",
+        "origins:elytra",
+        "origins:aerial_combatant",
+        "origins:fire_immunity",
+        "origins:more_exhaustion"
+
+    ],
+    "icon": "iceandfire:dragonscales_red",
+    "order": 5,
+    "impact": 1,
+    "name": "Dragonborne",
+    "description": "Scaled mighty fire creatures."
+}

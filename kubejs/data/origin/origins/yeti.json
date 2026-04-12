@@ -1,0 +1,16 @@
+{
+    "powers": [
+       "origins:strong_arms",
+       "origins:natural_armor",
+       "origins:hunger_over_time",
+       "origins:more_exhaustion",
+       "origins:climbing",
+       "origins:sprint_jump",
+       "gate:ice"
+    ],
+    "icon": "minecraft:ice",
+    "order": 10,
+    "impact": 1,
+    "name": "Yeti",
+    "description": "Cold and Friendly"
+}

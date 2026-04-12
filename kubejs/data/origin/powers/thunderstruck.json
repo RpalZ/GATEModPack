@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Thunder Struck",
+    "description": "15% additional lightning power",
+    "modifier": {
+        "name": "lightning Power",
+        "attribute": "irons_spellbooks:lightning_spell_power",
+        "value": 0.15,
+        "operation": "addition"
+    }
+}

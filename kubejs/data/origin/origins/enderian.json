@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "gate:enderian",
+        "origins:extra_reach",
+        "origins:strong_arms",
+        "origins:throw_ender_pearl",
+        "origins:cat_vision",
+        "origins:water_vulnerability",
+        "origins:shulker_inventory",
+        "origins:claustrophobia"
+    ],
+    "icon": "minecraft:ender_pearl",
+    "order": 7,
+    "impact": 1,
+    "name": "Enderian",
+    "description": "The people of the void. Very distant."
+}

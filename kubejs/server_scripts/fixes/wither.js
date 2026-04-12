@@ -28,10 +28,6 @@ global.onProjectileImpact = (event) => {
   // 4. Get the entity and check its type
   const targetEntity = ray.getEntity();
 
-  // if (owner) {
-  //   owner.tell(Text.aqua(`[GATE]: Projectile type: ${projectile.getType()}`));
-  // }
-
   // In KubeJS, .type returns the ResourceLocation (e.g., "minecraft:wither")
   if (targetEntity.type === "minecraft:wither") {
     console.log(`[GATE]: Projectile type: ${projectile.getType()}`);
@@ -85,26 +81,9 @@ global.onProjectileImpact = (event) => {
     }
 
     targetEntity.attack(damageSource, finalDmg);
-    // let newHealth = targetEntity.health - finalDmg;
-    // targetEntity.setHealth(newHealth);
-
-    // if (newHealth <= 0) {
-    //   targetEntity.kill(); // Ensure it actually dies and drops stars
-    // }
-    // console.log(
-    //   `[GATE]: Explosion Pierce! Wither took ${finalDmg} damage from ${projectile.getType()}`,
-    // );
-    // if (owner) {
-    //   owner.tell(
-    //     Text.red(
-    //       `[GATE]: Explosion Pierce! Wither took ${finalDmg} damage from ${projectile.getType()}.`,
-    //     ),
-    //   );
-    // }
+   
 
     projectile.discard();
 
-    // Example: If you wanted to cancel the damage/impact:
-    // event.setCanceled(true)
   }
 };

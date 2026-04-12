@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Poseidon's Grace",
+    "description": "15% additional aqua power",
+    "modifier": {
+        "name": "poseidon",
+        "attribute": "irons_spellbooks:aqua_spell_power",
+        "value": 0.15,
+        "operation": "addition"
+    }
+}

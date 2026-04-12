@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "gate:thunderstruck",
+        "origins:unwieldy",
+        "origins:like_air",
+        "origins:launch_into_air",
+        "origins:aerial_combatant",
+        "origins:fall_immunity",
+        "origins:phasing",
+        "origins:fragile",
+        "origins:strong_arms_break_speed"
+    ],
+    "icon": "minecraft:blaze_rod",
+    "order": 8,
+    "impact": 1,
+    "name": "Stormkin",
+    "description": "Elemental threats embodied"
+}

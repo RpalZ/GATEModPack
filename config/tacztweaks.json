@@ -45,7 +45,7 @@
     },
     "armorIgnore": {
       "addend": 0.0,
-      "multiplier": 1.7,
+      "multiplier": 1.3,
       "function": ""
     },
     "speed": {

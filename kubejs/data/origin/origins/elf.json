@@ -2,7 +2,10 @@
     "powers": [
         "gate:blessing",
         "origins:sprint_jump",
-        "origins:like_air"
+        "origins:like_air",
+        "origins:fragile",
+        "origins:slow_falling",
+        "origins:vegetarian"
     ],
     "icon": "minecraft:feather",
     "order": 3,

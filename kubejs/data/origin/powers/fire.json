@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Fire Ring",
+    "description": "15% additional fire power",
+    "modifier": {
+        "name": "Fire Power",
+        "attribute": "irons_spellbooks:fire_spell_power",
+        "value": 0.15,
+        "operation": "addition"
+    }
+}
