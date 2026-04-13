@@ -1,0 +1,17 @@
+filename = 'darkdoppelganger-9.7.1-1.20.1.jar'
+name = "Dark Doppelganger : Iron's Spells and Spellbooks Addon"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'darkdoppelganger-9.7.1-1.20.1'
+
+[download]
+hash = '4908c762faa810f6a2d713cbb97a81dcd92e469c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7423479
+project-id = 1110803

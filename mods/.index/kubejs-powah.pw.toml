@@ -1,0 +1,17 @@
+filename = 'kubejspowah-1.2.1.jar'
+name = 'KubeJS Powah'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kubejspowah-1.2.1.jar'
+
+[download]
+hash = 'ced4d7b2cc2b6e255d88fc2f3fbcecf13ee3f77f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4920550
+project-id = 838378

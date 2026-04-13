@@ -1,0 +1,17 @@
+filename = 'fcp-1.0.1.jar'
+name = '[SBW] Frontline Combat Pack'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Frontline Combat 1.0.1'
+
+[download]
+hash = 'e48c740d3f7bf44517895049696b81287962d7c3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7728743
+project-id = 1465874

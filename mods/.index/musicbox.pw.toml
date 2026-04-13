@@ -1,0 +1,17 @@
+filename = 'musicbox-forge-2.0.2+1.20.1.jar'
+name = 'Music Box: Play YouTube songs'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'musicbox-forge-2.0.2+1.20.1.jar'
+
+[download]
+hash = '4d8b9e35b60fd35efa7bc47a8a1713d5a3f2c2ef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6680610
+project-id = 1111191

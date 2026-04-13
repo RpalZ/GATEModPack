@@ -1,0 +1,17 @@
+filename = 'itemphysicguns-1.0.2-3d7073e.jar'
+name = 'ItemPhysic Guns'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'itemphysicguns-1.0.2-3d7073e.jar'
+
+[download]
+hash = '6111b1b7f7bfa5c82d8c04cd65986366127b08ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7607842
+project-id = 1451825

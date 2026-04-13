@@ -1,0 +1,17 @@
+filename = 'ArsArms-1.20.1-2.0.0.jar'
+name = '[TaCZ] ArsArms - Ars Nouveau & Timeless and Classics Zero'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ArsArms-1.20.1-2.0.0.jar'
+
+[download]
+hash = 'e939921022f109bd5e81a0bae8cbcc44a4f68808'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7364526
+project-id = 1307929

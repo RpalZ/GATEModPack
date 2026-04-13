@@ -1,0 +1,17 @@
+filename = 'MoogsNetherStructures-1.20-2.0.2.jar'
+name = "MNS - Moog's Nether Structures"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MNS 2.0.2-1.20 [UNIVERSAL]'
+
+[download]
+hash = 'bdc96a4c3dc9a7ec7c2dee235ecdc32e56016433'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7228596
+project-id = 967466

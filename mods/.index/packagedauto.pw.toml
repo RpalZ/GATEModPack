@@ -1,0 +1,17 @@
+filename = 'PackagedAuto-1.20.1-3.4.15.46.jar'
+name = 'PackagedAuto'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-3.4.15.46'
+
+[download]
+hash = '3fceb59bc410646143135668e630b7ed93cb7661'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7329736
+project-id = 308380

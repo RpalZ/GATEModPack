@@ -1,0 +1,17 @@
+filename = 'damageindicator-2.2.1-1.20.1.jar'
+name = "JeremySeq's Damage Indicators"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'damageindicator-2.2.1-1.20.1.jar'
+
+[download]
+hash = '3c1b92bc44a41c913b58fe20ebde03610018f5ba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6471200
+project-id = 881096

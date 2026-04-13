@@ -1,8 +1,12 @@
 *
 
-
+!*/
 
 !.gitignore
-!config/
-!coremods/
+!config/**
+!coremods/**
+!defaultconfigs/**
 !kubejs/**
+!mods/.index/*
+!resourcepacks/*
+

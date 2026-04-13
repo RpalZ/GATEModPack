@@ -1,0 +1,17 @@
+filename = 'spartancataclysm-1.1.2+1.20.1+forge.jar'
+name = 'Spartan Weaponry: Cataclysm'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Spartan Cataclysm 1.1.2 (Forge 1.20.1)'
+
+[download]
+hash = 'c628b87eb914761311ae2385034f088b679d829b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7215431
+project-id = 1379475

@@ -1,0 +1,17 @@
+filename = 'WaT 0.2.3.jar'
+name = '[TaCZ] Weapons and Tactics (Mod)'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'WaT 0.2.3 / TaCZ 1.1.7'
+
+[download]
+hash = '164f5c95d1e25dfc032c5e7be88f3c29450bba43'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7773311
+project-id = 1411291

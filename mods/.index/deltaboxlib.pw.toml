@@ -1,0 +1,17 @@
+filename = 'deltaboxlib-forge-2.2.0+1.20.1.jar'
+name = 'Deltabox Lib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'deltaboxlib-forge-2.2.0+1.20.1.jar'
+
+[download]
+hash = '8f5cd619b02eaccd936cc6a3e1e47fe558a728b7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6680592
+project-id = 973463

@@ -1,0 +1,17 @@
+filename = 'sbw-addon-recipes-1.0.0.jar'
+name = '[SBW] Survival Recipie Fix for Addons'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'sbw-addon-recipes-1.0.0.jar'
+
+[download]
+hash = 'c2347d0b6bac24d09d6859bea9e410051b8e8dab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7884828
+project-id = 1506300

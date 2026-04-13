@@ -1,0 +1,17 @@
+filename = 'ping_from_drone-1.0.0.jar'
+name = '[SBW] Ping from drone'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ping_from_drone-1.0.0.jar'
+
+[download]
+hash = 'a85dd39d9bb50c2253f1ca9b82c12e8540c946ea'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7438449
+project-id = 1424761

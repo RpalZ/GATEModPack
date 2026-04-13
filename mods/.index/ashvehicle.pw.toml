@@ -1,0 +1,17 @@
+filename = 'ashvehicle-4.3-8.8-SNAPSHOT.jar'
+name = '[SBW] AshVehicle'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ashvehicle-4.3-8.8-SNAPSHOT.jar'
+
+[download]
+hash = 'f6d6a05941af21d5335aafbb9431e076ee294786'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7315476
+project-id = 1291715

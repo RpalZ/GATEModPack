@@ -1,0 +1,17 @@
+filename = 'CastLib-1.20.1-2.0.0.jar'
+name = 'CastLib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CastLib-1.20.1-2.0.0.jar'
+
+[download]
+hash = '7bdf90f23a8d0e839cb64a327ca29250798963a4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7364524
+project-id = 1310383

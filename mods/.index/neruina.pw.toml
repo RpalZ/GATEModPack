@@ -1,0 +1,17 @@
+filename = 'neruina-3.2.2+1.20.1-forge.jar'
+name = 'Neruina - Ticking Entity Fixer'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Neruina Forge 3.2.2 for 1.20.1'
+
+[download]
+hash = '8155b7b81f829d33a4ccdcaa2158b3b64846c396'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7695429
+project-id = 851046

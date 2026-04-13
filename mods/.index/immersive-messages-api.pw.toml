@@ -1,0 +1,17 @@
+filename = 'immersivemessages-forge-1.0.18-1.20.1.jar'
+name = 'Immersive Messages API'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ImmersiveMessages Forge 1.0.18 for 1.20.1'
+
+[download]
+hash = '61ce58279c764ab212ee816a6d66fc26dd6a8ba3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6480772
+project-id = 1109713

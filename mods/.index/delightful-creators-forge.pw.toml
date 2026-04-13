@@ -1,0 +1,17 @@
+filename = 'delightfulcreators-1.2.jar'
+name = "Delightful Creators [Forge] (Create and Farmer's Delight Addon)"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'delightfulcreators-1.2.jar'
+
+[download]
+hash = 'bb3645482adcca88276d69756c38fc725a3a5cdb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6613431
+project-id = 1275340

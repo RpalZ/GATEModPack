@@ -1,0 +1,17 @@
+filename = 'moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar'
+name = "Moog's Structure Lib (moogs_structures)"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Moog's Structure Lib 1.1.0-1.20-1.20.4 [FORGE]"
+
+[download]
+hash = 'b7751ee5cc55e6a56bc4b7c1b79bb6e63727e8aa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7238548
+project-id = 1337167

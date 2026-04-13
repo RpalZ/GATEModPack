@@ -1,0 +1,17 @@
+filename = 'immersivedamageindicators-forge-1.0.0-1.20.1.jar'
+name = 'Immersive Damage Indicators'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ImmersiveDamageIndicators Forge 1.0.0 for 1.20.1'
+
+[download]
+hash = '1e44ad910aa4331f656573ad04f31516e2f5f2da'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6480778
+project-id = 1255453

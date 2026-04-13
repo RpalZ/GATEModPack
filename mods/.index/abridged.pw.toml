@@ -1,0 +1,17 @@
+filename = 'abridged-2.0.0-forge-1.20.1.jar'
+name = 'Abridged'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v2.0.0 ~ Forge 1.20.1'
+
+[download]
+hash = '8f459c299da47ab0382267e88805ea3cc0dcd959'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6745463
+project-id = 948999

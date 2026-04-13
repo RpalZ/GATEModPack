@@ -1,0 +1,17 @@
+filename = 'schematicenergistics-1.20.1-1.5.0-forge.jar'
+name = 'Schematic Energistics'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'schematicenergistics-1.20.1-1.5.0-forge.jar'
+
+[download]
+hash = '8777aaec67c426be66038cbf499c46d6d87ed365'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7676854
+project-id = 1283481
