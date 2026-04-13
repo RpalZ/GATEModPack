@@ -1,13 +1,12 @@
 {
     "powers": [
         "origins:unwieldy",
-        "origins:water_breathing",
         "origins:aquatic",
         "origins:aqua_affinity",
         "origins:swim_speed",
-        "origins:burning_wrath",
         "origins:like_water",
         "origins:water_vision",
+        "gate:waterbreath",
         "gate:poseidon"
 
     ],

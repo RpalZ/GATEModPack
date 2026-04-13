@@ -5,7 +5,9 @@
         "origins:like_air",
         "origins:launch_into_air",
         "origins:aerial_combatant",
-        "origins:slow_falling"
+        "origins:slow_falling",
+        "origins:claustrophobia",
+        "origins:fresh_air"
     ],
     "icon": "mekanism:hdpe_elytra",
     "order": 6,

@@ -1,0 +1,16 @@
+# Define your pack name
+PACK_NAME="GATE_Optimization_Pack.zip"
+mkdir -p temp_pack/assets
+
+# Loop through the mods you want to override
+for mod in ashvehicle-*.jar dragonrise_reforge-*.jar; do
+    # Extract only the textures from the jars
+    unzip -o "$mod" "assets/*/textures/**/*.png" -d temp_pack/
+done
+
+# Create the mcmeta file automatically
+echo '{"pack":{"pack_format":15,"description":"Atlas Fix"}}' > temp_pack/pack.mcmeta
+
+# Zip it up and clean up
+cd temp_pack && zip -r "../$PACK_NAME" . && cd ..
+rm -rf temp_pack

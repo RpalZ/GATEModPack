@@ -1,0 +1,8 @@
+# Force resize for AshVehicle, Dragonrise, and TaCZ
+for mod in ashvehicle-*.jar dragonrise_reforge-*.jar; do
+    echo "Force cleaning $mod..."
+    unzip -o "$mod" "*.png"
+    find assets -name "*.png" -exec mogrify -resize 1024x1024! {} +
+    zip -u "$mod" $(find assets -name "*.png")
+    rm -rf assets/
+done

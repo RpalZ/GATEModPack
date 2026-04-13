@@ -19,6 +19,11 @@ EntityEvents.hurt(event => {
    
    if(!isVampire) return
 
-   player.heal(damage * .15)
+   const actualPlayer = event.getSource().getPlayer()
+   const bloodPower = actualPlayer.getAttributeValue("irons_spellbooks:blood_spell_power") - 1
+
+
+
+   player.heal(damage * Math.min(1, bloodPower))
 
 })

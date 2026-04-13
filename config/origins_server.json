@@ -183,7 +183,10 @@
       "origins:like_air": true,
       "origins:launch_into_air": true,
       "origins:aerial_combatant": true,
-      "origins:slow_falling": true
+      "origins:slow_falling": true,
+      "origins:burning_wrath": true,
+      "origins:claustrophobia": true,
+      "origins:fresh_air": true
     },
     "gate:merfolk": {
       "enabled": true,
@@ -193,7 +196,8 @@
       "origins:swim_speed": true,
       "origins:burning_wrath": true,
       "origins:like_water": true,
-      "origins:water_vision": true
+      "origins:water_vision": true,
+      "gate:waterbreath": true
     },
     "gate:yeti": {
       "enabled": true,
@@ -224,7 +228,8 @@
       "origins:swim_speed": true,
       "origins:burning_wrath": true,
       "origins:like_water": true,
-      "origins:water_vision": true
+      "origins:water_vision": true,
+      "gate:waterbreath": true
     },
     "origin:yeti": {
       "enabled": true,
@@ -274,7 +279,10 @@
       "origins:like_air": true,
       "origins:launch_into_air": true,
       "origins:aerial_combatant": true,
-      "origins:slow_falling": true
+      "origins:slow_falling": true,
+      "origins:burning_wrath": true,
+      "origins:claustrophobia": true,
+      "origins:fresh_air": true
     },
     "origin:stormkin": {
       "enabled": true,

@@ -1,0 +1,15 @@
+{
+  "irons_spellbooks:spell_container": {
+    "maxSpells": 1,
+    "mustEquip": 0,
+    "data": [
+      {
+        "index": 0,
+        "id": "irons_spellbooks:wither_skull",
+        "locked": 1,
+        "level": 10
+      }
+    ],
+    "spellWheel": 0
+  }
+}
