@@ -9,4 +9,4 @@
 !kubejs/**
 !mods/.index/*
 !resourcepacks/*
-
+!options.txt
