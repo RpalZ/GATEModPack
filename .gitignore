@@ -8,5 +8,7 @@
 !defaultconfigs/**
 !kubejs/**
 !mods/.index/*
+!mods/*
 !resourcepacks/*
 !options.txt
+!.gitattributes
