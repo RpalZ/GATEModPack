@@ -90,15 +90,15 @@ EntityEvents.hurt((event) => {
 
 // };
 
-global.debugProjectileImpact = (event) => {
-  const ray = event.getRayTraceResult();
-  const projectile = event.getProjectile();
-  const owner = projectile.getOwner();
-  const level = projectile.level;
+// global.debugProjectileImpact = (event) => {
+//   const ray = event.getRayTraceResult();
+//   const projectile = event.getProjectile();
+//   const owner = projectile.getOwner();
+//   const level = projectile.level;
 
   // console.log(`[GATE]: Actual Projectile ${projectile}`)
 
   // level.tell(Text.gold(`[GATE]: Actual Projectile`))
-};
+// };
 
 

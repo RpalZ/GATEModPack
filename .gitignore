@@ -9,3 +9,5 @@
 !resourcepacks/*
 !options.txt
 !.gitattributes
+
+config/spark/**

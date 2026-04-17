@@ -62,29 +62,3 @@ TimelessGunEvents.gunFire((event) => {
     event.cancel();
   }
 });
-
-function sbw() {
-  let $Minecraft = Java.loadClass("net.minecraft.client.Minecraft");
-
-  global.mousePreEvent = (event) => {
-    let player = $Minecraft.getInstance().player;
-    if (!player) return;
-    let item = player.getMainHandItem();
-    let SBWtag = "superbwarfare:gun";
-
-    if ($Minecraft.getInstance().currentScreen) return
-
-    let hasTech = player.persistentData.getBoolean("isTech");
-
-    if (!hasTech && item.hasTag(SBWtag)) {
-      player.setStatusMessage(
-        Text.of("Your hands lack the dexterity...").yellow().italic(),
-      );
-      // player.give(item.copyAndClear())
-      event.setCanceled(true)
-    }
-  };
-}
-
-
-sbw()

@@ -51,13 +51,15 @@ LevelEvents.loaded(event => {
 
   // console.log("[GATE]: FIRED AGAIN!!")
 
+  server.persistentData.merge({hallwayGenerated: true})
   
   
   server.scheduleInTicks(20, e =>{
     
     const result = server.runCommandSilent("execute in gate:leaders_world run place template gate:story/main/leaders_hallway 0 100 0 none none")
     server.runCommandSilent("execute in gate:leaders_world run setworldspawn 15 103 99")
-    server.persistentData.merge({hallwayGenerated: true})
+  server.runCommandSilent("execute in gate:leaders_world run forceload remove all")
+
     // console.log("[GATE]: YAY")
 
   })
