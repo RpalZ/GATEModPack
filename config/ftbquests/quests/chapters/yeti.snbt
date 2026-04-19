@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "yeti"
+	group: "0FFECF43B1AA7173"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:ice_upgrade_orb"
+		tag: {
+			"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ice_power"
+		}
+	}
+	id: "73AF92231957EA83"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as Yeti."]
+		id: "07E45A505EE949F5"
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:ice_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ice_power"
+				}
+			}
+			id: "198F0B71ABAFDFE4"
+			title: "Forged from Frost"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Yeti"
+}

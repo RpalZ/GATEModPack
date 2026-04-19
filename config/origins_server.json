@@ -197,7 +197,8 @@
       "origins:burning_wrath": true,
       "origins:like_water": true,
       "origins:water_vision": true,
-      "gate:waterbreath": true
+      "gate:waterbreath": true,
+      "gate:fishterian": true
     },
     "gate:yeti": {
       "enabled": true,
@@ -229,7 +230,8 @@
       "origins:burning_wrath": true,
       "origins:like_water": true,
       "origins:water_vision": true,
-      "gate:waterbreath": true
+      "gate:waterbreath": true,
+      "gate:fishterian": true
     },
     "origin:yeti": {
       "enabled": true,

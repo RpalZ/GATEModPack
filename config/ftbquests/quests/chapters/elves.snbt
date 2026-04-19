@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "elves"
 	group: "0FFECF43B1AA7173"
+	icon: "minecraft:feather"
 	id: "3EC3407131B0D126"
 	order_index: 2
 	quest_links: [ ]

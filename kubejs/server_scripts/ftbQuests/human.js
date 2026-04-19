@@ -14,6 +14,7 @@ FTBQuestsEvents.customTask(taskHumanID, (event) => {
       .get(0)
       .get("Origin");
 
+
     let isHuman = humanNbt == "gate:human";
 
     //  level.tell(humanNbt)

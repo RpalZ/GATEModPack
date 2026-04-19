@@ -6,7 +6,7 @@
 !config/**
 !kubejs/**
 !mods/*
-!resourcepacks/*
+!resourcepacks/**
 !options.txt
 !.gitattributes
 

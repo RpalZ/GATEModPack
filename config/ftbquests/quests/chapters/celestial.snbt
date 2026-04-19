@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "celestial"
+	group: "0FFECF43B1AA7173"
+	icon: {
+		Count: 1
+		id: "mekanism:hdpe_elytra"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "03DD4612C1C0B4FE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as Celestial."]
+		id: "4D7482A9F39C697E"
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "mekanism:hdpe_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18BE6843EA14D664"
+			title: "Divine Palladins"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Celestial"
+}

@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragonborne"
+	group: "0FFECF43B1AA7173"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:fire_upgrade_orb"
+		tag: {
+			"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:fire_power"
+		}
+	}
+	id: "7594B28AA63CFF79"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as Dragonborne."]
+		id: "296B59F4C152F4F7"
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:fire_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:fire_power"
+				}
+			}
+			id: "31ED1007EDCD5A49"
+			title: "Forged from Heat"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Dragonborne"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Piscivore",
+  "description": "Can only eat seafood",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "gate:fish"
+            }
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "the_beginning"
 	group: "0FFECF43B1AA7173"
+	icon: "minecraft:player_head"
 	id: "29D8A11EBD2DCB10"
 	order_index: 0
 	quest_links: [ ]

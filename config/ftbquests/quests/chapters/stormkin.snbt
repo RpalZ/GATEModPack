@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stormkin"
+	group: "0FFECF43B1AA7173"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:lightning_upgrade_orb"
+		tag: {
+			"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:lightning_power"
+		}
+	}
+	id: "66C47E8EFBACE08D"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as Stormkin."]
+		id: "3082533183B9DA39"
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:lightning_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:lightning_power"
+				}
+			}
+			id: "7D75EC37C645AE40"
+			title: "Playing with Thunder"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Stormkin"
+}

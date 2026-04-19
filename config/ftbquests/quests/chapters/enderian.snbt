@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderian"
+	group: "0FFECF43B1AA7173"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:ender_upgrade_orb"
+		tag: {
+			"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ender_power"
+		}
+	}
+	id: "3B3E9347E0F5B4DD"
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as Enderian."]
+		id: "429C8953BABD6340"
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:ender_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ender_power"
+				}
+			}
+			id: "5B1D25FCC98ADB14"
+			title: "From the Depths"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Enderian"
+}

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "vampier"
 	group: "0FFECF43B1AA7173"
+	icon: "undergarden:blood_globule"
 	id: "78F3BC8A12C08206"
 	order_index: 1
 	quest_links: [ ]

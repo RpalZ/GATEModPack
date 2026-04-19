@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "merfolk"
+	group: "0FFECF43B1AA7173"
+	icon: "traveloptics:hullbreaker_scales"
+	id: "06A3EF04CB274321"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		description: ["You are born as Merfolk."]
+		id: "4632A6E031717E3B"
+		tasks: [{
+			icon: "traveloptics:hullbreaker_scales"
+			id: "7EC6B96F6D25DE7B"
+			title: "Aquatic Rulers"
+			type: "custom"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Merfolk"
+}

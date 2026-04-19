@@ -9,6 +9,12 @@
 	quests: [
 		{
 			dependencies: ["6CB996386DE98E97"]
+			description: [
+				"&6&oDespite the fallen wither, the miasma begins to thicken further. The sources are now varied across multiple dimensions. Investigate and vanquish them."
+				"&r&r"
+				""
+				"&4&o\"Theres more to come...\"&r&r"
+			]
 			id: "5DBF17299A0DE31E"
 			rewards: [{
 				id: "5D86CC3DCFD90267"
