@@ -1,4 +1,11 @@
-function handleWither(event) {
+
+// global.onEntityHurtByGun = (event) => {
+//   handleWither(event);
+// };
+
+// ForgeEvents.onEvent("com.tacz.guns.api.event.common.EntityHurtByGunEvent$Post")
+
+TimelessGunEvents.entityHurtByGunPost((event) => {
   if (event.getLogicalSide().isClient()) return;
 
   let targetEntity = event.getHurtEntity();
@@ -37,21 +44,13 @@ function handleWither(event) {
 
   let damage = Math.min(event.getBaseAmount() * 0.1, 10);
 
-  let newHealth = targetEntity.health - damage;
-  targetEntity.setHealth(newHealth);
+  const source = attacker.damageSources().playerAttack(attacker);
+  // let newHealth = targetEntity.health - damage;
+  // targetEntity.setHealth(newHealth);
 
-  if (newHealth <= 0) {
-    targetEntity.kill(); // Ensure it actually dies and drops stars
-  }
-}
+  targetEntity.attack(source, damage)
 
-// global.onEntityHurtByGun = (event) => {
-//   handleWither(event);
-// };
-
-// ForgeEvents.onEvent("com.tacz.guns.api.event.common.EntityHurtByGunEvent$Post")
-
-TimelessGunEvents.entityHurtByGunPost(event => {
-  handleWither(event)
+  // if (newHealth <= 0) {
+  //   targetEntity.kill(); // Ensure it actually dies and drops stars
+  // }
 });
-
