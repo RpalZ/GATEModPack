@@ -5,6 +5,8 @@
         "gate:fire",
         "origins:carnivore",
         "origins:elytra",
+        "origins:launch_into_air",
+
         "origins:aerial_combatant",
         "origins:fire_immunity",
         "origins:more_exhaustion"

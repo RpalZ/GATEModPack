@@ -1,6 +1,6 @@
 {
   "_comment1": "Whether to enable MemorySweep.",
-  "memorySweep": true,
+  "memorySweep": false,
   "_comment2": "The interval time of memory cleaning. Unit: seconds.",
   "sweepInterval": 900,
   "_comment3": "The minimum memory usage percentage (calculated over a 10-second average) to trigger cleaning; lower values enforce stricter cleanup.",

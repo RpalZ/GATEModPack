@@ -186,7 +186,8 @@
       "origins:slow_falling": true,
       "origins:burning_wrath": true,
       "origins:claustrophobia": true,
-      "origins:fresh_air": true
+      "origins:fresh_air": true,
+      "origins:fall_immunity": true
     },
     "gate:merfolk": {
       "enabled": true,
@@ -219,7 +220,8 @@
       "origins:elytra": true,
       "origins:aerial_combatant": true,
       "origins:fire_immunity": true,
-      "origins:more_exhaustion": true
+      "origins:more_exhaustion": true,
+      "origins:launch_into_air": true
     },
     "origin:merfolk": {
       "enabled": true,
@@ -252,7 +254,8 @@
       "origins:elytra": true,
       "origins:aerial_combatant": true,
       "origins:fire_immunity": true,
-      "origins:more_exhaustion": true
+      "origins:more_exhaustion": true,
+      "origins:launch_into_air": true
     },
     "gate:enderian": {
       "enabled": true,
@@ -284,7 +287,8 @@
       "origins:slow_falling": true,
       "origins:burning_wrath": true,
       "origins:claustrophobia": true,
-      "origins:fresh_air": true
+      "origins:fresh_air": true,
+      "origins:fall_immunity": true
     },
     "origin:stormkin": {
       "enabled": true,

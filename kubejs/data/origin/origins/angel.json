@@ -4,8 +4,8 @@
         "gate:angel",
         "origins:like_air",
         "origins:launch_into_air",
+        "origins:fall_immunity",
         "origins:aerial_combatant",
-        "origins:slow_falling",
         "origins:claustrophobia",
         "origins:fresh_air"
     ],
