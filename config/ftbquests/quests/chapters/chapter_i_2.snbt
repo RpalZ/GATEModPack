@@ -431,7 +431,7 @@
 				entity: "undergarden:forgotten_guardian"
 				id: "74DA2B8FF8E66953"
 				type: "kill"
-				value: 10L
+				value: 3L
 			}]
 			x: 16.5d
 			y: 4.5d

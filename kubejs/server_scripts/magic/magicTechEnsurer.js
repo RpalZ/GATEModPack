@@ -90,4 +90,25 @@ TimelessGunEvents.gunFire(event => {
 })
 
 
+ItemEvents.entityInteracted(event =>{
+  const interacted = event.getTarget()
+  const tags = interacted.getEntityType().getTags().map(m => m.location().toString()).toList()
+  
+  const tech = "gate:tech"
+  const magic = "gate:magic"
 
+  const player = event.getPlayer()
+
+  // player.tell(tags)
+
+  if(tags.contains(magic) && !player.persistentData.getBoolean("isMagic")) {
+    player.setStatusMessage(Text.of("You lack Magical Tendency").red().italic())
+    event.cancel()
+  }
+
+  if(tags.contains(tech) && !player.persistentData.getBoolean("isTech")) {
+    player.setStatusMessage(Text.of("You lack Technical Tendency").red().italic())
+    event.cancel()
+  }
+  
+})

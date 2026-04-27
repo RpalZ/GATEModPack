@@ -9,5 +9,6 @@
 !resourcepacks/**
 !options.txt
 !.gitattributes
+!shaderpacks/**
 
 config/spark/**

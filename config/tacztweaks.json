@@ -135,7 +135,7 @@
     }
   },
   "crawl": {
-    "enabled": true,
+    "enabled": false,
     "pitchUpperLimit": 25.0,
     "pitchLowerLimit": -10.0,
     "dynamicPitchLimit": false,
