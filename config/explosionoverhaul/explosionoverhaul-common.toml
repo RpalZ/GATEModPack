@@ -217,7 +217,7 @@
 	#25% = Conservative, minimal impact on server performance
 	#Lower values add delays between chunk processing to reduce CPU load.
 	#Range: 1 ~ 100
-	cpuUsagePercent = 75
+	cpuUsagePercent = 50
 	#Enables or disables the block indexing system.
 	#When enabled, chunks are automatically scanned for Redstone Lamps and Pointed Dripstone.
 	#When disabled, only manual registration/unregistration of blocks will occur.
@@ -226,5 +226,5 @@
 	#Controls visibility of the scanning progress HUD.
 	#When disabled, no progress bar will be shown even if scanning is enabled.
 	#Shows percentage of chunks scanned during world initialization and automatically hides when complete.
-	showScanProgressHUD = true
+	showScanProgressHUD = false
 

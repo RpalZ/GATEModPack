@@ -7,6 +7,7 @@
 		{ count: 5, item: "minecraft:diamond_block" }
 		{ count: 64, item: "minecraft:quartz" }
 		{ count: 5, item: "superbwarfare:cemented_carbide_block" }
+		{ count: 2, item: "minecraft:nether_star" }
 	]
 	title: "tyros"
 }

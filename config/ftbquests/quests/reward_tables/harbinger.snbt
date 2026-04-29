@@ -1,0 +1,15 @@
+{
+	id: "2456E1ABC27E7E99"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			type: "xp"
+			xp: 3000
+		}
+		{ count: 8, item: "minecraft:ender_pearl" }
+		{ count: 2, item: "minecraft:nether_star" }
+		{ count: 4, item: "cataclysm:witherite_ingot" }
+	]
+	title: "Harbinger"
+}

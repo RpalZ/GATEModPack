@@ -1,5 +1,8 @@
-#Mon Apr 27 20:31:23 AST 2026
+#Tue Apr 28 02:02:58 AST 2026
 bloom_strength=0.5
 TAA_sharpness=0.25
+Godrays_Density=2.3
+shadowMapResolution=512
 MobsFlashRed=false
 TAA=false
+Lens_Flares=true

@@ -1,0 +1,17 @@
+{
+	id: "22391F3D57A4B68C"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			type: "xp"
+			xp: 12000
+		}
+		{ count: 10, item: "traveloptics:spectral_spell_slot_upgrade" }
+		{ count: 4, item: "minecraft:netherite_block" }
+		{ count: 16, item: "minecraft:echo_shard" }
+		{ count: 15, item: "irons_spellbooks:legendary_ink" }
+		{ count: 8, item: "minecraft:nether_star" }
+	]
+	title: "Nightwarden"
+}

@@ -25,6 +25,10 @@ FTBQuestsEvents.customTask(yetiTask, (event) => {
         task.setProgress(1)
         player.persistentData.merge({isMagic:true})
         player.give(Item.of("traveloptics:ice_echo"))
+        SpellRegistry.getSpellsForSchool("irons_spellbooks:ice").forEach((m) => {
+        if (!m.requiresLearning()) return;
+        player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
+      });
     }
 
     // level.tell(playerNbt)

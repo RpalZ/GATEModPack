@@ -9,11 +9,11 @@
 	quests: [
 		{
 			description: [
-				"&o&o&7For generations, the world was trapped in a cycle of mindless violence known as the Great War. Each of the great races tore each other apart over old grudges and stolen land, turning the overworld into a graveyard of fallen empires. But just as the war reached its bloodiest point, a terrifying, unnatural miasma began to spread.&r"
+				"&o&o&7For generations, the world was trapped in the Great War, a cycle of rage that left the overworld full of broken kingdoms and buried grudges. Then, at the height of that conflict, an unnatural miasma began to spread across the land.&r"
 				""
-				"&o&7Entire cities vanished instantly with a cold, empty void that swallowed everything in its path. Faced with an entity that could not be understood, the warring races reluctantly concede with one another. Enemies of a millenia dropped their pride to sign the Pact of the Gate, uniting their magic and technology into a single, desperate army. The Great War is over, but a much darker battle has begun against a shadow that threatens to erase existence itself.&r&r&r"
+				"&o&7Entire cities vanished in an instant, swallowed by a cold emptiness that left nothing behind. Forced to face a threat they could not understand, the warring races laid down their pride and signed the Pact of the Gate, uniting their magic and technology into one desperate defense. The Great War ended, but a darker battle began against the shadow that now threatens to erase existence itself.&r&r&r"
 				""
-				"&4&o\"Who is behind all of this?\"&r&r"
+				"&4&o\"If the war ended, why does the world still feel like it is dying?\"&r&r"
 			]
 			id: "46B96E1D0D8B7BCA"
 			tasks: [{
@@ -27,9 +27,9 @@
 		{
 			dependencies: ["46B96E1D0D8B7BCA"]
 			description: [
-				"&6&oIn search of true power, one must prove themselves to be worthy to confront the evil that beckons us. We as unison are not a force to be underestimated. That said, it is up to individuals to be strong to carry each other as a whole. Lay those adventurers and may they find the keys to enter the realm of the source!&r&r"
+				"&6&oIf we are to stand against what waits beyond the Gate, strength cannot be borrowed forever. Each warrior must prove they can carry their own weight so the whole can endure as one. Hunt down the enemies of the Pact and claim the first key to the source of this corruption.&r&r"
 				""
-				"&4&o\"Prove yourself and make quick work of small frys!\"&r&r"
+				"&4&o\"Begin with the broken remnants of the old war. Power is forged in the first victory.\"&r&r"
 			]
 			id: "79F4974E23BC93AA"
 			rewards: [{
@@ -66,9 +66,9 @@
 		{
 			dependencies: ["79F4974E23BC93AA"]
 			description: [
-				"&o&6Upon slaying the corrupted that pillaged our neighbors, an eye was obtained...&r&r"
+				"&o&6The pillagers fell, and among their spoils was a corrupted eye tied to the same force that devoured the old cities. Even a small relic like this may reveal where the miasma began.&r&r"
 				""
-				"&4&o\"Maybe this could prove to be useful one day\"&r&r"
+				"&4&o\"Every fragment matters when the enemy leaves nothing behind.\"&r&r"
 			]
 			id: "6983BBC406DF52C0"
 			rewards: [{
@@ -93,9 +93,9 @@
 		{
 			dependencies: ["6983BBC406DF52C0"]
 			description: [
-				"&6&oWith the spread of the miasma spanning across the horizons. Evil is prevalent and it does not spare birds. Found in the vast Savannah, a legendary bird blessed by divinity turned to its creator. Blasphemous behavior surrounds it as he terrorizes with his army.&r&r"
+				"&6&oAs the miasma spreads across the horizons, even the savannah is not spared. A sacred bird once blessed by divinity has been twisted into a blasphemous tyrant, gathering an army beneath its corrupted wings.&r&r"
 				""
-				"&4&o\"Slay him for your justice will not be unpaid\"&r&r"
+				"&4&o\"If the wild has fallen to corruption, then the one who defiles it must be brought down.\"&r&r"
 			]
 			id: "083CFC179D001044"
 			rewards: [{
@@ -125,9 +125,9 @@
 		{
 			dependencies: ["083CFC179D001044"]
 			description: [
-				"&6&oCertain discoveries reveal that the said ruins were left with the scribes \"Those who conquered the 3 elements of the mighty scales can guarantee to be a candidate for the warden...\"&r&r"
+				"&6&oAmong the ruins, old scribes left a warning: \"Those who conquer the three elements of the mighty scales may yet prove worthy to face the Warden.\" The meaning is clear enough. Three dragons guard the path ahead.&r&r"
 				""
-				"&4&o\"Defeat the 3 Elemental Dragons and make yourself some nice armor...\"&r&r"
+				"&4&o\"Slay the elemental dragons and turn their scales into armor worthy of the hunt.\"&r&r"
 			]
 			id: "4AB16D387D6EC80E"
 			rewards: [{
@@ -169,10 +169,11 @@
 		{
 			dependencies: ["4AB16D387D6EC80E"]
 			description: [
-				"&6&oAmongst the vast lands they have conquered are also the vast seas and amongst the deep comes a disruption of the ancient waters.. A one eyed ancient sea creature formulated by the disruption is discovered terrorizing local fishermen.&r&r"
+				"&6&oThe corruption that reached the land has also stirred the seas. Ancient waters have been disturbed, and from the deep has risen a one-eyed creature that now terrorizes the fishermen who still brave the coast.&r&r"
 				""
-				"&4&o\"Theres too much going on...\"&r&r"
+				"&4&o\"Another relic of the old world has gone hostile. The deep will not be left untouched.\"&r&r"
 			]
+			icon: "minecraft:prismarine_shard"
 			id: "60B654D17B7CB092"
 			rewards: [
 				{
@@ -198,16 +199,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The One Piece"
+			title: "Ancient Depths"
 			x: -0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["60B654D17B7CB092"]
 			description: [
-				"&6&oWith great conquest comes with great dangers. The Faded One leaves nothing to spare across the overworld, not even the deserts. In the desert, there lies a body of thousand scales powerful enough to wipe a nation. It terrors with its stealth and shreds flesh with its sword-like teeth.&r&r"
+				"&6&oVictory never comes without drawing the attention of greater horrors. Now the deserts themselves have become hunting grounds for the Faded One, a thousand-scaled beast whose stealth and blade-like teeth can tear through an army.&r&r"
 				""
-				"&4&o\"Whos the Faded One?\"&r&r"
+				"&4&o\"If the sands hide such monsters, then the desert is no longer empty.\"&r&r"
 			]
 			id: "6F83DB86DDEEC3E3"
 			rewards: [
@@ -284,16 +285,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Which one?"
+			title: "Frostbound Terror"
 			x: -0.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["65CB799F7BDA155A"]
 			description: [
-				"&6&oAs the Miasma thickens, vision becomes dark and alliances become blurry. The Ashlord, Vice General of the dragonborne Race has gotten corrupted and lay terror in his castle with his army of undead. A large bounty is put to his head and one who vanquish him will be honored for his life.&r&r"
+				"&6&oAs the miasma thickens, judgment itself begins to fail. The Ashlord, once vice general of the dragonborne race, has been corrupted and now rules his castle through an army of the undead. A great bounty has been placed upon his head, and his fall would mark another victory for the Pact.&r&r"
 				""
-				"&4&o\"He's gon' crazy...\"&r&r"
+				"&4&o\"Even the strongest can be claimed by the shadow if left unguarded.\"&r&r"
 			]
 			id: "05D47E456E31A632"
 			rewards: [{
@@ -316,9 +317,9 @@
 		{
 			dependencies: ["05D47E456E31A632"]
 			description: [
-				"&6&o\"With 14 Stone Bricks and a gem catalyst, one can form a loop to the Undergarden\". Another scribe was discovered amongst the ruins of the miasma. This could lead to something much greater.&r&r"
+				"&6&oAnother ruin, another scribe, another clue. One inscription speaks of a loop to the Undergarden, formed with fourteen stone bricks and a gem catalyst. Whatever this passage was meant to hide, it could lead deeper into the truth.&r&r"
 				""
-				"&4&o\"Where are they getting this?\"&r&r"
+				"&4&o\"The old world left breadcrumbs everywhere. We only need to follow them.\"&r&r"
 			]
 			id: "500788D5D57F78D7"
 			rewards: [{
@@ -336,6 +337,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["Heres some tips to make your life easier!"]
 			id: "3D29D62B789C153D"
 			tasks: [{
 				id: "4D17ABE368E1C711"
@@ -347,6 +349,7 @@
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
+			description: ["This is great for locating bosses and structures!"]
 			id: "72C07498213720CB"
 			rewards: [{
 				id: "45CB4649A08443F5"
@@ -367,6 +370,7 @@
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
+			description: ["As the name suggests, this locates biomes!"]
 			id: "79270999F64D5EB1"
 			rewards: [{
 				id: "3A24C082AF79F0F3"
@@ -388,9 +392,9 @@
 		{
 			dependencies: ["500788D5D57F78D7"]
 			description: [
-				"&6&oAdventurers found this new world to be grotesque full of irregulars never even seen of. However, many believe there is a world underground waiting to be discovered. Is it death or treasure?&r&r"
+				"&6&oThe UnderGarden is a grotesque place, full of forms that should never have existed. Yet beneath its corruption lies a world waiting to be uncovered. Whether it offers treasure or death, the only way forward is deeper.&r&r"
 				""
-				"&4&o\"I sure do hope its treasure...\"&r&r"
+				"&4&o\"If the old scribes were right, then the underground still has answers.\"&r&r"
 			]
 			id: "4FF6DE3CD28DABE8"
 			rewards: [{
@@ -409,10 +413,17 @@
 		{
 			dependencies: ["4FF6DE3CD28DABE8"]
 			description: [
-				"&6&oUpon seeing the Catacomb, many miasmic remnant resides on such golems. One would say they are influenced by the corruption that took place.&r&r"
+				"&6&oThe catacombs are not empty. Their halls are guarded by forgotten golems carrying the remnants of the miasma within their stone bodies. Whatever happened here, it twisted even the protectors of the underground.&r&r"
 				""
-				"&4&o\"They pack a punch\"&r&r"
+				"&4&o\"Even the guardians of a dead place can still strike back.\"&r&r"
 			]
+			icon: {
+				Count: 1
+				id: "undergarden:forgotten_battleaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "35788DB7EB17912E"
 			rewards: [
 				{
@@ -439,10 +450,42 @@
 		{
 			dependencies: ["35788DB7EB17912E"]
 			description: [
-				"&6&oUpon slaying the golems, it buries a mark of coal and death. Could this be a lead for another thing? Upon discoveries a fallen scribe, \"one must form a soul ritual bearing the three heads of the cursed skulls\"&r&r"
+				"&6&oTo perform the soul ritual written in the Undergarden ruins, you must first venture into the fiery depths of the Nether. Only there, within the charred halls of old fortresses, can you claim the cursed skulls of the Withered ones.&r&r"
 				""
-				"&4&o\"I just gotta kill the wither?\"&r&r"
+				"&4&o\"The flames are harsh, but they forge the key to the next battle.\"&r&r"
 			]
+			id: "273A8B9F5D2C1E40"
+			rewards: [{
+				id: "71A4E9C1F8D2B193"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "37A4B5D2B6A4FAEC"
+					title: "Enter the Nether"
+					type: "dimension"
+				}
+				{
+					count: 3L
+					id: "6F2F55E94BA16D7A"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "The Fiery Depths"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["273A8B9F5D2C1E40"]
+			description: [
+				"&6&oThe fallen golems left behind a mark of coal and death, and deeper within the ruins another scribe was found. Their warning speaks of a soul ritual and the three cursed skulls, a ritual that can only mean the Wither stands in the path ahead.&r&r"
+				""
+				"&4&o\"At last, the clues point to one final trial in this chain of ruin.\"&r&r"
+			]
+			icon: "minecraft:wither_skeleton_skull"
 			id: "11EBA947CA6F6434"
 			rewards: [
 				{
@@ -481,9 +524,9 @@
 		{
 			dependencies: ["11EBA947CA6F6434"]
 			description: [
-				"&o&6As the wither fell along its tainted wings, so as the evil with it. For now, the commoners and dwellers rejoice as their worry fades. However, levels of miasma still span across the deeper dimensions. Something tells the people that it requires more than a collaboration of forces to vanquish it.&r&r"
+				"&o&6As the Wither fell, its tainted power faded with it, and for a time the common people could breathe again. But the miasma still lingers in the deeper dimensions, too vast for a single victory to end. Something far greater will be needed to defeat what remains.&r&r"
 				""
-				"&4&o\"There must be a way to get even stronger\"&r&r"
+				"&4&o\"This was never the final battle. It was only the end of the beginning.\"&r&r"
 			]
 			id: "3C6500736BA4FCB9"
 			rewards: [{

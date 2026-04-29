@@ -8,6 +8,11 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"&6&oThe final path begins where the worlds thin out. The Gate has been reached, but the silence beyond it feels less like peace and more like something holding its breath.&r&r"
+				""
+				"&4&o\"If the trail ends here, then whatever waits beyond has been waiting for us.\"&r&r"
+			]
 			id: "61CA71F2A65B0171"
 			tasks: [{
 				id: "5DB44384BA783EB9"
@@ -19,6 +24,11 @@
 		}
 		{
 			dependencies: ["61CA71F2A65B0171"]
+			description: [
+				"&6&oAt last, the End itself opens before you. The air is still, the ground is silent, and the sky is wrong, as if the world has been stripped down to its bones.&r&r"
+				""
+				"&4&o\"There is no turning back now.\"&r&r"
+			]
 			id: "5E66F197D6DA73F9"
 			rewards: [{
 				id: "0A143364C101F73C"
@@ -35,11 +45,17 @@
 		}
 		{
 			dependencies: ["5E66F197D6DA73F9"]
+			description: [
+				"&6&oThe dragon falls, but victory here feels incomplete. The End does not empty so easily, and its shadows still cling to the broken islands like a warning left unfinished. Even so, its hoard should spill open for those who survive the fight.&r&r"
+				""
+				"&4&o\"A slain dragon leaves behind more than bones if the hunt was worthy.\"&r&r"
+			]
+			icon: "minecraft:dragon_head"
 			id: "023B9345FAF2ABCC"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "360D65F3C1D10592"
-				table_id: 3355587268833781544L
+				id: "360D65F3C1D10593"
+				table_id: 7875281910250566405L
 				type: "all_table"
 			}]
 			tasks: [{
@@ -53,12 +69,26 @@
 		}
 		{
 			dependencies: ["023B9345FAF2ABCC"]
+			description: [
+				"&6&oThe first thing that answers the dragon's fall is a guardian born of harsher ruin. It moves like a fortress with a heartbeat, and the End seems to recoil wherever it walks.&r&r"
+				""
+				"&4&o\"The End is still hiding its teeth.\"&r&r"
+			]
+			icon: "minecraft:shulker_box"
 			id: "69712D8B4DFADE6C"
-			rewards: [{
-				id: "20184AA503448040"
-				type: "xp"
-				xp: 15000
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20184AA503448042"
+					table_id: 3057535263071601525L
+					type: "all_table"
+				}
+				{
+					id: "20184AA503448041"
+					type: "xp"
+					xp: 15000
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				id: "47D161DC58170B48"
@@ -70,12 +100,32 @@
 		}
 		{
 			dependencies: ["69712D8B4DFADE6C"]
+			description: [
+				"&6&oAmong the broken stars, a second figure appears wearing the shape of a familiar enemy, but not its soul. It moves too smoothly, too deliberately, like a reflection that learned how to hunt. It is but a puppet, woven from the miasma itself to stall your final descent.&r&r"
+				""
+				"&4&o\"Something is wearing our fear like a mask, desperate to guard its master.\"&r&r"
+			]
+			icon: "darkdoppelganger:doppelganger_ring"
 			id: "7439F90F2ECE4041"
-			rewards: [{
-				id: "440888B765AD64D2"
-				type: "xp"
-				xp: 42000
-			}]
+			rewards: [
+				{
+					id: "440888B765AD64D2"
+					type: "xp"
+					xp: 42000
+				}
+				{
+					count: 8
+					id: "52397DE2E8109C14"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1A6194BB6A25D334"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "darkdoppelganger:dark_doppelganger"
 				id: "4F8555E94BA16D96"
@@ -87,18 +137,40 @@
 		}
 		{
 			dependencies: ["7439F90F2ECE4041"]
+			description: [
+				"&6&oHere, at the absolute edge of existence, the true source reveals itself. The miasma wasn't a plague—it was breath. The Nightwarden stands over the void, an ancient cosmic entity that orchestrated the Great War from the shadows to feed its own hunger. It is the beginning and the end. Defeating it means breaking the dark cycle and claiming true freedom for the universe.&r&r"
+				""
+				"&4&o\"The architect of our suffering does not hide anymore. Rend the heavens, and strike a Daemon down.\"&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "traveloptics:stellothorn"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:shear_of_the_stars"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
 			id: "79D58811F20E6909"
 			rewards: [
 				{
 					exclude_from_claim_all: true
 					id: "040A8CEBFE74389C"
-					table_id: 6355883631033652097L
+					table_id: 2466036619285935756L
 					type: "all_table"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "50617DBA29053246"
-					table_id: 3355587268833781544L
+					table_id: 6355883631033652097L
 					type: "all_table"
 				}
 				{
@@ -119,14 +191,19 @@
 		}
 		{
 			dependencies: ["79D58811F20E6909"]
+			description: [
+				"&6&oAs the Nightwarden falls, reality shudders... then exhales. The miasma that plagued the realms begins to dissipate into stardust. The Gate shatters entirely. The Pact of the Gate has fulfilled its impossible task. You stand amidst the silent stars, the ultimate victor of an extinguished cosmos.&r&r"
+				""
+				"&4&o\"No more rulers. No more corruption. The worlds are finally, truly, our own to rebuild.\"&r&r"
+			]
 			id: "4701732E94298B2A"
 			tasks: [{
 				id: "3A4B4ADF226AA370"
-				title: "Truly the end?"
+				title: "The Cosmos Breathe"
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: 7.0d
+			y: 11.5d
 		}
 	]
 	title: "Chapter III"

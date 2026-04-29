@@ -50,12 +50,12 @@
 	#
 	#Configuration for the ground dust cloud effect
 	#Enables or disables the dust cloud effect from explosions.
-	enableGroundDustEffect = true
+	enableGroundDustEffect = false
 	#Quality of the dust cloud effect. Affects particle count and duration.
 	#Lower values can improve performance on weaker PCs.
 	#0.0 = minimum particles, 1.0 = default quality.
 	#Range: 0.0 ~ 1.0
-	groundDustQuality = 0.5
+	groundDustQuality = 0.2
 	#Dust Propagation Quality. Controls how often dust particles check for the ground beneath them.
 	#A value of 1 means every particle checks (highest quality, high performance cost).
 	#A value of 10 means every 10th particle checks (default performance).
@@ -69,7 +69,7 @@
 	#Lower values can improve performance on weaker PCs.
 	#0.0 = minimum particles, 1.0 = default quality.
 	#Range: 0.0 ~ 1.0
-	groundMistQuality = 0.5
+	groundMistQuality = 0.2
 	#Mist Propagation Quality. Controls how often mist particles check for the ground beneath them.
 	#A value of 1 means every particle checks (highest quality, high performance cost).
 	#A value of 10 means every 10th particle checks (default performance).
@@ -120,7 +120,7 @@
 		enableConcussion = true
 		#Multiplier for the duration of concussion effects.
 		#Range: 0.0 ~ 5.0
-		concussionDurationMultiplier = 1.0
+		concussionDurationMultiplier = 0.73
 		#General chance multiplier for all concussion effects.
 		#Range: 0.0 ~ 5.0
 		concussionChanceMultiplier = 1.0
@@ -130,7 +130,7 @@
 		enableCameraSway = true
 		#Intensity (radius) multiplier for camera sway.
 		#Range: 0.0 ~ 5.0
-		cameraSwayIntensity = 1.0
+		cameraSwayIntensity = 0.2
 		#Enables or disables the high-pitched ringing (deafness) effect.
 		enableDeafness = true
 		#Enables or disables the low-pass (muffled sound) effect.

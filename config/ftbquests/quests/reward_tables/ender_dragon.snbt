@@ -1,0 +1,24 @@
+{
+	id: "6D4A9F2C1E8B7305"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			type: "xp"
+			xp: 8000
+		}
+		{ item: "irons_spellbooks:ender_upgrade_orb" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "minecraft:ender_pearl" }
+		{ count: 2, item: "minecraft:netherite_ingot" }
+	]
+	title: "Ender Dragon"
+}

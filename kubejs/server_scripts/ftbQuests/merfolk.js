@@ -25,6 +25,10 @@ FTBQuestsEvents.customTask(merfolkTask, (event) => {
         task.setProgress(1)
         player.persistentData.merge({isMagic:true})
         player.give(Item.of("traveloptics:aqua_echo"))
+        SpellRegistry.getSpellsForSchool("irons_spellbooks:aqua").forEach((m) => {
+        if (!m.requiresLearning()) return;
+        player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
+      });
 
     }
 

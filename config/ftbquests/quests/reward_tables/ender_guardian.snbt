@@ -1,0 +1,14 @@
+{
+	id: "2A6E8C1F4B9D0375"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			type: "xp"
+			xp: 9000
+		}
+		{ count: 5, item: "irons_spellbooks:legendary_ink" }
+		{ count: 3, item: "minecraft:nether_star" }
+	]
+	title: "Ender Guardian"
+}

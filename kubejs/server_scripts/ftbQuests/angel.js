@@ -1,13 +1,10 @@
 const angelTask = "18BE6843EA14D664";
 
 FTBQuestsEvents.customTask(angelTask, (event) => {
-
   event.setCheckTimer(20);
-  event.setMaxProgress(1)
-
+  event.setMaxProgress(1);
 
   event.setCheck((task, player) => {
-    let level = player.getLevel();
     let playerNbt = player.getNbt();
     let humanNbt = playerNbt
       .get("cardinal_components")
@@ -16,15 +13,18 @@ FTBQuestsEvents.customTask(angelTask, (event) => {
       .get(0)
       .get("Origin");
 
+    let isAngel = humanNbt == "gate:angel";
 
-     let isAngel = humanNbt == "gate:angel"
-     
+    if (isAngel) {
+      task.setProgress(1);
+      player.persistentData.merge({ isMagic: true });
+      player.give(Item.of("traveloptics:holy_echo"));
 
 
-    if(isAngel){
-        task.setProgress(1)
-        player.persistentData.merge({isMagic:true})
-        player.give(Item.of("traveloptics:holy_echo"))
+      SpellRegistry.getSpellsForSchool("irons_spellbooks:holy").forEach((m) => {
+        if (!m.requiresLearning()) return;
+        player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
+      });
     }
 
     // level.tell(playerNbt)

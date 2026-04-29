@@ -8,12 +8,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6CB996386DE98E97"]
 			description: [
-				"&6&oDespite the fallen wither, the miasma begins to thicken further. The sources are now varied across multiple dimensions. Investigate and vanquish them."
+				"&6&oThe Wither fell, but the miasma did not. Instead, it spread farther, seeping into ruins, depths, and distant realms. Whatever is feeding it now hides behind many faces, and every trail leads deeper.&r"
 				"&r&r"
 				""
-				"&4&o\"Theres more to come...\"&r&r"
+				"&4&o\"The source has changed its shape, but not its hunger.\"&r&r"
 			]
 			id: "5DBF17299A0DE31E"
 			rewards: [{
@@ -23,7 +22,7 @@
 			}]
 			tasks: [{
 				id: "4EA2F82403092B2D"
-				title: "Story Contineu"
+				title: "Story Continue"
 				type: "checkmark"
 			}]
 			title: "Story Continue"
@@ -32,6 +31,12 @@
 		}
 		{
 			dependencies: ["5DBF17299A0DE31E"]
+			description: [
+				"&6&oThe first signs came from the remnants of ancient power. Something in the deep was roused, and what should have stayed buried now moves again beneath the stone. When it falls, it should leave more than silence behind.&r&r"
+				""
+				"&4&o\"Old ruins do not stay buried forever, and neither do their treasures.\"&r&r"
+			]
+			icon: "cataclysm:desert_eye"
 			id: "7E2ECADBF5753E0B"
 			rewards: [
 				{
@@ -57,6 +62,12 @@
 		}
 		{
 			dependencies: ["7E2ECADBF5753E0B"]
+			description: [
+				"&6&oThe seas answered next. High above the water, an ancient acropolis stands over the coastline, and within its broken halls something vast and ancient has stirred with the same corruption that touched the land. Its defeat would leave the old ruins open to salvage.&r&r"
+				""
+				"&4&o\"Even what floats above the sea can still be claimed by the deep.\"&r&r"
+			]
+			icon: "cataclysm:storm_eye"
 			id: "5FB3D665CD41869F"
 			rewards: [
 				{
@@ -75,6 +86,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "5DD9A5828FC3E8D9"
+					table_id: 8104773293268607660L
+					type: "all_table"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:scylla"
@@ -87,12 +104,29 @@
 		}
 		{
 			dependencies: ["5FB3D665CD41869F"]
+			description: [
+				"&6&oThe signs are no longer just beasts, but messengers. A harbinger has appeared, as if the corruption itself has learned how to warn us before the next strike.&r&r"
+				""
+				"&4&o\"It is not just coming. It is announcing itself.\"&r&r"
+			]
+			icon: "cataclysm:mech_eye"
 			id: "0FE651D356CB46EF"
 			rewards: [
 				{
+					id: "30F22A1C3D4E6F7A"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
 					id: "56FCFD3E1EBCD388"
-					table_id: 3355587268833781544L
+					table_id: 2618528361181249177L
 					type: "all_table"
 				}
 				{
@@ -112,6 +146,12 @@
 		}
 		{
 			dependencies: ["0FE651D356CB46EF"]
+			description: [
+				"&6&oFrom the ruins came a curse that still clings to the living world. Its influence warps those who come too close, leaving behind only twisted purpose and broken memory.&r&r"
+				""
+				"&4&o\"The ruins are not empty. They are watching.\"&r&r"
+			]
+			icon: "cataclysm:cursed_eye"
 			id: "05D0DB6789B4538D"
 			rewards: [
 				{
@@ -130,6 +170,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "13334E56068E28B9"
+					table_id: 5732398097639057205L
+					type: "all_table"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:maledictus"
@@ -142,6 +188,24 @@
 		}
 		{
 			dependencies: ["05D0DB6789B4538D"]
+			description: [
+				"&6&oWhat was once crowned and buried has begun to rise in anger. The dead will not stay quiet forever, and something has pushed its king back onto the field.&r&r"
+				""
+				"&4&o\"The grave is losing its patience.\"&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:tarnished_helmet"
+				tag: {
+					Damage: 0
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
 			id: "7DAE690D826E7B66"
 			rewards: [
 				{
@@ -160,6 +224,12 @@
 					type: "xp"
 					xp: 5000
 				}
+				{
+					exclude_from_claim_all: true
+					id: "121125B7181B9206"
+					table_id: 3328329829411638546L
+					type: "all_table"
+				}
 			]
 			tasks: [{
 				entity: "traveloptics:enraged_dead_king"
@@ -172,6 +242,11 @@
 		}
 		{
 			dependencies: ["7DAE690D826E7B66"]
+			description: [
+				"&6&oThe trail has turned toward fire. In the heat below, a new force has begun to gather, and it will not remain hidden for long.&r&r"
+				""
+				"&4&o\"If the world is being remade, it starts here in the flames.\"&r&r"
+			]
 			id: "6E6E267A2E4701AC"
 			rewards: [{
 				id: "50B70C137A50938D"
@@ -180,7 +255,7 @@
 			}]
 			tasks: [{
 				id: "737CB8DBAC2F20B5"
-				title: "story continue"
+				title: "Story Continue"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -188,6 +263,12 @@
 		}
 		{
 			dependencies: ["6E6E267A2E4701AC"]
+			description: [
+				"&6&oThe path ahead leads through ash and oath. Whatever guards this place was forged for war, and it will not yield without being broken.&r&r"
+				""
+				"&4&o\"Steel, flame, and broken vows. That is all the underworld seems to keep now.\"&r&r"
+			]
+			icon: "irons_spellbooks:tyros_statue"
 			id: "5843DA256AA06E05"
 			rewards: [
 				{
@@ -224,6 +305,18 @@
 		}
 		{
 			dependencies: ["5843DA256AA06E05"]
+			description: [
+				"&6&oAt the edge of the blaze, something far older and harsher waits. It carries the weight of the Nether like a wound that never closed, and its fall will expose more than just another enemy.&r&r"
+				""
+				"&4&o\"The fire has a keeper. Break it, and the lie begins to crack.\"&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "block_factorys_bosses:knight_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "58617F3E045ACF32"
 			rewards: [
 				{
@@ -242,6 +335,12 @@
 					type: "xp"
 					xp: 10000
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4A19E7C1612864D7"
+					table_id: 9100417620240199251L
+					type: "all_table"
+				}
 			]
 			tasks: [{
 				entity: "block_factorys_bosses:underworld_knight"
@@ -254,6 +353,12 @@
 		}
 		{
 			dependencies: ["58617F3E045ACF32"]
+			description: [
+				"&6&oBlackened armor, molten fury, and a body built to crush all resistance. This monstrosity stands where the trail of corruption finally begins to point upward again.&r&r"
+				""
+				"&4&o\"Even the deepest furnace can hide a key.\"&r&r"
+			]
+			icon: "cataclysm:monstrous_eye"
 			id: "21CF7E618D1C486E"
 			rewards: [
 				{
@@ -272,6 +377,12 @@
 					type: "xp"
 					xp: 10000
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7BC3FAFDE3C3731F"
+					table_id: 7734522167429685007L
+					type: "all_table"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
@@ -284,6 +395,12 @@
 		}
 		{
 			dependencies: ["21CF7E618D1C486E"]
+			description: [
+				"&6&oThe final mark from this chain is not a beast, but a path. The last eye has been claimed, and the way forward now points toward a place where the world grows quiet and the sky stops answering.&r&r"
+				""
+				"&4&o\"When the trail goes silent, that is when the real hunt begins.\"&r&r"
+			]
+			icon: "cataclysm:flame_eye"
 			id: "1680504501FCFF80"
 			rewards: [
 				{
@@ -305,7 +422,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "08A3B3832D782FE3"
-					table_id: 3869070679369315650L
+					table_id: 3438991535242561254L
 					type: "all_table"
 				}
 			]
@@ -320,6 +437,11 @@
 		}
 		{
 			dependencies: ["1680504501FCFF80"]
+			description: [
+				"&o&6The miasma has not been destroyed, only driven back. Yet the trail is clearer now: a chain of corrupted relics, broken rulers, and old powers has pointed to a final gate beyond the worlds we know. Something watches from there, patient and silent, waiting for the next step.&r&r"
+				""
+				"&4&o\"This was only the middle of the road. The end is still ahead.\"&r&r"
+			]
 			id: "46EDEABF8BD324D7"
 			rewards: [{
 				id: "668DCA508EFC4DD3"

@@ -26,6 +26,10 @@ FTBQuestsEvents.customTask(dragonborneTask, (event) => {
         player.persistentData.merge({isMagic:true})
         player.give(Item.of("traveloptics:fire_echo"))
 
+        SpellRegistry.getSpellsForSchool("irons_spellbooks:fire").forEach((m) => {
+        if (!m.requiresLearning()) return;
+        player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
+      });
     }
 
     // level.tell(playerNbt)

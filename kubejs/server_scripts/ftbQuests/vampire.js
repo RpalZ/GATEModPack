@@ -25,6 +25,10 @@ FTBQuestsEvents.customTask(vampTask, (event) => {
         task.setProgress(1)
         player.persistentData.merge({isMagic:true})
         player.give(Item.of("traveloptics:blood_echo"))
+        SpellRegistry.getSpellsForSchool("irons_spellbooks:blood").forEach((m) => {
+        if (!m.requiresLearning()) return;
+        player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
+      });
 
     }
 

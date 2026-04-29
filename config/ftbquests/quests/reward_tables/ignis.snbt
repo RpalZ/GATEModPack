@@ -1,0 +1,17 @@
+{
+	id: "2FB9C094ABB546E6"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			type: "xp"
+			xp: 7000
+		}
+		{ count: 2, item: "minecraft:netherite_ingot" }
+		{ count: 16, item: "minecraft:blaze_rod" }
+		{ count: 16, item: "minecraft:magma_cream" }
+		{ count: 4, item: "minecraft:crying_obsidian" }
+		{ count: 3, item: "minecraft:nether_star" }
+	]
+	title: "Ignis"
+}

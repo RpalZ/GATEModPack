@@ -25,6 +25,11 @@ FTBQuestsEvents.customTask(elfTask, (event) => {
         task.setProgress(1)
         player.persistentData.merge({isMagic:true})
         player.give(Item.of("traveloptics:nature_echo"))
+
+        SpellRegistry.getSpellsForSchool("irons_spellbooks:nature").forEach((m) => {
+        if (!m.requiresLearning()) return;
+        player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
+      });
     }
 
     // level.tell(playerNbt)

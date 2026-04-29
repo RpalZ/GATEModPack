@@ -1,0 +1,17 @@
+{
+	id: "6B568AEE9907DF0F"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			type: "xp"
+			xp: 6000
+		}
+		{ count: 4, item: "minecraft:netherite_block" }
+		{ count: 6, item: "minecraft:diamond_block" }
+		{ count: 8, item: "minecraft:magma_block" }
+		{ item: "minecraft:ancient_debris" }
+		{ count: 2, item: "minecraft:nether_star" }
+	]
+	title: "Nether Monstrosity"
+}

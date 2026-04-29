@@ -1,0 +1,16 @@
+{
+	id: "7079F05E8A5922AC"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			type: "xp"
+			xp: 1500
+		}
+		{ count: 4, item: "minecraft:nautilus_shell" }
+		{ count: 16, item: "minecraft:prismarine_crystals" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ count: 3, item: "minecraft:nether_star" }
+	]
+	title: "Scylla"
+}

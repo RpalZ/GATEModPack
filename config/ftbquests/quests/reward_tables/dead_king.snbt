@@ -1,0 +1,17 @@
+{
+	id: "2E309A58796ACD12"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			type: "xp"
+			xp: 3500
+		}
+		{ count: 2, item: "minecraft:wither_skeleton_skull" }
+		{ count: 12, item: "minecraft:bone_block" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ item: "minecraft:netherite_scrap" }
+		{ count: 3, item: "minecraft:nether_star" }
+	]
+	title: "Dead King"
+}
