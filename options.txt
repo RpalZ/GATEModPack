@@ -22,7 +22,7 @@ toggleSprint:true
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.375586854460094
-fov:0.55
+fov:0.575
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["tacz_resources","mod_resources","vanilla","file/GATE_Optimization_Pack.zip","Moonlight Mods Dynamic Assets","fabric"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","file/GATE_Optimization_Pack.zip","Moonlight Mods Dynamic Assets","fabric","continuity:default","continuity:glass_pane_culling_fix"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -124,7 +124,12 @@ key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.keyboard.g
 key_key.dragon_down:key.keyboard.x
 key_key.dragon_change_view:key.keyboard.f7
+key_key.gunsmithlib.ballistic_computer.desc:key.mouse.middle
+key_key.gunsmithlib.switch_part_or_ammo_type.desc:key.keyboard.x
 key_key.modernfix.config:key.keyboard.unknown
+key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
+key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
+key_key.structure_gel.open_building_tool_gui:key.keyboard.r
 key_key.corpse.death_history:key.keyboard.u
 key_key.block_factorys_bosses.dodge_roll:key.keyboard.z
 key_iris.keybind.reload:key.keyboard.apostrophe
@@ -193,13 +198,11 @@ key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.caps.lock
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
-key_key.warborn.open_backpack:key.keyboard.backslash
-key_key.warborn.toggle_night_vision:key.keyboard.n
 key_key.cataclysm.ability:key.keyboard.x
 key_key.cataclysm.helmet_ability:key.keyboard.c
 key_key.cataclysm.chestplate_ability:key.keyboard.y
@@ -214,6 +217,9 @@ key_key.ashvehicle.toggle_pod:key.keyboard.left.control
 key_key.easy_villagers.pick_up:key.keyboard.v
 key_key.easy_villagers.cycle_trades:key.keyboard.c
 key_key.spartanshields.alt_shield_bash:key.keyboard.unknown
+key_key.warborn.open_backpack:key.keyboard.backslash
+key_key.warborn.toggle_special_vision:key.keyboard.n
+key_key.warborn.toggle_helmet_top:key.keyboard.h
 key_key.modularrouters.configure:key.keyboard.c
 key_key.modularrouters.moduleInfo:key.keyboard.i
 key_justzoom.keybinds.keybind.zoom:key.keyboard.z
@@ -255,6 +261,9 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
+key_key.mekanismcurios.protableqio:key.keyboard.y
+key_key.mekanismcurios.portableteleporter:key.keyboard.u
+key_key.mekanismcurios.quickteleport:key.keyboard.i
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_minimap_server_profiles:key.keyboard.unknown
 key_gui.xaero_zoom_in:key.keyboard.unknown
@@ -341,9 +350,9 @@ key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.crawlondemand.toggle_crawl:key.keyboard.c
 key_key.crawlondemand.crawl:key.keyboard.apostrophe:ALT
+key_key.inventorysorter.itemin:key.mouse.100
 key_key.inventorysorter.sort:key.mouse.middle
 key_key.inventorysorter.itemout:key.mouse.102
-key_key.inventorysorter.itemin:key.mouse.100
 key_key.tacz.inspect.desc:key.keyboard.h
 key_key.tacz.reload.desc:key.keyboard.r
 key_key.tacz.shoot.desc:key.mouse.left
@@ -355,6 +364,8 @@ key_key.tacz.refit.desc:key.keyboard.h
 key_key.tacz.zoom.desc:key.keyboard.v
 key_key.tacz.melee.desc:key.keyboard.apostrophe
 key_key.tacz.open_config.desc:key.keyboard.t:ALT
+key_key.warbornrenewed.nvg_toggle:key.keyboard.n
+key_key.warbornrenewed.reb_backpack_toggle:key.keyboard.backslash
 key_key.lrtactical.normal_attack.desc:key.mouse.left
 key_key.lrtactical.sp_attack.desc:key.mouse.right
 key_tacztweaks.key.reduceSensitivity:key.keyboard.unknown
@@ -370,6 +381,8 @@ key_key.special_ability:key.keyboard.g
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2
+key_key.jade.show_recipes:key.keyboard.keypad.3
+key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details:key.keyboard.left.shift
 key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown

@@ -1,3 +1,3 @@
-EntityEvents.spawned("armor_stand", event => {
-    event.cancel()
-})
+// EntityEvents.spawned("armor_stand", event => {
+//     event.cancel()
+// })

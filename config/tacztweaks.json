@@ -13,7 +13,7 @@
     "disableUnderwater": false,
     "manualBolting": false,
     "allowUnload": true,
-    "unloadBulletInBarrel": false,
+    "unloadBulletInBarrel": true,
     "reduceSensitivityKeyMultiplier": 0.5,
     "disableReduceSensitivityKeyWhileAiming": false,
     "tiltGunKeyCancelsSprint": true,
@@ -46,7 +46,7 @@
     "armorIgnore": {
       "addend": 0.0,
       "multiplier": 1.5,
-      "function": "if (x \u003e 0.8) then y \u003d 0.8 else y \u003d x end "
+      "function": ""
     },
     "speed": {
       "addend": 0.0,

@@ -1,5 +1,4 @@
 ServerEvents.tags("item", (event) => {
-  Item.of("veggiesdelight:chicken_fajitas_wrap");
 
   const meatList = [
     "chicken",

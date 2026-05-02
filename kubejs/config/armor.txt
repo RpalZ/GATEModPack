@@ -1,0 +1,72 @@
+<item:warbornrenewed:gpngv-nato-wood>
+- <tag:items:gate:tech>
+- <tag:items:superbwarfare:military_armor>
+<item:warbornrenewed:gpngv-nato-desert>
+- <tag:items:gate:tech>
+- <tag:items:superbwarfare:military_armor>
+<item:warbornrenewed:ratnik-10t-wood>
+- <tag:items:gate:tech>
+- <tag:items:superbwarfare:military_armor>
+<item:warbornrenewed:gpngv-nato-wood>.withTag({nvg_down: 0})
+- <tag:items:gate:tech>
+- <tag:items:superbwarfare:military_armor>
+<item:warbornrenewed:opscore-fc-b2200-voevoda>
+- <tag:items:gate:tech>
+- <tag:items:superbwarfare:military_armor>
+<item:warbornrenewed:6b47-fc-b2200-sso>
+- <tag:items:gate:tech>
+- <tag:items:superbwarfare:military_armor>
+<item:warbornrenewed:ratnik-10t-desert>.withTag({nvg_down: 0})
+- <tag:items:gate:tech>
+- <tag:items:superbwarfare:military_armor></tag:items>
+
+warbornrenewed:ghillie-helmet-desert
+warbornrenewed:ghillie-body-desert
+warbornrenewed:ghillie-legs-desert
+warbornrenewed:ghillie-helmet-jungle
+warbornrenewed:ghillie-body-jungle
+warbornrenewed:ghillie-legs-jungle
+fracturepoint:beta7_shoulderpads
+fracturepoint:insurgency_commander_leggings
+fracturepoint:fsb_leggings
+warbornrenewed:panama-atacsfg
+warbornrenewed:panama-desert
+warbornrenewed:panama-emr
+warbornrenewed:panama-green
+warbornrenewed:panama-multicam
+warbornrenewed:panama-ucp
+warbornrenewed:panama-white
+fracturepoint:ru_shoulderpads
+warbornrenewed:jpc-desert
+warbornrenewed:warmor-desert
+warbornrenewed:warmor-green
+warbornrenewed:warmor-mm14
+warbornrenewed:warmor-multicam
+warbornrenewed:warmor-ucp
+warbornrenewed:warmor-white
+warbornrenewed:jpc
+warbornrenewed:uwin
+warbornrenewed:ghillie-body-winter
+warbornrenewed:6b47-winteremr
+warbornrenewed:uwin-desert
+warbornrenewed:nato-wood-helmet
+warbornrenewed:nato-wood-chestplate
+warbornrenewed:nato-sand-helmet
+warbornrenewed:nato-sand-chestplate
+fracturepoint:beta7_leggings_slate
+warbornrenewed:ghillie-legs-winter
+warbornrenewed:ghillie-helmet-winter
+
+
+<item:fracturepoint:beta7_nvg_helmet_slate>
+<item:fracturepoint:beta7_helmet_slate>
+<item:fracturepoint:beta7_nvg_helmet>
+<item:fracturepoint:beta7_helmet>
+<item:fracturepoint:beta7_leggings>
+<item:fracturepoint:insurgency_shturmovik_helmet>
+<item:fracturepoint:insurgency_commander_shoulderpads>
+<item:fracturepoint:insurgency_commander_helmet>
+<item:fracturepoint:insurgency_commander_chestplate>.withTag({PlateData: {}})
+<item:fracturepoint:killa_helmet>
+<item:fracturepoint:killa_chestplate>.withTag({PlateData: {}})
+<item:fracturepoint:beta7_chestplate_slate>.withTag({PlateData: {}})

@@ -6,7 +6,7 @@
 	health = 6000.0
 	#Attack Damage of the Dark Doppelganger
 	#Range: 1.0 ~ 100.0
-	attack_damage = 20.0
+	attack_damage = 100.0
 	#Movement Speed of the Dark Doppelganger
 	#Range: 0.1 ~ 1.0
 	movement_speed = 0.2
@@ -24,7 +24,7 @@
 	#Maximum damage the Dark Doppelganger can take from a single hit.
 	#Set to 0 to disable the cap.
 	#Range: 0.0 ~ 100000.0
-	damage_cap_per_hit = 150.0
+	damage_cap_per_hit = 1000
 	#Multiplier applied to all of the Dark Doppelganger's spell power attributes
 	#after copying them from the summoner.
 	#1.0 = same as player, 1.5 = +50%, 2.0 = double, etc.

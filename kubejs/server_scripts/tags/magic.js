@@ -11,6 +11,8 @@ ServerEvents.tags("item", event => {
     event.add(techTag, "@superbwarfare")
     event.add(techTag, "@superbwarfare")
     event.add(techTag, "@mekanism")
-    event.add(techTag, '@brimm')
-    event.add(techTag, '@warborn')
+    event.add(techTag, '@fracturepoint')
+    event.add(techTag, '@warbornrenewed')
+    event.add(techTag, '@dragonrise_reforge')
+
 })

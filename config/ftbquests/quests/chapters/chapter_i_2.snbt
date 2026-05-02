@@ -9,11 +9,11 @@
 	quests: [
 		{
 			description: [
-				"&o&o&7For generations, the world was trapped in the Great War, a cycle of rage that left the overworld full of broken kingdoms and buried grudges. Then, at the height of that conflict, an unnatural miasma began to spread across the land.&r"
+				"&o&7For generations, the world was torn by the Great War. But then, from the Void, a mindless horror emerged. An anomaly dubbed 'the Warden' brought forth a Miasma that threatens to consume us all.&r"
 				""
-				"&o&7Entire cities vanished in an instant, swallowed by a cold emptiness that left nothing behind. Forced to face a threat they could not understand, the warring races laid down their pride and signed the Pact of the Gate, uniting their magic and technology into one desperate defense. The Great War ended, but a darker battle began against the shadow that now threatens to erase existence itself.&r&r&r"
+				"&o&7Forced to unite against this threat, the ruling factions signed the Pact of the Gate. The United Council tasks you, an Envoy of this fragile truce, to master the foundational mechanics and magics scattered across the Overworld. Push back the Miasma, Pathfinder, and search for clues in its wake. Strange metallic remnants have been found at the edges of the corruption... find out what they mean.&r&r"
 				""
-				"&4&o\"If the war ended, why does the world still feel like it is dying?\"&r&r"
+				"&4&o\"The Void spawn is mindless, but the Miasma is relentless. The Pact is our only shield.\"&r&r"
 			]
 			id: "46B96E1D0D8B7BCA"
 			tasks: [{
@@ -66,9 +66,9 @@
 		{
 			dependencies: ["79F4974E23BC93AA"]
 			description: [
-				"&o&6The pillagers fell, and among their spoils was a corrupted eye tied to the same force that devoured the old cities. Even a small relic like this may reveal where the miasma began.&r&r"
+				"&o&6The pillagers fell, and among their spoils was a corrupted eye. But more importantly, you found fragments of an anomalous journal. The mechanical schematics inside look as if someone was desperately trying to force magic into an engineering blueprint. The handwriting isn't eldritch; it's precise. It looks like a scholar's ledger, but the ink is made of Void. The Council dismisses it as regressive heresy, but these relics may reveal where the miasma truly began.&r&r"
 				""
-				"&4&o\"Every fragment matters when the enemy leaves nothing behind.\"&r&r"
+				"&4&o\"Every fragment matters. Even the ones the Council refuses to understand.\"&r&r"
 			]
 			id: "6983BBC406DF52C0"
 			rewards: [{
@@ -125,7 +125,7 @@
 		{
 			dependencies: ["083CFC179D001044"]
 			description: [
-				"&6&oAmong the ruins, old scribes left a warning: \"Those who conquer the three elements of the mighty scales may yet prove worthy to face the Warden.\" The meaning is clear enough. Three dragons guard the path ahead.&r&r"
+				"&6&oAmong the ruins, old scribes left a warning: \"Those who conquer the three elements of the mighty scales may yet prove worthy to face the Warden.\" The Council claims these beasts are the world's immune system, the 'Natural Logic' of the realm. If so, why does it feel like they are attacking the Miasma and us with equal fury?&r&r"
 				""
 				"&4&o\"Slay the elemental dragons and turn their scales into armor worthy of the hunt.\"&r&r"
 			]
@@ -449,37 +449,6 @@
 		}
 		{
 			dependencies: ["35788DB7EB17912E"]
-			description: [
-				"&6&oTo perform the soul ritual written in the Undergarden ruins, you must first venture into the fiery depths of the Nether. Only there, within the charred halls of old fortresses, can you claim the cursed skulls of the Withered ones.&r&r"
-				""
-				"&4&o\"The flames are harsh, but they forge the key to the next battle.\"&r&r"
-			]
-			id: "273A8B9F5D2C1E40"
-			rewards: [{
-				id: "71A4E9C1F8D2B193"
-				type: "xp"
-				xp: 1500
-			}]
-			tasks: [
-				{
-					dimension: "minecraft:the_nether"
-					id: "37A4B5D2B6A4FAEC"
-					title: "Enter the Nether"
-					type: "dimension"
-				}
-				{
-					count: 3L
-					id: "6F2F55E94BA16D7A"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-			]
-			title: "The Fiery Depths"
-			x: 19.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["273A8B9F5D2C1E40"]
 			description: [
 				"&6&oThe fallen golems left behind a mark of coal and death, and deeper within the ruins another scribe was found. Their warning speaks of a soul ritual and the three cursed skulls, a ritual that can only mean the Wither stands in the path ahead.&r&r"
 				""

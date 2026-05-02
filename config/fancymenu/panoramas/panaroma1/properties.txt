@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = sunset_tank_snow
+  speed = 3.0
+  fov = 91.0
+  angle = 10.0
+  start_rotation = 0
+}

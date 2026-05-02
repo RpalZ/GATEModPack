@@ -7,17 +7,367 @@
 	id: "78F3BC8A12C08206"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as a vampire"]
-		id: "5D1963C8299480E9"
-		tasks: [{
-			icon: "undergarden:blood_globule"
-			id: "051700C9843FD136"
-			title: "Born From Blood"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: ["You are born as a vampire"]
+			id: "5D1963C8299480E9"
+			tasks: [{
+				icon: "undergarden:blood_globule"
+				id: "051700C9843FD136"
+				title: "Born From Blood"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D1963C8299480E9"]
+			description: ["Vampires can heal themselves based on damage and blood spell power. ANY damage type whether it is melee, range or even magic will work."]
+			id: "204917A9050461E2"
+			tasks: [{
+				id: "42DAA98A43609E38"
+				title: "Lifesteal"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["204917A9050461E2"]
+			description: ["As a vampire, it is VERY important to not touch sunlight otherwise well... You will burn. Despite that you can still enjoy the day. Just use an Umbrella."]
+			id: "08124073C05A5A54"
+			tasks: [
+				{
+					id: "6416EE7C2CE2C735"
+					title: "Vitamin D Allergy"
+					type: "checkmark"
+				}
+				{
+					id: "4F49A5717FE7B735"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:umbrella)"
+						}
+					}
+					title: "Any #curios:umbrella"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["525CCD65EAC44ED0"]
+			description: ["Blood Power is VERY important. Here are some guides to get more of them."]
+			id: "5974036B50C95E88"
+			tasks: [{
+				id: "07D8BEFC1A73EBDA"
+				title: "BloodMaxx"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08124073C05A5A54"]
+			description: ["If you havent already notice, you are given a blood echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing."]
+			id: "525CCD65EAC44ED0"
+			tasks: [{
+				id: "4A0E35306293C3B2"
+				item: {
+					Count: 1
+					id: "traveloptics:blood_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D1170E50AF6E692"]
+			description: ["This is the best spellbook for vampires"]
+			id: "2908DBC4E7E4ADD3"
+			tasks: [{
+				id: "08138DD5B00AF124"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cursed_doll_spell_book"
+					tag: {
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"irons_spellbooks:blood_slash": 1
+								"irons_spellbooks:blood_step": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7A5569312EA3F829"]
+			description: ["You really have to go to the ancient cities to get this book."]
+			id: "3D1170E50AF6E692"
+			rewards: [{
+				id: "6E1DBEF2FF519B22"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "476F3D9F348E8410"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5974036B50C95E88"]
+			description: [
+				"This is essentially the source of your being so make sure to get a handful of these."
+				""
+				"PROTIP: You dont need to use an animal. You can use yourself instead..."
+			]
+			id: "7A5569312EA3F829"
+			rewards: [{
+				id: "753611449A475FF9"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "4CCC0123CE3FF4C2"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A5569312EA3F829"]
+			description: ["You can use the vials to craft these runes. These are generally used for everything blood related."]
+			id: "41FA82F331B9BB9F"
+			rewards: [{
+				id: "7899214C472012E1"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5323F4308C03F51E"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.2000000000000002d
+		}
+		{
+			dependencies: ["41FA82F331B9BB9F"]
+			description: ["Time for your first Blood Helmet!"]
+			id: "6DDA5F9220C826E3"
+			tasks: [{
+				id: "1992B9733DF86088"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41FA82F331B9BB9F"]
+			description: ["Time for your first Blood Chestplate!"]
+			id: "6DBAF17639728E64"
+			tasks: [{
+				id: "377AE08D5FCF8A72"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_chestplate"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.4d
+		}
+		{
+			dependencies: ["41FA82F331B9BB9F"]
+			description: ["Time for your first Blood Leggings!"]
+			id: "5719FD0F0F3AA272"
+			tasks: [{
+				id: "6C8D250AA34B8AEE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.9d
+		}
+		{
+			dependencies: ["41FA82F331B9BB9F"]
+			description: ["Time for your first Blood Boots!"]
+			id: "39DCC725A03B18DF"
+			tasks: [{
+				id: "11CCEF3DDBFD8D8C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cultist_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6DDA5F9220C826E3"]
+			description: ["A Very Grindy Helmet"]
+			id: "1868912FB34D79A8"
+			tasks: [{
+				id: "15A28BFDEE36D8BB"
+				item: "traveloptics:forlorn_harbinger_hood"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6DBAF17639728E64"]
+			description: ["Grindy but worth it!"]
+			id: "0E55CE7A909818AA"
+			tasks: [{
+				id: "0D26AE5EA6B51DB2"
+				item: {
+					Count: 1
+					id: "traveloptics:forlorn_harbinger_robe"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.4d
+		}
+		{
+			dependencies: ["5719FD0F0F3AA272"]
+			description: ["It takes a lot of grinding."]
+			id: "73304277622433E7"
+			tasks: [{
+				id: "22FD411AE8EFA8F4"
+				item: "traveloptics:forlorn_harbinger_leggings"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.9d
+		}
+		{
+			dependencies: ["39DCC725A03B18DF"]
+			description: ["You made it!"]
+			id: "36B9CE16B1831567"
+			tasks: [{
+				id: "5DA7F21815CCCBC4"
+				item: "traveloptics:forlorn_harbinger_boots"
+				type: "item"
+			}]
+			x: 19.46666666666667d
+			y: 3.569047619047616d
+		}
+		{
+			dependencies: ["7A5569312EA3F829"]
+			description: ["Use these orbs to upgrade your sets!"]
+			id: "6211AF8D50907902"
+			tasks: [{
+				id: "05E3778BF9813904"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blood_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:blood_power"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "642451CF3CBA033F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F3ACC5B9EFB46E3"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "5B670684ADCF3B87"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 9.0d
+			y: 4.0d
+		}
+	]
 	title: "Vampires"
 }

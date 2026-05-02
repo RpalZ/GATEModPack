@@ -169,7 +169,7 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 3.0
+	EnderGuardianHealthMultiplier = 10.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageMultiplier = 1.5
@@ -230,7 +230,7 @@
 	LavaBombRandomDuration = 150
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 3.0
+	MonstrosityHealthMultiplier = 15
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageMultiplier = 2.0
@@ -273,7 +273,7 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 3.0
+	IgnisHealthMultiplier = 10.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 3.0
@@ -317,7 +317,7 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 3.0
+	HarbingerHealthMultiplier = 4.0
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 2.0
@@ -538,7 +538,7 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 3.0
+	MaledictusHealthMultiplier = 5.0
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MaledictusDamageMultiplier = 2.0

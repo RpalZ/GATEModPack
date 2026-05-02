@@ -165,17 +165,6 @@
         "value": 1024
       }
     },
-    "taa:bullet_gundamage_rifle": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "gunsmithlib:horz_recoil": {
       "enabled": false,
       "min": {
@@ -185,6 +174,17 @@
       "max": {
         "default": Infinity,
         "value": Infinity
+      }
+    },
+    "taa:bullet_gundamage_rifle": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "forge:entity_reach": {
@@ -517,6 +517,17 @@
         "value": 10000
       }
     },
+    "warbornrenewed:blast_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "minecraft:generic.attack_speed": {
       "enabled": true,
       "min": {
@@ -616,6 +627,17 @@
         "value": 10
       }
     },
+    "gunsmithlib:ammo_capacity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "caelus:fall_flying": {
       "enabled": false,
       "min": {
@@ -636,17 +658,6 @@
       "max": {
         "default": 10000,
         "value": 10000
-      }
-    },
-    "gunsmithlib:ammo_capacity": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2147483647,
-        "value": 2147483647
       }
     },
     "irons_spellbooks:spell_resist": {
@@ -856,6 +867,17 @@
       "max": {
         "default": 9,
         "value": 9
+      }
+    },
+    "warbornrenewed:bullet_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "taa:move_speed": {
@@ -1232,7 +1254,29 @@
         "value": 1000000
       }
     },
+    "warbornrenewed:protection_class": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 6,
+        "value": 6
+      }
+    },
     "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "gunsmithlib:aim_lock_range": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1270,17 +1314,6 @@
       "min": {
         "default": -1024,
         "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "gunsmithlib:aim_lock_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
       },
       "max": {
         "default": 1024,
@@ -1353,6 +1386,17 @@
         "value": 100
       }
     },
+    "gunsmithlib:aim_lock_angle": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 360,
+        "value": 360
+      }
+    },
     "traveloptics:aqua_magic_resist": {
       "enabled": false,
       "min": {
@@ -1373,17 +1417,6 @@
       "max": {
         "default": 3,
         "value": 3
-      }
-    },
-    "gunsmithlib:aim_lock_angle": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 360,
-        "value": 360
       }
     },
     "additionalentityattributes:generic.lava_speed": {
@@ -1496,17 +1529,6 @@
         "value": 1000000
       }
     },
-    "irons_spellbooks:blood_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "gunsmithlib:reload_speed": {
       "enabled": false,
       "min": {
@@ -1516,6 +1538,17 @@
       "max": {
         "default": Infinity,
         "value": Infinity
+      }
+    },
+    "irons_spellbooks:blood_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "gunsmithlib:rpm": {
@@ -1573,6 +1606,17 @@
         "value": 1024
       }
     },
+    "warbornrenewed:armor_movement_speed": {
+      "enabled": false,
+      "min": {
+        "default": -0.5,
+        "value": -0.5
+      },
+      "max": {
+        "default": 0.2,
+        "value": 0.2
+      }
+    },
     "taa:bullet_gundamage_smg": {
       "enabled": false,
       "min": {
@@ -1628,6 +1672,17 @@
         "value": 10
       }
     },
+    "gunsmithlib:headshot_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
+      }
+    },
     "taa:bullet_gundamage": {
       "enabled": false,
       "min": {
@@ -1648,17 +1703,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "gunsmithlib:headshot_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
       }
     },
     "attributeslib:life_steal": {

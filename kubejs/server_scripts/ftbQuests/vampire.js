@@ -1,10 +1,8 @@
 const vampTask = "051700C9843FD136";
 
 FTBQuestsEvents.customTask(vampTask, (event) => {
-
   event.setCheckTimer(20);
-  event.setMaxProgress(1)
-
+  event.setMaxProgress(1);
 
   event.setCheck((task, player) => {
     let level = player.getLevel();
@@ -16,20 +14,19 @@ FTBQuestsEvents.customTask(vampTask, (event) => {
       .get(0)
       .get("Origin");
 
+    let isVampire = humanNbt == "gate:vampire";
 
-     let isVampire = humanNbt == "gate:vampire"
-     
-
-
-    if(isVampire){
-        task.setProgress(1)
-        player.persistentData.merge({isMagic:true})
-        player.give(Item.of("traveloptics:blood_echo"))
-        SpellRegistry.getSpellsForSchool("irons_spellbooks:blood").forEach((m) => {
-        if (!m.requiresLearning()) return;
-        player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
-      });
-
+    if (isVampire) {
+      task.setProgress(1);
+      player.persistentData.merge({ isMagic: true });
+      player.setOffHandItem(Item.of("vampiresneedumbrellas:iron_umbrella", 1));
+      player.give(Item.of("traveloptics:blood_echo"));
+      SpellRegistry.getSpellsForSchool("irons_spellbooks:blood").forEach(
+        (m) => {
+          if (!m.requiresLearning()) return;
+          player.irons_spellbooks$getMagicData().getSyncedData().learnSpell(m);
+        },
+      );
     }
 
     // level.tell(playerNbt)

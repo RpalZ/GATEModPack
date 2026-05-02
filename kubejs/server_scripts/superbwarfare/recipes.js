@@ -20,7 +20,6 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "tacz:gun/rpg7" });
   event.remove({ id: "tacz:misc/blood_strike_1" });
   event.remove({ id: "tacz:gun/m320" });
-  event.remove({ id: "tacz:attachments/ammo_mod_he" });
   event.remove({ id: "ronmc:gun/m32a1"})
 
   event.forEachRecipe(

@@ -12,7 +12,7 @@
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "450485984333660181",
-    "defaultIcon": "grass",
+    "defaultIcon": "logo2",
     "enableJoinRequests": false,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
@@ -122,10 +122,10 @@
       "detailsUrl": "",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "gameStateUrl": "",
-      "appName": "",
+      "appName": "GATE: Guns & Magic",
       "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
-      "largeImageUrl": "",
+      "largeImageUrl": "https://i.imgur.com/oXGneza.jpeg",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "smallImageUrl": "",
@@ -133,7 +133,10 @@
       "endTimestamp": "",
       "buttons": {}
     },
-    "dynamicIcons": {},
+    "dynamicIcons": {
+      "logo": "https://i.imgur.com/rOS4K3P.png",
+      "logo2": "https://i.imgur.com/oXGneza.jpeg"
+    },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",

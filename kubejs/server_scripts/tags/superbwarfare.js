@@ -42,9 +42,26 @@ ServerEvents.tags("entity_type", event => {
 
 
 ServerEvents.tags("item", event => {
-    event.add("superbwarfare:military_armor", "@warborn")
-    // event.add("superbwarfare:military_armor", "@brimm")
+    event.add("superbwarfare:military_armor", "@fracturepoint")
+    event.add("superbwarfare:military_armor", '@warbornrenewed')
+    event.add("superbwarfare:military_armor", '@dragonrise_reforge')
+
+    //nightvision 
+    event.add("fracturepoint:has_nvg", [
+        "warbornrenewed:gpngv-nato-wood",
+        "warbornrenewed:gpngv-nato-desert",
+        "warbornrenewed:ratnik-10t-wood",
+        "warbornrenewed:opscore-fc-b2200-voevoda",
+        "warbornrenewed:6b47-fc-b2200-sso",
+        "warbornrenewed:ratnik-10t-desert"
+    ])
+
+
+
+
+
 })
+
 
 
 
