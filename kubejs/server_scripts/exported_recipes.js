@@ -12,4 +12,11 @@ ServerEvents.recipes(event => {
                     A: 'minecraft:charcoal'
             }
     )
+
+    event.shapeless(
+            Item.of('minecraft:string', 4),
+            [
+                    Ingredient.of("#minecraft:wool", 1)
+            ]
+    )
 });

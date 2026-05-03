@@ -19,7 +19,7 @@ FTBQuestsEvents.customTask(angelTask, (event) => {
       task.setProgress(1);
       player.persistentData.merge({ isMagic: true });
       player.give(Item.of("traveloptics:holy_echo"));
-
+      
 
       SpellRegistry.getSpellsForSchool("irons_spellbooks:holy").forEach((m) => {
         if (!m.requiresLearning()) return;

@@ -13,3 +13,9 @@ PlayerEvents.respawned(event => {
     player.setAttributeBaseValue("irons_spellbooks:max_mana", 0)
 
 })
+
+EntityEvents.spawned("player", event => {
+    const player = event.getPlayer() || event.getEntity()
+    player.setAttributeBaseValue("irons_spellbooks:spell_power", 5)
+
+})

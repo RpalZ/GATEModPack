@@ -6,7 +6,7 @@ enable_special_hurt = true
 #If true, intercept suspicious attempts to remove bullet entities.
 enable_remove_interception = true
 #If true, gun damage will be affect by `minecraft:generic.attack_damage` attribute, then use the result as base value for `gunsmithlib:bullet_damage` attribute
-use_attack_damage = true
+use_attack_damage = false
 #If true, guns' armor piercing mechanic will have only one hit with target armor reduced, instead of dealing two hits.
 #This can fix the bug that Apotheosis's magic armor can reduce armor-piercing damage,
 #and make Cataclysm's dynamic damage reduction work properly for guns.

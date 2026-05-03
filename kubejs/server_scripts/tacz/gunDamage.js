@@ -17,6 +17,7 @@ TimelessGunEvents.entityHurtByGunPost((event) => {
     .toList();
   // let level = targetEntity.getLevel();
 
+  
   // let message = `[GATE]: Target Entity Detected by Bullet Damage ${bullet.getType().toString()} with Bullet Tags: ${tags} with Entity: ${targetEntity.getType().toString()}`;
 
   // console.log(message);
@@ -54,3 +55,55 @@ TimelessGunEvents.entityHurtByGunPost((event) => {
   //   targetEntity.kill(); // Ensure it actually dies and drops stars
   // }
 });
+
+// EntityEvents.hurt(event => {
+//   const server = event.getServer()
+//   const targetEntity = event.getEntity()
+//   const sourceEntity = event.getSource().getImmediate()
+
+  
+//   if(!sourceEntity) return
+
+//   const sourceEntityNBT = sourceEntity.getNbt()
+//   const sourceEntityType = sourceEntity.getType()
+//   const sourceEntityEntityType = sourceEntity.getTags().map(m => m)
+//   const s = sourceEntity.getEntityData().assignValues()
+//   server.tell("Entity Hurt")
+  
+//   console.log(sourceEntityNBT.toString())
+//   server.tell(sourceEntityType)
+//   server.tell(sourceEntityEntityType)
+//   server.tell(s)
+
+  
+// })
+
+TimelessGunEvents.entityHurtByGunPre(event => {
+
+  const target = event.getHurtEntity()
+
+  const targetType = target.getType()
+  const isDragon = targetType.includes("dragon")
+
+
+
+  if(!isDragon) return
+
+  const pistols = ["9mm", "45acp", "57x28", "50ae", "357mag"]
+
+  
+  const bulletID = event.getBullet().getAmmoId().toString()
+  const isPistol = pistols.some(pistol => bulletID.includes(pistol))
+
+
+  if(!isPistol) return
+
+  const damage = event.getBaseAmount()
+
+  event.setBaseAmount(damage * 0.4)
+  
+})
+
+
+
+// TimelessItem.ammoItem("tacz:ammo", )
