@@ -1,0 +1,133 @@
+
+[Overlays]
+	#If enabled, hides the Vignette overlay
+	hideVignette = false
+	#If enabled, hides the Spyglass overlay
+	hideSpyglass = false
+	#If enabled, hides the Helmet overlay
+	hideHelmet = false
+	#If enabled, hides the Frostbite overlay
+	hideFrostbite = true
+	#If enabled, hides the Portal overlay
+	hidePortal = true
+	#If enabled, hides the Hotbar overlay
+	hideHotbar = true
+	#If enabled, hides the Crosshair overlay
+	hideCrosshair = true
+	#If enabled, hides the Boss Event Progress overlay
+	hideBossEventProgress = true
+	#If enabled, hides the Player Health overlay
+	hidePlayerHealth = true
+	#If enabled, hides the Armor Level overlay
+	hideArmorLevel = true
+	#If enabled, hides the Food Level overlay
+	hideFoodLevel = true
+	#If enabled, hides the Air Level overlay
+	hideAirLevel = true
+	#If enabled, hides the Mount Health overlay
+	hideMountHealth = true
+	#If enabled, hides the Jump Bar overlay
+	hideJumpBar = true
+	#If enabled, hides the Experience Bar overlay
+	hideExperienceBar = true
+	#If enabled, hides the Item Name overlay
+	hideItemName = true
+	#If enabled, hides the Sleep Fade overlay
+	hideSleepFade = true
+	#If enabled, hides the Potion Icons overlay
+	hidePotionIcons = true
+	#If enabled, hides the Debug Text overlay
+	hideDebugText = true
+	#If enabled, hides the FPS Graph overlay
+	hideFPSGraph = true
+	#If enabled, hides the Record Overlay
+	hideRecordOverlay = true
+	#If enabled, hides the Title Text overlay
+	hideTitleText = true
+	#If enabled, hides the Subtitles overlay
+	hideSubtitles = true
+	#If enabled, hides the Scoreboard overlay
+	hideScoreboard = true
+	#If enabled, hides the Chat Panel overlay
+	hideChatPanel = true
+	#If enabled, hides the Player List overlay
+	hidePlayerList = true
+	#If enabled, hides the player's hand
+	hideHand = false
+	#If enabled, forces the Vignette overlay
+	forceVignette = false
+	#If enabled, forces the Spyglass overlay
+	forceSpyglass = false
+	#If enabled, forces the Helmet overlay
+	forceHelmet = false
+	#If enabled, forces the Frostbite overlay
+	forceFrostbite = false
+	#If enabled, forces the Portal overlay
+	forcePortal = false
+	#If enabled, forces the Hotbar overlay
+	forceHotbar = false
+	#If enabled, forces the Crosshair overlay
+	forceCrosshair = false
+	#If enabled, forces the Boss Event Progress overlay
+	forceBossEventProgress = false
+	#If enabled, forces the Player Health overlay
+	forcePlayerHealth = false
+	#If enabled, forces the Armor Level overlay
+	forceArmorLevel = false
+	#If enabled, forces the Food Level overlay
+	forceFoodLevel = false
+	#If enabled, forces the Air Level overlay
+	forceAirLevel = false
+	#If enabled, forces the Mount Health overlay
+	forceMountHealth = false
+	#If enabled, forces the Jump Bar overlay
+	forceJumpBar = false
+	#If enabled, forces the Experience Bar overlay
+	forceExperienceBar = false
+	#If enabled, forces the Item Name overlay
+	forceItemName = false
+	#If enabled, forces the Sleep Fade overlay
+	forceSleepFade = false
+	#If enabled, forces the Potion Icons overlay
+	forcePotionIcons = false
+	#If enabled, forces the Debug Text overlay
+	forceDebugText = false
+	#If enabled, forces the FPS Graph overlay
+	forceFPSGraph = false
+	#If enabled, forces the Record Overlay
+	forceRecordOverlay = false
+	#If enabled, forces the Title Text overlay
+	forceTitleText = false
+	#If enabled, forces the Subtitles overlay
+	forceSubtitles = false
+	#If enabled, forces the Scoreboard overlay
+	forceScoreboard = false
+	#If enabled, forces the Chat Panel overlay
+	forceChatPanel = false
+	#If enabled, forces the Player List overlay
+	forcePlayerList = false
+	#If enabled, forces the player's hand
+	forceHand = false
+
+[Screens]
+	#If enabled, hides the Inventory Screen (applies to both normal and creative)
+	hideInventoryScreen = true
+	#If enabled, hides the Container Screen (applies to chest and other container screens)
+	hideContainerScreen = true
+	#If enabled, hides the Chat Screen
+	hideChatScreen = true
+	#If enabled, hides the Death Screen
+	hideDeathScreen = true
+	#If enabled, hides the Leave Bed screen (InBedChatScreen)
+	hideLeaveBedScreen = true
+	#If enabled, forces the Inventory Screen (applies to both normal and creative)
+	forceInventoryScreen = false
+	#If enabled, forces the Container Screen (applies to chest and other container screens)
+	forceContainerScreen = false
+	#If enabled, forces the Chat Screen
+	forceChatScreen = false
+	#If enabled, forces the Death Screen
+	forceDeathScreen = false
+	#If enabled, forces the Leave Bed screen (InBedChatScreen)
+	forceLeaveBedScreen = false
+
