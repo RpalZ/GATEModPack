@@ -1,6 +1,9 @@
-#Tue Apr 28 20:29:11 AST 2026
-shadowDistance=120.0
+#Mon May 04 23:25:13 AST 2026
+shadowDistance=90.0
 shadowMapResolution=1024
-MobsFlashRed=false
 TAA=false
+SSAO=false
+skyReflection=false
+Refractions=false
+Godrays=false
 grays_quality=1

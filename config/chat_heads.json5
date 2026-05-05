@@ -6,5 +6,8 @@
 	"smartHeuristics": true,
 	"handleSystemMessages": true,
 	"drawShadow": true,
-	"nameAliases": { }
+	"nameAliases": {
+		"this": "working",
+		"structurePos": "null"
+	}
 }

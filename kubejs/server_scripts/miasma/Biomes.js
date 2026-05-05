@@ -17,7 +17,7 @@ const biomeDeterminer = [
       "Something is definitely wrong...",
       "This place reeks...",
     ],
-  },
+  }
 ];
 
 PlayerEvents.tick((event) => {
@@ -28,38 +28,52 @@ PlayerEvents.tick((event) => {
   const player = event.player;
   const playerPos = player.blockPosition();
 
+  function setTagStatus({ tag, messages }) {
+    player.addTag(tag);
+    player.setStatusMessage(
+      Text.of(messages[Math.floor(Math.random() * messages.length)]).italic(),
+    );
+  }
+
   biomeDeterminer.forEach((val) => {
     const biomePos = MoreJS.findBiome(playerPos, level, val.biome, 1);
 
     const inMiasma = player.getTags().find((v) => v == val.tag);
 
-    function setTagStatus() {
-      player.addTag(val.tag);
-      player.setStatusMessage(
-        Text.of(
-          val.messages[Math.floor(Math.random() * val.messages.length)],
-        ).italic(),
-      );
-    }
     // inject
     if (biomePos !== null && !inMiasma) {
-        // reject
+      // reject
       if (val.tag == "gate:in_miasma_cave" && playerPos.y > biomePos.y) return;
-      setTagStatus();   
-      return
+    
+      if (
+        val.tag == "gate:in_miasma_forest" &&
+        Math.abs(playerPos.y - biomePos.y) > 5
+      )
+        return;
+
+      setTagStatus(val);
+      return;
     }
     // eject
     if (biomePos !== null && inMiasma) {
-        if (val.tag == "gate:in_miasma_cave" && playerPos.y > biomePos.y) {
-            player.removeTag(val.tag);
-            return;
-        }
-        
+      if (val.tag == "gate:in_miasma_cave" && playerPos.y > biomePos.y) {
+        player.removeTag(val.tag);
+        return;
+      }
+
+
+      if (
+        val.tag == "gate:in_miasma_forest" &&
+        Math.abs(playerPos.y - biomePos.y) > 5
+      ) {
+        player.removeTag(val.tag);
+        return;
+      }
     }
     // default eject
     if (biomePos === null && inMiasma) {
       player.removeTag(val.tag);
-      return
+      return;
     }
   });
 
