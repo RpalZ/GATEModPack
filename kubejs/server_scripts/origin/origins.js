@@ -1,16 +1,20 @@
 ServerEvents.highPriorityData((event) => {
   // const jsonOrigin = JSON.parse(FilesJS.readFile('origins.json'))
-  const OriginsDir = FilesJS.listFiles("kubejs/data/origin/origins")
-    .toArray()
-    .map((f) => f.split("/").slice(-1)[0]);
+  const getFileName = (p) => p.replace(/^.*[\\/]/, "");
+  const originsDirPath = "kubejs/data/origin/origins";
+  const powersDirPath = "kubejs/data/origin/powers";
 
-    const namespace = "gate"
+  const originFiles = FilesJS.listFiles(originsDirPath)
+    .toArray()
+    .map((f) => String(f));
+
+  const namespace = "gate";
 
 
   function registerOrigins() {
-    OriginsDir.forEach((val) => {
-      let filePathData = `${namespace}:origins/${val.slice(0, -5)}`;
-      let filePath = `kubejs/data/origin/origins/${val}`;
+    originFiles.forEach((filePath) => {
+      const fileName = getFileName(filePath);
+      let filePathData = `${namespace}:origins/${fileName.slice(0, -5)}`;
       let jsonData = JSON.parse(FilesJS.readFile(filePath));
 
       event.addJson(filePathData, jsonData);
@@ -21,9 +25,10 @@ ServerEvents.highPriorityData((event) => {
 
   function buildJsonLayer() {
 
-    let origins = OriginsDir.map(m => {
+    let origins = originFiles.map((filePath) => {
         // console.log(`[GATE]: ${m.slice(0, -5)}`)
-        return `${namespace}:${m.slice(0, -5)}`
+      const fileName = getFileName(filePath);
+      return `${namespace}:${fileName.slice(0, -5)}`
     })
 
     let layer = {
@@ -46,14 +51,16 @@ ServerEvents.highPriorityData((event) => {
 
   function registerPowers() {
 
-   const powersDir = FilesJS.listFiles("kubejs/data/origin/powers").toArray().map(f => f.split('/').slice(-1)[0])
+   const powerFiles = FilesJS.listFiles(powersDirPath)
+    .toArray()
+    .map((f) => String(f));
    const powerPath = `${namespace}:powers/`
 
-  powersDir.forEach(val => {
-    let filePath = `kubejs/data/origin/powers/${val}`
+  powerFiles.forEach((filePath) => {
+    const fileName = getFileName(filePath);
     let jsonData = JSON.parse(FilesJS.readFile(filePath))
 
-    event.addJson(powerPath + val.slice(0, -5), jsonData)
+    event.addJson(powerPath + fileName.slice(0, -5), jsonData)
   })
   
   }
