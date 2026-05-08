@@ -624,6 +624,16 @@ set.health=1024
 type="all"
 
 
+[[mob]]
+name="minecraft:ender_dragon"
+[[mob.rule]]
+set.health=6000
+type="all"
+
+[[mob]]
+name=["minecraft:zombie", "minecraft:husk", "minecraft:drowned"]
+[[mob.rule]]
+is-baby=false
 
 ################################################################################
 # Add your custom rules above the previous line

@@ -138,9 +138,9 @@
 		{
 			dependencies: ["7439F90F2ECE4041"]
 			description: [
-				"&6&oHere, at the absolute edge of existence, the architecture twisting around the barren rock isn't eldritch or alien. Spires of rusted iron and forgotten bookshelves disguise themselves as a dark temple. Amidst this archive stands the Night Warden—a frail, mortal silhouette. He wields a tainted purple scythe, a jagged blade of Void-matter that hums not with ancient mana, but with the cold, rhythmic precision of a machine.&r&r"
+				"&6&oHere, at the absolute edge of existence, the architecture twisting around the barren rock isn't eldritch or alien. Spires of rusted iron and forgotten bookshelves disguise themselves as a dark temple. Amidst this archive stands the Night Warden; a frail, mortal silhouette. He wields a tainted purple scythe, a jagged blade of Void-matter that hums not with ancient mana, but with the cold, rhythmic precision of a machine.&r&r"
 				""
-				"&4&o\"He traded his humanity for a reaper's shadow. He has no magic of his own—only the stolen echoes of the Void and the logic of a man who refused to be forgotten. Break the shadow.\"&r&r"
+				"&4&o\"He traded his humanity for a reaper's shadow. He has no magic of his own, only the stolen echoes of the Void and the logic of a man who refused to be forgotten. Break the shadow.\"&r&r"
 			]
 			icon: {
 				Count: 1
@@ -192,7 +192,7 @@
 		{
 			dependencies: ["79D58811F20E6909"]
 			description: [
-				"&6&oAs the shadowy exile falls, his tainted purple scythe clattering against the stone, the Miasma dissipates into stardust. His dying whispers speak of a 'fading world'—yet looking back at the Overworld, arcane magic thrives and the wheels of logic still turn. The fading he feared was only ever his own isolation. The Pact of the Gate holds strong, bridging the ancient divide.&r&r"
+				"&6&oAs the shadowy exile falls, his tainted purple scythe clattering against the stone, the Miasma dissipates into stardust. His dying whispers speak of a 'fading world'. Yet looking back at the Overworld, arcane magic thrives and the wheels of logic still turn. The fading he feared was only ever his own isolation. The Pact of the Gate holds strong, bridging the ancient divide.&r&r"
 				""
 				"&4&o\"A world he thought was dying was only ever waiting to be united. The corruption ends here.\"&r&r"
 			]

@@ -1,10 +1,11 @@
 EntityEvents.hurt(event => {
-  const player = event.getSource().getActual()
+  const player = event.getSource().getPlayer()
+
+  if(!player) return
+  if(!player.isPlayer()) return
   
   const damage = event.getDamage()
   
-  if(!player) return
-  if(!player.isPlayer()) return
   
   const playerNbt = player.getNbt()
    let humanNbt = playerNbt
@@ -13,16 +14,13 @@ EntityEvents.hurt(event => {
       .get("OriginLayers")
       .get(0)
       .get("Origin");
-
-
-   let isVampire = humanNbt == "gate:vampire" 
-   
-   if(!isVampire) return
-
-   const actualPlayer = event.getSource().getPlayer()
-   const bloodPower = actualPlayer.getAttributeValue("irons_spellbooks:blood_spell_power") - 1
-
-
+      
+      
+      let isVampire = humanNbt == "gate:vampire" 
+      
+      if(!isVampire) return
+      
+   const bloodPower = player.getAttributeValue("irons_spellbooks:blood_spell_power") - 1
 
    player.heal(damage * Math.min(1, bloodPower))
 

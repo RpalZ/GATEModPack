@@ -13,23 +13,68 @@
 	id: "73AF92231957EA83"
 	order_index: 8
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as Yeti."]
-		id: "07E45A505EE949F5"
-		tasks: [{
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:ice_upgrade_orb"
-				tag: {
-					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ice_power"
+	quests: [
+		{
+			description: ["You are born as Yeti."]
+			id: "07E45A505EE949F5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:ice_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ice_power"
+					}
 				}
-			}
-			id: "198F0B71ABAFDFE4"
-			title: "Forged from Frost"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				id: "198F0B71ABAFDFE4"
+				title: "Forged from Frost"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "0AB2ABBEF12A66EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "283DAE6D8EE2F6C5"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "280A8E20D59F8276"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 3.5d
+			y: 2.5d
+		}
+	]
 	title: "Yeti"
 }

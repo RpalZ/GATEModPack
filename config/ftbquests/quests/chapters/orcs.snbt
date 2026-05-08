@@ -7,17 +7,62 @@
 	id: "37CB885529D1239D"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as an orc"]
-		id: "52B3058B1A49CE8B"
-		tasks: [{
-			icon: "alexsmobs:bone_serpent_tooth"
-			id: "5F4D1FECEB56E979"
-			title: "Tough Skinned"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: ["You are born as an orc"]
+			id: "52B3058B1A49CE8B"
+			tasks: [{
+				icon: "alexsmobs:bone_serpent_tooth"
+				id: "5F4D1FECEB56E979"
+				title: "Tough Skinned"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "077E287BB39E3E18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "607B3C0A26F1DE28"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "1DD8A0DC41D07DC3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
 	title: "Orcs"
 }

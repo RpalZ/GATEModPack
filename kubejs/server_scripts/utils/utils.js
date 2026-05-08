@@ -96,3 +96,15 @@ function structureFinderInRadius(
   }
   return found;
 }
+
+
+function getOriginRace(playerNbt) {
+  let race = playerNbt
+      .get("cardinal_components")
+      .get("origins:origin")
+      .get("OriginLayers")
+      .get(0)
+      .get("Origin");
+
+  return race
+}

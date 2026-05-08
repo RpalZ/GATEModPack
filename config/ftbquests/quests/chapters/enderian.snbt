@@ -13,23 +13,68 @@
 	id: "3B3E9347E0F5B4DD"
 	order_index: 9
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as Enderian."]
-		id: "429C8953BABD6340"
-		tasks: [{
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:ender_upgrade_orb"
-				tag: {
-					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ender_power"
+	quests: [
+		{
+			description: ["You are born as Enderian."]
+			id: "429C8953BABD6340"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:ender_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:ender_power"
+					}
 				}
-			}
-			id: "5B1D25FCC98ADB14"
-			title: "From the Depths"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				id: "5B1D25FCC98ADB14"
+				title: "From the Depths"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "37563E08FF2D5BA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "263F21F5A5A8E897"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "0FD3969C8D2075F5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 4.0d
+			y: 2.5d
+		}
+	]
 	title: "Enderian"
 }

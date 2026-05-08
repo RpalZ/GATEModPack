@@ -6,29 +6,99 @@
 	id: "2DE047DB37981E79"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"&7&rWith the world of tech you can do anything! (mostly). "
-			""
-			"Here you can automate your resources and become stronger using science!"
-		]
-		id: "72DE04CAE8F6BF13"
-		subtitle: "Welcome"
-		tasks: [{
-			icon: {
-				Count: 1
-				id: "minecraft:iron_axe"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			description: [
+				"&7&rWith the world of tech you can do anything! (mostly). "
+				""
+				"Here you can automate your resources and become stronger using science!"
+			]
+			id: "72DE04CAE8F6BF13"
+			subtitle: "Welcome"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			id: "0F4C183BF50F9FA8"
-			title: "Unlock Tech"
-			type: "custom"
-		}]
-		title: "Science!"
-		x: 2.0d
-		y: -3.0d
-	}]
+				id: "0F4C183BF50F9FA8"
+				title: "Unlock Tech"
+				type: "custom"
+			}]
+			title: "Science!"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72DE04CAE8F6BF13"]
+			description: ["&6To compensate for the lack of magic, humans invented the Equalizer. Weapons that puts them on par with mages.&r"]
+			id: "5685A1F438D805C5"
+			rewards: [{
+				id: "6B12D54A9030A47C"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B014C89CBD3FE3C"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "Second Amendment"
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5685A1F438D805C5"]
+			description: ["&6The only caveat isnt the lack of power but the lack of infinity. You just gotta deal with the logistics all the time...&r"]
+			id: "134CC6917B81213D"
+			rewards: [{
+				count: 4
+				id: "523E4F68EFE19D9A"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27763B668C07D3D4"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "tacz:ammo_workbench"
+					}
+				}
+				type: "item"
+			}]
+			title: "Copper Hungry"
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["134CC6917B81213D"]
+			description: ["&6&6Make your weapons look &oCOOL&r&6 by putting &ocool&r&6 things on it.&r&r&r&r"]
+			id: "13E2E4C2C47A6F5E"
+			tasks: [{
+				id: "353E0AA7FEC28C55"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "tacz:attachment_workbench"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tacticoool"
+			x: 11.5d
+			y: -12.0d
+		}
+	]
 	title: "Chapter I"
 }

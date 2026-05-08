@@ -1,5 +1,7 @@
 
 
+const RADIUS_CHUNKS = 6;
+
 const structureDeterminer = [
   {
     structure: "#dungeons_enhanced:on_castle_explorer_maps",
@@ -48,50 +50,49 @@ const structureDeterminer = [
   },
 ];
 
+function setTagStatus(player, tag, messages) {
+  player.addTag(tag);
+  player.setStatusMessage(
+    Text.of(messages[Math.floor(Math.random() * messages.length)]).italic(),
+  );
+}
+
+function resolveStructures(level, structureIdOrTag) {
+  if (!structureIdOrTag.startsWith("#")) {
+    return [structureIdOrTag];
+  }
+
+  const tagId = structureIdOrTag.slice(1);
+  const registry = level.server
+    .registryAccess()
+    .lookupOrThrow(Registries.STRUCTURE);
+  const holderSet = registry.get(
+    TagKey.create(Registries.STRUCTURE, new ResourceLocation(tagId)),
+  );
+
+  if (holderSet.isEmpty()) {
+    return [];
+  }
+
+  return holderSet
+    .get()
+    .stream()
+    .toList()
+    .map((h) => h.unwrapKey().get().location().toString());
+}
+
 PlayerEvents.tick((event) => {
   const tick = event.server.tickCount;
   if (tick % 20 !== 0) return;
-const RADIUS_CHUNKS = 6;
 
   const level = event.level;
   const player = event.player;
   const playerPos = player.blockPosition();
 
-  function setTagStatus(tag, messages) {
-    player.addTag(tag);
-    player.setStatusMessage(
-      Text.of(messages[Math.floor(Math.random() * messages.length)]).italic(),
-    );
-  }
-
-  function resolveStructures(structureIdOrTag) {
-    if (!structureIdOrTag.startsWith("#")) {
-      return [structureIdOrTag];
-    }
-
-    const tagId = structureIdOrTag.slice(1);
-    const registry = level.server
-      .registryAccess()
-      .lookupOrThrow(Registries.STRUCTURE);
-    const holderSet = registry.get(
-      TagKey.create(Registries.STRUCTURE, new ResourceLocation(tagId)),
-    );
-
-    if (holderSet.isEmpty()) {
-      return [];
-    }
-
-    return holderSet
-      .get()
-      .stream()
-      .toList()
-      .map((h) => h.unwrapKey().get().location().toString());
-  }
-
   const tagState = new Map();
 
   structureDeterminer.forEach((val) => {
-    const structures = resolveStructures(val.structure);
+    const structures = resolveStructures(level, val.structure);
     const isInside = structures.some((structureId) =>
       structureFinderInRadius(
         structureId,
@@ -113,7 +114,7 @@ const RADIUS_CHUNKS = 6;
     const hasTag = player.getTags().find((v) => v === tag) != null;
 
     if (state.inside && !hasTag) {
-      setTagStatus(tag, state.messages);
+      setTagStatus(player, tag, state.messages);
       return;
     }
 

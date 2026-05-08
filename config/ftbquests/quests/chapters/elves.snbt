@@ -7,17 +7,62 @@
 	id: "3EC3407131B0D126"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as an elf"]
-		id: "7C4474A24A9EF35C"
-		tasks: [{
-			icon: "minecraft:feather"
-			id: "2ED0C04B474E8B81"
-			title: "Nature's Blessing"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: ["You are born as an elf"]
+			id: "7C4474A24A9EF35C"
+			tasks: [{
+				icon: "minecraft:feather"
+				id: "2ED0C04B474E8B81"
+				title: "Nature's Blessing"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "42B748EA94C96961"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49E1616869A2E076"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "487EC9B1A8F8C2AE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 5.0d
+			y: 3.5d
+		}
+	]
 	title: "Elves"
 }

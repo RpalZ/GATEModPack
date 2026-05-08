@@ -13,23 +13,68 @@
 	id: "66C47E8EFBACE08D"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as Stormkin."]
-		id: "3082533183B9DA39"
-		tasks: [{
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:lightning_upgrade_orb"
-				tag: {
-					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:lightning_power"
+	quests: [
+		{
+			description: ["You are born as Stormkin."]
+			id: "3082533183B9DA39"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:lightning_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:lightning_power"
+					}
 				}
-			}
-			id: "7D75EC37C645AE40"
-			title: "Playing with Thunder"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				id: "7D75EC37C645AE40"
+				title: "Playing with Thunder"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "0DB5BB640AEA9C4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "172061226A5CF00B"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "3EE7B9AA7ECCC6DD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 3.5d
+			y: 3.0d
+		}
+	]
 	title: "Stormkin"
 }

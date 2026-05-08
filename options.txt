@@ -30,7 +30,7 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:0.5
+gamma:0.0
 renderDistance:8
 simulationDistance:8
 entityDistanceScaling:1.0
@@ -44,7 +44,7 @@ biomeBlendRadius:2
 renderClouds:"fast"
 resourcePacks:["vanilla","tacz_resources","mod_resources","file/GATE_Optimization_Pack.zip","Moonlight Mods Dynamic Assets","fabric","continuity:default","continuity:glass_pane_culling_fix"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:casing-antihero.de.e4mc.link
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -198,11 +198,11 @@ key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.caps.lock
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_key.cataclysm.ability:key.keyboard.x
 key_key.cataclysm.helmet_ability:key.keyboard.c
 key_key.cataclysm.chestplate_ability:key.keyboard.y
@@ -352,9 +352,9 @@ key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.crawlondemand.toggle_crawl:key.keyboard.c
 key_key.crawlondemand.crawl:key.keyboard.apostrophe:ALT
-key_key.inventorysorter.itemout:key.mouse.102
-key_key.inventorysorter.itemin:key.mouse.100
 key_key.inventorysorter.sort:key.mouse.middle
+key_key.inventorysorter.itemin:key.mouse.100
+key_key.inventorysorter.itemout:key.mouse.102
 key_key.tacz.inspect.desc:key.keyboard.h
 key_key.tacz.reload.desc:key.keyboard.r
 key_key.tacz.shoot.desc:key.mouse.left

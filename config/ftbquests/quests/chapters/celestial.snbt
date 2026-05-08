@@ -13,23 +13,68 @@
 	id: "03DD4612C1C0B4FE"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as Celestial."]
-		id: "4D7482A9F39C697E"
-		tasks: [{
-			icon: {
-				Count: 1
-				id: "mekanism:hdpe_elytra"
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			description: ["You are born as Celestial."]
+			id: "4D7482A9F39C697E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "mekanism:hdpe_elytra"
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			id: "18BE6843EA14D664"
-			title: "Divine Palladins"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				id: "18BE6843EA14D664"
+				title: "Divine Palladins"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "06BE80046FDB7EFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C27940BA827F01D"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "1DBEF42F173239F9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 3.0d
+			y: 3.0d
+		}
+	]
 	title: "Celestial"
 }

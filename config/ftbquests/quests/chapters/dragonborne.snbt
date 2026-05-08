@@ -13,23 +13,68 @@
 	id: "7594B28AA63CFF79"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		description: ["You are born as Dragonborne."]
-		id: "296B59F4C152F4F7"
-		tasks: [{
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:fire_upgrade_orb"
-				tag: {
-					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:fire_power"
+	quests: [
+		{
+			description: ["You are born as Dragonborne."]
+			id: "296B59F4C152F4F7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:fire_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:fire_power"
+					}
 				}
-			}
-			id: "31ED1007EDCD5A49"
-			title: "Forged from Heat"
-			type: "custom"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+				id: "31ED1007EDCD5A49"
+				title: "Forged from Heat"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6211AF8D50907902"]
+			description: [
+				"SCROLL SWAP SHOP"
+				""
+				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
+			]
+			id: "2EA16CA8714BBDB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FB1B8205EFD4CF7"
+				table_id: 2045434586276917832L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "232ED92B62AEF2A1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				title: "Input Any Scroll"
+				type: "item"
+			}]
+			title: "Scroll Shop"
+			x: 3.0d
+			y: 3.0d
+		}
+	]
 	title: "Dragonborne"
 }
