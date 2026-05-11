@@ -15,11 +15,20 @@
 				"&4&o\"We do not comprehend this anomaly's power. It lacks the ancient magic our races wield. Use whatever crude logic or power you have to shatter its lieutenants.\"&r&r"
 			]
 			id: "5DBF17299A0DE31E"
-			rewards: [{
-				id: "5D86CC3DCFD90267"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5D86CC3DCFD90267"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "invisible"
+					id: "1A2B3C4D5E6F7081"
+					ignore_reward_blocking: true
+					stage: "quest_5dbf17299a0de31e"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				id: "4EA2F82403092B2D"
 				title: "Story Continue"
@@ -49,6 +58,13 @@
 					id: "592AC75AD72D830F"
 					table_id: 6355883631033652097L
 					type: "all_table"
+				}
+				{
+					auto: "invisible"
+					id: "2233445566778899"
+					ignore_reward_blocking: true
+					stage: "ancient_remnant"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -92,6 +108,13 @@
 					table_id: 8104773293268607660L
 					type: "all_table"
 				}
+				{
+					auto: "invisible"
+					id: "33445566778899AA"
+					ignore_reward_blocking: true
+					stage: "scylla"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:scylla"
@@ -122,6 +145,13 @@
 					id: "3E87B7B4F5476E29"
 					type: "xp"
 					xp: 1500
+				}
+				{
+					auto: "invisible"
+					id: "445566778899AABB"
+					ignore_reward_blocking: true
+					stage: "the_harbinger"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -164,6 +194,13 @@
 					id: "13334E56068E28B9"
 					table_id: 5732398097639057205L
 					type: "all_table"
+				}
+				{
+					auto: "invisible"
+					id: "5566778899AABBCC"
+					ignore_reward_blocking: true
+					stage: "maledictus"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -219,6 +256,13 @@
 					table_id: 3328329829411638546L
 					type: "all_table"
 				}
+				{
+					auto: "invisible"
+					id: "66778899AABBCCDD"
+					ignore_reward_blocking: true
+					stage: "enraged_dead_king"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				entity: "traveloptics:enraged_dead_king"
@@ -237,11 +281,20 @@
 				"&4&o\"If the world is being remade, it starts here in the flames.\"&r&r"
 			]
 			id: "6E6E267A2E4701AC"
-			rewards: [{
-				id: "50B70C137A50938D"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "50B70C137A50938D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					auto: "invisible"
+					id: "778899AABBCCDDEE"
+					ignore_reward_blocking: true
+					stage: "quest_6e6e267a2e4701ac"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				id: "737CB8DBAC2F20B5"
 				title: "Story Continue"
@@ -281,6 +334,13 @@
 					id: "64F1AE7526665BEF"
 					table_id: 3869070679369315650L
 					type: "all_table"
+				}
+				{
+					auto: "invisible"
+					id: "531D553984E436C1"
+					ignore_reward_blocking: true
+					stage: "fire_boss"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -330,6 +390,13 @@
 					table_id: 9100417620240199251L
 					type: "all_table"
 				}
+				{
+					auto: "invisible"
+					id: "1B6E999F1E450C86"
+					ignore_reward_blocking: true
+					stage: "underworld_knight"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				entity: "block_factorys_bosses:underworld_knight"
@@ -372,6 +439,13 @@
 					table_id: 7734522167429685007L
 					type: "all_table"
 				}
+				{
+					auto: "invisible"
+					id: "03AFFE0C5A1F661B"
+					ignore_reward_blocking: true
+					stage: "netherite_monstrosity"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
@@ -413,6 +487,13 @@
 					id: "08A3B3832D782FE3"
 					table_id: 3438991535242561254L
 					type: "all_table"
+				}
+				{
+					auto: "invisible"
+					id: "20EE71B9BB06CF3B"
+					ignore_reward_blocking: true
+					stage: "ignis"
+					type: "gamestage"
 				}
 			]
 			tasks: [{

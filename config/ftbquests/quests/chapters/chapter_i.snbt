@@ -9,11 +9,11 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"Welcome to Magic!"
+			"&6Welcome to Magic!"
 			""
-			"If you are a non human, you may already notice that you have an inherent spell given to you."
+			"&6If you are a non human, you may already notice that you have an inherent spell given to you.&r"
 			""
-			"In the world of magic, spells are sacred, defying the laws of physics. Use these to your advantage."
+			"&6In the world of magic, spells are sacred, defying the laws of physics. Use these to your advantage.&r&r"
 		]
 		id: "045E93802D34D4C7"
 		tasks: [{

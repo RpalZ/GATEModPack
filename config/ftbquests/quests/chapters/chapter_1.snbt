@@ -9,9 +9,9 @@
 	quests: [
 		{
 			description: [
-				"&7&rWith the world of tech you can do anything! (mostly). "
+				"&6With the world of tech you can do anything! (mostly). &r"
 				""
-				"Here you can automate your resources and become stronger using science!"
+				"&6Here you can automate your resources and become stronger using science!&r"
 			]
 			id: "72DE04CAE8F6BF13"
 			subtitle: "Welcome"
@@ -98,6 +98,113 @@
 			title: "Tacticoool"
 			x: 11.5d
 			y: -12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["61DA7816093C9DBF"]
+			description: ["&6Cant find the rpg or too lazy to get the villager? Just get it from here!&r"]
+			icon: {
+				Count: 1
+				id: "superbwarfare:rpg"
+				tag: {
+					Attachments: { }
+					GunData: { }
+					Perks: { }
+				}
+			}
+			id: "5247AE5B424F7DB4"
+			optional: true
+			rewards: [{
+				id: "4F1DB73F5A1832CF"
+				item: "superbwarfare:rpg_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "5A8B95F23DD6F6AA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["13E2E4C2C47A6F5E"]
+			description: ["&2These explosives may prove to be useful for some bosses!&r"]
+			id: "61DA7816093C9DBF"
+			rewards: [{
+				id: "3C1552FBBE798F34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "027136097D8D6DE8"
+				title: "Heavy Hitters"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["61DA7816093C9DBF"]
+			description: ["&5This is really good against Heavy Bosses especially the wither.&r"]
+			id: "1B4A93303299BE79"
+			rewards: [{
+				id: "44CEB5D6AEC23723"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "24B2FCF6548FB1D0"
+				item: {
+					Count: 1
+					id: "superbwarfare:rpg"
+					tag: {
+						Attachments: { }
+						GunData: { }
+						Perks: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["61DA7816093C9DBF"]
+			description: ["&9Cant hurt to bring a nade or two&r"]
+			id: "2E7D488619B1E9F8"
+			tasks: [{
+				id: "07663F72FD168110"
+				item: "superbwarfare:hand_grenade"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["61DA7816093C9DBF"]
+			description: ["&dGood to be planted on B&r"]
+			id: "6BCBBFE5B8DCDBB7"
+			rewards: [{
+				id: "630A3C6481032331"
+				item: "superbwarfare:detonator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05A125E3CA305E7E"
+				item: {
+					Count: 1
+					id: "superbwarfare:c4_bomb"
+					tag: {
+						Control: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -13.5d
 		}
 	]
 	title: "Chapter I"

@@ -73,6 +73,7 @@ EntityEvents.hurt("player", (event) => {
 PlayerEvents.tick(event => {
 
     let player = event.getPlayer()
+  
     let persistentData = player.persistentData
     let stunted = persistentData.getBoolean("stuntFlag")
     if(stunted) {

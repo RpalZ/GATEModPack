@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
                     'CDC'
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:green_dye',
                     C: 'minecraft:redstone',
                     D: 'minecraft:amethyst_shard'
@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
                     'AAA'
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:green_dye'
             }
     )
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
                     '   '
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:green_dye'
             }
     )
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
                     '   '
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:green_dye'
             }
     )
@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
                     'AAA'
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:green_dye'
             }
     )
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
                     '   '
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:black_dye'
             }
     )
@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
                     'CDC'
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     C: 'minecraft:redstone',
                     D: 'minecraft:amethyst_shard',
                     B: 'minecraft:black_dye'
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
                     'AAA'
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:black_dye'
             }
     )
@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
             ],
             {
                     B: 'minecraft:sand',
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     C: 'minecraft:redstone',
                     D: 'minecraft:amethyst_shard'
             }
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
             ],
             {
                     B: 'minecraft:sand',
-                    A: 'mekanism:ingot_steel'
+                    A: 'superbwarfare:cemented_carbide_ingot'
             }
     )
     event.shaped(
@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
             ],
             {
                     B: 'minecraft:leather',
-                    C: 'mekanism:ingot_steel',
+                    C: 'superbwarfare:cemented_carbide_ingot',
                     A: 'minecraft:black_dye'
             }
     )
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
                     'CBC'
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     C: 'minecraft:black_dye',
                     B: 'minecraft:white_dye'
             }
@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
             ],
             {
                     B: 'minecraft:sand',
-                    A: 'mekanism:ingot_steel'
+                    A: 'superbwarfare:cemented_carbide_ingot'
             }
     )
     event.shaped(
@@ -172,7 +172,7 @@ ServerEvents.recipes(event => {
                     '   '
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:black_dye'
             }
     )
@@ -184,7 +184,7 @@ ServerEvents.recipes(event => {
                     '   '
             ],
             {
-                    A: 'mekanism:ingot_steel',
+                    A: 'superbwarfare:cemented_carbide_ingot',
                     B: 'minecraft:green_dye'
             }
     )
@@ -193,7 +193,7 @@ ServerEvents.recipes(event => {
     // Warborn Renewed & extra Fracturepoint
     // ======================================
 
-    const steel = 'mekanism:ingot_steel';
+    const steel = 'superbwarfare:cemented_carbide_ingot';
 
     const camos = {
         'desert': 'minecraft:sand',

@@ -30,11 +30,20 @@
 				"&4&o\"There is no turning back now.\"&r&r"
 			]
 			id: "5E66F197D6DA73F9"
-			rewards: [{
-				id: "0A143364C101F73C"
-				type: "xp"
-				xp: 5000
-			}]
+			rewards: [
+				{
+					id: "0A143364C101F73C"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					auto: "invisible"
+					id: "34F0B98E5641CC36"
+					ignore_reward_blocking: true
+					stage: "quest_5e66f197d6da73f9"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "5A74B5D2B6A4FAEB"
@@ -52,12 +61,21 @@
 			]
 			icon: "minecraft:dragon_head"
 			id: "023B9345FAF2ABCC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "360D65F3C1D10593"
-				table_id: 7875281910250566405L
-				type: "all_table"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "360D65F3C1D10593"
+					table_id: 7875281910250566405L
+					type: "all_table"
+				}
+				{
+					auto: "invisible"
+					id: "20E7ECC37262A5A0"
+					ignore_reward_blocking: true
+					stage: "ender_dragon"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "6E56CD7ACDB7CC7F"
@@ -87,6 +105,13 @@
 					id: "20184AA503448041"
 					type: "xp"
 					xp: 15000
+				}
+				{
+					auto: "invisible"
+					id: "6725F70BFACEF812"
+					ignore_reward_blocking: true
+					stage: "ender_guardian"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -124,6 +149,13 @@
 					id: "1A6194BB6A25D334"
 					item: "minecraft:nether_star"
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "43672721950AACEE"
+					ignore_reward_blocking: true
+					stage: "dark_doppelganger"
+					type: "gamestage"
 				}
 			]
 			tasks: [{

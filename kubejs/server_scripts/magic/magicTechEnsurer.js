@@ -43,6 +43,37 @@ PlayerEvents.spellPreCast((event) => {
   }
 });
 
+BlockEvents.rightClicked((event) => {
+  const player = event.getPlayer();
+  const block = event.getBlock()
+
+  
+
+  const isMagicBlock = block.hasTag(global.magicTag);
+  const isTechBlock = block.hasTag(global.techTag);
+  const isMagic = player.persistentData.getBoolean("isMagic")
+  const isTech = player.persistentData.getBoolean("isTech");
+
+  // player.tell("clicked!")
+
+  // player.tell(isMagicBlock)
+  // player.tell(isTechBlock)
+
+  if(isMagicBlock && !isMagic) {
+    player.setStatusMessage(Text.of("It seems to reject you due to lack of magic...").yellow().italic())
+    event.cancel()
+    
+  }
+  
+  if(isTechBlock && !isTech) {
+    player.setStatusMessage(Text.of("It seems to be too complicated for you to use...").yellow().italic())
+    event.cancel()
+    
+  }
+
+});
+
+
 
 CuriosJSEvents.equip(event => {
   const player = event.getPlayer()

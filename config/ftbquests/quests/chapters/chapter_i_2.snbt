@@ -71,11 +71,20 @@
 				"&4&o\"Every fragment matters. Even the ones the Council refuses to understand.\"&r&r"
 			]
 			id: "6983BBC406DF52C0"
-			rewards: [{
-				id: "061AD04A9B69FE3E"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "061AD04A9B69FE3E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					auto: "invisible"
+					id: "57FFCACC0168063F"
+					ignore_reward_blocking: true
+					stage: "quest_6983bbc406df52c0"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				id: "5FD49FDBF739A26B"
 				item: {
@@ -98,12 +107,21 @@
 				"&4&o\"If the wild has fallen to corruption, then the one who defiles it must be brought down.\"&r&r"
 			]
 			id: "083CFC179D001044"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "65B66E0A7C54E669"
-				table_id: 393395330844260283L
-				type: "all_table"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65B66E0A7C54E669"
+					table_id: 393395330844260283L
+					type: "all_table"
+				}
+				{
+					auto: "invisible"
+					id: "031D40E869B5F3E4"
+					ignore_reward_blocking: true
+					stage: "umvuthi"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: {
@@ -130,12 +148,21 @@
 				"&4&o\"Slay the elemental dragons and turn their scales into armor worthy of the hunt.\"&r&r"
 			]
 			id: "4AB16D387D6EC80E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "33995B0FBD969F1E"
-				table_id: 5771323239423225015L
-				type: "all_table"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33995B0FBD969F1E"
+					table_id: 5771323239423225015L
+					type: "all_table"
+				}
+				{
+					auto: "invisible"
+					id: "26B3E3C7A5DCF4B3"
+					ignore_reward_blocking: true
+					stage: "dragon_slayer"
+					type: "gamestage"
+				}
+			]
 			tasks: [
 				{
 					entity: "iceandfire:fire_dragon"
@@ -192,6 +219,13 @@
 					type: "xp"
 					xp: 500
 				}
+				{
+					auto: "invisible"
+					id: "7D590F444751F900"
+					ignore_reward_blocking: true
+					stage: "elder_guardian"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:elder_guardian"
@@ -227,6 +261,13 @@
 					id: "38C919973048B2A3"
 					type: "xp"
 					xp: 5000
+				}
+				{
+					auto: "invisible"
+					id: "6782FAE048F59DA3"
+					ignore_reward_blocking: true
+					stage: "sandworm"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -270,6 +311,13 @@
 					id: "328C259C999F80E1"
 					type: "xp"
 					xp: 5000
+				}
+				{
+					auto: "invisible"
+					id: "1D9EDB0F1CFDFE98"
+					ignore_reward_blocking: true
+					stage: "frostmaw"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -337,7 +385,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["Heres some tips to make your life easier!"]
+			description: ["&6Here are some tips to make your life easier!&r"]
 			id: "3D29D62B789C153D"
 			tasks: [{
 				id: "4D17ABE368E1C711"
@@ -349,7 +397,7 @@
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
-			description: ["This is great for locating bosses and structures!"]
+			description: ["&6This is great for locating bosses and structures!&r"]
 			id: "72C07498213720CB"
 			rewards: [{
 				id: "45CB4649A08443F5"
@@ -370,7 +418,7 @@
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
-			description: ["As the name suggests, this locates biomes!"]
+			description: ["&6As the name suggests, this locates biomes!&r"]
 			id: "79270999F64D5EB1"
 			rewards: [{
 				id: "3A24C082AF79F0F3"
@@ -397,11 +445,20 @@
 				"&4&o\"If the old scribes were right, then the underground still has answers.\"&r&r"
 			]
 			id: "4FF6DE3CD28DABE8"
-			rewards: [{
-				id: "6439287645C00D92"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "6439287645C00D92"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					auto: "invisible"
+					id: "4F12C7A9B0D3E8A1"
+					ignore_reward_blocking: true
+					stage: "catacombs"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				id: "79DC2B9094EBFC5E"
 				structure: "undergarden:catacombs"
@@ -436,6 +493,13 @@
 					id: "755E1EDC37274CF4"
 					type: "xp"
 					xp: 5000
+				}
+				{
+					auto: "invisible"
+					id: "6A3B1C2D4E5F6071"
+					ignore_reward_blocking: true
+					stage: "forgotten_guardian"
+					type: "gamestage"
 				}
 			]
 			tasks: [{
@@ -474,6 +538,13 @@
 					table_id: 3355587268833781544L
 					type: "all_table"
 				}
+				{
+					auto: "invisible"
+					id: "572728951B0624D8"
+					ignore_reward_blocking: true
+					stage: "wither"
+					type: "gamestage"
+				}
 			]
 			tasks: [
 				{
@@ -510,6 +581,18 @@
 			}]
 			x: 25.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3D29D62B789C153D"]
+			description: ["&6This Modpack Ultimine. Simple Hold ~ while mining to activate.&r"]
+			id: "68533B1A4060371C"
+			tasks: [{
+				id: "68408DC800BD5504"
+				title: "ULTIMINE"
+				type: "checkmark"
+			}]
+			x: -6.699999999999999d
+			y: -1.4d
 		}
 	]
 	title: "Chapter I"
