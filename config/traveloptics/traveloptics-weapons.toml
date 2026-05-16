@@ -5,199 +5,199 @@
 	[current_weapons.thorns_of_oblivion]
 		#Nature Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		nature_spell_power_multiplier = 1.0
+		nature_spell_power_multiplier = 1.15
 		#Max Mana Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		max_mana_multiplier = 1.0
+		max_mana_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Ender Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		ender_spell_power_multiplier = 1.0
+		ender_spell_power_multiplier = 1.15
 
 	[current_weapons.charged_sands]
 		#Holy Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		holy_spell_power_multiplier = 1.0
+		holy_spell_power_multiplier = 1.15
 		#Max Mana Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		max_mana_multiplier = 1.0
+		max_mana_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Arc-Storm damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
-		ArcStormDamageMultiplier = 1.0
+		ArcStormDamageMultiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Lightning Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		lightning_spell_power_multiplier = 1.0
+		lightning_spell_power_multiplier = 1.15
 
 	[current_weapons.galenicPolarizer]
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		galenicPolarizerAttackSpeedMultiplier = 1.0
+		galenicPolarizerAttackSpeedMultiplier = 1.15
 		#Lightning Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		galenicPolarizerLightningSpellPowerMultiplier = 1.0
+		galenicPolarizerLightningSpellPowerMultiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		galenicPolarizerDurability = 2250
+		galenicPolarizerDurability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		galenicPolarizerDamageMultiplier = 1.0
+		galenicPolarizerDamageMultiplier = 1.15
 		#Cooldown Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		galenicPolarizerCooldownReductionMultiplier = 1.0
+		galenicPolarizerCooldownReductionMultiplier = 1.15
 
 	[current_weapons.flames_of_eldritch]
 		#Eldritch Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		eldritch_spell_power_multiplier = 1.0
+		eldritch_spell_power_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Fire Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		fire_spell_power_multiplier = 1.0
+		fire_spell_power_multiplier = 1.15
 		#Cooldown Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cooldown_reduction_multiplier = 1.0
+		cooldown_reduction_multiplier = 1.15
 
 	[current_weapons.gauntlet_of_extinction]
 		#Cast Time Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cast_time_reduction_multiplier = 1.0
+		cast_time_reduction_multiplier = 1.15
 		#Primeval Devour damage multiplier || Default 1 || WARNING: Use Integer Values! values that are not integer like 1.2 will be converted into integer anyways!
 		#Range: 1.0 ~ 5.0
-		primeval_devour_multiplier = 1.0
+		primeval_devour_multiplier = 1
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Fire Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		fire_spell_power_multiplier = 1.0
+		fire_spell_power_multiplier = 1.15
 
 	[current_weapons.cursed_wraithblade]
 		#Eldritch Spell Power Multiplier || MULTIPLY_BASE || Base: 0.05 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		eldritch_spell_power_multiplier = 1.0
+		eldritch_spell_power_multiplier = 1.15
 		#Ice Spell Power Multiplier || MULTIPLY_BASE || Base: 0.15 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		ice_spell_power_multiplier = 1.0
+		ice_spell_power_multiplier = 1.15
 		#Max Mana Multiplier || MULTIPLY_BASE || Base: 0.20 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		max_mana_multiplier = 1.0
+		max_mana_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Base: 19.0 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Base: -2.8 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 
 	[current_weapons.stellothorn]
 		#Cast Time Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cast_time_reduction_multiplier = 1.0
+		cast_time_reduction_multiplier = 1.15
 		#Eldritch Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		eldritch_spell_power_multiplier = 1.0
+		eldritch_spell_power_multiplier = 1.15
 		#Durability || Default 3000
 		#Range: > 1
-		durability = 3000
+		durability = 3450
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Ender Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		ender_spell_power_multiplier = 1.0
+		ender_spell_power_multiplier = 1.15
 		#Spectral Guillotine damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
-		spectral_guillotine_multiplier = 1.0
+		spectral_guillotine_multiplier = 1.15
 
 	[current_weapons.voidstrike_reaper]
 		#Max Mana Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		max_mana_multiplier = 1.0
+		max_mana_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Ender Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		ender_spell_power_multiplier = 1.0
+		ender_spell_power_multiplier = 1.15
 
 	[current_weapons.trident_of_the_eternal_maelstrom]
 		#Boltstrike damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
-		boltstrike_multiplier = 1.0
+		boltstrike_multiplier = 1.15
 		#Aqua Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		aqua_spell_power_multiplier = 1.0
+		aqua_spell_power_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Mana Regen Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		mana_regen_multiplier = 1.0
+		mana_regen_multiplier = 1.15
 
 	[current_weapons.scourge_of_the_sands]
 		#Nature Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		nature_spell_power_multiplier = 1.0
+		nature_spell_power_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Cooldown Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cooldown_reduction_multiplier = 1.0
+		cooldown_reduction_multiplier = 1.15
 		#Evocation Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		evocation_spell_power_multiplier = 1.0
+		evocation_spell_power_multiplier = 1.15
 
 	[current_weapons.general]
 		#Should End-game weapons be breakable || Default: false
@@ -206,100 +206,100 @@
 	[current_weapons.mechanized_wraithblade]
 		#Cast Time Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cast_time_reduction_multiplier = 1.0
+		cast_time_reduction_multiplier = 1.15
 		#Plasma Overdrive damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
-		plasma_overdrive_multiplier = 1.0
+		plasma_overdrive_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Lightning Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		lightning_spell_power_multiplier = 1.0
+		lightning_spell_power_multiplier = 1.15
 
 	[current_weapons.harbingers_wrath]
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Lightning Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		lightning_spell_power_multiplier = 1.0
+		lightning_spell_power_multiplier = 1.15
 		#Cooldown Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cooldown_reduction_multiplier = 1.0
+		cooldown_reduction_multiplier = 1.15
 
 	[current_weapons.abyssal_tidecaller]
 		#Cast Time Reduction Multiplier || MULTIPLY_BASE || Base: 0.10 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cast_time_reduction_multiplier = 1.0
+		cast_time_reduction_multiplier = 1.15
 		#Eldritch Spell Power Multiplier || MULTIPLY_BASE || Base: 0.10 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		eldritch_spell_power_multiplier = 1.0
+		eldritch_spell_power_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Base: 21.0 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Base: -3.0 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Ender Spell Power Multiplier || MULTIPLY_BASE || Base: 0.10 || Default 1.0
 		#Range: 0.0 ~ 10.0
-		ender_spell_power_multiplier = 1.0
+		ender_spell_power_multiplier = 1.15
 
 	[current_weapons.the_obliterator]
 		#Oblivion Ray damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
-		oblivion_ray_multiplier = 1.0
+		oblivion_ray_multiplier = 1.15
 		#Eldritch Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		eldritch_spell_power_multiplier = 1.0
+		eldritch_spell_power_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Ender Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		ender_spell_power_multiplier = 1.0
+		ender_spell_power_multiplier = 1.15
 		#Cooldown Reduction Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		cooldown_reduction_multiplier = 1.0
+		cooldown_reduction_multiplier = 1.15
 
 	[current_weapons.infernal_devastator]
 		#Max Mana Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		max_mana_multiplier = 1.0
+		max_mana_multiplier = 1.15
 		#Durability || Default 2250
 		#Range: > 1
-		durability = 2250
+		durability = 2588
 		#Damage Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		damage_multiplier = 1.0
+		damage_multiplier = 1.15
 		#Attack Speed Multiplier || Default 1.0
 		#Range: 0.0 ~ 10.0
-		attack_speed_multiplier = 1.0
+		attack_speed_multiplier = 1.15
 		#Blazing Salvo damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
-		blazing_salvo_multiplier = 1.0
+		blazing_salvo_multiplier = 1.15
 		#Fire Spell Power Multiplier || MULTIPLY_BASE || Default 1.0
 		#Range: 0.0 ~ 10.0
-		fire_spell_power_multiplier = 1.0
+		fire_spell_power_multiplier = 1.15
 

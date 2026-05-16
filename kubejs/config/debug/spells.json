@@ -1,0 +1,692 @@
+{
+	"spells": [
+		{
+			"spellName": "traveloptics:vortex_of_the_deep",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:bubble_spray",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:hydroshot",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:aqua_missiles",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:jet_steam",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:echo_of_the_abyss",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:rainfall",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:flood_slash",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:coral_barrage",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:tidal_grasp",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:floodgate",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:tsunami",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:skypiercer",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:serpentide",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:the_howling_tempest",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:herald_of_acropolis",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:overflow",
+			"element": "traveloptics:aqua"
+		},
+		{
+			"spellName": "traveloptics:vigor_siphon",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "traveloptics:blood_howl",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "traveloptics:eek",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "traveloptics:nocturnal_swarm",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "traveloptics:call_forth_the_dead_king",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "traveloptics:shadowed_miasma",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "traveloptics:spectral_blink",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "traveloptics:reversal",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "traveloptics:psychic_bolt",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "traveloptics:void_eruption",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:cursed_minefield",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:orbital_void",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:vortex_punch",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:eternal_sentinel",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:astral_sense",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:conjure_void_tomes",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:blink",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:supernova",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:shear_of_the_stars",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "traveloptics:lingering_strain",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "traveloptics:ashen_breath",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "traveloptics:annihilation",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:lava_bomb",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:burning_judgment",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:meteor_storm",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:ignited_onslaught",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:extinction",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:gyro_slash",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:flames_reborn",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "traveloptics:nullflare",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "traveloptics:sword_of_the_ancients",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "traveloptics:summon_desert_dwellers",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "traveloptics:halberd_horizon",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "traveloptics:despair",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "traveloptics:sticky_steed_summon",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "traveloptics:cursed_revenants",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "traveloptics:axe_of_the_doomed",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "traveloptics:em_pulse",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "traveloptics:rapid_laser",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "traveloptics:death_laser",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "traveloptics:magnetron_deployment",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "traveloptics:mechanized_predator",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "traveloptics:galena_shatter",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "traveloptics:stele_cascade",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "traveloptics:aerial_collapse",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "traveloptics:primal_pack",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "traveloptics:primordial_steed",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "traveloptics:violent_skreech",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "darkdoppelganger:doppel_portal",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "darkdoppelganger:summon_doppel_minion",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:acupuncture",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:blood_needles",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:blood_slash",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:blood_step",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:devour",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:heartstop",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:raise_dead",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:ray_of_siphoning",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:wither_skull",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:sacrifice",
+			"element": "irons_spellbooks:blood"
+		},
+		{
+			"spellName": "irons_spellbooks:counterspell",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:dragon_breath",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:evasion",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:magic_arrow",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:magic_missile",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:starfall",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:teleport",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:summon_ender_chest",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:recall",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:portal",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:echoing_strikes",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:black_hole",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:summon_swords",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:shadow_slash",
+			"element": "irons_spellbooks:ender"
+		},
+		{
+			"spellName": "irons_spellbooks:chain_creeper",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:fang_strike",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:fang_ward",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:firecracker",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:gust",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:invisibility",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:lob_creeper",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:shield",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:spectral_hammer",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:summon_horse",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:summon_vex",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:slow",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:arrow_volley",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:wololo",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:throw",
+			"element": "irons_spellbooks:evocation"
+		},
+		{
+			"spellName": "irons_spellbooks:blaze_storm",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:burning_dash",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:fireball",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:firebolt",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:fire_breath",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:magma_bomb",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:wall_of_fire",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:heat_surge",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:flaming_strike",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:scorch",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:flaming_barrage",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:fire_arrow",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:raise_hell",
+			"element": "irons_spellbooks:fire"
+		},
+		{
+			"spellName": "irons_spellbooks:angel_wing",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:blessing_of_life",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:fortify",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:greater_heal",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:guiding_bolt",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:healing_circle",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:heal",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:sunbeam",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:wisp",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:divine_smite",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:haste",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:cleanse",
+			"element": "irons_spellbooks:holy"
+		},
+		{
+			"spellName": "irons_spellbooks:cone_of_cold",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:frost_step",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:ice_block",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:icicle",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:summon_polar_bear",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:ray_of_frost",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:frostwave",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:ice_spikes",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:ice_tomb",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:snowball",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:frostbite",
+			"element": "irons_spellbooks:ice"
+		},
+		{
+			"spellName": "irons_spellbooks:ascension",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:chain_lightning",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:charge",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:electrocute",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:lightning_bolt",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:lightning_lance",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:shockwave",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:thunderstorm",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:ball_lightning",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:volt_strike",
+			"element": "irons_spellbooks:lightning"
+		},
+		{
+			"spellName": "irons_spellbooks:acid_orb",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:blight",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:poison_arrow",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:poison_breath",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:poison_splash",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:root",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:spider_aspect",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:firefly_swarm",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:oakskin",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:earthquake",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:stomp",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:gluttony",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:touch_dig",
+			"element": "irons_spellbooks:nature"
+		},
+		{
+			"spellName": "irons_spellbooks:abyssal_shroud",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "irons_spellbooks:sculk_tentacles",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "irons_spellbooks:sonic_boom",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "irons_spellbooks:planar_sight",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "irons_spellbooks:telekinesis",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "irons_spellbooks:eldritch_blast",
+			"element": "irons_spellbooks:eldritch"
+		},
+		{
+			"spellName": "irons_spellbooks:pocket_dimension",
+			"element": "irons_spellbooks:eldritch"
+		}
+	]
+}

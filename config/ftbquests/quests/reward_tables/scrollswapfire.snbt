@@ -1,0 +1,407 @@
+{
+	id: "6572DE379473E01B"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:annihilation"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:lava_bomb"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:burning_judgment"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:meteor_storm"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:ignited_onslaught"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:extinction"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:gyro_slash"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:flames_reborn"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:blaze_storm"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:burning_dash"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:fireball"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:firebolt"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:fire_breath"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:magma_bomb"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:wall_of_fire"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:heat_surge"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:flaming_strike"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:scorch"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:flaming_barrage"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:fire_arrow"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:raise_hell"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+	]
+	title: "scrollSwapFire"
+}

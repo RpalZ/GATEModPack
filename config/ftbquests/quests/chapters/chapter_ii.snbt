@@ -61,7 +61,7 @@
 				}
 				{
 					auto: "invisible"
-					id: "2233445566778899"
+					id: "531E755016D6D9AC"
 					ignore_reward_blocking: true
 					stage: "ancient_remnant"
 					type: "gamestage"
@@ -110,7 +110,7 @@
 				}
 				{
 					auto: "invisible"
-					id: "33445566778899AA"
+					id: "02CE07E02B252A90"
 					ignore_reward_blocking: true
 					stage: "scylla"
 					type: "gamestage"
@@ -148,7 +148,7 @@
 				}
 				{
 					auto: "invisible"
-					id: "445566778899AABB"
+					id: "2DB671906CA0DF25"
 					ignore_reward_blocking: true
 					stage: "the_harbinger"
 					type: "gamestage"
@@ -197,7 +197,7 @@
 				}
 				{
 					auto: "invisible"
-					id: "5566778899AABBCC"
+					id: "15ED7D305353DDB7"
 					ignore_reward_blocking: true
 					stage: "maledictus"
 					type: "gamestage"
@@ -258,7 +258,7 @@
 				}
 				{
 					auto: "invisible"
-					id: "66778899AABBCCDD"
+					id: "37BE2D984F23A7E7"
 					ignore_reward_blocking: true
 					stage: "enraged_dead_king"
 					type: "gamestage"
@@ -289,7 +289,7 @@
 				}
 				{
 					auto: "invisible"
-					id: "778899AABBCCDDEE"
+					id: "1350CFF2EE119D14"
 					ignore_reward_blocking: true
 					stage: "quest_6e6e267a2e4701ac"
 					type: "gamestage"

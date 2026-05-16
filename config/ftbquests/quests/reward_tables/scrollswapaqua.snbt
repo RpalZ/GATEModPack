@@ -1,0 +1,331 @@
+{
+	id: "33DA39F0B9137F9E"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:vortex_of_the_deep"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:bubble_spray"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:hydroshot"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:aqua_missiles"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:jet_steam"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:echo_of_the_abyss"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:rainfall"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:flood_slash"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:coral_barrage"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:tidal_grasp"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:floodgate"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:tsunami"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:skypiercer"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:serpentide"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:the_howling_tempest"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:herald_of_acropolis"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "traveloptics:overflow"
+							index: 0
+							level: 10
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+	]
+	title: "scrollSwapAqua"
+}

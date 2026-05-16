@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["You are born as Merfolk."]
+			description: ["&9You are born as Merfolk.&r"]
 			id: "4632A6E031717E3B"
 			tasks: [{
 				icon: "traveloptics:hullbreaker_scales"
@@ -22,7 +22,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6211AF8D50907902"]
+			dependencies: [
+				"6211AF8D50907902"
+				"7540421CEC6FD4B3"
+			]
 			description: [
 				"SCROLL SWAP SHOP"
 				""
@@ -30,9 +33,8 @@
 			]
 			id: "0AC4DC13F49D46FF"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "7583829B58D3DD45"
-				table_id: 2045434586276917832L
+				table_id: 3736362546917244830L
 				type: "random"
 			}]
 			tasks: [{
@@ -60,8 +62,342 @@
 				type: "item"
 			}]
 			title: "Scroll Shop"
-			x: 2.0d
-			y: 0.5d
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4632A6E031717E3B"]
+			description: ["&9If you havent already noticed, you are given an aqua echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			id: "3E32EA47C98F158A"
+			tasks: [{
+				id: "34852EA14CAA0C4F"
+				item: {
+					Count: 1
+					id: "traveloptics:aqua_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4632A6E031717E3B"]
+			description: ["&9Merfolks can only eat seafood! Small price to pay for water abilities!&r"]
+			id: "49E8DE67EAAF6973"
+			tasks: [{
+				id: "0A68BCF3D6AD6D44"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E32EA47C98F158A"]
+			description: ["&9You gotta find these bad boys. These gives you essential pearls that makes up your build!&r"]
+			id: "1F19A25514768A0E"
+			rewards: [{
+				id: "121A40B3CA63DDDE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "355A1153F1A924F7"
+				item: "alexscaves:mussel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F19A25514768A0E"]
+			description: ["&9Quite tedious to get but definitely worth it!&r"]
+			id: "2CCE593E9059D55D"
+			rewards: [{
+				id: "3A98976985336106"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40C2DE0690D2E275"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CCE593E9059D55D"]
+			description: ["&9The basis of your aquatic powers!&r"]
+			id: "1B2D058B3EA29D8B"
+			rewards: [{
+				id: "1B2E406A655DDA99"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66D59190983D02E3"
+				item: "traveloptics:aqua_rune"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1B2D058B3EA29D8B"]
+			description: ["&9One of the only sets but it is really powerful!&r"]
+			id: "1EE485C4CF7C0B09"
+			rewards: [{
+				id: "54112699925615D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3CD6A383903B650E"
+					item: {
+						Count: 1
+						id: "traveloptics:deepling_mage_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358C0A7837123BC2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "traveloptics:deepling_mage_armor_robe"
+						tag: {
+							Damage: 0
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A98AB22F668D091"
+					item: {
+						Count: 1
+						id: "traveloptics:deepling_mage_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BE04598B6E55B9"
+					item: {
+						Count: 1
+						id: "traveloptics:deepling_mage_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EE485C4CF7C0B09"]
+			description: ["&9A slight upgrade but totally worth it!&r"]
+			id: "0AC93B046E7C56CA"
+			rewards: [{
+				id: "3D350F2FC7C6C0FF"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "0DA83DD776873843"
+					item: "traveloptics:riptide_sovereign_hat"
+					type: "item"
+				}
+				{
+					id: "68BD835467C69B4A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "traveloptics:riptide_sovereign_fincloak"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "173CDA2CA1EA115B"
+					item: "traveloptics:riptide_sovereign_leggings"
+					type: "item"
+				}
+				{
+					id: "48C776400BDDF73F"
+					item: "traveloptics:riptide_sovereign_boots"
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B2D058B3EA29D8B"]
+			description: ["&9Aqua upgrade orb!! Imbue these to all your gears and maximize your potential!&r"]
+			id: "7540421CEC6FD4B3"
+			rewards: [{
+				id: "7EF4981514B5B2EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59D6F308528523FE"
+				item: {
+					Count: 1
+					id: "traveloptics:aqua_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "traveloptics:aqua_power"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B2D058B3EA29D8B"]
+			description: ["&9Aqua Book 1!&r"]
+			id: "7D4F5704A045D76F"
+			rewards: [{
+				id: "75ACD0DFA7F768AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "262C01D380B691F8"
+				item: {
+					Count: 1
+					id: "traveloptics:guide_to_watery_whispers"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7D4F5704A045D76F"]
+			description: ["&9Aqua Book 2!&r"]
+			id: "6D6473F736791648"
+			rewards: [{
+				id: "024C2885FD400DF9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39C722621F920182"
+				item: {
+					Count: 1
+					id: "traveloptics:codex_of_the_crushing_depths"
+					tag: {
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"traveloptics:vortex_of_the_deep": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1B2D058B3EA29D8B"]
+			description: ["&9A quick cast weapon!&r"]
+			id: "585A102956B7E3BF"
+			tasks: [{
+				id: "41EB93F5AF3E7167"
+				item: {
+					Count: 1
+					id: "traveloptics:staff_of_the_storm_empress"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B2D058B3EA29D8B"]
+			description: ["&9The cooler water blaster!&r"]
+			id: "2A6B0ECE06230499"
+			tasks: [{
+				id: "69C7B4C6D01832AD"
+				item: {
+					Count: 1
+					id: "traveloptics:trident_of_the_eternal_maelstrom"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:skypiercer"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -6.5d
 		}
 	]
 	title: "Merfolk"

@@ -22,7 +22,7 @@ toggleSprint:true
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.375586854460094
-fov:0.575
+fov:0.525
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -44,7 +44,7 @@ biomeBlendRadius:2
 renderClouds:"fast"
 resourcePacks:["vanilla","tacz_resources","mod_resources","file/GATE_Optimization_Pack.zip","Moonlight Mods Dynamic Assets","fabric","continuity:default","continuity:glass_pane_culling_fix"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:cadmium-backup.de.e4mc.link
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -84,13 +84,13 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.12362030905077266
-soundCategory_music:0.3028169014084507
+soundCategory_master:0.35871964679911694
+soundCategory_music:0.751173708920188
 soundCategory_record:1.0
 soundCategory_weather:1.0
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_block:0.704225352112676
+soundCategory_hostile:0.807511737089202
+soundCategory_neutral:0.4084507042253521
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0

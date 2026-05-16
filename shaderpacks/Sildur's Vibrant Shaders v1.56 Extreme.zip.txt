@@ -1,8 +1,15 @@
-#Mon May 11 19:37:14 AST 2026
+#Fri May 15 00:00:51 AST 2026
+shadowDistance=60.0
+VL_amount=0.5
+MobsFlashRed=false
+shadow_samples=10
+Lens_Flares_Strength=1.0
 bloom_strength=0.5
 TAA_sharpness=0.25
-Godrays_Density=2.3
+Godrays_Density=0.575
+customStars=false
 shadowMapResolution=512
-MobsFlashRed=false
 TAA=false
 Lens_Flares=true
+cloudsIT=6
+ao_strength=1.5

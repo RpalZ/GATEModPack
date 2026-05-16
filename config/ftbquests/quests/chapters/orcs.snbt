@@ -11,6 +11,11 @@
 		{
 			description: ["You are born as an orc"]
 			id: "52B3058B1A49CE8B"
+			rewards: [{
+				id: "3A13643A76906368"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				icon: "alexsmobs:bone_serpent_tooth"
 				id: "5F4D1FECEB56E979"
@@ -22,7 +27,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6211AF8D50907902"]
+			dependencies: [
+				"6211AF8D50907902"
+				"1FBE05191DC138F3"
+			]
 			description: [
 				"SCROLL SWAP SHOP"
 				""
@@ -30,9 +38,8 @@
 			]
 			id: "077E287BB39E3E18"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "607B3C0A26F1DE28"
-				table_id: 2045434586276917832L
+				table_id: 1239938732284874214L
 				type: "random"
 			}]
 			tasks: [{
@@ -60,8 +67,190 @@
 				type: "item"
 			}]
 			title: "Scroll Shop"
-			x: 0.0d
-			y: 2.5d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52B3058B1A49CE8B"]
+			description: ["&aIf you havent already noticed, you are given an evocation echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			id: "3120BCD9006F2895"
+			rewards: [{
+				id: "326DA9B7CBFE9927"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1B9A63B5F9BDC900"
+				item: {
+					Count: 1
+					id: "traveloptics:evocation_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3120BCD9006F2895"]
+			description: ["&aBeing an Orc means being a greedy rich bastard! For these are the ways to keep you afloat!&r"]
+			id: "666C8DB25BD8262B"
+			rewards: [{
+				id: "6C9A6D0A0B9E121B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "188A07825522F434"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["666C8DB25BD8262B"]
+			description: ["&aThese form the basis of your crafts!&r"]
+			id: "60E9F30602246999"
+			rewards: [{
+				id: "56EA491E5746311F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EA4FEE04582DE5D"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60E9F30602246999"]
+			description: ["&aThe Essential Orb for the dark magician!&r"]
+			id: "1FBE05191DC138F3"
+			tasks: [{
+				id: "66DF8500E29201B1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evocation_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:evocation_power"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60E9F30602246999"]
+			description: ["&aThe one only armor set for evocation! Unfortunately.&r "]
+			id: "7FC7749EAB4CDCC8"
+			rewards: [{
+				id: "0F02E2977A7C1284"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [
+				{
+					id: "21CEE94F72C16784"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E370CC2B7EB63E7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD8FDCE98C6DE0D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7122B4C7E9D8B41D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["60E9F30602246999"]
+			description: ["&aThe only Evocation Power up Book!&r"]
+			id: "1DCCD983F2CD345F"
+			tasks: [{
+				id: "3483FF5D6594FE9B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
 		}
 	]
 	title: "Orcs"

@@ -1,4 +1,4 @@
-const magicID = "04DC5842338F1122";
+const magicID = "3CD98C0AC429E1B8";
 
 FTBQuestsEvents.customTask(magicID, (event) => {
     

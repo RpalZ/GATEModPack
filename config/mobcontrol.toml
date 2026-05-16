@@ -617,12 +617,23 @@ weight=3
 ################################################################################
 # Add your custom rules below the next line
 ################################################################################
-[[mob]]
-name="block_factorys_bosses:infernal_dragon"
-[[mob.rule]]
-set.health=1024
-type="all"
+# [[mob]]
+# name="block_factorys_bosses:infernal_dragon"
+# [[mob.rule]]
+# set.health=1024
+# type="all"
 
+# [[mob]]
+# name="block_factorys_bosses:sandworm"
+# [[mob.rule]]
+# set.health=1024
+# type="all"
+
+# [[mob]]
+# name="block_factorys_bosses:underworld_knight"
+# [[mob.rule]]
+# set.health=2000
+# type="all"
 
 [[mob]]
 name="minecraft:ender_dragon"
@@ -631,14 +642,25 @@ set.health=6000
 type="all"
 
 [[mob]]
+name="irons_spellbooks:dead_king"
+[[mob.rule]]
+set.health=4500
+set.snbt="{Attributes:[{Name:\"minecraft:generic.armor\",Base:20.0}]}"
+
+type="all"
+
+
+
+[[mob]]
 name=["minecraft:zombie", "minecraft:husk", "minecraft:drowned"]
 [[mob.rule]]
 set.health=[20, 60]
-is-baby=false
+is-baby="no"
+set.baby=0
 type="all"
 [[mob.rule.head]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.head]]
 name="minecraft:iron_helmet"
 weight=6
@@ -650,7 +672,7 @@ name="minecraft:netherite_helmet"
 weight=1
 [[mob.rule.chest]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.chest]]
 name="minecraft:iron_chestplate"
 weight=6
@@ -662,7 +684,7 @@ name="minecraft:netherite_chestplate"
 weight=1
 [[mob.rule.legs]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.legs]]
 name="minecraft:iron_leggings"
 weight=6
@@ -674,7 +696,7 @@ name="minecraft:netherite_leggings"
 weight=1
 [[mob.rule.feet]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.feet]]
 name="minecraft:iron_boots"
 weight=6
@@ -693,7 +715,7 @@ set.health=[20, 40]
 type="all"
 [[mob.rule.head]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.head]]
 name="minecraft:iron_helmet"
 weight=6
@@ -705,7 +727,7 @@ name="minecraft:netherite_helmet"
 weight=1
 [[mob.rule.chest]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.chest]]
 name="minecraft:iron_chestplate"
 weight=6
@@ -717,7 +739,7 @@ name="minecraft:netherite_chestplate"
 weight=1
 [[mob.rule.legs]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.legs]]
 name="minecraft:iron_leggings"
 weight=6
@@ -729,7 +751,7 @@ name="minecraft:netherite_leggings"
 weight=1
 [[mob.rule.feet]]
 name="minecraft:air"
-weight=2
+weight=4
 [[mob.rule.feet]]
 name="minecraft:iron_boots"
 weight=6

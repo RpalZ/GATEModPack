@@ -121,6 +121,13 @@
 					stage: "umvuthi"
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "592F7315A622070C"
+					ignore_reward_blocking: true
+					stage: "dragon_slayer"
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
@@ -148,6 +155,7 @@
 				"&4&o\"Slay the elemental dragons and turn their scales into armor worthy of the hunt.\"&r&r"
 			]
 			id: "4AB16D387D6EC80E"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -194,7 +202,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4AB16D387D6EC80E"]
+			dependencies: ["083CFC179D001044"]
 			description: [
 				"&6&oThe corruption that reached the land has also stirred the seas. Ancient waters have been disturbed, and from the deep has risen a one-eyed creature that now terrorizes the fishermen who still brave the coast.&r&r"
 				""
@@ -584,7 +592,7 @@
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
-			description: ["&6This Modpack Ultimine. Simple Hold ~ while mining to activate.&r"]
+			description: ["&6This Modpack contains Ultimine. Simple Hold ~ while mining to activate.&r"]
 			id: "68533B1A4060371C"
 			tasks: [{
 				id: "68408DC800BD5504"

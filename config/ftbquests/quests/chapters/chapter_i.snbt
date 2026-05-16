@@ -7,24 +7,809 @@
 	id: "4E619074F1B8F8D4"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"&6Welcome to Magic!"
-			""
-			"&6If you are a non human, you may already notice that you have an inherent spell given to you.&r"
-			""
-			"&6In the world of magic, spells are sacred, defying the laws of physics. Use these to your advantage.&r&r"
-		]
-		id: "045E93802D34D4C7"
-		tasks: [{
-			icon: "waystones:return_scroll"
-			id: "04DC5842338F1122"
-			title: "Unlock Magic"
-			type: "custom"
-		}]
-		title: "Not So Science"
-		x: 0.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["0D0908845786A009"]
+			description: ["&6Two Paths of Magic!&r"]
+			icon: "effortlessbuilding:building_techniques_book"
+			id: "0A6F2D1E9C7B4F20"
+			tasks: [{
+				id: "0AE2E233D87BCAFF"
+				title: "Mageeck!"
+				type: "checkmark"
+			}]
+			title: "Arcane Kickoff"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A6F2D1E9C7B4F20"]
+			description: ["&6Your first (Iron's) spellbook!&r"]
+			id: "2C1D4E6F8A9B0C11"
+			rewards: [{
+				id: "746EFA886F079B01"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D5E7F9A1B2C3D4E"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
+			title: "Rookie Magician"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C1D4E6F8A9B0C11"]
+			description: ["&6Spells take time to cast. Be sure not to get interrupted while at it!&r"]
+			id: "1C847371327AAF79"
+			rewards: [{
+				id: "32554F61EB0573F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "257DA8850B2658EB"
+				title: "Interrupted!"
+				type: "checkmark"
+			}]
+			title: "Interrupted"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C1D4E6F8A9B0C11"]
+			description: ["&6Build the Inscription Table. You can use these to slot your scrolls into the spellbooks!&r"]
+			id: "4E5F60718293A401"
+			rewards: [{
+				id: "1498225D737437F8"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "5F708192A3B4C5D6"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Inscription Table: Slot Up"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E5F60718293A401"]
+			description: ["&6Forge your first scrolls. These can be imbued or combined with inks later on!&r"]
+			id: "60718293A4B5C6D7"
+			rewards: [{
+				id: "1DB98221F26FFDB4"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "718293A4B5C6D7E8"
+					item: "irons_spellbooks:scroll_forge"
+					type: "item"
+				}
+				{
+					id: "5B4BA164A7021EB1"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			]
+			title: "Scrollcraft: First Spell"
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C1D4E6F8A9B0C11"]
+			description: ["&6Stock inks and runes. Better materials, better spells.&r"]
+			id: "41CE9F9924EABC5A"
+			rewards: [{
+				id: "6E4C44D777F92623"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "6680FF862A417007"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+				{
+					id: "01EC184B61855FAB"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+			]
+			title: "Ink and Runes: Stock Up"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["41CE9F9924EABC5A"]
+			description: ["&6Farm arcane essence. This stuff powers everything.&r"]
+			id: "48FA6268F7AC738B"
+			rewards: [{
+				id: "7650EBE948FDF64F"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "2A0B1C2D3E4F5061"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "Essence Grind"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["60718293A4B5C6D7"]
+			description: ["&6Use the arcane anvil to upgrade your spells!&r"]
+			id: "47A5F8F27081A599"
+			rewards: [{
+				id: "25685DE97500D2B6"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "741AC505A8A650BC"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Arcane Anvil: Upgrade Time"
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["47A5F8F27081A599"]
+			description: ["&6Use higher tier inks to upgrade scrolls!&r"]
+			id: "69C72F6DAF9B790E"
+			rewards: [{
+				id: "628DB6A4E14F9CDE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "684F32B9CD0C75FD"
+				title: "Level up"
+				type: "checkmark"
+			}]
+			title: "Scroll Merging: Level Up"
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["47A5F8F27081A599"]
+			description: ["&6Imbue a weapon with a spell for on-demand casts!&r"]
+			id: "26103CFB603D3E95"
+			rewards: [{
+				id: "2C7194B6A26D7360"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "065B40714EDB1501"
+				title: "Imbue!"
+				type: "checkmark"
+			}]
+			title: "Imbued Weapon: Spell on Swing"
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60718293A4B5C6D7"]
+			description: ["&6Cauldrons are really useful to create special fluids. Namely blood and other things...&r"]
+			id: "4C071D2CE51896D2"
+			rewards: [{
+				id: "1297B9F49ACD4275"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "577B42BB1E545619"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "Cauldron Lab"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["41CE9F9924EABC5A"]
+			description: ["&6Upgrade your ink game for higher tier spells!&r"]
+			id: "4E567CFF3A2EB322"
+			rewards: [{
+				id: "062738495A6B7C8D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "1738495A6B7C8D9E"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					id: "28495A6B7C8D9E0F"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+			]
+			title: "Ink Refinement: Tier Up"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["47A5F8F27081A599"]
+			description: ["&6Ol' Reliable Upgrade!&r"]
+			id: "394A5B6C7D8E9F00"
+			rewards: [{
+				id: "495A6B7C8D9E0F10"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5A6B7C8D9E0F1021"
+				item: "irons_spellbooks:iron_spell_book"
+				type: "item"
+			}]
+			title: "Iron Spellbook: Step Up"
+			x: -13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["394A5B6C7D8E9F00"]
+			description: ["&6Mid Tier Generalist Upgrade!&r"]
+			id: "6B7C8D9E0F102132"
+			rewards: [{
+				id: "7C8D9E0F10213243"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "333327EED298FF38"
+				item: "irons_spellbooks:gold_spell_book"
+				type: "item"
+			}]
+			title: "Gold Spellbook: Shine"
+			x: -13.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6B7C8D9E0F102132"]
+			description: ["&6Diamond spellbook! The Ultimate Generalist!&r"]
+			id: "085F44521227E94A"
+			rewards: [{
+				id: "0F10213243546576"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "1021324354657687"
+				item: "irons_spellbooks:diamond_spell_book"
+				type: "item"
+			}]
+			title: "Diamond Spellbook: Flex"
+			x: -13.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["47A5F8F27081A599"]
+			description: ["&6Found in Ancient Cities! These are very useful for certain spellbooks!&r"]
+			id: "2132435465768798"
+			rewards: [{
+				id: "32435465768798A9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "435465768798A9BA"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			title: "Ruined Knowledge: Loot Run"
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["47A5F8F27081A599"]
+			description: ["&6Essential Crafting materials later on!&r"]
+			id: "5465768798A9BACB"
+			rewards: [{
+				id: "65768798A9BACBDC"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "768798A9BACBDCED"
+					item: "irons_spellbooks:magic_cloth"
+					type: "item"
+				}
+				{
+					id: "42389337CD01D64F"
+					item: "irons_spellbooks:arcane_salvage"
+					type: "item"
+				}
+			]
+			title: "Arcane Materials: Weave It"
+			x: -7.100000000000001d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0A6F2D1E9C7B4F20"]
+			description: ["&6Your first (Ars) spellbook!&r"]
+			id: "0112233445566778"
+			rewards: [{
+				id: "08192A3B4C5D6E7F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1223344556677889"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "233445566778899A"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+			]
+			title: "Ars Foundations: Notebook -> Novice"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0112233445566778"]
+			description: ["&6Blank parchment is the fuel for glyphs. Print some!&r"]
+			id: "32200800548A5929"
+			rewards: [{
+				id: "7D08D51EB3E7C2D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79AC97AA40C62B8D"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			title: "Blank Parchment: Fuel"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32200800548A5929"]
+			description: ["&6Build the Scribe's Table and stamp your first glyph.&r"]
+			id: "3445566778899AAB"
+			rewards: [{
+				id: "192A3B4C5D6E7F80"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "45566778899AABBC"
+					item: "ars_nouveau:scribes_table"
+					type: "item"
+				}
+				{
+					id: "566778899AABBCCD"
+					item: "ars_nouveau:glyph_touch"
+					type: "item"
+				}
+			]
+			title: "First Glyph: Touch"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3445566778899AAB"]
+			description: ["&6Projectile plus harm. Now you can tag targets from range. Very useful!&r"]
+			id: "0F1E2D3C4B5A6978"
+			rewards: [{
+				id: "1E2D3C4B5A697889"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "2D3C4B5A6978899A"
+					item: "ars_nouveau:glyph_projectile"
+					type: "item"
+				}
+				{
+					id: "3C4B5A6978899AAB"
+					item: "ars_nouveau:glyph_harm"
+					type: "item"
+				}
+			]
+			title: "Ranged Casting: Pew"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F1E2D3C4B5A6978"]
+			description: ["&6Ignite plus amplify. Good cookware!&r"]
+			id: "4B5A6978899AABBC"
+			rewards: [{
+				id: "5A6978899AABBCCD"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "6A7B8C9D0E1F2031"
+					item: "ars_nouveau:glyph_ignite"
+					type: "item"
+				}
+				{
+					id: "7B8C9D0E1F203142"
+					item: "ars_nouveau:glyph_amplify"
+					type: "item"
+				}
+			]
+			title: "Elemental Glyphs: Ignite"
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B5A6978899AABBC"]
+			description: ["&6Augments scale cost. Plan your mana budget!&r"]
+			id: "0DA121181C9CB14B"
+			tasks: [{
+				id: "7A08E37AC76DFD77"
+				title: "Budgeting"
+				type: "checkmark"
+			}]
+			title: "Augment Math: Amplify Costs"
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3445566778899AAB"]
+			description: ["&6Jar the source and feed it with a Sourcelink.&r"]
+			id: "6778899AABBCCDDE"
+			rewards: [{
+				id: "2A3B4C5D6E7F8081"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "78899AABBCCDDEEF"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "4594343D9B15E2D1"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Source Handling: Jar It"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6778899AABBCCDDE"]
+			description: ["&6Relays move power where you want it.&r"]
+			id: "75FC8D9C21CB8882"
+			rewards: [{
+				id: "2C89BB397243787A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "69D6A01E311A5CCF"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+				{
+					id: "1B1891A588790E77"
+					item: "ars_nouveau:relay_deposit"
+					type: "item"
+				}
+				{
+					id: "043EE81AD86583D0"
+					item: "ars_nouveau:relay_splitter"
+					type: "item"
+				}
+			]
+			title: "Relay Network: Route It"
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6778899AABBCCDDE"]
+			description: ["&6Send items with a familiar. Route A to B.&r"]
+			id: "646FA24A17840490"
+			tasks: [{
+				icon: "ars_nouveau:source_jar"
+				id: "17788540FD067A80"
+				title: "Familiar Loop"
+				type: "custom"
+			}]
+			title: "Familiar Logistics: Starbuncle Routes"
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6778899AABBCCDDE"]
+			description: ["&6Imbue gear and flex on physics!&r"]
+			id: "7C42F157AA3B0EA6"
+			rewards: [{
+				id: "3B4C5D6E7F808192"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "52ABF01BD9F1ED2F"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "Imbuement: Infuse"
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6778899AABBCCDDE"]
+			description: ["&6Build the Apparatus and its core. This is the big craft bench.&r"]
+			id: "1F355CC66CF429FD"
+			rewards: [{
+				id: "4C5D6E7F808192A3"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "6D32FA17F3DFE3EB"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "09C6B5971C240F68"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "773A57F8CE66F995"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus: Build It"
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3445566778899AAB"]
+			description: ["&6Hunt Wilden. You need the parts for the next tier.&r"]
+			id: "5F9BB57BB4E2D91D"
+			rewards: [{
+				id: "732FF265B7670F7F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "3E084C12270201C3"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "5A3E56AF952C1763"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "0011223344556677"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			title: "Wilden Hunt: Parts"
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5F9BB57BB4E2D91D"]
+			description: ["&6Set the brazier and prep the tribute.&r"]
+			id: "1122334455667788"
+			rewards: [{
+				id: "2233445566778899"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "33445566778899AA"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "445566778899AABB"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "Ritual Prep: Tribute"
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1F355CC66CF429FD"]
+			description: ["&6Potion Melder unlocked. Mix harder, hit faster.&r"]
+			id: "5566778899AABBCC"
+			rewards: [{
+				id: "66778899AABBCCDD"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "778899AABBCCDDEE"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			title: "Potion Melder: Mix"
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F355CC66CF429FD"]
+			description: ["&6Drop a turret, then upgrade it. Magic's own automated weapon system!&r"]
+			id: "0A1B2C3D4E5F6071"
+			rewards: [{
+				id: "1B2C3D4E5F607182"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "2C3D4E5F60718293"
+					item: "ars_nouveau:basic_spell_turret"
+					type: "item"
+				}
+				{
+					id: "3D4E5F60718293A4"
+					item: "ars_nouveau:spell_turret"
+					type: "item"
+				}
+			]
+			title: "Spell Turrets: Set and Forget"
+			x: 19.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0112233445566778"]
+			description: ["&6Apprentice tier hits different. Upgrade now!&r"]
+			id: "24B2CFC31B9AE4A5"
+			rewards: [{
+				id: "5D6E7F808192A3B4"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "28B48BC17208A39D"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "Apprentice Spellbook: Next Tier"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["24B2CFC31B9AE4A5"]
+			description: ["&6Archmage tier. Super coool!&r"]
+			id: "26C97ECD8F35E4D5"
+			rewards: [{
+				id: "6B4D726A0542C122"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "440FE8BF453BB839"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "Archmage Spellbook: Peak"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			description: ["&6You have unlocked Magic! Full of miracles that bypass the laws of science!&r"]
+			icon: "waystones:bound_scroll"
+			id: "0D0908845786A009"
+			rewards: [{
+				id: "12D208C78FC5910A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "waystones:bound_scroll"
+				id: "3CD98C0AC429E1B8"
+				title: "Not So Science!"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C847371327AAF79"]
+			description: ["&6Cant stop getting hit? This will allow you to become uninterruptable!&r"]
+			id: "031AABD8F1337643"
+			rewards: [{
+				id: "7C139DD3733677B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3431D25EBB877A95"
+				item: "irons_spellbooks:concentration_amulet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0112233445566778"]
+			description: ["&6Magic also suffers from logistics! So heres a solution!&r"]
+			id: "2FFD8706EF398A71"
+			rewards: [{
+				id: "412830AD3C7FB207"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75B277F8CFE7FBFB"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FFD8706EF398A71"]
+			description: ["&6Right click the lectern with these charms. Each bookwyrm can handle 8 inventories!&r"]
+			id: "6DFBC4B3EB852BEA"
+			rewards: [{
+				id: "447CF7CD9CC79363"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54B0F73AF3CFEFCC"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DFBC4B3EB852BEA"]
+			description: ["&6Use this wand to link the inventories together!&r"]
+			id: "40E67C4879CC30E5"
+			tasks: [{
+				id: "58D7FE9265BC3E9D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: {
+						an_dominion_wand: {
+							entityID: -1
+							mode: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+	]
 	title: "Chapter I"
 }

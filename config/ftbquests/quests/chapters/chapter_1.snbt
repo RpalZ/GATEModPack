@@ -206,6 +206,746 @@
 			x: 22.5d
 			y: -13.5d
 		}
+		{
+			dependencies: ["72DE04CAE8F6BF13"]
+			description: ["&6As you explore the world, things can get really slow so naturally you would need a faster mode of travel!&r"]
+			id: "22B3F7178DC09415"
+			rewards: [{
+				id: "59E93E820AB678A5"
+				item: "superbwarfare:large_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A7DF59B0D32BECE"
+				item: "superbwarfare:vehicle_assembling_table"
+				type: "item"
+			}]
+			title: "Helis, Tanks and Cars!"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22B3F7178DC09415"]
+			description: ["&6Craft your first vehicle!&r"]
+			id: "4794EFA6D2E007B9"
+			rewards: [{
+				id: "660BD3D86007D80B"
+				item: "superbwarfare:medium_battery_pack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC4CCABF96D2304"
+				item: "superbwarfare:container"
+				type: "item"
+			}]
+			title: "Reinventing the wheel"
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4794EFA6D2E007B9"]
+			description: ["&6Many Vehicles require specific ammo types for their weapons. Here is a quick guide for it.&r"]
+			id: "3F117041BE0C2184"
+			tasks: [{
+				id: "025737D62A87D150"
+				title: "Mechanized Weapons"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9This ammo is commonly used in machine guns such as mounted HMGs and Coaxial MG from certain vehicles.&r"]
+			id: "313DA812878894A1"
+			rewards: [{
+				id: "6FF72CE1011D709A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4634ED41F2929AD7"
+				item: "superbwarfare:rifle_ammo"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9These are commonly used in small calibre autocannons such as 20-30mm cannons.&r"]
+			id: "31FB38C5B687BA79"
+			rewards: [{
+				id: "119FD2B444E0EEB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FF6D88CF1FC6B0A"
+				item: "superbwarfare:small_shell"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9Armor Piercing Shells commonly used in Tanks to shred highly armored targets.&r"]
+			id: "0C2F5560C6FC83CF"
+			rewards: [{
+				id: "2E9AA60047C89AD4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F768FFDF06D5FC5"
+				item: { Count: 64, id: "superbwarfare:medium_rocket_ap" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9High Explosive shells. Great for destroying fortifications and scattered targets. Used in Tanks.&r"]
+			id: "26136E5852D02737"
+			rewards: [{
+				id: "787A11256D4A66CF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4339ECE4328E3059"
+				item: { Count: 64, id: "superbwarfare:medium_rocket_he" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9Perfect for Warcrime.&r"]
+			id: "761F7EEE6196144E"
+			rewards: [{
+				id: "31F149CB9B116716"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52BF04E3E2C9F74F"
+				item: "superbwarfare:medium_rocket_cm"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9Commonly used in missile launchers. These ATGMs have great armor piercing capabilities.&r"]
+			id: "7F9720B12B5E6169"
+			rewards: [{
+				id: "644914DAA8EF4CD5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67CEEDBB1415A6CF"
+				item: { Count: 4, id: "superbwarfare:medium_anti_ground_missile" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9Anti Air Missile.&r"]
+			id: "3ACEF1BCAF658867"
+			rewards: [{
+				id: "3525F514979F8100"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14327390A4641226"
+				item: "superbwarfare:medium_anti_air_missile"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9A Larger Ground ATGM&r"]
+			id: "0DADEC0B270E33C9"
+			tasks: [{
+				id: "78E4E08F5F806384"
+				item: { Count: 2, id: "superbwarfare:large_anti_ground_missile" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F117041BE0C2184"]
+			description: ["&9Spammy Rockets mainly used in Helis and Planes&r"]
+			id: "5B14ED7E3351D12D"
+			rewards: [{
+				id: "45F1B59F452DE202"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4ACDFF090621E267"
+				item: "superbwarfare:small_rocket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72DE04CAE8F6BF13"]
+			description: ["&9Your first Power Generation! Simply burn coal to get power or Surround this block with lots of lava!&r"]
+			id: "48F43DA44253436E"
+			rewards: [{
+				id: "760C91F46303292B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09E2615B0A771789"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F43DA44253436E"]
+			description: ["&9Non stop renewable energy! The higher you go the greater the power!&r"]
+			id: "6FFA48A5B82CF8C7"
+			rewards: [{
+				id: "2FE775B585B8F294"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5536A85CDD366435"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6FFA48A5B82CF8C7"]
+			description: ["&9Turn your crops into fuel!&r"]
+			id: "62F2BFE7DD617C19"
+			rewards: [{
+				id: "0D586ADA05BDD778"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "451BD8C485A37459"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["62F2BFE7DD617C19"]
+			description: ["&9Very effective and OP generator. &r"]
+			id: "6D6D08AB2438B3DD"
+			rewards: [{
+				id: "0E9EDEAAB6AF3CF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17C916896E7AACE9"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72DE04CAE8F6BF13"]
+			description: ["&9Alternative Power Generation Manual!&r"]
+			id: "66346571462DAF25"
+			rewards: [{
+				id: "28165EF52BAF75D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44B2618A9DF4A212"
+				item: "powah:book"
+				type: "item"
+			}]
+			title: "POWAHHH"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72DE04CAE8F6BF13"]
+			description: ["&9Tacticool Armor!&r"]
+			id: "08CD8CA4F99F9A9B"
+			rewards: [{
+				id: "112655A5DF789B20"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "37016DB59080F15B"
+				title: "Tech Armor!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -9.299999999999999d
+		}
+		{
+			dependencies: ["08CD8CA4F99F9A9B"]
+			description: ["&9Reliable and classic. Can be plated.&r"]
+			id: "40A97BB722B9D549"
+			rewards: [{
+				id: "08C11F38E201DB26"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "184EC14517984FF0"
+					item: {
+						Count: 1
+						id: "fracturepoint:nato_sqad_leader_helmet_woodland"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3165F9D0C9ACBE9D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 4
+							}
+							"fracturepoint:plate_holder": { }
+						}
+						id: "fracturepoint:nato_sqad_leader_chestplate_woodland"
+						tag: {
+							Damage: 0
+							PlateData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4314BA57DDBFA42A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "fracturepoint:nato_shoulderpads_woodland"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["08CD8CA4F99F9A9B"]
+			description: ["&9Most of tech armor can be equipped with armor plates. They provide Maximum protection for their durability.&r"]
+			id: "6E4B2273F1F1F8AB"
+			rewards: [{
+				id: "336625409EA43CAE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2AB6122E4CC662D6"
+				item: {
+					Count: 1
+					id: "superbwarfare:armor_plate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["08CD8CA4F99F9A9B"]
+			description: ["&9The Ultimate Techarmor. Makes you almost invincible!&r"]
+			id: "459947473ACE913E"
+			tasks: [
+				{
+					id: "155CCACCEDFAFC0C"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "250B6B88768FB0D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "mekanism:mekasuit_bodyarmor"
+					}
+					type: "item"
+				}
+				{
+					id: "110907519E7E16C4"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "464B98E296F4E86A"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["72DE04CAE8F6BF13"]
+			description: ["&6With all the constant demand for resources, logistics become a massive hurdle. Thats why automation should be your best friend!&r"]
+			id: "451EC034EB67335B"
+			tasks: [{
+				id: "56E96952A8C8FDBD"
+				title: "Logistics !01"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["451EC034EB67335B"]
+			description: ["&6Your first step is to find a weird meteorite. They are hard to miss!&r"]
+			id: "3E7BCA1A62F165AB"
+			rewards: [{
+				id: "622205421513862B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58AB933B576D63BE"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E7BCA1A62F165AB"]
+			description: ["&6Dig down the meteorite and mine the mysterious block in the middle!&r"]
+			id: "6BAE5095065CF278"
+			tasks: [
+				{
+					id: "5931A862F05756C1"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "66503B027C3710CF"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "2A50B3D19197B0C9"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "7D3FDA798D1E2AE9"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6BAE5095065CF278"]
+			description: ["&6Mine the crytal quartz! However, dont mine the budding. Use a cardboard box to preserve their state! Already mined it? Oh well, you can get a free one!&r"]
+			id: "3661C56EA3F47AEF"
+			rewards: [
+				{
+					id: "48BDC287882B5B82"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+				{
+					id: "28DD40F2BD2E1EFD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "3916AAC048190600"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "68E101A3B60FE7B8"
+					item: "mekanism:cardboard_box"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3661C56EA3F47AEF"]
+			description: ["&6The heart of AE2 System! Well... Not really but they are really essential early game.&r"]
+			id: "2744FF71F28A8F5B"
+			rewards: [{
+				id: "6B0FD8DAE13951F6"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [
+				{
+					id: "61DE3CE40C2B8C56"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "624A86B5BD54D93A"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2744FF71F28A8F5B"]
+			description: ["&6Now finally... The heart of the AE2 System! Here you will learn a bit more about networking!&r"]
+			id: "058AA658C81156A8"
+			rewards: [
+				{
+					id: "37F44317CE85B442"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 20
+					id: "19DB4600A9E3F677"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "030735531EB9B743"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["058AA658C81156A8"]
+			description: ["&6The basic component that allows you to \"see\" your inventory! Simply attach this to any storage block and wire em to the controller!&r"]
+			id: "36CE311147B2018C"
+			rewards: [{
+				id: "05AFFA345912813A"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0FBCBDA130A87138"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36CE311147B2018C"]
+			description: ["&6Do note it doesnt matter how you wire them up in ae2. As long as it is connected, it is part of your system! However, do be mindful of how many channels you are taking up though! Thats basic bandwidth knowledge!&r"]
+			id: "6FB5FB3E2F3AFC27"
+			tasks: [{
+				id: "3EB7D299B2664B8A"
+				title: "TIP"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FB5FB3E2F3AFC27"]
+			description: ["&6Out of bandwidth already? Upgrade your cabling!&r"]
+			id: "02AA26066DA47E05"
+			rewards: [{
+				count: 15
+				id: "247F4BF6A58EB8CC"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22E0FBAE83E15CA9"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02AA26066DA47E05"]
+			description: ["&6Cant figure out the bottleneck of your cables? This useful tool will change your life!&r"]
+			id: "572D080A846AB587"
+			rewards: [{
+				id: "06EACD17F8B9F125"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DB7CCD778E6A6D6"
+				item: "ae2netanalyser:network_analyser"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["572D080A846AB587"]
+			description: ["&6If you still run out of channels and want to extend with scale in mind, look into P2P Tunnelling!&r"]
+			id: "01CDB1F9629A5EE5"
+			rewards: [{
+				id: "21683ED39E17A89F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6E0BFA9201C5C3EC"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01CDB1F9629A5EE5"]
+			description: ["&6The age of automation! These are the building blocks for automation! Anything from here will make your life 10x easier!&r"]
+			id: "658710A59250BA94"
+			rewards: [{
+				id: "17A9BD6A8BADCFE0"
+				type: "xp"
+				xp: 5000
+			}]
+			tasks: [
+				{
+					id: "2F7050F0EB61E784"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "7A515DBE52543588"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "146B1445FCE9FE1A"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "0337F60C71141178"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "118FFF3B339DDAB8"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+			]
+			title: "Automated Crafting!"
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["658710A59250BA94"]
+			description: ["&6Time for AMMO AUTOMATION. Here you can packagers to automate ammo creation!&r"]
+			id: "045A5BFC0528DA78"
+			rewards: [{
+				id: "2E76A86568A41B64"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [
+				{
+					id: "7FD0F9CD90F2A209"
+					item: "packagedauto:encoder"
+					type: "item"
+				}
+				{
+					id: "01F761D60C6ED154"
+					item: "packagedauto:packager"
+					type: "item"
+				}
+				{
+					id: "649128464CFF4781"
+					item: "packagedauto:unpackager"
+					type: "item"
+				}
+				{
+					id: "5F67B1C4240F0D22"
+					item: "packagedtacz:tacz_molecular_assembler"
+					type: "item"
+				}
+			]
+			x: -27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["045A5BFC0528DA78"]
+			description: ["&6Simply connect the packager and unpackager to your ME Network. Once connected, place the TACZ Assembler on TOP of the unpackager. &r"]
+			id: "63707CD8B028EF78"
+			rewards: [{
+				id: "4EA62F3A9E5B8022"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "345E06EBFE650BAD"
+				title: "Steps"
+				type: "checkmark"
+			}]
+			x: -31.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63707CD8B028EF78"]
+			description: ["&6Once you have the setup, grab yourself 3 package holders! Input the package holder into the encoder and click the first slot. Search the ammo type you want in the EMI. Left click it and click the \"+\" icon beside the recipe. You can keep repeating this step for the remaining slots. After all of that, distribute the holders into the 3 blocks!&r"]
+			id: "4D12D742DD76D7F8"
+			rewards: [{
+				id: "4D8C7446B348BE02"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "13232DE0CEFBA885"
+				item: { Count: 61, id: "packagedauto:recipe_holder" }
+				type: "item"
+			}]
+			x: -31.0d
+			y: 0.0d
+		}
 	]
 	title: "Chapter I"
 }

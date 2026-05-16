@@ -19,4 +19,15 @@ ServerEvents.recipes(event => {
                     Ingredient.of("#minecraft:wool", 1)
             ]
     )
+    event.shaped(
+            Item.of('minecraft:cobweb'),
+            [
+                    ' A ',
+                    'AAA',
+                    ' A '
+            ],
+            {
+                    A: 'minecraft:string'
+            }
+    )
 });

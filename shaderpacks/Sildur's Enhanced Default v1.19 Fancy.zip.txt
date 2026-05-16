@@ -1,13 +1,13 @@
-#Mon May 11 19:37:29 AST 2026
+#Sat May 16 02:05:23 AST 2026
 shadowDistance=60.0
+slight=0.75
 MobsFlashRed=false
-waterTex=false
+emissive_R=1.7
 Crossprocess=true
 shadowMapResolution=1024
 TAA=false
 Colorboost=true
-skyReflection=false
 Refractions=false
-gamma=1.3
+emissive_B=1.5
 Godrays=false
 grays_quality=1

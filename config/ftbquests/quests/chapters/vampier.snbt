@@ -22,7 +22,7 @@
 		}
 		{
 			dependencies: ["5D1963C8299480E9"]
-			description: ["Vampires can heal themselves based on damage and blood spell power. ANY damage type whether it is melee, range or even magic will work."]
+			description: ["&4Vampires can heal themselves based on damage and blood spell power. ANY damage type whether it is melee, range or even magic will work.&r"]
 			id: "204917A9050461E2"
 			tasks: [{
 				id: "42DAA98A43609E38"
@@ -34,7 +34,7 @@
 		}
 		{
 			dependencies: ["204917A9050461E2"]
-			description: ["As a vampire, it is VERY important to not touch sunlight otherwise well... You will burn. Despite that you can still enjoy the day. Just use an Umbrella."]
+			description: ["&4As a vampire, it is VERY important to not touch sunlight otherwise well... You will burn. Despite that you can still enjoy the day. Just use an Umbrella.&r"]
 			id: "08124073C05A5A54"
 			tasks: [
 				{
@@ -60,7 +60,7 @@
 		}
 		{
 			dependencies: ["525CCD65EAC44ED0"]
-			description: ["Blood Power is VERY important. Here are some guides to get more of them."]
+			description: ["&4Blood Power is VERY important. Here are some guides to get more of them.&r"]
 			id: "5974036B50C95E88"
 			tasks: [{
 				id: "07D8BEFC1A73EBDA"
@@ -72,7 +72,7 @@
 		}
 		{
 			dependencies: ["08124073C05A5A54"]
-			description: ["If you havent already notice, you are given a blood echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing."]
+			description: ["&4If you havent already noticed, you are given a blood echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			id: "525CCD65EAC44ED0"
 			tasks: [{
 				id: "4A0E35306293C3B2"
@@ -88,7 +88,7 @@
 		}
 		{
 			dependencies: ["3D1170E50AF6E692"]
-			description: ["This is the best spellbook for vampires"]
+			description: ["&4This is the best spellbook for vampires&r"]
 			id: "2908DBC4E7E4ADD3"
 			tasks: [{
 				id: "08138DD5B00AF124"
@@ -117,7 +117,7 @@
 		}
 		{
 			dependencies: ["7A5569312EA3F829"]
-			description: ["You really have to go to the ancient cities to get this book."]
+			description: ["&4You really have to go to the ancient cities to get this book.&r"]
 			id: "3D1170E50AF6E692"
 			rewards: [{
 				id: "6E1DBEF2FF519B22"
@@ -135,9 +135,9 @@
 		{
 			dependencies: ["5974036B50C95E88"]
 			description: [
-				"This is essentially the source of your being so make sure to get a handful of these."
-				""
-				"PROTIP: You dont need to use an animal. You can use yourself instead..."
+				"&4This is essentially the source of your being so make sure to get a handful of these."
+				"&r"
+				"&4PROTIP: You dont need to use an animal. You can use yourself instead...&r"
 			]
 			id: "7A5569312EA3F829"
 			rewards: [{
@@ -155,7 +155,7 @@
 		}
 		{
 			dependencies: ["7A5569312EA3F829"]
-			description: ["You can use the vials to craft these runes. These are generally used for everything blood related."]
+			description: ["&4You can use the vials to craft these runes. These are generally used for everything blood related.&r"]
 			id: "41FA82F331B9BB9F"
 			rewards: [{
 				id: "7899214C472012E1"
@@ -172,7 +172,7 @@
 		}
 		{
 			dependencies: ["41FA82F331B9BB9F"]
-			description: ["Time for your first Blood Helmet!"]
+			description: ["&4Time for your first Blood Helmet!&r"]
 			id: "6DDA5F9220C826E3"
 			tasks: [{
 				id: "1992B9733DF86088"
@@ -190,7 +190,7 @@
 		}
 		{
 			dependencies: ["41FA82F331B9BB9F"]
-			description: ["Time for your first Blood Chestplate!"]
+			description: ["&4Time for your first Blood Chestplate!&r"]
 			id: "6DBAF17639728E64"
 			tasks: [{
 				id: "377AE08D5FCF8A72"
@@ -214,7 +214,7 @@
 		}
 		{
 			dependencies: ["41FA82F331B9BB9F"]
-			description: ["Time for your first Blood Leggings!"]
+			description: ["&4Time for your first Blood Leggings!&r"]
 			id: "5719FD0F0F3AA272"
 			tasks: [{
 				id: "6C8D250AA34B8AEE"
@@ -232,7 +232,7 @@
 		}
 		{
 			dependencies: ["41FA82F331B9BB9F"]
-			description: ["Time for your first Blood Boots!"]
+			description: ["&4Time for your first Blood Boots!&r"]
 			id: "39DCC725A03B18DF"
 			tasks: [{
 				id: "11CCEF3DDBFD8D8C"
@@ -250,7 +250,7 @@
 		}
 		{
 			dependencies: ["6DDA5F9220C826E3"]
-			description: ["A Very Grindy Helmet"]
+			description: ["&4A Very Grindy Helmet&r"]
 			id: "1868912FB34D79A8"
 			tasks: [{
 				id: "15A28BFDEE36D8BB"
@@ -262,7 +262,7 @@
 		}
 		{
 			dependencies: ["6DBAF17639728E64"]
-			description: ["Grindy but worth it!"]
+			description: ["&4Grindy but worth it!&r"]
 			id: "0E55CE7A909818AA"
 			tasks: [{
 				id: "0D26AE5EA6B51DB2"
@@ -285,7 +285,7 @@
 		}
 		{
 			dependencies: ["5719FD0F0F3AA272"]
-			description: ["It takes a lot of grinding."]
+			description: ["&4It takes a lot of grinding.&r"]
 			id: "73304277622433E7"
 			tasks: [{
 				id: "22FD411AE8EFA8F4"
@@ -297,7 +297,7 @@
 		}
 		{
 			dependencies: ["39DCC725A03B18DF"]
-			description: ["You made it!"]
+			description: ["&4You made it!&r"]
 			id: "36B9CE16B1831567"
 			tasks: [{
 				id: "5DA7F21815CCCBC4"
@@ -309,7 +309,7 @@
 		}
 		{
 			dependencies: ["7A5569312EA3F829"]
-			description: ["Use these orbs to upgrade your sets!"]
+			description: ["&4Use these orbs to upgrade your sets!&r"]
 			id: "6211AF8D50907902"
 			tasks: [{
 				id: "05E3778BF9813904"

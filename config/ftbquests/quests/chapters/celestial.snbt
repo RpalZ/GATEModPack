@@ -33,24 +33,121 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"4632A6E031717E3B"
+				"296B59F4C152F4F7"
+				"4D7482A9F39C697E"
+			]
+			description: ["&eIf you havent already noticed, you are given a holy echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			id: "4C0617C9D124413E"
+			rewards: [{
+				id: "43D9F1C8704F9E61"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75A31145FF8A82C8"
+				item: {
+					Count: 1
+					id: "traveloptics:holy_echo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C0617C9D124413E"]
+			description: ["&eThe basis of your HOLY runes!&r"]
+			id: "030C90D92ECB239B"
+			tasks: [{
+				id: "65D814A6FED76353"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D7482A9F39C697E"]
+			description: ["&eAngels have the innate ability to launch themselves up for flight. Simply press the default keybind \"G\"&r"]
+			id: "0CA3857F1F027655"
+			rewards: [{
+				id: "607B2ABC360DFBC4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6977813F794B19C0"
+				title: "Ultimate Flight!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["030C90D92ECB239B"]
+			description: ["&eQuite the holy tablet!&r"]
+			id: "34A865F38EC8FECB"
+			rewards: [{
+				id: "7A268975DEBAF07F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "612952569090006E"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["34A865F38EC8FECB"]
+			description: ["&eThe divine orb!&r"]
+			id: "5348F0E04B5E05E6"
+			rewards: [{
+				id: "1E3409CF0BDA0DE1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C5D120D89D68DAD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:holy_upgrade_orb"
+					tag: {
+						"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:holy_power"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
 			can_repeat: true
-			dependencies: ["6211AF8D50907902"]
+			dependencies: [
+				"6211AF8D50907902"
+				"2E0FD7F4C7D6DC24"
+				"5348F0E04B5E05E6"
+			]
 			description: [
 				"SCROLL SWAP SHOP"
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
-			id: "06BE80046FDB7EFC"
+			id: "08C29E46E85E5750"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C27940BA827F01D"
-				table_id: 2045434586276917832L
+				id: "06C1D81F09AE99F6"
+				table_id: 3116736367618900305L
 				type: "random"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 20L
-				id: "1DBEF42F173239F9"
+				id: "5F4A00732043D900"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:scroll"
@@ -72,8 +169,169 @@
 				type: "item"
 			}]
 			title: "Scroll Shop"
-			x: 3.0d
-			y: 3.0d
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["34A865F38EC8FECB"]
+			description: ["&eThe priest set! Gives the everlasting divine protection!&r"]
+			id: "54FF469CDAE4CE11"
+			rewards: [{
+				id: "1E41D7EE7AC695B0"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "7365FB3187BFF334"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4649CA0E8D19990B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"fracturepoint:plate_holder": { }
+						}
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0710705BAE44F93B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6000B35CC3BAC238"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["34A865F38EC8FECB"]
+			description: ["&eSimple but holy!&r"]
+			id: "799E6CC389C6E580"
+			rewards: [{
+				id: "4967176D16591609"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "32DB27A244787DBF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["34A865F38EC8FECB"]
+			description: ["&eA befitting weapon for an angel!&r"]
+			id: "375432C62A362F9B"
+			rewards: [{
+				id: "74B850776A731047"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6AF258165F850A30"
+				item: {
+					Count: 1
+					id: "traveloptics:scourge_of_the_sands"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:stele_cascade"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["375432C62A362F9B"]
+			description: ["&eAn Archangels' trusty arsenal!&r"]
+			id: "16EF23B215F39796"
+			rewards: [{
+				id: "4E273BFA54348AEC"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "21A2B9F57D8DC2B2"
+				item: {
+					Count: 1
+					id: "traveloptics:charged_sands"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:lightning_lance"
+								index: 0
+								level: 10
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
 		}
 	]
 	title: "Celestial"
