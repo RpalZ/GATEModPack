@@ -14,5 +14,6 @@ LootJS.modifiers(event => {
    .removeLoot('endrem:rogue_eye')
    .removeLoot('endrem:cursed_eye')
    .removeLoot('endrem:evil_eye')
+   .removeLoot("endrem:corrupted_eye")
 
 })

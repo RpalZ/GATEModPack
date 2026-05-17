@@ -5,6 +5,7 @@ LootJS.modifiers((event) => {
     .removeLoot("superbwarfare:sniper_ammo_box")
     .removeLoot("superbwarfare:shotgun_ammo_box")
     .removeLoot("superbwarfare:handgun_ammo_box")
+    .removeLoot("superbwarfare:heavy_ammo")
     .pool((p) => {
       p.rolls([1, 5]);
       p.randomChance(0.03);
