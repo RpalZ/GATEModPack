@@ -47,8 +47,9 @@ BlockEvents.rightClicked((event) => {
   const player = event.getPlayer();
   const block = event.getBlock()
 
-  
 
+
+  
   const isMagicBlock = block.hasTag(global.magicTag);
   const isTechBlock = block.hasTag(global.techTag);
   const isMagic = player.persistentData.getBoolean("isMagic")

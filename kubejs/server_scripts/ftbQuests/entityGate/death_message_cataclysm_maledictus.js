@@ -1,6 +1,6 @@
 {
     let entityId = "cataclysm:maledictus"
-    let deathMessage = "Arghh! You will pay in your next life..."
+    let deathMessage = "Impossible... You will pay with your next life..."
 
     EntityEvents.death(entityId, event => {
         let entityName = event.entity.getName().getString()

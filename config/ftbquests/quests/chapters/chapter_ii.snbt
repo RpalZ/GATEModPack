@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6CB996386DE98E97"]
 			description: [
 				"&6&oAs the Council's envoy, the Magical Races have called upon you. Their scryers are baffled: the 'Warden' leaves no mana signature whatsoever. They have concluded it is an Eldritch God, soulless and born of the Void.&r"
 				"&r&r"

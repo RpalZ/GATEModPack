@@ -1,4 +1,4 @@
-#Sat May 16 02:05:23 AST 2026
+#Thu May 21 00:40:59 AST 2026
 shadowDistance=60.0
 slight=0.75
 MobsFlashRed=false

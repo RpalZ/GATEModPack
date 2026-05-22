@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7978A173146F39D6"]
 			description: [
 				"&6&oThe final path begins where the worlds thin out. The Gate has been reached, but the silence beyond it feels less like peace and more like something holding its breath.&r&r"
 				""

@@ -1,6 +1,6 @@
 {
     let entityId = "irons_spellbooks:fire_boss"
-    let deathMessage = "Flames do burn out quick dont they?"
+    let deathMessage = "Flames burn out quick dont they?"
 
     EntityEvents.death(entityId, event => {
         let entityName = event.entity.getName().getString()

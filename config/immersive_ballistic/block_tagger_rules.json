@@ -108,7 +108,9 @@
     ]
   },
   "ignoreMods": [
-    "minecraft"
+    "minecraft",
+    "toms_storage",
+    "sophisticatedstorage"
   ],
   "ignoreNames": [
     "wall_sign",

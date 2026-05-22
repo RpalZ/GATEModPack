@@ -1,4 +1,4 @@
-FTBQuestsEvents.completed("11EBA947CA6F6434", (event) => {
+FTBQuestsEvents.completed("7E6BF3EAA8695D04", (event) => {
   const player = event.getPlayer();
 
   if (!player.persistentData.getBoolean("isMagic")) {
