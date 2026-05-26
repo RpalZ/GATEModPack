@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6CB996386DE98E97"]
+			dependencies: ["3C6500736BA4FCB9"]
 			description: [
 				"&6&oAs the Council's envoy, the Magical Races have called upon you. Their scryers are baffled: the 'Warden' leaves no mana signature whatsoever. They have concluded it is an Eldritch God, soulless and born of the Void.&r"
 				"&r&r"
@@ -46,6 +46,7 @@
 				""
 				"&4&o\"Old ruins do not stay buried forever, and neither do their treasures.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "cataclysm:desert_eye"
 			id: "7E2ECADBF5753E0B"
 			rewards: [
@@ -84,6 +85,7 @@
 				""
 				"&4&o\"Even what floats above the sea can still be claimed by the deep.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "cataclysm:storm_eye"
 			id: "5FB3D665CD41869F"
 			rewards: [
@@ -133,6 +135,7 @@
 				""
 				"&4&o\"It is not just coming. It is announcing itself.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "cataclysm:mech_eye"
 			id: "0FE651D356CB46EF"
 			rewards: [
@@ -171,6 +174,7 @@
 				""
 				"&4&o\"The ruins are not empty, but they are not mindless either. It fights with strategy... with logic.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "cataclysm:cursed_eye"
 			id: "05D0DB6789B4538D"
 			rewards: [
@@ -220,6 +224,7 @@
 				""
 				"&4&o\"The grave is losing its patience.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:tarnished_helmet"
@@ -266,7 +271,7 @@
 				}
 			]
 			tasks: [{
-				entity: "traveloptics:enraged_dead_king"
+				entity: "irons_spellbooks:dead_king"
 				id: "67E5923E9C71AAB3"
 				type: "kill"
 				value: 1L
@@ -281,6 +286,7 @@
 				""
 				"&4&o\"If the world is being remade, it starts here in the flames.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "6E6E267A2E4701AC"
 			rewards: [
 				{
@@ -311,6 +317,7 @@
 				""
 				"&4&o\"Steel, flame, and broken vows. That is all the underworld seems to keep now.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "irons_spellbooks:tyros_statue"
 			id: "5843DA256AA06E05"
 			rewards: [
@@ -360,6 +367,7 @@
 				""
 				"&4&o\"The fire has a keeper. Break it, and the lie begins to crack.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "block_factorys_bosses:knight_sword"
@@ -415,6 +423,7 @@
 				""
 				"&4&o\"Even the deepest furnace can hide a key.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "cataclysm:monstrous_eye"
 			id: "21CF7E618D1C486E"
 			rewards: [
@@ -464,6 +473,7 @@
 				""
 				"&4&o\"When the trail goes silent, that is when the real hunt begins.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "cataclysm:flame_eye"
 			id: "1680504501FCFF80"
 			rewards: [
@@ -513,6 +523,7 @@
 				""
 				"&4&o\"It attacks all races equally. As if holding an ancient grudge against both the magical and the mundane.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "46EDEABF8BD324D7"
 			rewards: [{
 				id: "668DCA508EFC4DD3"

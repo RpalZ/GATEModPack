@@ -31,6 +31,7 @@
 				""
 				"&4&o\"Begin with the broken remnants of the old war. Power is forged in the first victory.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "79F4974E23BC93AA"
 			rewards: [{
 				auto: "enabled"
@@ -70,6 +71,7 @@
 				""
 				"&4&o\"Every fragment matters. Even the ones the Council refuses to understand.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "6983BBC406DF52C0"
 			rewards: [
 				{
@@ -106,6 +108,7 @@
 				""
 				"&4&o\"If the wild has fallen to corruption, then the one who defiles it must be brought down.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "083CFC179D001044"
 			rewards: [
 				{
@@ -154,6 +157,7 @@
 				""
 				"&4&o\"Slay the elemental dragons and turn their scales into armor worthy of the hunt.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "4AB16D387D6EC80E"
 			optional: true
 			rewards: [
@@ -208,6 +212,7 @@
 				""
 				"&4&o\"Another relic of the old world has gone hostile. The deep will not be left untouched.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:prismarine_shard"
 			id: "60B654D17B7CB092"
 			rewards: [
@@ -252,6 +257,7 @@
 				""
 				"&4&o\"If the sands hide such monsters, then the desert is no longer empty.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "6F83DB86DDEEC3E3"
 			rewards: [
 				{
@@ -302,6 +308,7 @@
 				""
 				"&4&o\"Another one to kill...\".&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "65CB799F7BDA155A"
 			rewards: [
 				{
@@ -352,6 +359,7 @@
 				""
 				"&4&o\"Even the strongest can be claimed by the shadow if left unguarded.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "05D47E456E31A632"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -377,6 +385,7 @@
 				""
 				"&4&o\"The old world left breadcrumbs everywhere. We only need to follow them.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "500788D5D57F78D7"
 			rewards: [{
 				id: "01BCF02127DA3F2B"
@@ -452,6 +461,7 @@
 				""
 				"&4&o\"If the old scribes were right, then the underground still has answers.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "4FF6DE3CD28DABE8"
 			rewards: [
 				{
@@ -482,6 +492,7 @@
 				""
 				"&4&o\"Even the guardians of a dead place can still strike back.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "undergarden:forgotten_battleaxe"
@@ -526,6 +537,7 @@
 				""
 				"&4&o\"At last, the clues point to one final trial in this chain of ruin.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:wither_skeleton_skull"
 			id: "11EBA947CA6F6434"
 			rewards: [
@@ -570,6 +582,7 @@
 				""
 				"&4&o\"This was never the final battle. It was only the end of the beginning.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "3C6500736BA4FCB9"
 			rewards: [{
 				id: "1E485E0BD7E756C7"

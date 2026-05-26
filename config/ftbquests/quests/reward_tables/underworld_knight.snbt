@@ -7,10 +7,10 @@
 			type: "xp"
 			xp: 5000
 		}
-		{ count: 4, item: "minecraft:ancient_debris" }
-		{ count: 2, item: "minecraft:netherite_ingot" }
-		{ count: 16, item: "minecraft:blaze_rod" }
+		{ count: 64, item: "minecraft:blaze_rod" }
 		{ count: 3, item: "minecraft:nether_star" }
+		{ count: 5, item: "minecraft:netherite_block" }
+		{ count: 15, item: "minecraft:copper_block" }
 	]
 	title: "Underworld Knight"
 }

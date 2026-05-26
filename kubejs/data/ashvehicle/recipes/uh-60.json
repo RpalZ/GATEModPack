@@ -1,0 +1,14 @@
+{
+    "type":  "superbwarfare:vehicle_assembling",
+    "category":  "aircraft",
+    "inputs":  [
+                   "2 superbwarfare:large_motor",
+                   "superbwarfare:medium_battery_pack",
+                   "2 superbwarfare:large_propeller",
+                   "25 superbwarfare:steel_block",
+                   "8 superbwarfare:tungsten_rod"
+               ],
+    "result":  {
+                   "entity":  "ashvehicle:uh_60"
+               }
+}

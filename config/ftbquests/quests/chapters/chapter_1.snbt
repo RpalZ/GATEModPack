@@ -102,7 +102,7 @@
 		{
 			can_repeat: true
 			dependencies: ["61DA7816093C9DBF"]
-			description: ["&6Cant find the rpg or too lazy to get the villager? Just get it from here!&r"]
+			description: ["&6Too lazy to get the villager? Just get it from here!&r"]
 			icon: {
 				Count: 1
 				id: "superbwarfare:rpg"

@@ -638,18 +638,28 @@ weight=3
 [[mob]]
 name="minecraft:ender_dragon"
 [[mob.rule]]
-set.health=6000
+set.health=10000
 type="all"
 
 [[mob]]
 name="irons_spellbooks:dead_king"
 [[mob.rule]]
-set.health=4500
+set.health=6500
 set.snbt="{Attributes:[{Name:\"minecraft:generic.armor\",Base:20.0}]}"
-
 type="all"
 
 
+[[mob]]
+name="block_factorys_bosses:underworld_knight"
+[[mob.rule]]
+set.health=5420
+type="all"
+
+[[mob]]
+name="irons_spellbooks:fire_boss"
+[[mob.rule]]
+set.health=8500
+type="all"
 
 [[mob]]
 name=["minecraft:zombie", "minecraft:husk", "minecraft:drowned"]
@@ -772,7 +782,7 @@ type="all"
 [[mob]]
 name="traveloptics:the_nightwarden"
 [[mob.rule]]
-set.health=1500
+set.health=12000
 type="all"
 
 

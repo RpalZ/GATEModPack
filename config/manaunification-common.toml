@@ -8,7 +8,7 @@
 	ironSpellsMaxManaMultiplier = 1
 	#Multiplier when converting Iron's Spells mana regen bonuses
 	#Range: 0.1 ~ 10.0
-	ironSpellsManaRegenMultiplier = 1
+	ironSpellsManaRegenMultiplier = 2
 
 ["Ars Nouveau Integration"]
 	#Multiplier when converting Ars Nouveau max mana bonuses

@@ -25,4 +25,6 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier(LootType.CHEST)
     .removeLoot(Ingredient.of("#superbwarfare:blueprint"))
+
+
 });

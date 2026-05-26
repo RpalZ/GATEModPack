@@ -30,6 +30,7 @@
 				""
 				"&4&o\"There is no turning back now.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "5E66F197D6DA73F9"
 			rewards: [
 				{
@@ -60,6 +61,7 @@
 				""
 				"&4&o\"A slain dragon leaves behind more than bones if the hunt was worthy.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:dragon_head"
 			id: "023B9345FAF2ABCC"
 			rewards: [
@@ -93,6 +95,7 @@
 				""
 				"&4&o\"The End is still hiding its teeth.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:shulker_box"
 			id: "69712D8B4DFADE6C"
 			rewards: [
@@ -131,6 +134,7 @@
 				""
 				"&4&o\"Something is wearing our fear like a mask, desperate to guard its master.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: "darkdoppelganger:doppelganger_ring"
 			id: "7439F90F2ECE4041"
 			rewards: [
@@ -175,6 +179,7 @@
 				""
 				"&4&o\"He traded his humanity for a reaper's shadow. He has no magic of his own, only the stolen echoes of the Void and the logic of a man who refused to be forgotten. Break the shadow.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "traveloptics:stellothorn"
@@ -229,6 +234,7 @@
 				""
 				"&4&o\"A world he thought was dying was only ever waiting to be united. The corruption ends here.\"&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "4701732E94298B2A"
 			tasks: [{
 				id: "3A4B4ADF226AA370"

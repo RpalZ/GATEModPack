@@ -1,9 +1,8 @@
 EntityEvents.hurt(event => {
 
-    let level = event.getLevel()
+    // let level = event.getLevel()
     let player = event.getPlayer()
 
-    
     if(!player) return
     
     let playerNbt = player.getNbt()
@@ -36,7 +35,15 @@ EntityEvents.hurt(event => {
 
     let damage = event.getDamage()
 
-    const vehicleMultiplier = 2.0
+    // let damageSource = event.source.typeHolder().getTagKeys().map(m => m.location().toString).toList()
+
+    let vehicleMultiplier = 2.0
+ 
+    // player.tell("i am hit!")
+
+    // if(damageSource.contains("superbwarfare:projectile_absolute")) {
+    //     vehicleMultiplier = 25
+    // }
 
 
     const finalDamage = damage*vehicleMultiplier
@@ -80,7 +87,7 @@ EntityEvents.hurt(event => {
 
     const damage = event.getDamage()
 
-    const modifier = 0.5
+    const modifier = Math.min(bossEntity.attributes.getBaseValue("generic.armor"), 50) / 100
 
     const finalDamage = damage * modifier
 
@@ -89,21 +96,80 @@ EntityEvents.hurt(event => {
     const newHealth = bossEntity.getHealth() + finalDamage
 
 
-    
+    const isFinalShot = (bossEntity.getHealth() + damage - finalDamage) <= 0
 
-    bossEntity.setHealth(newHealth)
     
     // level.tell(bossEntity.getHealth())
-    if(bossEntity.getHealth() <= 15){
+    if(isFinalShot){
         // level.tell("check")
         // const damageSource = level.damageSources().playerAttack(player)
         bossEntity.attack(source, 100)
         bossEntity.kill()
         // level.tell("killed boss")
+    } else {
+        bossEntity.setHealth(newHealth)
+        
     }
     // event.setAmount(finalDamage)
 
 
 })
 
+// Spellsification of Vehicles
 
+
+// EntityEvents.hurt(event => {
+//     const dmgSource = event.source
+//     const entity = event.getEntity()
+
+//     const immediateSource = dmgSource.getImmediate()
+//     const holde  = dmgSource.typeHolder().getTagKeys().map(m => m.location().toString()).toList()
+    
+//     const player = event.source.getPlayer()
+
+//     player.tell(holde)
+
+//     player.tell(Text.of(`[GATE]: dmgSourceType: ${dmgSource.getType()}, dmgSourceType2: ${dmgSource.type().toString()}, immediate: ${immediateSource}, Entity: ${entity}`).red())
+
+
+// })
+
+
+// ServerEvents.highPriorityData(event => {
+    
+
+//     const path = "kubejs/data/superbwarfare/tags/damage_type/bypasses_vehicle.json"
+
+//     const jsonFile = JSON.parse(FilesJS.readFile(path))
+
+//     const spells = SpellRegistry.getEnabledSpells()
+
+
+//     const schoolSeen = []
+
+
+//     spells.forEach(m => {
+
+
+
+
+
+
+//         let dmgSource = m.getSchoolType().getDamageType().location().toString()
+
+//         if(schoolSeen.includes(dmgSource)) return
+
+//         schoolSeen.push(dmgSource)
+
+//         console.log(dmgSource)
+
+//         let element = {
+//             id: dmgSource,
+//             required: false
+//         }
+//         jsonFile.values.push(element)
+      
+
+//     })
+//     FilesJS.writeFile(path, JSON.stringify(jsonFile))
+// })

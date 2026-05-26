@@ -1,0 +1,8 @@
+{
+  "ID": "ashvehicle:m-777",
+  "MaxHealth": 40,
+  "Mass": 0.05,
+  "DamageModifiers": [
+    "#gate:magic_damage * 1.50"
+  ]
+}

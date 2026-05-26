@@ -11,6 +11,8 @@ FTBQuestsEvents.completed("7E6BF3EAA8695D04", (event) => {
     isTech: true,
   });
 
+  player.stages.add("skipcuriocheck")
+
   player.setStatusMessage(
     Text.of("It feels like you have unlocked something...").italic().lightPurple(),
   );

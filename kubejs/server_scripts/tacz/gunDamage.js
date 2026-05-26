@@ -29,7 +29,7 @@ TimelessGunEvents.entityHurtByGunPost((event) => {
     Text.of("You need something bigger...").red().italic(),
   );
 
-  let damage = Math.min(event.getBaseAmount() * 0.1, 10);
+  let damage = Math.min(event.getBaseAmount() * 0.1, 35);
 
   const source = attacker.damageSources().playerAttack(attacker);
   targetEntity.attack(source, damage)

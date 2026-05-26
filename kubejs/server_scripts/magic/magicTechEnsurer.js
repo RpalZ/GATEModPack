@@ -83,6 +83,10 @@ CuriosJSEvents.equip(event => {
 
 
   if(!player) return
+
+  const skipCheck = player.stages.getAll().contains("skipcuriocheck")
+
+  if(skipCheck) return
   
   const hasMagic = player.persistentData.getBoolean("isMagic")
   const hasTech = player.persistentData.getBoolean("isTech")

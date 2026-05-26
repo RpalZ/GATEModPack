@@ -12,7 +12,7 @@
         "mobCap": 16,
         "mobCapRange": 192,
         "speedRange": .9,
-        "healthRange": 10,
+        "healthRange": 40,
         "jumpRange": .6
     },
     "itemGroups": {

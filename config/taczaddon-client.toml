@@ -9,7 +9,7 @@ enableShowItemRelation = true
 	#开启后，持枪与枪械工作台互动将只显示可用配件和弹药。
 	enableRecipeFilter = true
 	#开启后，在枪械工作台制造东西时会弹出相关物品提示。
-	enableCraftToast = true
+	enableCraftToast = false
 	#开启后，打开枪械工作台时将会跳转到上次浏览的位置。
 	enableMemory = true
 	#开启后，使用枪械工作台制作东西时将读取周边容器的物品。
