@@ -18,13 +18,13 @@
 	armor = 20.0
 	#Follow Range of the Dark Doppelganger
 	#Range: 1.0 ~ 128.0
-	follow_range = 64.0
+	follow_range = 128.0
 	#Hard mode of the Dark Doppelganger
 	hard_mode = false
 	#Maximum damage the Dark Doppelganger can take from a single hit.
 	#Set to 0 to disable the cap.
 	#Range: 0.0 ~ 100000.0
-	damage_cap_per_hit = 1000
+	damage_cap_per_hit = 10000
 	#Multiplier applied to all of the Dark Doppelganger's spell power attributes
 	#after copying them from the summoner.
 	#1.0 = same as player, 1.5 = +50%, 2.0 = double, etc.

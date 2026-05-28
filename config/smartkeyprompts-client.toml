@@ -1,0 +1,14 @@
+##缩放
+## Default: 0.8
+## Range: 0.0 ~ 10.0
+#
+scale = 0.0
+##显示位置
+## Default: 1
+## Range: 1 ~ 8
+#
+position = 1
+##标识ID黑名单
+blacklist = ["jei_skp", "emi_skp"]
+__cfg_version = 0
+

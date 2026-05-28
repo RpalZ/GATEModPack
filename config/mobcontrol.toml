@@ -717,6 +717,17 @@ weight=4
 name="minecraft:netherite_boots"
 weight=1
 
+[[mob]]
+name="darkdoppelganger:dark_doppelganger"
+[[mob.rule]]
+type="all"
+
+[[mob.rule.effect]]
+name="minecraft:glowing"
+group="a"
+amplifier=1
+duration=-1
+
 
 [[mob]]
 name="minecraft:skeleton"

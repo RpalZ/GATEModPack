@@ -30,7 +30,7 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:0.5
+gamma:0.5700000000000001
 renderDistance:8
 simulationDistance:8
 entityDistanceScaling:1.0
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["vanilla","tacz_resources","mod_resources","file/GATE_Optimization_Pack.zip","Moonlight Mods Dynamic Assets","fabric","continuity:default","continuity:glass_pane_culling_fix"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","file/GATE_Optimization_Pack.zip","Moonlight Mods Dynamic Assets","fabric","continuity:default","continuity:glass_pane_culling_fix","file/GATE_Sound_Pack.zip"]
 incompatibleResourcePacks:[]
 lastServer:cadmium-backup.de.e4mc.link
 lang:en_us
@@ -84,15 +84,15 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.35871964679911694
-soundCategory_music:0.751173708920188
+soundCategory_master:0.7527593818984547
+soundCategory_music:0.46244131455399057
 soundCategory_record:1.0
-soundCategory_weather:1.0
-soundCategory_block:0.704225352112676
-soundCategory_hostile:0.807511737089202
-soundCategory_neutral:0.4084507042253521
+soundCategory_weather:0.751173708920188
+soundCategory_block:0.7464788732394366
+soundCategory_hostile:0.9061032863849766
+soundCategory_neutral:0.5046948356807514
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.5
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

@@ -8,7 +8,7 @@
 	ironSpellsMaxManaMultiplier = 1
 	#Multiplier when converting Iron's Spells mana regen bonuses
 	#Range: 0.1 ~ 10.0
-	ironSpellsManaRegenMultiplier = 2
+	ironSpellsManaRegenMultiplier = 3
 
 ["Ars Nouveau Integration"]
 	#Multiplier when converting Ars Nouveau max mana bonuses
@@ -16,7 +16,7 @@
 	arsNouveauMaxManaMultiplier = 1.0
 	#Multiplier when converting Ars Nouveau mana regen bonuses
 	#Range: 0.1 ~ 10.0
-	arsNouveauManaRegenMultiplier = 1.0
+	arsNouveauManaRegenMultiplier = 3.0
 
 ["Electroblobs Wizardry Integration"]
 	#Multiplier for Electroblob's Wizardry spell mana costs
