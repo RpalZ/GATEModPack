@@ -10,7 +10,7 @@ const bossStageGates = {
     "cataclysm:scylla": "ancient_remnant",
     "cataclysm:the_harbinger": "scylla",
     "cataclysm:maledictus": "the_harbinger",
-    "traveloptics:enraged_dead_king": "maledictus",
+    "irons_spellbooks:dead_king": "maledictus",
     "irons_spellbooks:fire_boss": "quest_6e6e267a2e4701ac",
     "block_factorys_bosses:underworld_knight": "fire_boss",
     "cataclysm:netherite_monstrosity": "underworld_knight",

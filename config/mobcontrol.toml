@@ -649,11 +649,11 @@ set.snbt="{Attributes:[{Name:\"minecraft:generic.armor\",Base:20.0}]}"
 type="all"
 
 
-[[mob]]
-name="block_factorys_bosses:underworld_knight"
-[[mob.rule]]
-set.health=5420
-type="all"
+# [[mob]]
+# name="block_factorys_bosses:underworld_knight"
+# [[mob.rule]]
+# set.health=5420
+# type="all"
 
 [[mob]]
 name="irons_spellbooks:fire_boss"

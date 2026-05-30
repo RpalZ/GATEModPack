@@ -136,7 +136,8 @@
     "dynamicIcons": {
       "logo": "https://i.imgur.com/rOS4K3P.png",
       "logo2": "https://i.imgur.com/oXGneza.jpeg",
-      "cadmium-backup.de.e4mc.link": "https://api.mcsrvstat.us/icon/cadmium-backup.de.e4mc.link"
+      "cadmium-backup.de.e4mc.link": "https://api.mcsrvstat.us/icon/cadmium-backup.de.e4mc.link",
+      "192.168.10.12": "https://api.mcsrvstat.us/icon/192.168.10.12"
     },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
