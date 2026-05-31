@@ -23,7 +23,7 @@
 ["Damage Text"]
 	# floating text that shows the amount of damage done to an entity
 	# Enables damage text
-	"Enable Damage Text" = true
+	"Enable Damage Text" = false
 
 ["Health Bar"]
 	# a text health bar for entities
