@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "key": {  
+	"A": {
+      "item": "minecraft:diamond"
+    }, 
+	"B": {
+      "item": "minecraft:stone"
+    },
+  "C":{
+    "item": "minecraft:nether_star"
+  }
+  },
+  "result": {
+    "item": "dungeon_realm:map_device"
+  }
+}

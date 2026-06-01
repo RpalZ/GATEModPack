@@ -1,0 +1,11 @@
+{
+  "id": "is_pickaxe_tag",
+  "serializer": "vanilla_condition",
+  "vanillaCondition": {
+    "condition": "minecraft:match_tool",
+    "predicate": {
+      "tag": "minecraft:pickaxes"
+    }
+  },
+  "weight": 1000
+}

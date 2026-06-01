@@ -1,0 +1,10 @@
+{
+  "id": "enchant_with_20_levels",
+  "serializer": "vanilla_function",
+  "vanillaFunction": {
+    "function": "minecraft:enchant_with_levels",
+    "levels": 20.0,
+    "treasure": true
+  },
+  "weight": 1000
+}

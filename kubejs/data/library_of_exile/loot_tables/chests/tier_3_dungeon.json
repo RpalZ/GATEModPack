@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:loot_table",
+          "name": "mes:cathedral_rare"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "endrem:minecraft/chests/bastion_treasure"
+        },
+          {
+          "type": "minecraft:loot_table",
+          "name": "dungeons_arise:chests/mines_treasure_medium"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "mes:mega_ship_treasure"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "tlc:chests/treasure"
+        }
+      ]
+    }
+    
+  ]
+}

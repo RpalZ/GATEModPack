@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mns:chests/treasure"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "dungeons_arise:chests/mines_treasure_medium"
+        }
+      ]
+    }
+   
+  ]
+}

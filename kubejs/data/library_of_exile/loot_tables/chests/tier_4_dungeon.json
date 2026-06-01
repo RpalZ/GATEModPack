@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/ancient_city"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "endrem:minecraft/chests/bastion_treasure"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/frosted_prison_treasure_additions"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "mes:mega_ship_treasure"
+        },
+            {
+          "type": "minecraft:loot_table",
+          "name": "dungeons_arise:chests/mines_treasure_big"
+        },
+         {
+          "type": "minecraft:loot_table",
+          "name": "mns:chests/treasure"
+        }
+      ]
+    }
+  
+  ]
+}

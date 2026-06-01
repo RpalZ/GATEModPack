@@ -1,0 +1,29 @@
+{
+  "id": "forest",
+  "mobs": [
+    {
+      "mob_id": "minecraft:cave_spider",
+      "weight": 700
+    },
+    {
+      "mob_id": "minecraft:spider",
+      "weight": 300
+    },
+    {
+      "mob_id": "irons_spellbooks:ice_spider",
+      "weight": 450
+    },
+    {
+      "mob_id": "minecraft:witch",
+      "weight": 100
+    },
+    {
+      "mob_id": "minecraft:slime",
+      "weight": 33
+    }
+  ],
+  "tags": {
+    "tags": ["forest", "harvest"]
+  },
+  "weight": 1000
+}

@@ -1,0 +1,31 @@
+{
+  "id": "spider_forest",
+  "mobs": [
+    {
+      "mob_id": "minecraft:spider",
+      "weight": 1000
+    },
+    {
+      "mob_id": "irons_spellbooks:ice_spider",
+      "weight":300
+    },
+    {
+      "mob_id": "minecraft:cave_spider",
+      "weight": 300
+    },
+    {
+      "mob_id": "minecraft:witch",
+      "weight": 100
+    },
+    {
+      "mob_id": "minecraft:stray",
+      "weight": 50
+    }
+  ],
+  "tags": {
+    "tags": [
+      "spider"
+    ]
+  },
+  "weight": 1000
+}

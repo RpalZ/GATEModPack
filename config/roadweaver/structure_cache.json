@@ -1,5 +1,6 @@
 {
   "dimensions": [
+    "dungeon_realm:dungeon",
     "gate:leaders_world",
     "minecraft:overworld",
     "irons_spellbooks:pocket_dimension",

@@ -1,0 +1,11 @@
+{
+  "id": "is_sword_tag",
+  "serializer": "vanilla_condition",
+  "vanillaCondition": {
+    "condition": "minecraft:match_tool",
+    "predicate": {
+      "tag": "minecraft:swords"
+    }
+  },
+  "weight": 1000
+}

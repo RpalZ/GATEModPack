@@ -1,0 +1,50 @@
+{
+  "id": "map_default",
+  "mobs": [
+    {
+      "mob_id": "minecraft:zombie",
+      "weight": 750
+    },
+    {
+      "mob_id": "undergarden:forgotten",
+      "weight": 500
+    },
+    {
+      "mob_id": "irons_spellbooks:necromancer",
+      "weight": 100
+    },
+    {
+      "mob_id": "undead_unleashed:dreadknight",
+      "weight": 100
+    },
+    {
+      "mob_id": "undead_unleashed:shadewraith",
+      "weight": 100
+    },
+    
+    {
+      "mob_id": "minecraft:skeleton",
+      "weight": 250
+    },
+    {
+      "mob_id": "minecraft:witch",
+      "weight": 25
+    },
+    {
+      "mob_id": "minecraft:slime",
+      "weight": 25
+    },
+    {
+      "mob_id": "minecraft:spider",
+      "weight": 100
+    },
+    {
+      "mob_id": "minecraft:pillager",
+      "weight": 100
+    }
+  ],
+  "tags": {
+    "tags": ["map"]
+  },
+  "weight": 1000
+}

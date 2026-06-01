@@ -1,0 +1,27 @@
+{
+  "id": "generic_undead",
+  "mobs": [
+    {
+      "mob_id": "minecraft:zombie",
+      "weight": 1000
+    },
+    {
+      "mob_id": "minecraft:skeleton",
+      "weight": 300
+    },
+    {
+      "mob_id": "minecraft:wither_skeleton",
+      "weight": 200
+    },
+    {
+      "mob_id": "minecraft:husk",
+      "weight": 500
+    }
+  ],
+  "tags": {
+    "tags": [
+      "undead"
+    ]
+  },
+  "weight": 1000
+}

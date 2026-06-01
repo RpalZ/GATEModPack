@@ -1,0 +1,27 @@
+{
+  "id": "evil_villager",
+  "mobs": [
+    {
+      "mob_id": "minecraft:zombie_villager",
+      "weight": 700
+    },
+    {
+      "mob_id": "minecraft:pillager",
+      "weight": 300
+    },
+    {
+      "mob_id": "minecraft:evoker",
+      "weight": 50
+    },
+    {
+      "mob_id": "minecraft:vindicator",
+      "weight": 5
+    }
+  ],
+  "tags": {
+    "tags": [
+      
+    ]
+  },
+  "weight": 1000
+}

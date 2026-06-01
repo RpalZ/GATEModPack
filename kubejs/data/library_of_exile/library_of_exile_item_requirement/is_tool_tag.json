@@ -1,0 +1,11 @@
+{
+  "id": "is_tool_tag",
+  "serializer": "vanilla_condition",
+  "vanillaCondition": {
+    "condition": "minecraft:match_tool",
+    "predicate": {
+      "tag": "minecraft:tools"
+    }
+  },
+  "weight": 1000
+}

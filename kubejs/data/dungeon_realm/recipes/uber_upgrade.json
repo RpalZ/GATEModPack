@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Y": {
+      "item": "dungeon_realm:uber_fragment"
+    }
+  },
+  "pattern": [
+    "YY",
+    "YY"
+  ],
+  "result": {
+    "item": "dungeon_realm:uber_upgrade"
+  },
+  "show_notification": true
+}
