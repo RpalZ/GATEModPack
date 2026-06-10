@@ -33,11 +33,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4632A6E031717E3B"
-				"296B59F4C152F4F7"
-				"4D7482A9F39C697E"
-			]
+			dependencies: ["296B59F4C152F4F7"]
 			description: ["&6If you havent already noticed, you are given a fire echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			id: "29E73F772FC6F42E"
 			tasks: [{
@@ -47,7 +43,9 @@
 					id: "traveloptics:fire_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 3.0d
 			y: -2.0d

@@ -1,0 +1,6 @@
+{
+    "type": "origins:toggle_night_vision",
+    "strength": 1,
+    "name": "Night vision",
+    "description": "Can toggle nightvision using ability key"
+}

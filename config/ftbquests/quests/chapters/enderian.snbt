@@ -38,14 +38,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4632A6E031717E3B"
-				"296B59F4C152F4F7"
-				"4D7482A9F39C697E"
-				"3082533183B9DA39"
-				"07E45A505EE949F5"
-				"429C8953BABD6340"
-			]
+			dependencies: ["429C8953BABD6340"]
 			description: ["&5If you havent already noticed, you are given an ender echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			id: "7840358FA3B8C6EE"
 			rewards: [{
@@ -60,7 +53,9 @@
 					id: "traveloptics:ender_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 0.0d
 			y: -3.5d

@@ -3,9 +3,13 @@
         "gate:blessing",
         "origins:sprint_jump",
         "origins:like_air",
-        "origins:fragile",
+        "gate:elfhp",
         "origins:slow_falling",
-        "origins:vegetarian"
+        "origins:vegetarian",
+        "gate:swift",
+        "gate:poisonimmune",
+        "gate:spellcooldownreduction",
+        "gate:invisibility"
     ],
     "icon": "minecraft:feather",
     "order": 3,

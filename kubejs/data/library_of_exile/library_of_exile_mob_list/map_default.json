@@ -11,11 +11,15 @@
     },
     {
       "mob_id": "irons_spellbooks:necromancer",
-      "weight": 100
+      "weight": 150
     },
     {
       "mob_id": "undead_unleashed:dreadknight",
-      "weight": 100
+      "weight": 200
+    },
+     {
+      "mob_id": "undergarden:forgotten_guardian",
+      "weight": 25
     },
     {
       "mob_id": "undead_unleashed:shadewraith",
@@ -34,14 +38,12 @@
       "mob_id": "minecraft:slime",
       "weight": 25
     },
+    
     {
       "mob_id": "minecraft:spider",
       "weight": 100
-    },
-    {
-      "mob_id": "minecraft:pillager",
-      "weight": 100
     }
+   
   ],
   "tags": {
     "tags": ["map"]

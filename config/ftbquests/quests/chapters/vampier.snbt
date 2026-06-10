@@ -81,7 +81,9 @@
 					id: "traveloptics:blood_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 2.0d
 			y: 4.5d

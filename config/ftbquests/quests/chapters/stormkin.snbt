@@ -78,13 +78,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4632A6E031717E3B"
-				"296B59F4C152F4F7"
-				"4D7482A9F39C697E"
-				"3082533183B9DA39"
-				"07E45A505EE949F5"
-			]
+			dependencies: ["3082533183B9DA39"]
 			description: ["&bIf you havent already noticed, you are given a lightning echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			id: "66AAEDE44E555E93"
 			rewards: [{
@@ -99,7 +93,9 @@
 					id: "traveloptics:lightning_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 3.5d
 			y: -3.0d

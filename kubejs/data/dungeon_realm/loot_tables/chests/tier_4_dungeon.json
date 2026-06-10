@@ -18,6 +18,22 @@
         },
          {
           "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/catacombs_additions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/ancient_city_additions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/aqua_mage_tower/aqua_mage_basic_storage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/magnetic_ruins_additions_new"
+        },
+         {
+          "type": "minecraft:loot_table",
           "name": "mes:mega_ship_treasure"
         },
             {

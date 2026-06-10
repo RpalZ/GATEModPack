@@ -1,0 +1,16 @@
+{
+  "type": "origins:stacking_status_effect",
+  "name": "Haste",
+  "description": "You are quick with your hands",
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 100,
+  "effect": {
+    "effect": "minecraft:haste",
+    "duration": -1,
+    "amplifier": 2,
+    "is_ambient": true,
+    "show_particles": false,
+    "show_icon": false
+  }
+}

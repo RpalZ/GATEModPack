@@ -2,7 +2,9 @@
     "powers": [
         "gate:lifesteal",
         "gate:bloodbath",
-        "gate:vampburn"
+        "gate:vampburn",
+        "gate:bloodmoon",
+        "gate:nightvision"
     ],
     "icon": "minecraft:redstone",
     "order": 2,

@@ -1,26 +1,63 @@
 {
   "type": "minecraft:chest",
   "pools": [
-     {
+    {
       "rolls": 5,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/bastion_treasure"
         },
-         {
+        {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/ancient_city_ice_box"
         },
-         {
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/ancient_city"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/frosted_prison_treasure_additions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/catacombs_additions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/random_imbue_curio_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "irons_spellbooks:chests/pyromancer_tower/fire_ale_cask"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "irons_spellbooks:chests/pyromancer_tower/burnt_chest"
+        },
+
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/ancient_city_additions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/aqua_mage_tower/aqua_mage_basic_storage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/magnetic_ruins_additions_new"
+        },
+        {
           "type": "minecraft:loot_table",
           "name": "traveloptics:chests/acropolis_treasure_additions"
         },
-         {
+        {
           "type": "minecraft:loot_table",
           "name": "mes:mega_ship_treasure"
         },
-         {
+        {
           "type": "minecraft:loot_table",
           "name": "dungeons_arise:chests/mines_treasure_big"
         },
@@ -28,7 +65,6 @@
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/ancient_city"
         }
-        
       ]
     }
   ]

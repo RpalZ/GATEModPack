@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Health Boost",
+    "description": "35 HP",
+    "modifier": {
+        "name": "hp1",
+        "attribute": "minecraft:generic.max_health",
+        "value": 15,
+        "operation": "addition"
+    }
+}

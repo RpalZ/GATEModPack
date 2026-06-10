@@ -109,7 +109,9 @@
       "gate:lifesteal": true,
       "gate:bloodbath": true,
       "gate:bb": true,
-      "gate:vampburn": true
+      "gate:vampburn": true,
+      "gate:bloodmoon": true,
+      "gate:nightvision": true
     },
     "origincustom:human": {
       "enabled": true,
@@ -142,7 +144,9 @@
       "gate:lifesteal": true,
       "gate:bloodbath": true,
       "gate:bb": true,
-      "gate:vampburn": true
+      "gate:vampburn": true,
+      "gate:bloodmoon": true,
+      "gate:nightvision": true
     },
     "origin:elf": {
       "enabled": true,
@@ -151,7 +155,12 @@
       "origins:like_air": true,
       "origins:fragile": true,
       "origins:slow_falling": true,
-      "origins:vegetarian": true
+      "origins:vegetarian": true,
+      "gate:swift": true,
+      "gate:poisonimmune": true,
+      "gate:spellcooldownreduction": true,
+      "gate:invisibility": true,
+      "gate:elfhp": true
     },
     "gate:elf": {
       "enabled": true,
@@ -160,21 +169,30 @@
       "origins:like_air": true,
       "origins:fragile": true,
       "origins:slow_falling": true,
-      "origins:vegetarian": true
+      "origins:vegetarian": true,
+      "gate:swift": true,
+      "gate:poisonimmune": true,
+      "gate:spellcooldownreduction": true,
+      "gate:invisibility": true,
+      "gate:elfhp": true
     },
     "gate:orc": {
       "enabled": true,
       "origins:strong_arms": true,
       "origins:natural_armor": true,
       "gate:orcwrath": true,
-      "origins:more_exhaustion": true
+      "origins:more_exhaustion": true,
+      "gate:strength": true,
+      "gate:orchp": true
     },
     "origin:orc": {
       "enabled": true,
       "origins:strong_arms": true,
       "origins:natural_armor": true,
       "gate:orcwrath": true,
-      "origins:more_exhaustion": true
+      "origins:more_exhaustion": true,
+      "gate:strength": true,
+      "gate:orchp": true
     },
     "origin:angel": {
       "enabled": true,
@@ -187,7 +205,8 @@
       "origins:burning_wrath": true,
       "origins:claustrophobia": true,
       "origins:fresh_air": true,
-      "origins:fall_immunity": true
+      "origins:fall_immunity": true,
+      "gate:regen": true
     },
     "gate:merfolk": {
       "enabled": true,
@@ -199,7 +218,9 @@
       "origins:like_water": true,
       "origins:water_vision": true,
       "gate:waterbreath": true,
-      "gate:fishterian": true
+      "gate:fishterian": true,
+      "gate:spellcooldownreduction": true,
+      "gate:aquaticbuffs": true
     },
     "gate:yeti": {
       "enabled": true,
@@ -209,7 +230,9 @@
       "origins:climbing": true,
       "origins:sprint_jump": true,
       "gate:ice": true,
-      "origins:more_exhaustion": true
+      "origins:more_exhaustion": true,
+      "gate:yetirage": true,
+      "gate:yetihp": true
     },
     "gate:dragonborne": {
       "enabled": true,
@@ -221,7 +244,9 @@
       "origins:aerial_combatant": true,
       "origins:fire_immunity": true,
       "origins:more_exhaustion": true,
-      "origins:launch_into_air": true
+      "origins:launch_into_air": true,
+      "gate:royalscales": true,
+      "gate:enderhp": true
     },
     "origin:merfolk": {
       "enabled": true,
@@ -233,7 +258,9 @@
       "origins:like_water": true,
       "origins:water_vision": true,
       "gate:waterbreath": true,
-      "gate:fishterian": true
+      "gate:fishterian": true,
+      "gate:spellcooldownreduction": true,
+      "gate:aquaticbuffs": true
     },
     "origin:yeti": {
       "enabled": true,
@@ -243,7 +270,9 @@
       "origins:climbing": true,
       "origins:sprint_jump": true,
       "gate:ice": true,
-      "origins:more_exhaustion": true
+      "origins:more_exhaustion": true,
+      "gate:yetirage": true,
+      "gate:yetihp": true
     },
     "origin:dragonborne": {
       "enabled": true,
@@ -255,7 +284,9 @@
       "origins:aerial_combatant": true,
       "origins:fire_immunity": true,
       "origins:more_exhaustion": true,
-      "origins:launch_into_air": true
+      "origins:launch_into_air": true,
+      "gate:royalscales": true,
+      "gate:enderhp": true
     },
     "gate:enderian": {
       "enabled": true,
@@ -265,7 +296,8 @@
       "origins:cat_vision": true,
       "origins:water_vulnerability": true,
       "origins:shulker_inventory": true,
-      "origins:claustrophobia": true
+      "origins:claustrophobia": true,
+      "gate:enderhp": true
     },
     "origin:enderian": {
       "enabled": true,
@@ -275,7 +307,8 @@
       "origins:cat_vision": true,
       "origins:water_vulnerability": true,
       "origins:shulker_inventory": true,
-      "origins:claustrophobia": true
+      "origins:claustrophobia": true,
+      "gate:enderhp": true
     },
     "gate:angel": {
       "enabled": true,
@@ -288,7 +321,8 @@
       "origins:burning_wrath": true,
       "origins:claustrophobia": true,
       "origins:fresh_air": true,
-      "origins:fall_immunity": true
+      "origins:fall_immunity": true,
+      "gate:regen": true
     },
     "origin:stormkin": {
       "enabled": true,
@@ -299,7 +333,9 @@
       "origins:fall_immunity": true,
       "origins:phasing": true,
       "origins:fragile": true,
-      "origins:strong_arms_break_speed": true
+      "origins:strong_arms_break_speed": true,
+      "gate:haste": true,
+      "gate:dashstorm": true
     },
     "gate:stormkin": {
       "enabled": true,
@@ -310,7 +346,9 @@
       "origins:fall_immunity": true,
       "origins:phasing": true,
       "origins:fragile": true,
-      "origins:strong_arms_break_speed": true
+      "origins:strong_arms_break_speed": true,
+      "gate:haste": true,
+      "gate:dashstorm": true
     }
   }
 }

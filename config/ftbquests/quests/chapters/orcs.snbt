@@ -86,7 +86,9 @@
 					id: "traveloptics:evocation_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -2.5d
 			y: -2.0d

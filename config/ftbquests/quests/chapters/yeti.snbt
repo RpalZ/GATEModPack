@@ -95,14 +95,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"4632A6E031717E3B"
-				"296B59F4C152F4F7"
-				"4D7482A9F39C697E"
-				"3082533183B9DA39"
-				"07E45A505EE949F5"
-				"7840358FA3B8C6EE"
-			]
+			dependencies: ["07E45A505EE949F5"]
 			description: ["&3If you havent already noticed, you are given an ice echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			id: "1F2EEEE772535FBD"
 			rewards: [{
@@ -117,7 +110,9 @@
 					id: "traveloptics:ice_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 2.5d
 			y: -2.5d

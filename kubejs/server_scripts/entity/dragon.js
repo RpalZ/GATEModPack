@@ -18,12 +18,12 @@ EntityEvents.spawned((event) => {
 
   if (!entity) return;
 
-  const maxHealth = entity.getMaxHealth() || null;
+  const maxHealth = entity.maxHealth || null;
 
   if (!maxHealth) return;
 
   const newMaxHealth = maxHealth * 1.35;
 
-  entity.setAttributeBaseValue("generic.max_health", newMaxHealth);
-  entity.setHealth(newMaxHealth);
+  entity.maxHealth = newMaxHealth;
+  entity.health = newMaxHealth;
 });

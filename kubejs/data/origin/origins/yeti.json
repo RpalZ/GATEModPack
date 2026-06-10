@@ -6,7 +6,10 @@
        "origins:more_exhaustion",
        "origins:climbing",
        "origins:sprint_jump",
-       "gate:ice"
+       "gate:ice",
+       "gate:yetihp",
+       "gate:freezeimmune",
+       "gate:yetirage"
     ],
     "icon": "minecraft:ice",
     "order": 10,

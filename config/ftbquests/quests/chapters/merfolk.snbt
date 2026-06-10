@@ -76,7 +76,9 @@
 					id: "traveloptics:aqua_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 4.0d
 			y: -3.0d

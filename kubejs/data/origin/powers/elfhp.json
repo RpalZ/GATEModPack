@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Elf Health",
+    "description": "18 Max HP",
+    "modifier": {
+        "name": "Elf health",
+        "attribute": "minecraft:generic.max_health",
+        "value": -2,
+        "operation": "addition"
+    }
+}

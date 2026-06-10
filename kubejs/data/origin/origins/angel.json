@@ -7,6 +7,7 @@
         "origins:fall_immunity",
         "origins:aerial_combatant",
         "origins:claustrophobia",
+        "gate:regen",
         "origins:fresh_air"
     ],
     "icon": "mekanism:hdpe_elytra",

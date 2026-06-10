@@ -1,0 +1,6 @@
+{
+    "type": "origins:step",
+    "step_height": 1.0,
+    "name": "Greater Step Height",
+    "description": "You can step up full blocks."
+}

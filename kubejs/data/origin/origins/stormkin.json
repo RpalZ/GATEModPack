@@ -8,7 +8,9 @@
         "origins:fall_immunity",
         "origins:phasing",
         "origins:fragile",
-        "origins:strong_arms_break_speed"
+        "origins:strong_arms_break_speed",
+        "gate:haste",
+        "gate:dashstorm"
     ],
     "icon": "minecraft:blaze_rod",
     "order": 8,

@@ -13,7 +13,7 @@ invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
-directionalAudio:false
+directionalAudio:true
 touchscreen:false
 fullscreen:true
 bobView:true
@@ -34,7 +34,7 @@ gamma:0.5700000000000001
 renderDistance:8
 simulationDistance:8
 entityDistanceScaling:1.0
-guiScale:3
+guiScale:2
 particles:1
 maxFps:100
 graphicsMode:0
@@ -44,7 +44,7 @@ biomeBlendRadius:2
 renderClouds:"fast"
 resourcePacks:["vanilla","tacz_resources","mod_resources","file/GATE_Optimization_Pack.zip","Moonlight Mods Dynamic Assets","fabric","continuity:default","continuity:glass_pane_culling_fix","file/GATE_Sound_Pack.zip"]
 incompatibleResourcePacks:[]
-lastServer:cadmium-backup.de.e4mc.link
+lastServer:192.168.10.12:25565
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -84,15 +84,15 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.7527593818984547
-soundCategory_music:0.46244131455399057
-soundCategory_record:1.0
-soundCategory_weather:0.751173708920188
+soundCategory_master:0.15562913907284767
+soundCategory_music:0.3873239436619718
+soundCategory_record:0.2112676056338028
+soundCategory_weather:0.9154929577464789
 soundCategory_block:0.7464788732394366
 soundCategory_hostile:0.9061032863849766
 soundCategory_neutral:0.5046948356807514
 soundCategory_player:1.0
-soundCategory_ambient:0.5
+soundCategory_ambient:0.6338028169014085
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
@@ -101,3 +101,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+fullscreenResolution:1440x900@60:24

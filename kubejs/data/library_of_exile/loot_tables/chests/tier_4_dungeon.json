@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 3,
+      "rolls": 4,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -18,15 +18,27 @@
         },
          {
           "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/catacombs_additions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/ancient_city_additions"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/aqua_mage_tower/aqua_mage_basic_storage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "traveloptics:chests/magnetic_ruins_additions_new"
+        },
+         {
+          "type": "minecraft:loot_table",
           "name": "mes:mega_ship_treasure"
         },
             {
           "type": "minecraft:loot_table",
           "name": "dungeons_arise:chests/mines_treasure_big"
-        },
-         {
-          "type": "minecraft:loot_table",
-          "name": "mns:chests/treasure"
         }
       ]
     }

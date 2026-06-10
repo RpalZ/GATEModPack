@@ -33,11 +33,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4632A6E031717E3B"
-				"296B59F4C152F4F7"
-				"4D7482A9F39C697E"
-			]
+			dependencies: ["4D7482A9F39C697E"]
 			description: ["&eIf you havent already noticed, you are given a holy echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			id: "4C0617C9D124413E"
 			rewards: [{
@@ -52,7 +48,9 @@
 					id: "traveloptics:holy_echo"
 					tag: { }
 				}
+				match_nbt: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -3.5d
 			y: -2.0d

@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Spell Cooldown Reduction",
+    "description": "10% faster cooldown",
+    "modifier": {
+        "name": "reduce",
+        "attribute": "irons_spellbooks:cooldown_reduction",
+        "value": 0.10,
+        "operation": "addition"
+    }
+}

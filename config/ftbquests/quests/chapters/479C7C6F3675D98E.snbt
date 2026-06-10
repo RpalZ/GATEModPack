@@ -82,6 +82,42 @@
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["12FAC1758426D6B8"]
+			description: ["&6From now on, you can complete infinite dungeons to gain exp and loot!&r"]
+			id: "4EA8E69BE5FC5EF3"
+			rewards: [{
+				id: "3BEBF135A6766876"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1EA9D30C772DD839"
+					item: "dungeon_realm:map_device"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2371630321928859"
+					item: "dungeon_realm:dungeon_map"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "47B259E984296505"
+					item: "dungeon_realm:home_pearl"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Dungeon Rush"
+			x: 2.5d
+			y: -2.5d
+		}
 	]
 	title: "???"
 }

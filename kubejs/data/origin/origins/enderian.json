@@ -1,12 +1,14 @@
 {
     "powers": [
         "gate:enderian",
+        "gate:enderhp",
         "origins:extra_reach",
         "origins:strong_arms",
         "origins:throw_ender_pearl",
         "origins:cat_vision",
         "origins:water_vulnerability",
-        "origins:claustrophobia"
+        "origins:claustrophobia",
+        "gate:stepheight"
     ],
     "icon": "minecraft:ender_pearl",
     "order": 7,

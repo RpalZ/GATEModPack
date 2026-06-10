@@ -785,6 +785,18 @@ weight=1
 
 
 [[mob]]
+name="undergarden:forgotten"
+[[mob.rule]]
+set.health=[30,45]
+type="all"
+
+[[mob]]
+name="minecraft:spider"
+[[mob.rule]]
+set.health=[16, 32]
+type="all"
+
+[[mob]]
 name="undergarden:forgotten_guardian"
 [[mob.rule]]
 set.health=200
@@ -803,6 +815,11 @@ name="minecraft:enderman"
 type="all"
 set.health=[50,100]
 
+[[mob]]
+name="minecraft:wither_skeleton"
+[[mob.rule]]
+type="all"
+set.health=[20, 75]
 
 
 [[mob]]

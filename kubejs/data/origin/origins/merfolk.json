@@ -8,7 +8,10 @@
         "origins:water_vision",
         "gate:waterbreath",
         "gate:poseidon",
-        "gate:fishterian"
+        "gate:fishterian",
+        "gate:spellcooldownreduction",
+        "gate:riptide",
+        "gate:aquaticbuffs"
 
     ],
     "icon": "minecraft:cod",

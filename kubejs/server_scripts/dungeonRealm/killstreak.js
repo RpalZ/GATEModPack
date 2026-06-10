@@ -28,10 +28,50 @@ EntityEvents.death((event) => {
       "minecraft:strength",
     ];
 
-    let level = (postKill / nKillsNeeded) % effects.length;
+    let triggers = Math.floor(postKill / nKillsNeeded);
+    let index = (triggers - 1) % effects.length;
+    if (index < 0) index = (index + effects.length) % effects.length;
     player.setStatusMessage(Text.of("You feel rage...").red().italic());
 
-    player.potionEffects.add(effects[level - 1], 30 * 20, 2, true, false);
+    player.potionEffects.add(effects[index], 30 * 20, 2, true, false);
+
+    const mainHandItem = player.getMainHandItem()
+
+    const isGun = $GunTags.isTargetItem(mainHandItem)
+
+    if(isGun) {
+
+
+
+      const randomN = Math.floor(Math.random() * 3)
+
+
+      if(randomN == 2) {
+
+        const tagGun = mainHandItem.getOrCreateTag()
+        
+        const gunId = tagGun.getString("GunId")
+        const gunData = TaCZJSUtils.getGunIndex(gunId).getGunData()
+        const maxAmmoAmount = gunData.ammoAmount
+        
+        const currentAmmo = tagGun.getInt("GunCurrentAmmoCount")
+        
+        // player.tell(currentAmmo)
+        const ammoToAdd = Math.max(maxAmmoAmount - currentAmmo, 0) + currentAmmo
+        
+        // player.tell(ammoToAdd)
+        mainHandItem.getOrCreateTag().putInt("GunCurrentAmmoCount", ammoToAdd)
+        
+        
+        
+        player.setMainHandItem(mainHandItem)
+        
+        //   const ammoId = gunData.ammoId
+        
+        //  player.give(Item.of("tacz:ammo", 30, {AmmoId: ammoId.toString()}))
+      }
+    }
+
   }
 
   persistentData.merge({

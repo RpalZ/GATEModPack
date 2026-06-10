@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "z": 0.02,
+        "space": "local"
+    },
+    "condition": {
+        "type": "origins:fall_flying"
+    },
+    "name": "Royal Scales",
+    "description": "Thick scales and powerful wings allow for faster flight."
+}

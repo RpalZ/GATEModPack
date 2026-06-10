@@ -3,7 +3,9 @@
         "origins:strong_arms",
         "origins:natural_armor",
         "gate:orcwrath",
-        "origins:more_exhaustion"
+        "origins:more_exhaustion",
+        "gate:strength",
+        "gate:orchp"
     ],
     "icon": "minecraft:bone",
     "order": 4,

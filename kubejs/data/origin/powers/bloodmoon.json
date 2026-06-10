@@ -1,0 +1,11 @@
+
+{
+    "type": "origins:resource",
+    "name": "bloodmoon",
+    "min": 0,
+    "max": 5,
+    "description": "Gain strength and speed under the moon",
+    "hud_render": {
+        "should_render": false
+    }
+}

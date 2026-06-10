@@ -6,10 +6,11 @@
         "origins:carnivore",
         "origins:elytra",
         "origins:launch_into_air",
-
+        "gate:enderhp",
         "origins:aerial_combatant",
         "origins:fire_immunity",
-        "origins:more_exhaustion"
+        "origins:more_exhaustion",
+        "gate:royalscales"
 
     ],
     "icon": "iceandfire:dragonscales_red",
