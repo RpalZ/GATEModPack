@@ -4,7 +4,7 @@
 	renderProfilingEnabled = false
 	#Default screen scale for Keybind Atlas. Valid values: X1, X2.
 	#Allowed Values: X1, X2
-	defaultPixelScale = "X1"
+	defaultPixelScale = "X2"
 	#Keyboard layout shown by Keybind Atlas. Valid values: US_QWERTY, UK_QWERTY, ABNT2, FRENCH_AZERTY, BELGIAN_AZERTY, GERMAN_QWERTZ, SWISS_QWERTZ, SPANISH, ITALIAN, NORDIC_ISO. Legacy values AZERTY and QWERTZ are still accepted.
 	#Allowed Values: US_QWERTY, UK_QWERTY, ABNT2, FRENCH_AZERTY, BELGIAN_AZERTY, GERMAN_QWERTZ, SWISS_QWERTZ, SPANISH, ITALIAN, NORDIC_ISO, AZERTY, QWERTZ
 	keyboardLayout = "US_QWERTY"

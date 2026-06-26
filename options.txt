@@ -212,11 +212,11 @@ key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.caps.lock
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_key.cataclysm.ability:key.keyboard.x
 key_key.cataclysm.helmet_ability:key.keyboard.c
 key_key.cataclysm.chestplate_ability:key.keyboard.y
@@ -266,6 +266,7 @@ key_key.effortlessbuilding.previous_build_mode.desc:key.keyboard.unknown
 key_key.effortlessbuilding.disable_build_mode_toggle.desc:key.keyboard.unknown
 key_Toogle HideHUD:key.keyboard.period:ALT
 key_HideHUD Config:key.keyboard.comma:ALT
+key_key.keybindatlas.open_keyboard:key.keyboard.k
 key_key.curios.open.desc:key.keyboard.semicolon
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
@@ -384,9 +385,6 @@ key_key.warbornrenewed.nvg_toggle:key.keyboard.n
 key_key.warbornrenewed.reb_backpack_toggle:key.keyboard.backslash
 key_key.lrtactical.normal_attack.desc:key.mouse.left
 key_key.lrtactical.sp_attack.desc:key.mouse.right
-key_tacztweaks.key.reduceSensitivity:key.keyboard.unknown
-key_tacztweaks.key.tiltGun:key.keyboard.unknown
-key_tacztweaks.key.unload:key.keyboard.r:CONTROL
 key_key.pingwheel.ping_location:key.mouse.middle
 key_key.pingwheel.open_settings:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
@@ -410,10 +408,14 @@ key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.epp.viewpattern:key.keyboard.p
+key_tacztweaks.key.bolt:key.keyboard.unknown
+key_tacztweaks.key.reduceSensitivity:key.keyboard.unknown
+key_tacztweaks.key.tiltGun:key.keyboard.unknown
+key_tacztweaks.key.unload:key.keyboard.r:CONTROL
 key_key.roadweaver.open_map:key.keyboard.right.bracket:CONTROL
 key_key.craftpresence.config_keycode.name:key.keyboard.apostrophe
 key_key.pickup.item:key.keyboard.unknown
-soundCategory_master:0.25662251655629137
+soundCategory_master:0.34602649006622516
 soundCategory_music:0.38732394576072693
 soundCategory_record:0.2112676054239273
 soundCategory_weather:0.9154929518699646

@@ -37,17 +37,24 @@
 			description: ["&6To compensate for the lack of magic, humans invented the Equalizer. Weapons that puts them on par with mages.&r"]
 			entity_vis_size: 1.0f
 			id: "5685A1F438D805C5"
-			rewards: [{
-				id: "6B12D54A9030A47C"
-				item: {
-					Count: 1
-					id: "tacz:ammo_box"
-					tag: {
-						Level: 0
+			rewards: [
+				{
+					id: "6B12D54A9030A47C"
+					item: {
+						Count: 1
+						id: "tacz:ammo_box"
+						tag: {
+							Level: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5F09ACE9F916A67A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2B014C89CBD3FE3C"
 				item: "tacz:gun_smith_table"
