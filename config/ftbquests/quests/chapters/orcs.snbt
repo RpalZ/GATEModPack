@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["You are born as an orc"]
+			entity_vis_size: 1.0f
 			id: "52B3058B1A49CE8B"
 			rewards: [{
 				id: "3A13643A76906368"
@@ -36,6 +37,7 @@
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
+			entity_vis_size: 1.0f
 			id: "077E287BB39E3E18"
 			rewards: [{
 				id: "607B3C0A26F1DE28"
@@ -73,6 +75,7 @@
 		{
 			dependencies: ["52B3058B1A49CE8B"]
 			description: ["&aIf you havent already noticed, you are given an evocation echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			entity_vis_size: 1.0f
 			id: "3120BCD9006F2895"
 			rewards: [{
 				id: "326DA9B7CBFE9927"
@@ -96,6 +99,7 @@
 		{
 			dependencies: ["3120BCD9006F2895"]
 			description: ["&aBeing an Orc means being a greedy rich bastard! For these are the ways to keep you afloat!&r"]
+			entity_vis_size: 1.0f
 			id: "666C8DB25BD8262B"
 			rewards: [{
 				id: "6C9A6D0A0B9E121B"
@@ -113,6 +117,7 @@
 		{
 			dependencies: ["666C8DB25BD8262B"]
 			description: ["&aThese form the basis of your crafts!&r"]
+			entity_vis_size: 1.0f
 			id: "60E9F30602246999"
 			rewards: [{
 				id: "56EA491E5746311F"
@@ -130,6 +135,7 @@
 		{
 			dependencies: ["60E9F30602246999"]
 			description: ["&aThe Essential Orb for the dark magician!&r"]
+			entity_vis_size: 1.0f
 			id: "1FBE05191DC138F3"
 			tasks: [{
 				id: "66DF8500E29201B1"
@@ -148,6 +154,7 @@
 		{
 			dependencies: ["60E9F30602246999"]
 			description: ["&aThe one only armor set for evocation! Unfortunately.&r "]
+			entity_vis_size: 1.0f
 			id: "7FC7749EAB4CDCC8"
 			rewards: [{
 				id: "0F02E2977A7C1284"
@@ -215,6 +222,7 @@
 		{
 			dependencies: ["60E9F30602246999"]
 			description: ["&aThe only Evocation Power up Book!&r"]
+			entity_vis_size: 1.0f
 			id: "1DCCD983F2CD345F"
 			tasks: [{
 				id: "3483FF5D6594FE9B"

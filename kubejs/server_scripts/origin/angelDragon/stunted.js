@@ -84,18 +84,3 @@ PlayerEvents.tick(event => {
 
 })
 
-// EntityEvents.hurt(event => {
-
-//     console.log('hurt hurt ')
-
-//     let player = event.getSource().getPlayer()
-
-//     if(!player) return
-//     const playerNbt = player.getNbt()
-
-//     const source = event.getSource()
-//     const sourceType = source.immediate.getEntityType().getTags().map(m => m.location().toString()).toList()
-
-//     player.tell(sourceType)
-
-// })

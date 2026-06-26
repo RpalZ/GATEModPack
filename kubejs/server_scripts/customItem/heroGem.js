@@ -1,7 +1,5 @@
 ItemEvents.rightClicked("kubejs:hero_gem", (event) => {
-  const gem = event.getItem();
   const player = event.getPlayer();
-  const level = event.getLevel();
   const server = event.getServer();
 
   const playerName = player.getName();
@@ -27,12 +25,19 @@ ItemEvents.rightClicked("kubejs:hero_gem", (event) => {
       "execute in gate:leaders_world run forceload add -30 -30 30 200",
     );
 
+
+   
     server.persistentData.merge({
       hallwayGenerated: true,
       version: $GameVersion,
     });
 
     server.scheduleInTicks(20, (e) => {
+       server.runCommandSilent(
+      "execute in gate:leaders_world run mobcontrol admin clear-mobs"
+    )
+
+
       const result = server.runCommandSilent(
         "execute in gate:leaders_world run place template gate:story/main/leaders_hallway 0 100 0 none none",
       );

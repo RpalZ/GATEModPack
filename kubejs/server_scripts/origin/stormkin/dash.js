@@ -1,3 +1,19 @@
+const activeStormkinDashes = new Set();
+
+function cleanupStormkinDash(player, spear) {
+  if (spear && !spear.isRemoved()) {
+    spear.setDeltaMovement(new Vec3d(0, 0, 0));
+    spear.kill();
+  }
+
+  if (player) {
+    if (player.isAlive()) {
+      player.setInvulnerable(false);
+    }
+    activeStormkinDashes.delete(player.uuid.toString());
+  }
+}
+
 PlayerEvents.tick((event) => {
   const player = event.player;
   const server = event.server;
@@ -32,6 +48,15 @@ PlayerEvents.tick((event) => {
   }
 
   if (activated) {
+    const playerUuid = player.uuid.toString();
+    if (activeStormkinDashes.has(playerUuid)) {
+      server.runCommandSilent(
+        `resource set ${player.username} gate:dashstorm_trigger 0`,
+      );
+      return;
+    }
+    activeStormkinDashes.add(playerUuid);
+
     let look = player.lookAngle;
 
     // Dash power multiplier.
@@ -70,7 +95,16 @@ PlayerEvents.tick((event) => {
 
     for (let i = 0; i < timer; i++) {
       server.scheduleInTicks(i, (c) => {
-        if (!player || !player.isAlive()) return;
+        if (!player || !player.isAlive()) {
+          cleanupStormkinDash(player, spear);
+          return;
+        }
+
+        if (!spear || spear.isRemoved()) {
+          cleanupStormkinDash(player, spear);
+          return;
+        }
+
         let delta = player.getDeltaMovement();
 
         let dx = delta.x();
@@ -81,9 +115,8 @@ PlayerEvents.tick((event) => {
         let kineticSpeed = Math.sqrt(dx * dx + dy * dy + dz * dz);
 
         if (kineticSpeed < 5) {
-          spear.setDeltaMovement(new Vec3d(0, 0, 0));
-          spear.kill();
-          player.setInvulnerable(false);
+          cleanupStormkinDash(player, spear);
+          return;
         }
 
         
@@ -100,11 +133,8 @@ PlayerEvents.tick((event) => {
           `execute at ${player.uuid} run playsound minecraft:entity.lightning_bolt.thunder ambient @a ~ ~ ~ 1 1`,
         );
 
-        let interval = c.timer;
-
-        if (interval >= timer) {
-          spear.kill();
-          player.setInvulnerable(false);
+        if (i >= timer - 1) {
+          cleanupStormkinDash(player, spear);
         }
  
       });

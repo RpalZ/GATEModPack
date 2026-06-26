@@ -12,24 +12,59 @@ ServerEvents.recipes((event) => {
 
   //adding some weapons back using tacz gun smith table
 
-  event.remove({ id: "tacz:gun/rpg7" });
-  event.remove({ id: "tacz:misc/blood_strike_1" });
-  event.remove({ id: "tacz:gun/m320" });
-  event.remove({ id: "ronmc:gun/m32a1" });
-  event.remove({ id: "tacz:gun/springfield1873" });
+  const blacklist = [
+    "tacz:gun/springfield1873",
+    "ronmc:gun/m32a1",
+    "tacz:gun/m320",
+    "tacz:misc/blood_strike_1",
+    "tacz:gun/rpg7",
+    "mk16:guns/rpk16",
+    "maxstuff:gun/ai_aws",
+    "maxstuff:gun/ai_awp",
+    "maxstuff:gun/m320t",
+    "maxstuff:gun/can_cannon",
+    "maxstuff:gun/kar98",
+    "maxstuff:gun/deagle_50bmg",
+  ];
+
+  const legendaries = [
+    "tacz:gun/minigun",
+    "tacz:gun/m95",
+    "tacz:gun/m107",
+    "maxstuff:gun/excaliber",
+    "maxstuff:gun/mrad",
+    "maxstuff:gun/m82a2",
+    "maxstuff:gun/gm6_lynx",
+    "maxstuff:gun/genesis12_dragons_breath",
+    "maxstuff:gun/thunderbird_short"
+  ];
+  const epics = [
+    "tacz:gun/ai_awp",
+    "tacz:gun/spas_12",
+    "tacz:gun/fn_evolys",
+    "maxstuff:gun/scar_ssr",
+    "maxstuff:gun/mk18_mjolnir",
+    "maxstuff:gun/dragunov_svdm",
+    "maxstuff:gun/dp28",
+    "maxstuff:gun/beowulf_tcr",
+    "maxstuff:gun/ar10b",
+    "maxstuff:gun/ar10",
+    "tacz:gun/mk14",
+    "mk16:guns/sr25pc",
+    "tacz:gun/scar_h",
+    "maple:gun/deagle_diamond",
+    "tacz:gun/deagle",
+    "maxstuff:gun/db_short_d",
+  ];
+
+  blacklist.forEach((val) => {
+    event.remove({ id: val });
+  });
 
   event.forEachRecipe({ type: "tacz:gun_smith_table_crafting" }, (recipe) => {
     const json = recipe.json;
     const id = recipe.getId();
-    const legendaries = ["tacz:gun/minigun", "tacz:gun/m95", "tacz:gun/m107"];
-    const epics = ["tacz:gun/ai_awp", "tacz:gun/spas_12", "tacz:gun/fn_evolys"];
-    const blacklist = [
-      "tacz:gun/springfield1873",
-      "ronmc:gun/m32a1",
-      "tacz:gun/m320",
-      "tacz:misc/blood_strike_1",
-      "tacz:gun/rpg7",
-    ];
+
     const jsonObj = JSON.parse(json);
     let pack = "superbwarfare:rare_material_pack";
     if (blacklist.includes(id)) return;
@@ -120,7 +155,6 @@ ServerEvents.recipes((event) => {
     type: "tacz:gun_smith_table_crafting",
   });
 
-  
   event.forEachRecipe(
     {
       output: [

@@ -1,4 +1,5 @@
 const multiplayerBosses = new Map();
+const baseMaxHealthKey = "gateBaseMaxHealth";
 
 ServerEvents.tick((event) => {
   const server = event.server;
@@ -16,9 +17,13 @@ ServerEvents.tick((event) => {
 
   const bosses = Object.keys(bossStageGates);
   const players = server.players;
+  const activeBosses = new Set();
 
   server.entities.forEach((entity) => {
     if (!bosses.includes(entity.type)) return;
+
+    let uuid = entity.uuid.toString().slice(0, 8);
+    activeBosses.add(uuid);
 
     let bBlockPos = entity.blockPosition();
     let bX = bBlockPos.x;
@@ -40,8 +45,6 @@ ServerEvents.tick((event) => {
     // server.tell(`players detected: ${playersDetected}`)
     // Track boss state per entity
 
-    let uuid = entity.uuid.toString().slice(0,8)
-
     let bossState = multiplayerBosses.get(uuid);
 
     // Clean up if entity is dead or removed
@@ -58,10 +61,18 @@ ServerEvents.tick((event) => {
     let firstTime = false
     if (!bossState) {
       firstTime=true
+      let baseMaxHealth = entity.persistentData.getDouble(baseMaxHealthKey);
+      if (!baseMaxHealth || baseMaxHealth <= 0) {
+        baseMaxHealth = entity.maxHealth;
+        entity.persistentData.merge({
+          gateBaseMaxHealth: baseMaxHealth,
+        });
+      }
+
       // server.tell('no bossstate found')
       bossState = {
         baseHealth: entity.health,
-        baseMaxHealth: entity.maxHealth,
+        baseMaxHealth: baseMaxHealth,
         lastPlayers: playersDetected
       };
       multiplayerBosses.set(uuid, bossState);
@@ -84,6 +95,12 @@ ServerEvents.tick((event) => {
       multiplayerBosses.set(uuid, bossState)
 
       // server.tell("server shenanigans")
+    }
+  });
+
+  multiplayerBosses.forEach((_, uuid) => {
+    if (!activeBosses.has(uuid)) {
+      multiplayerBosses.delete(uuid);
     }
   });
 });

@@ -4,34 +4,1489 @@
 	filename: "chapter_i_2"
 	group: "6D2B89F1088DF239"
 	id: "6CB996386DE98E97"
+	images: [
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.5d
+			y: 3.25d
+		}
+		{
+			color: 16731978
+			height: 4.5d
+			image: "block_factorys_bosses:textures/particle/ring_5.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			height: 6.0d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 4.0d
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.544217687074834d
+			y: 6.276190476190486d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.540476190476177d
+			y: 7.888095238095225d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.15952380952379d
+			y: 7.911904761904751d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.826190476190462d
+			y: 7.911904761904751d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.537074829931946d
+			y: 4.602380952380926d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.53707482993196d
+			y: 2.990136054421747d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			order: 200
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.528911564625844d
+			y: 1.3207482993197104d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.814625850340136d
+			y: 1.3207482993197104d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.15748299319727d
+			y: 1.3493197278911424d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.471768707482987d
+			y: 1.3493197278911424d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.471768707482987d
+			y: 3.0064625850340008d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.471768707482987d
+			y: 4.663605442176859d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.471768707482987d
+			y: 6.349319727891142d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.471768707482987d
+			y: 7.949319727891144d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/crossbow_pulling_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.75d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.292857142857166d
+			y: -6.527551020408161d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.578571428571443d
+			y: -6.527551020408161d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.030952380952392d
+			y: -4.837074829931964d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.702380952380956d
+			y: -4.884693877551001d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: -3.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.2833333333333385d
+			y: -3.22755102040815d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.3309523809523895d
+			y: -4.856122448979562d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.3595238095238145d
+			y: -6.4846938775509955d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.352380952380962d
+			y: -4.84183673469385d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.68571428571429d
+			y: -8.222789115646233d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.019047619047626d
+			y: -8.175170068027185d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_silver"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.7142857142857224d
+			y: 4.998129251700725d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_electric"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.3214285714285765d
+			y: 6.748129251700725d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_red"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.3214285714285765d
+			y: 3.2481292517007248d
+		}
+		{
+			height: 1.0d
+			image: "iceandfire:block/dragonscale_silver"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5493197278912163d
+			y: 5.607653061224646d
+		}
+		{
+			height: 1.0d
+			image: "mowziesmobs:item/umvuthana_mask_fury_icon"
+			order: 434
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "mowziesmobs:item/umvuthana_mask_misery_icon"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.25d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: -3.75d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.75d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: -0.25d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: -0.25d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.5d
+			y: -0.25d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: 6.75d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.75d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.75d
+			y: 6.75d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.227551020408136d
+			y: 13.975850340136056d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5942176870747957d
+			y: 13.982312925170092d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.9085034013605124d
+			y: 13.982312925170092d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.222789115646229d
+			y: 15.610884353741518d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.561564625850309d
+			y: 15.60680272108847d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.8880952380952039d
+			y: 15.60680272108847d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.2248299319727565d
+			y: 17.270068027210918d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.898299319727855d
+			y: 17.290476190476227d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/powder_snow"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5921768707482684d
+			y: 17.29047619047622d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:textures/particle/kraken_stun_star1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.75d
+			y: 16.75d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:textures/particle/kraken_stun_star1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:textures/particle/kraken_stun_star1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.25d
+			y: 14.0d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.971428571428568d
+			y: 5.602040816326536d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.471428571428568d
+			y: 5.602040816326536d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.861564625850299d
+			y: 5.586734693877574d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.8411564625849977d
+			y: 3.9744897959183874d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.494217687074794d
+			y: 3.9744897959183874d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.9840136054421365d
+			y: 3.9744897959183874d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.5d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 31.0d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.5d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 9.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.5d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 31.0d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.5d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.5d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 38.5d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 40.0d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.0d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.0d
+			y: 9.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.0d
+			y: 11.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.0d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.0d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 38.5d
+			y: 11.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.5d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.5d
+			y: 9.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.5d
+			y: 11.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 40.0d
+			y: 11.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.5d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.5d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 44.5d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.0d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 47.5d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 49.0d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.75d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.75d
+			y: 9.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.75d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.75d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.75d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.75d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.75d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.75d
+			y: 9.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.75d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.75d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.75d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.25d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.75d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 56.25d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.25d
+			y: 10.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.75d
+			y: 10.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 56.25d
+			y: 10.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.25d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.75d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 56.25d
+			y: 13.75d
+		}
+		{
+			color: 8584976
+			height: 4.0d
+			image: "block_factorys_bosses:textures/particle/yeti/circle_3.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			color: 5635925
+			height: 2.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5894557823129105d
+			y: -7.774659863945551d
+		}
+		{
+			color: 16731978
+			height: 2.0d
+			image: "ftbquests:textures/gui/arrow_right.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.49387755102043d
+			y: -0.08418367346936151d
+		}
+		{
+			height: 1.0d
+			image: "mowziesmobs:item/umvuthana_mask_misery_icon"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_electric"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 6.75d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_electric"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.7142857142857224d
+			y: 6.748129251700725d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_silver"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_silver"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.3214285714285765d
+			y: 4.998129251700725d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_red"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 3.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonscale_red"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.7142857142857224d
+			y: 3.2481292517007248d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.25d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.25d
+			y: 7.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 7.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 7.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.25d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.25d
+			y: 12.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/prismarine_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.25d
+			y: 14.25d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:textures/particle/kraken_stun_star1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.7857142857142847d
+			y: 2.2838435374149952d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: 6.75d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: 3.25d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: 3.25d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.75d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.75d
+			y: 3.25d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.75d
+			y: -3.75d
+		}
+		{
+			height: 2.0d
+			image: "undergarden:block/cracked_depthrock_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: -3.75d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.75d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.25d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.25d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 8.75d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.75d
+			y: 8.75d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.25d
+			y: 14.0d
+		}
+		{
+			height: 2.0d
+			image: "alexsmobs:block/sand_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.25d
+			y: 3.25d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 26.0d
+			y: 3.25d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.75d
+			y: 3.25d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.25d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.75d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.25d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 26.0d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.75d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 2.0d
+			image: "emi_loot:textures/gui/wither.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 26.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/crossbow_pulling_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -3.25d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&o&7For generations, the world was torn by the Great War. But then, from the Void, a mindless horror emerged. An anomaly dubbed 'the Warden' brought forth a Miasma that threatens to consume us all.&r"
-				""
-				"&o&7Forced to unite against this threat, the ruling factions signed the Pact of the Gate. The United Council tasks you, an Envoy of this fragile truce, to master the foundational mechanics and magics scattered across the Overworld. Push back the Miasma, Pathfinder, and search for clues in its wake. Strange metallic remnants have been found at the edges of the corruption... find out what they mean.&r&r"
+				"&8&6For generations, the world was torn by the Great War. But then, from the Void, a mindless horror emerged. An anomaly dubbed 'the Warden' brought forth a Miasma that threatens to consume us all.&r"
+				"&r"
+				"&o&6Forced to unite against this threat, the ruling factions signed the Pact of the Gate. The United Council tasks you, an Envoy of this fragile truce, to master the foundational mechanics and magics scattered across the horizon. Push back the Miasma, and search for clues in its wake.&r&r"
 				""
 				"&4&o\"The Void spawn is mindless, but the Miasma is relentless. The Pact is our only shield.\"&r&r"
 			]
+			entity_vis_size: 1.0f
+			icon: "iceandfire:dread_portal"
 			id: "46B96E1D0D8B7BCA"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
 				id: "11A022A00DBEAE16"
 				title: "The Great War"
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["46B96E1D0D8B7BCA"]
 			description: [
-				"&6&oIf we are to stand against what waits beyond the Gate, strength cannot be borrowed forever. Each warrior must prove they can carry their own weight so the whole can endure as one. Hunt down the enemies of the Pact and claim the first key to the source of this corruption.&r&r"
+				"&6&oIf we are to stand against what waits beyond the Gate, strength cannot be borrowed forever. Each warrior must prove they can carry their own weight so the whole can endure as one. Hunt down the traitors of the Pact and claim the first key to the source of this corruption.&r&r"
 				""
 				"&4&o\"Begin with the broken remnants of the old war. Power is forged in the first victory.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "79F4974E23BC93AA"
 			rewards: [{
 				auto: "enabled"
@@ -45,9 +1500,20 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			subtitle: "Prove Yourself."
 			tasks: [{
 				entity: "minecraft:pillager"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "minecraft:stone_sword"
@@ -61,8 +1527,8 @@
 				value: 15L
 			}]
 			title: "First Quest"
-			x: -0.5d
-			y: 1.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79F4974E23BC93AA"]
@@ -71,7 +1537,7 @@
 				""
 				"&4&o\"Every fragment matters. Even the ones the Council refuses to understand.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "6983BBC406DF52C0"
 			rewards: [
 				{
@@ -87,6 +1553,7 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "5FD49FDBF739A26B"
 				item: {
@@ -98,8 +1565,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6983BBC406DF52C0"]
@@ -108,7 +1575,7 @@
 				""
 				"&4&o\"If the wild has fallen to corruption, then the one who defiles it must be brought down.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "083CFC179D001044"
 			rewards: [
 				{
@@ -132,8 +1599,19 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "mowziesmobs:umvuthana_mask_rage"
@@ -147,8 +1625,8 @@
 				value: 1L
 			}]
 			title: "Blasphemic Claws"
-			x: -0.5d
-			y: 4.0d
+			x: -5.44047619047619d
+			y: 3.9981292517007176d
 		}
 		{
 			dependencies: ["083CFC179D001044"]
@@ -157,7 +1635,7 @@
 				""
 				"&4&o\"Slay the elemental dragons and turn their scales into armor worthy of the hunt.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "4AB16D387D6EC80E"
 			optional: true
 			rewards: [
@@ -175,9 +1653,21 @@
 					type: "gamestage"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
 			tasks: [
 				{
 					entity: "iceandfire:fire_dragon"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "iceandfire:dragonscales_red"
 					id: "4C9ACA2EFBD1FFE2"
 					title: "Kill the Fire Dragon"
@@ -186,6 +1676,16 @@
 				}
 				{
 					entity: "iceandfire:ice_dragon"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "iceandfire:dragonscales_blue"
 					id: "4F6AE3EF1241C8CC"
 					title: "Kill the Ice Dragon"
@@ -194,6 +1694,16 @@
 				}
 				{
 					entity: "iceandfire:lightning_dragon"
+					entity_use_tag: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "iceandfire:dragonscales_electric"
 					id: "6E41CA77A782958D"
 					title: "Kill the Lightning Dragon"
@@ -202,17 +1712,17 @@
 				}
 			]
 			title: "Dragon Slayer"
-			x: 2.0d
-			y: 4.0d
+			x: 2.0329931972788913d
+			y: 5.0904761904761315d
 		}
 		{
 			dependencies: ["083CFC179D001044"]
 			description: [
-				"&6&oThe corruption that reached the land has also stirred the seas. Ancient waters have been disturbed, and from the deep has risen a one-eyed creature that now terrorizes the fishermen who still brave the coast.&r&r"
+				"&6&oThe corruption that reached the land has also stirred the seas. Ancient waters have been disturbed, and from the deep has risen a one-eyed creature that now terrorizes the fishermen who still brave the coast. Its eye radiates with abundance.&r&r"
 				""
-				"&4&o\"Another relic of the old world has gone hostile. The deep will not be left untouched.\"&r&r"
+				"&4&o\"Another relic of the old world has gone hostile. The deep will not be left untouched. Take away its eyes.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "minecraft:prismarine_shard"
 			id: "60B654D17B7CB092"
 			rewards: [
@@ -240,24 +1750,35 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:elder_guardian"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "18DA3EF80B327ADF"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Ancient Depths"
-			x: -0.5d
-			y: 6.5d
+			x: -5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["60B654D17B7CB092"]
 			description: [
-				"&6&oVictory never comes without drawing the attention of greater horrors. Now the deserts themselves have become hunting grounds for the Faded One, a thousand-scaled beast whose stealth and blade-like teeth can tear through an army.&r&r"
+				"&6&oVictory never comes without drawing the attention of greater horrors. Now the deserts themselves have become hunting grounds for the Sirok, a thousand-scaled beast whose stealth and blade-like teeth can tear through an army. A desert mutant transmuted by the miasma.&r&r"
 				""
 				"&4&o\"If the sands hide such monsters, then the desert is no longer empty.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "6F83DB86DDEEC3E3"
 			rewards: [
 				{
@@ -284,8 +1805,19 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "block_factorys_bosses:sandworm"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "block_factorys_bosses:sandworm_gauntlet"
@@ -298,8 +1830,8 @@
 				value: 1L
 			}]
 			title: "Mutant Desert"
-			x: 4.5d
-			y: 6.5d
+			x: 3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6F83DB86DDEEC3E3"]
@@ -308,7 +1840,7 @@
 				""
 				"&4&o\"Another one to kill...\".&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "65CB799F7BDA155A"
 			rewards: [
 				{
@@ -335,8 +1867,19 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
 					Count: 1
 					id: "mowziesmobs:ice_crystal"
@@ -349,8 +1892,8 @@
 				value: 1L
 			}]
 			title: "Frostbound Terror"
-			x: -0.5d
-			y: 9.5d
+			x: -3.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["65CB799F7BDA155A"]
@@ -359,7 +1902,7 @@
 				""
 				"&4&o\"Even the strongest can be claimed by the shadow if left unguarded.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "05D47E456E31A632"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -367,16 +1910,27 @@
 				table_id: 3355587268833781544L
 				type: "all_table"
 			}]
+			size: 1.5d
 			tasks: [{
 				entity: "block_factorys_bosses:infernal_dragon"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "block_factorys_bosses:dragon_bone"
 				id: "55EB700ADE53A0A9"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Fallen Dragon King"
-			x: 7.0d
-			y: 9.5d
+			x: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["05D47E456E31A632"]
@@ -385,13 +1939,14 @@
 				""
 				"&4&o\"The old world left breadcrumbs everywhere. We only need to follow them.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "500788D5D57F78D7"
 			rewards: [{
 				id: "01BCF02127DA3F2B"
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "58FDEE51D0C8A384"
 				item: "undergarden:catalyst"
@@ -403,24 +1958,30 @@
 		}
 		{
 			description: ["&6Here are some tips to make your life easier!&r"]
+			entity_vis_size: 1.0f
 			id: "3D29D62B789C153D"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "4D17ABE368E1C711"
 				title: "Tips"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
 			description: ["&6This is great for locating bosses and structures!&r"]
+			entity_vis_size: 1.0f
 			id: "72C07498213720CB"
 			rewards: [{
 				id: "45CB4649A08443F5"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "346226743338EE88"
 				item: {
@@ -430,18 +1991,21 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.5d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
 			description: ["&6As the name suggests, this locates biomes!&r"]
+			entity_vis_size: 1.0f
 			id: "79270999F64D5EB1"
 			rewards: [{
 				id: "3A24C082AF79F0F3"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "44DB3ACC78232C19"
 				item: {
@@ -451,17 +2015,17 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 3.0d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["500788D5D57F78D7"]
 			description: [
-				"&6&oThe UnderGarden is a grotesque place, full of forms that should never have existed. Yet beneath its corruption lies a world waiting to be uncovered. Whether it offers treasure or death, the only way forward is deeper.&r&r"
+				"&6&oThe Undergarden is a grotesque place, full of forms that should never have existed. Yet beneath its corruption lies a world waiting to be uncovered. Whether it offers treasure or death, the only way forward is deeper.&r&r"
 				""
 				"&4&o\"If the old scribes were right, then the underground still has answers.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "4FF6DE3CD28DABE8"
 			rewards: [
 				{
@@ -477,22 +2041,30 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "undergarden:cloggrum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "79DC2B9094EBFC5E"
 				structure: "undergarden:catacombs"
 				type: "structure"
 			}]
-			x: 14.0d
-			y: 1.5d
+			x: 18.16904761904763d
+			y: -1.9697278911564524d
 		}
 		{
 			dependencies: ["4FF6DE3CD28DABE8"]
 			description: [
-				"&6&oThe catacombs are not empty. Their halls are guarded by forgotten golems carrying the remnants of the miasma within their stone bodies. Whatever happened here, it twisted even the protectors of the underground.&r&r"
+				"&6&oThe catacombs are not empty. Their halls are guarded by forgotten golems and their vermins carrying the remnants of the miasma within their stone bodies. Whatever happened here, it twisted even the protectors of the underground.&r&r"
 				""
-				"&4&o\"Even the guardians of a dead place can still strike back.\"&r&r"
+				"&4&o\"Even the guardians of a dead place can still strike back...\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "undergarden:forgotten_battleaxe"
@@ -521,23 +2093,34 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "74DA2B8FF8E66953"
 				type: "kill"
 				value: 3L
 			}]
-			x: 16.5d
-			y: 4.5d
+			x: 19.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["35788DB7EB17912E"]
 			description: [
 				"&6&oThe fallen golems left behind a mark of coal and death, and deeper within the ruins another scribe was found. Their warning speaks of a soul ritual and the three cursed skulls, a ritual that can only mean the Wither stands in the path ahead.&r&r"
 				""
-				"&4&o\"At last, the clues point to one final trial in this chain of ruin.\"&r&r"
+				"&4&o\"At last, the clues point to one final trial in this chain of ruin. I have to be prepared...\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "minecraft:wither_skeleton_skull"
 			id: "11EBA947CA6F6434"
 			rewards: [
@@ -566,14 +2149,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:wither"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "16531EF201E07445"
 				type: "kill"
 				value: 1L
 			}]
-			x: 22.0d
-			y: 4.5d
+			x: 25.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["11EBA947CA6F6434"]
@@ -582,33 +2176,39 @@
 				""
 				"&4&o\"This was never the final battle. It was only the end of the beginning.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
+			icon: "iceandfire:dread_portal"
 			id: "3C6500736BA4FCB9"
 			rewards: [{
 				id: "1E485E0BD7E756C7"
 				item: "kubejs:hero_gem"
 				type: "item"
 			}]
+			shape: "octagon"
+			size: 2.5d
 			tasks: [{
 				id: "7E6BF3EAA8695D04"
 				title: "End?"
 				type: "checkmark"
 			}]
-			x: 25.5d
-			y: 2.0d
+			x: 31.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3D29D62B789C153D"]
 			description: ["&6This Modpack contains Ultimine. Simple Hold ~ while mining to activate.&r"]
+			entity_vis_size: 1.0f
 			id: "68533B1A4060371C"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "68408DC800BD5504"
 				title: "ULTIMINE"
 				type: "checkmark"
 			}]
-			x: -6.699999999999999d
-			y: -1.4d
+			x: 10.3d
+			y: -8.4d
 		}
 	]
-	title: "Chapter I"
+	title: "&l&6Chapter I&r&r"
 }

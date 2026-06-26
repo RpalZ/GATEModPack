@@ -1,0 +1,11 @@
+{
+  "title": "Gunslinger",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "tacz:modern_kinetic_gun",
+      "nbt": "{GunCurrentAmmoCount:7,GunFireMode:\"SEMI\",GunId:\"ronmc:mkv\",HasBulletInBarrel:1b,\"arsarms:Mana\":0}"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/husbandry.png"
+}

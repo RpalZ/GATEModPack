@@ -16,6 +16,7 @@
 	quests: [
 		{
 			description: ["You are born as Enderian."]
+			entity_vis_size: 1.0f
 			id: "429C8953BABD6340"
 			rewards: [{
 				id: "3C42866A297865E1"
@@ -40,6 +41,7 @@
 		{
 			dependencies: ["429C8953BABD6340"]
 			description: ["&5If you havent already noticed, you are given an ender echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			entity_vis_size: 1.0f
 			id: "7840358FA3B8C6EE"
 			rewards: [{
 				id: "2B5967275C4C06E4"
@@ -63,6 +65,7 @@
 		{
 			dependencies: ["429C8953BABD6340"]
 			description: ["&5Press G to throw out your pearls!&r"]
+			entity_vis_size: 1.0f
 			id: "13ECFC21C2426B62"
 			tasks: [{
 				id: "7D12D6067286C680"
@@ -75,6 +78,7 @@
 		{
 			dependencies: ["7840358FA3B8C6EE"]
 			description: ["&5It may seem obvious that as an enderian, you need lots of ender pearls.&r"]
+			entity_vis_size: 1.0f
 			id: "7AE5ADD1C024F030"
 			rewards: [{
 				id: "421CD9E454818D56"
@@ -92,6 +96,7 @@
 		{
 			dependencies: ["7AE5ADD1C024F030"]
 			description: ["&5The enderian 101!&r"]
+			entity_vis_size: 1.0f
 			id: "34ED0BE4355E57A5"
 			rewards: [{
 				id: "5ED58D9F92FE0342"
@@ -109,6 +114,7 @@
 		{
 			dependencies: ["34ED0BE4355E57A5"]
 			description: ["&5The first basic ender attire!&r"]
+			entity_vis_size: 1.0f
 			id: "1301FBCDF81ADE66"
 			rewards: [{
 				id: "14973DB867028BDC"
@@ -176,6 +182,7 @@
 		{
 			dependencies: ["1301FBCDF81ADE66"]
 			description: ["&5The ultimate jump to conquer ender artsmanship!&r"]
+			entity_vis_size: 1.0f
 			id: "161B81099A0E980E"
 			rewards: [{
 				id: "44B5B036EBCED114"
@@ -224,6 +231,7 @@
 		{
 			dependencies: ["34ED0BE4355E57A5"]
 			description: ["&5This book is quite the journey to get but it is by no means weak!&r"]
+			entity_vis_size: 1.0f
 			id: "5FBED1721D89073A"
 			rewards: [{
 				id: "547980D671CB77FD"
@@ -252,6 +260,7 @@
 		{
 			dependencies: ["5FBED1721D89073A"]
 			description: ["&5You can even get crazier! Kill the leviathan to obtain this headache!&r"]
+			entity_vis_size: 1.0f
 			id: "00838AD26C92B4F9"
 			rewards: [{
 				id: "1A543EFE70F95D3C"
@@ -298,6 +307,7 @@
 		{
 			dependencies: ["00838AD26C92B4F9"]
 			description: ["&5Quite the cool scythe!&r"]
+			entity_vis_size: 1.0f
 			id: "67B1290FE5B97965"
 			rewards: [{
 				id: "775F14017D4A6F26"
@@ -331,6 +341,7 @@
 		{
 			dependencies: ["5FBED1721D89073A"]
 			description: ["&5Lots of cool and expensive scythes!&r"]
+			entity_vis_size: 1.0f
 			id: "04986B07C9FFD357"
 			rewards: [{
 				id: "55EA00C0FD6FDEF7"
@@ -364,6 +375,7 @@
 		{
 			dependencies: ["34ED0BE4355E57A5"]
 			description: ["&5Quite the reliable!&r"]
+			entity_vis_size: 1.0f
 			id: "024822FDC7466A49"
 			rewards: [{
 				id: "7C78F28A332F029B"
@@ -397,6 +409,7 @@
 		{
 			dependencies: ["5FBED1721D89073A"]
 			description: ["Things are getting interesting..."]
+			entity_vis_size: 1.0f
 			id: "5073B3179BA3AFF7"
 			rewards: [{
 				id: "31A6216B787D93E6"
@@ -430,6 +443,7 @@
 		{
 			dependencies: ["5073B3179BA3AFF7"]
 			description: ["&5The final weapon..?&r"]
+			entity_vis_size: 1.0f
 			id: "22623917F70825FE"
 			rewards: [{
 				id: "7642FDFE4BC50D51"
@@ -463,6 +477,7 @@
 		{
 			dependencies: ["34ED0BE4355E57A5"]
 			description: ["&5Quite the scary one!&r"]
+			entity_vis_size: 1.0f
 			id: "4AEE1B43BD130B3D"
 			rewards: [{
 				id: "305DFCDE34E68F4F"
@@ -494,6 +509,7 @@
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
+			entity_vis_size: 1.0f
 			id: "551B1EEA7F83CD91"
 			rewards: [{
 				id: "09972FC0B2E0055D"

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["You are born as an elf"]
+			entity_vis_size: 1.0f
 			id: "7C4474A24A9EF35C"
 			tasks: [{
 				icon: "minecraft:feather"
@@ -31,6 +32,7 @@
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
+			entity_vis_size: 1.0f
 			id: "42B748EA94C96961"
 			rewards: [{
 				id: "49E1616869A2E076"
@@ -71,6 +73,7 @@
 				"7988DA96BA823373"
 			]
 			description: ["&2Despite its looks, it is one the key ingredients to nurture the nature element! Dont throw it away!&r"]
+			entity_vis_size: 1.0f
 			id: "6F29BD98EB206BA7"
 			tasks: [{
 				id: "0FC5BDFA71AA3C21"
@@ -83,6 +86,7 @@
 		}
 		{
 			description: ["&2The specific rune for Nature!&r"]
+			entity_vis_size: 1.0f
 			id: "7988DA96BA823373"
 			tasks: [{
 				id: "491903410219A4C9"
@@ -95,6 +99,7 @@
 		{
 			dependencies: ["7C4474A24A9EF35C"]
 			description: ["&2If you havent already noticed, you are given a nature echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			entity_vis_size: 1.0f
 			id: "0AF286964246E0A0"
 			tasks: [{
 				id: "005A2B9560DA250B"
@@ -113,6 +118,7 @@
 		{
 			dependencies: ["7988DA96BA823373"]
 			description: ["&2First tier Nature set! This will get you by in the beginning!&r"]
+			entity_vis_size: 1.0f
 			id: "2C9971687AED33F8"
 			rewards: [{
 				id: "651FC62E6CA8C551"
@@ -180,6 +186,7 @@
 		{
 			dependencies: ["2C9971687AED33F8"]
 			description: ["&2Second tier! A bit hard to get for a small margin!&r"]
+			entity_vis_size: 1.0f
 			id: "6FEA7F0C0B73D2E4"
 			rewards: [{
 				id: "5026A100FA4BFB29"
@@ -247,6 +254,7 @@
 		{
 			dependencies: ["6FEA7F0C0B73D2E4"]
 			description: ["&2Direct Upgrade! The strongest Nature Armor you can get!&r"]
+			entity_vis_size: 1.0f
 			id: "051A7219217F8735"
 			rewards: [{
 				id: "3B372DC29F5A5B08"
@@ -295,6 +303,7 @@
 		{
 			dependencies: ["7988DA96BA823373"]
 			description: ["&2The ULTIMATE Nature ORB&r"]
+			entity_vis_size: 1.0f
 			id: "141B2F2DDD1FBE62"
 			tasks: [{
 				id: "5B843831894EF8A8"
@@ -313,6 +322,7 @@
 		{
 			dependencies: ["7988DA96BA823373"]
 			description: ["&2A direct component to your build!&r"]
+			entity_vis_size: 1.0f
 			id: "32D7F7BDAAF0D7AB"
 			rewards: [{
 				id: "41684686A9554705"
@@ -341,6 +351,7 @@
 		{
 			dependencies: ["32D7F7BDAAF0D7AB"]
 			description: ["&2The previous' cooler brother&r"]
+			entity_vis_size: 1.0f
 			id: "73D6F90C30877A74"
 			tasks: [{
 				id: "11A1CFB2A9F2344C"
@@ -364,6 +375,7 @@
 		{
 			dependencies: ["7988DA96BA823373"]
 			description: ["&2Spell Power is very important! So here are some cool weapons you can get!&r"]
+			entity_vis_size: 1.0f
 			id: "3BEB138BE665BF6B"
 			rewards: [{
 				id: "4DBA0C1BD443EB93"
@@ -381,6 +393,7 @@
 		{
 			dependencies: ["3BEB138BE665BF6B"]
 			description: ["&2Lizard King!&r"]
+			entity_vis_size: 1.0f
 			id: "7F05D5A606BB59C4"
 			rewards: [{
 				id: "6387BE5AF78FE66F"
@@ -398,6 +411,7 @@
 		{
 			dependencies: ["3BEB138BE665BF6B"]
 			description: ["&2Quite the contradiction!&r"]
+			entity_vis_size: 1.0f
 			id: "4CC7C7A46C2943E3"
 			rewards: [{
 				id: "5C7CD3B4442436AF"
@@ -431,6 +445,7 @@
 		{
 			dependencies: ["3BEB138BE665BF6B"]
 			description: ["&2Now thats more like it!&r"]
+			entity_vis_size: 1.0f
 			id: "081CE96AEB9384D3"
 			rewards: [{
 				id: "1028DCA2C0309038"

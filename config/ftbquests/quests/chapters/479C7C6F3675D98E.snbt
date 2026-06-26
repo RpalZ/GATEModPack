@@ -10,6 +10,7 @@
 		{
 			dependencies: ["3C6500736BA4FCB9"]
 			description: ["&6The World of Tech and Magic is now yours! Discover paths to combine both styles to your arsenal.&r"]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			icon: "megacells:bulk_cell_component"
 			id: "12FAC1758426D6B8"
@@ -29,6 +30,7 @@
 		{
 			dependencies: ["12FAC1758426D6B8"]
 			description: ["&6You can now imbue firearms with magical scrolls. This power scales with your net spell power and costs mana for each round fired with spells.&r"]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "tacz:modern_kinetic_gun"
@@ -56,6 +58,7 @@
 		{
 			dependencies: ["5C1A2E750DEBFDBE"]
 			description: ["&6Simply imbue the firearm using the magical anvil!&r"]
+			entity_vis_size: 1.0f
 			id: "66D63EE19525F24C"
 			tasks: [{
 				id: "2DF0234D365D4526"
@@ -68,6 +71,7 @@
 		{
 			dependencies: ["5C1A2E750DEBFDBE"]
 			description: ["&6You can also use Ars spells using the enchanting apparatus. Simply place a gem block, lapiz block and the configured parchment spell before putting your firearm on the apparatus!&r"]
+			entity_vis_size: 1.0f
 			id: "6E39A145BA0682EA"
 			rewards: [{
 				id: "600EF60536F5B7DE"
@@ -85,6 +89,7 @@
 		{
 			dependencies: ["12FAC1758426D6B8"]
 			description: ["&6From now on, you can complete infinite dungeons to gain exp and loot!&r"]
+			entity_vis_size: 1.0f
 			id: "4EA8E69BE5FC5EF3"
 			rewards: [{
 				id: "3BEBF135A6766876"
@@ -119,5 +124,5 @@
 			y: -2.5d
 		}
 	]
-	title: "???"
+	title: "&l&4???&r&r"
 }

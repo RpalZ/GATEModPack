@@ -1,14 +1,20 @@
-const $GunTags = Java.loadClass("com.mumu17.ironsarms.utils.GunTags");
-const $RequestSyncChargedManaMessage = Java.loadClass(
+let $GunTags = Java.loadClass("com.mumu17.ironsarms.utils.GunTags");
+let $RequestSyncChargedManaMessage = Java.loadClass(
   "com.mumu17.ironsarms.network.RequestSyncChargedManaMessage",
 );
+
+const getGunMaxMana = (gun) => {
+  const baseMaxMana = $RequestSyncChargedManaMessage.MAX_MANA;
+  const storageLevel = gun.getEnchantmentLevel("kubejs:gun_storage");
+
+  return baseMaxMana + storageLevel * 10000;
+};
 
 //lets prevent mana hogging first
 
 PlayerEvents.tick((event) => {
   const server = event.server;
   const tick = server.tickCount;
-  const maxMana = $RequestSyncChargedManaMessage.MAX_MANA; // 10000
 
   if (tick % 20 != 0) return;
 
@@ -36,6 +42,7 @@ PlayerEvents.tick((event) => {
 
     if (!isMagicGun) continue;
 
+    let maxMana = getGunMaxMana(gun);
     let manaGun = $GunTags.getMana(gun);
 
     //   player.tell(`manaGun: ${manaGun}`)

@@ -16,6 +16,7 @@
 	quests: [
 		{
 			description: ["You are born as Celestial."]
+			entity_vis_size: 1.0f
 			id: "4D7482A9F39C697E"
 			tasks: [{
 				icon: {
@@ -35,6 +36,7 @@
 		{
 			dependencies: ["4D7482A9F39C697E"]
 			description: ["&eIf you havent already noticed, you are given a holy echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			entity_vis_size: 1.0f
 			id: "4C0617C9D124413E"
 			rewards: [{
 				id: "43D9F1C8704F9E61"
@@ -58,6 +60,7 @@
 		{
 			dependencies: ["4C0617C9D124413E"]
 			description: ["&eThe basis of your HOLY runes!&r"]
+			entity_vis_size: 1.0f
 			id: "030C90D92ECB239B"
 			tasks: [{
 				id: "65D814A6FED76353"
@@ -70,6 +73,7 @@
 		{
 			dependencies: ["4D7482A9F39C697E"]
 			description: ["&eAngels have the innate ability to launch themselves up for flight. Simply press the default keybind \"G\"&r"]
+			entity_vis_size: 1.0f
 			id: "0CA3857F1F027655"
 			rewards: [{
 				id: "607B2ABC360DFBC4"
@@ -87,6 +91,7 @@
 		{
 			dependencies: ["030C90D92ECB239B"]
 			description: ["&eQuite the holy tablet!&r"]
+			entity_vis_size: 1.0f
 			id: "34A865F38EC8FECB"
 			rewards: [{
 				id: "7A268975DEBAF07F"
@@ -104,6 +109,7 @@
 		{
 			dependencies: ["34A865F38EC8FECB"]
 			description: ["&eThe divine orb!&r"]
+			entity_vis_size: 1.0f
 			id: "5348F0E04B5E05E6"
 			rewards: [{
 				id: "1E3409CF0BDA0DE1"
@@ -136,6 +142,7 @@
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
+			entity_vis_size: 1.0f
 			id: "08C29E46E85E5750"
 			rewards: [{
 				id: "06C1D81F09AE99F6"
@@ -173,6 +180,7 @@
 		{
 			dependencies: ["34A865F38EC8FECB"]
 			description: ["&eThe priest set! Gives the everlasting divine protection!&r"]
+			entity_vis_size: 1.0f
 			id: "54FF469CDAE4CE11"
 			rewards: [{
 				id: "1E41D7EE7AC695B0"
@@ -240,6 +248,7 @@
 		{
 			dependencies: ["34A865F38EC8FECB"]
 			description: ["&eSimple but holy!&r"]
+			entity_vis_size: 1.0f
 			id: "799E6CC389C6E580"
 			rewards: [{
 				id: "4967176D16591609"
@@ -268,6 +277,7 @@
 		{
 			dependencies: ["34A865F38EC8FECB"]
 			description: ["&eA befitting weapon for an angel!&r"]
+			entity_vis_size: 1.0f
 			id: "375432C62A362F9B"
 			rewards: [{
 				id: "74B850776A731047"
@@ -301,6 +311,7 @@
 		{
 			dependencies: ["375432C62A362F9B"]
 			description: ["&eAn Archangels' trusty arsenal!&r"]
+			entity_vis_size: 1.0f
 			id: "16EF23B215F39796"
 			rewards: [{
 				id: "4E273BFA54348AEC"

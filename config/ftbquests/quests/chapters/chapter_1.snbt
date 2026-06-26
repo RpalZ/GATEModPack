@@ -13,6 +13,7 @@
 				""
 				"&6Here you can automate your resources and become stronger using science!&r"
 			]
+			entity_vis_size: 1.0f
 			id: "72DE04CAE8F6BF13"
 			subtitle: "Welcome"
 			tasks: [{
@@ -34,6 +35,7 @@
 		{
 			dependencies: ["72DE04CAE8F6BF13"]
 			description: ["&6To compensate for the lack of magic, humans invented the Equalizer. Weapons that puts them on par with mages.&r"]
+			entity_vis_size: 1.0f
 			id: "5685A1F438D805C5"
 			rewards: [{
 				id: "6B12D54A9030A47C"
@@ -58,6 +60,7 @@
 		{
 			dependencies: ["5685A1F438D805C5"]
 			description: ["&6The only caveat isnt the lack of power but the lack of infinity. You just gotta deal with the logistics all the time...&r"]
+			entity_vis_size: 1.0f
 			id: "134CC6917B81213D"
 			rewards: [{
 				count: 4
@@ -65,17 +68,30 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			tasks: [{
-				id: "27763B668C07D3D4"
-				item: {
-					Count: 1
-					id: "tacz:workbench_a"
-					tag: {
-						BlockId: "tacz:ammo_workbench"
+			tasks: [
+				{
+					id: "27763B668C07D3D4"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "tacz:ammo_workbench"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4C5155161A26B15B"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "ea:ammobench"
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Copper Hungry"
 			x: 11.5d
 			y: -9.5d
@@ -83,6 +99,7 @@
 		{
 			dependencies: ["134CC6917B81213D"]
 			description: ["&6&6Make your weapons look &oCOOL&r&6 by putting &ocool&r&6 things on it.&r&r&r&r"]
+			entity_vis_size: 1.0f
 			id: "13E2E4C2C47A6F5E"
 			tasks: [{
 				id: "353E0AA7FEC28C55"
@@ -103,6 +120,7 @@
 			can_repeat: true
 			dependencies: ["61DA7816093C9DBF"]
 			description: ["&6Too lazy to get the villager? Just get it from here!&r"]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "superbwarfare:rpg"
@@ -132,6 +150,7 @@
 		{
 			dependencies: ["13E2E4C2C47A6F5E"]
 			description: ["&2These explosives may prove to be useful for some bosses!&r"]
+			entity_vis_size: 1.0f
 			id: "61DA7816093C9DBF"
 			rewards: [{
 				id: "3C1552FBBE798F34"
@@ -149,6 +168,7 @@
 		{
 			dependencies: ["61DA7816093C9DBF"]
 			description: ["&5This is really good against Heavy Bosses especially the wither.&r"]
+			entity_vis_size: 1.0f
 			id: "1B4A93303299BE79"
 			rewards: [{
 				id: "44CEB5D6AEC23723"
@@ -174,6 +194,7 @@
 		{
 			dependencies: ["61DA7816093C9DBF"]
 			description: ["&9Cant hurt to bring a nade or two&r"]
+			entity_vis_size: 1.0f
 			id: "2E7D488619B1E9F8"
 			tasks: [{
 				id: "07663F72FD168110"
@@ -186,6 +207,7 @@
 		{
 			dependencies: ["61DA7816093C9DBF"]
 			description: ["&dGood to be planted on B&r"]
+			entity_vis_size: 1.0f
 			id: "6BCBBFE5B8DCDBB7"
 			rewards: [{
 				id: "630A3C6481032331"
@@ -209,6 +231,7 @@
 		{
 			dependencies: ["72DE04CAE8F6BF13"]
 			description: ["&6As you explore the world, things can get really slow so naturally you would need a faster mode of travel!&r"]
+			entity_vis_size: 1.0f
 			id: "22B3F7178DC09415"
 			rewards: [{
 				id: "59E93E820AB678A5"
@@ -227,6 +250,7 @@
 		{
 			dependencies: ["22B3F7178DC09415"]
 			description: ["&6Craft your first vehicle!&r"]
+			entity_vis_size: 1.0f
 			id: "4794EFA6D2E007B9"
 			rewards: [{
 				id: "660BD3D86007D80B"
@@ -245,6 +269,7 @@
 		{
 			dependencies: ["4794EFA6D2E007B9"]
 			description: ["&6Many Vehicles require specific ammo types for their weapons. Here is a quick guide for it.&r"]
+			entity_vis_size: 1.0f
 			id: "3F117041BE0C2184"
 			tasks: [{
 				id: "025737D62A87D150"
@@ -257,6 +282,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9This ammo is commonly used in machine guns such as mounted HMGs and Coaxial MG from certain vehicles.&r"]
+			entity_vis_size: 1.0f
 			id: "313DA812878894A1"
 			rewards: [{
 				id: "6FF72CE1011D709A"
@@ -274,6 +300,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9These are commonly used in small calibre autocannons such as 20-30mm cannons.&r"]
+			entity_vis_size: 1.0f
 			id: "31FB38C5B687BA79"
 			rewards: [{
 				id: "119FD2B444E0EEB0"
@@ -291,6 +318,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9Armor Piercing Shells commonly used in Tanks to shred highly armored targets.&r"]
+			entity_vis_size: 1.0f
 			id: "0C2F5560C6FC83CF"
 			rewards: [{
 				id: "2E9AA60047C89AD4"
@@ -308,6 +336,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9High Explosive shells. Great for destroying fortifications and scattered targets. Used in Tanks.&r"]
+			entity_vis_size: 1.0f
 			id: "26136E5852D02737"
 			rewards: [{
 				id: "787A11256D4A66CF"
@@ -325,6 +354,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9Perfect for Warcrime.&r"]
+			entity_vis_size: 1.0f
 			id: "761F7EEE6196144E"
 			rewards: [{
 				id: "31F149CB9B116716"
@@ -342,6 +372,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9Commonly used in missile launchers. These ATGMs have great armor piercing capabilities.&r"]
+			entity_vis_size: 1.0f
 			id: "7F9720B12B5E6169"
 			rewards: [{
 				id: "644914DAA8EF4CD5"
@@ -359,6 +390,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9Anti Air Missile.&r"]
+			entity_vis_size: 1.0f
 			id: "3ACEF1BCAF658867"
 			rewards: [{
 				id: "3525F514979F8100"
@@ -376,6 +408,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9A Larger Ground ATGM&r"]
+			entity_vis_size: 1.0f
 			id: "0DADEC0B270E33C9"
 			tasks: [{
 				id: "78E4E08F5F806384"
@@ -388,6 +421,7 @@
 		{
 			dependencies: ["3F117041BE0C2184"]
 			description: ["&9Spammy Rockets mainly used in Helis and Planes&r"]
+			entity_vis_size: 1.0f
 			id: "5B14ED7E3351D12D"
 			rewards: [{
 				id: "45F1B59F452DE202"
@@ -405,6 +439,7 @@
 		{
 			dependencies: ["72DE04CAE8F6BF13"]
 			description: ["&9Your first Power Generation! Simply burn coal to get power or Surround this block with lots of lava!&r"]
+			entity_vis_size: 1.0f
 			id: "48F43DA44253436E"
 			rewards: [{
 				id: "760C91F46303292B"
@@ -422,6 +457,7 @@
 		{
 			dependencies: ["48F43DA44253436E"]
 			description: ["&9Non stop renewable energy! The higher you go the greater the power!&r"]
+			entity_vis_size: 1.0f
 			id: "6FFA48A5B82CF8C7"
 			rewards: [{
 				id: "2FE775B585B8F294"
@@ -439,6 +475,7 @@
 		{
 			dependencies: ["6FFA48A5B82CF8C7"]
 			description: ["&9Turn your crops into fuel!&r"]
+			entity_vis_size: 1.0f
 			id: "62F2BFE7DD617C19"
 			rewards: [{
 				id: "0D586ADA05BDD778"
@@ -456,6 +493,7 @@
 		{
 			dependencies: ["62F2BFE7DD617C19"]
 			description: ["&9Very effective and OP generator. &r"]
+			entity_vis_size: 1.0f
 			id: "6D6D08AB2438B3DD"
 			rewards: [{
 				id: "0E9EDEAAB6AF3CF3"
@@ -473,6 +511,7 @@
 		{
 			dependencies: ["72DE04CAE8F6BF13"]
 			description: ["&9Alternative Power Generation Manual!&r"]
+			entity_vis_size: 1.0f
 			id: "66346571462DAF25"
 			rewards: [{
 				id: "28165EF52BAF75D5"
@@ -491,6 +530,7 @@
 		{
 			dependencies: ["72DE04CAE8F6BF13"]
 			description: ["&9Tacticool Armor!&r"]
+			entity_vis_size: 1.0f
 			id: "08CD8CA4F99F9A9B"
 			rewards: [{
 				id: "112655A5DF789B20"
@@ -508,6 +548,7 @@
 		{
 			dependencies: ["08CD8CA4F99F9A9B"]
 			description: ["&9Reliable and classic. Can be plated.&r"]
+			entity_vis_size: 1.0f
 			id: "40A97BB722B9D549"
 			rewards: [{
 				id: "08C11F38E201DB26"
@@ -566,6 +607,7 @@
 		{
 			dependencies: ["08CD8CA4F99F9A9B"]
 			description: ["&9Most of tech armor can be equipped with armor plates. They provide Maximum protection for their durability.&r"]
+			entity_vis_size: 1.0f
 			id: "6E4B2273F1F1F8AB"
 			rewards: [{
 				id: "336625409EA43CAE"
@@ -587,6 +629,7 @@
 		{
 			dependencies: ["08CD8CA4F99F9A9B"]
 			description: ["&9The Ultimate Techarmor. Makes you almost invincible!&r"]
+			entity_vis_size: 1.0f
 			id: "459947473ACE913E"
 			tasks: [
 				{
@@ -622,6 +665,7 @@
 		{
 			dependencies: ["72DE04CAE8F6BF13"]
 			description: ["&6With all the constant demand for resources, logistics become a massive hurdle. Thats why automation should be your best friend!&r"]
+			entity_vis_size: 1.0f
 			id: "451EC034EB67335B"
 			tasks: [{
 				id: "56E96952A8C8FDBD"
@@ -634,6 +678,7 @@
 		{
 			dependencies: ["451EC034EB67335B"]
 			description: ["&6Your first step is to find a weird meteorite. They are hard to miss!&r"]
+			entity_vis_size: 1.0f
 			id: "3E7BCA1A62F165AB"
 			rewards: [{
 				id: "622205421513862B"
@@ -651,6 +696,7 @@
 		{
 			dependencies: ["3E7BCA1A62F165AB"]
 			description: ["&6Dig down the meteorite and mine the mysterious block in the middle!&r"]
+			entity_vis_size: 1.0f
 			id: "6BAE5095065CF278"
 			tasks: [
 				{
@@ -680,6 +726,7 @@
 		{
 			dependencies: ["6BAE5095065CF278"]
 			description: ["&6Mine the crytal quartz! However, dont mine the budding. Use a cardboard box to preserve their state! Already mined it? Oh well, you can get a free one!&r"]
+			entity_vis_size: 1.0f
 			id: "3661C56EA3F47AEF"
 			rewards: [
 				{
@@ -711,6 +758,7 @@
 		{
 			dependencies: ["3661C56EA3F47AEF"]
 			description: ["&6The heart of AE2 System! Well... Not really but they are really essential early game.&r"]
+			entity_vis_size: 1.0f
 			id: "2744FF71F28A8F5B"
 			rewards: [{
 				id: "6B0FD8DAE13951F6"
@@ -735,6 +783,7 @@
 		{
 			dependencies: ["2744FF71F28A8F5B"]
 			description: ["&6Now finally... The heart of the AE2 System! Here you will learn a bit more about networking!&r"]
+			entity_vis_size: 1.0f
 			id: "058AA658C81156A8"
 			rewards: [
 				{
@@ -760,6 +809,7 @@
 		{
 			dependencies: ["058AA658C81156A8"]
 			description: ["&6The basic component that allows you to \"see\" your inventory! Simply attach this to any storage block and wire em to the controller!&r"]
+			entity_vis_size: 1.0f
 			id: "36CE311147B2018C"
 			rewards: [{
 				id: "05AFFA345912813A"
@@ -777,6 +827,7 @@
 		{
 			dependencies: ["36CE311147B2018C"]
 			description: ["&6Do note it doesnt matter how you wire them up in ae2. As long as it is connected, it is part of your system! However, do be mindful of how many channels you are taking up though! Thats basic bandwidth knowledge!&r"]
+			entity_vis_size: 1.0f
 			id: "6FB5FB3E2F3AFC27"
 			tasks: [{
 				id: "3EB7D299B2664B8A"
@@ -789,6 +840,7 @@
 		{
 			dependencies: ["6FB5FB3E2F3AFC27"]
 			description: ["&6Out of bandwidth already? Upgrade your cabling!&r"]
+			entity_vis_size: 1.0f
 			id: "02AA26066DA47E05"
 			rewards: [{
 				count: 15
@@ -807,6 +859,7 @@
 		{
 			dependencies: ["02AA26066DA47E05"]
 			description: ["&6Cant figure out the bottleneck of your cables? This useful tool will change your life!&r"]
+			entity_vis_size: 1.0f
 			id: "572D080A846AB587"
 			rewards: [{
 				id: "06EACD17F8B9F125"
@@ -824,6 +877,7 @@
 		{
 			dependencies: ["572D080A846AB587"]
 			description: ["&6If you still run out of channels and want to extend with scale in mind, look into P2P Tunnelling!&r"]
+			entity_vis_size: 1.0f
 			id: "01CDB1F9629A5EE5"
 			rewards: [{
 				id: "21683ED39E17A89F"
@@ -841,6 +895,7 @@
 		{
 			dependencies: ["01CDB1F9629A5EE5"]
 			description: ["&6The age of automation! These are the building blocks for automation! Anything from here will make your life 10x easier!&r"]
+			entity_vis_size: 1.0f
 			id: "658710A59250BA94"
 			rewards: [{
 				id: "17A9BD6A8BADCFE0"
@@ -881,6 +936,7 @@
 		{
 			dependencies: ["658710A59250BA94"]
 			description: ["&6Time for AMMO AUTOMATION. Here you can packagers to automate ammo creation!&r"]
+			entity_vis_size: 1.0f
 			id: "045A5BFC0528DA78"
 			rewards: [{
 				id: "2E76A86568A41B64"
@@ -915,6 +971,7 @@
 		{
 			dependencies: ["045A5BFC0528DA78"]
 			description: ["&6Simply connect the packager and unpackager to your ME Network. Once connected, place the TACZ Assembler on TOP of the unpackager. &r"]
+			entity_vis_size: 1.0f
 			id: "63707CD8B028EF78"
 			rewards: [{
 				id: "4EA62F3A9E5B8022"
@@ -932,6 +989,7 @@
 		{
 			dependencies: ["63707CD8B028EF78"]
 			description: ["&6Once you have the setup, grab yourself 3 package holders! Input the package holder into the encoder and click the first slot. Search the ammo type you want in the EMI. Left click it and click the \"+\" icon beside the recipe. You can keep repeating this step for the remaining slots. After all of that, distribute the holders into the 3 blocks!&r"]
+			entity_vis_size: 1.0f
 			id: "4D12D742DD76D7F8"
 			rewards: [{
 				id: "4D8C7446B348BE02"
@@ -945,6 +1003,24 @@
 			}]
 			x: -31.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5685A1F438D805C5"]
+			description: ["&o&6Press the default keybind K to upgrade your gunslinging stats!&r&r"]
+			entity_vis_size: 1.0f
+			id: "308D07731F8FD32B"
+			rewards: [{
+				id: "249DF1CD66E0FC67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D3B3CD4EB2BA311"
+				title: "Gunslinger"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -13.0d
 		}
 	]
 	title: "Chapter I"

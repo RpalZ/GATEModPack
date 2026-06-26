@@ -9,13 +9,13 @@
 	attack_damage = 100.0
 	#Movement Speed of the Dark Doppelganger
 	#Range: 0.1 ~ 1.0
-	movement_speed = 0.2
+	movement_speed = 0.15
 	#Knockback Resistance of the Dark Doppelganger
 	#Range: 0.0 ~ 1.0
-	knockback_resistance = 0.6
+	knockback_resistance = 0.4
 	#Armor of the Dark Doppelganger
 	#Range: 0.0 ~ 100.0
-	armor = 20.0
+	armor = 40.0
 	#Follow Range of the Dark Doppelganger
 	#Range: 1.0 ~ 128.0
 	follow_range = 128.0
@@ -24,7 +24,7 @@
 	#Maximum damage the Dark Doppelganger can take from a single hit.
 	#Set to 0 to disable the cap.
 	#Range: 0.0 ~ 100000.0
-	damage_cap_per_hit = 10000
+	damage_cap_per_hit = 0
 	#Multiplier applied to all of the Dark Doppelganger's spell power attributes
 	#after copying them from the summoner.
 	#1.0 = same as player, 1.5 = +50%, 2.0 = double, etc.

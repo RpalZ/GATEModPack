@@ -183,7 +183,8 @@
       "gate:orcwrath": true,
       "origins:more_exhaustion": true,
       "gate:strength": true,
-      "gate:orchp": true
+      "gate:orchp": true,
+      "gate:bruteforce": true
     },
     "origin:orc": {
       "enabled": true,
@@ -192,7 +193,8 @@
       "gate:orcwrath": true,
       "origins:more_exhaustion": true,
       "gate:strength": true,
-      "gate:orchp": true
+      "gate:orchp": true,
+      "gate:bruteforce": true
     },
     "origin:angel": {
       "enabled": true,
@@ -206,7 +208,8 @@
       "origins:claustrophobia": true,
       "origins:fresh_air": true,
       "origins:fall_immunity": true,
-      "gate:regen": true
+      "gate:regen": true,
+      "gate:angelwings": true
     },
     "gate:merfolk": {
       "enabled": true,
@@ -246,7 +249,8 @@
       "origins:more_exhaustion": true,
       "origins:launch_into_air": true,
       "gate:royalscales": true,
-      "gate:enderhp": true
+      "gate:enderhp": true,
+      "gate:orchp": true
     },
     "origin:merfolk": {
       "enabled": true,
@@ -286,7 +290,8 @@
       "origins:more_exhaustion": true,
       "origins:launch_into_air": true,
       "gate:royalscales": true,
-      "gate:enderhp": true
+      "gate:enderhp": true,
+      "gate:orchp": true
     },
     "gate:enderian": {
       "enabled": true,
@@ -322,7 +327,8 @@
       "origins:claustrophobia": true,
       "origins:fresh_air": true,
       "origins:fall_immunity": true,
-      "gate:regen": true
+      "gate:regen": true,
+      "gate:angelwings": true
     },
     "origin:stormkin": {
       "enabled": true,

@@ -16,6 +16,7 @@
 	quests: [
 		{
 			description: ["You are born as Yeti."]
+			entity_vis_size: 1.0f
 			id: "07E45A505EE949F5"
 			tasks: [{
 				icon: {
@@ -43,6 +44,7 @@
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
+			entity_vis_size: 1.0f
 			id: "0AB2ABBEF12A66EC"
 			rewards: [{
 				id: "283DAE6D8EE2F6C5"
@@ -80,6 +82,7 @@
 		{
 			dependencies: ["07E45A505EE949F5"]
 			description: ["&3Found in the vast winter biomes, these guys are quite a trip to get.&r"]
+			entity_vis_size: 1.0f
 			id: "4ED3195062A58E3D"
 			rewards: [{
 				id: "241354076007EA66"
@@ -97,6 +100,7 @@
 		{
 			dependencies: ["07E45A505EE949F5"]
 			description: ["&3If you havent already noticed, you are given an ice echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			entity_vis_size: 1.0f
 			id: "1F2EEEE772535FBD"
 			rewards: [{
 				id: "33F05110BA8278BB"
@@ -123,6 +127,7 @@
 				"04AF0AA8C31E3CFF"
 			]
 			description: ["&3An ice cold rock...&r"]
+			entity_vis_size: 1.0f
 			id: "076C6E204337DA5A"
 			rewards: [{
 				id: "690B6A5B458AAB02"
@@ -140,6 +145,7 @@
 		{
 			dependencies: ["076C6E204337DA5A"]
 			description: ["&3Stay frosty!&r"]
+			entity_vis_size: 1.0f
 			id: "4672D79CB0AD82BC"
 			rewards: [{
 				id: "46EE61D945125384"
@@ -168,6 +174,7 @@
 		{
 			dependencies: ["4672D79CB0AD82BC"]
 			description: ["&3From defeating the cursed king, you can get this chilly tome!&r"]
+			entity_vis_size: 1.0f
 			id: "449B0AA13ECB6847"
 			rewards: [{
 				id: "6FEE7DD3C21EAF9A"
@@ -206,6 +213,7 @@
 		{
 			dependencies: ["076C6E204337DA5A"]
 			description: ["&3The frozen cultist!&r"]
+			entity_vis_size: 1.0f
 			id: "275783C4B86C1A51"
 			rewards: [{
 				id: "2F14ADDBE6F4F04F"
@@ -273,6 +281,7 @@
 		{
 			dependencies: ["076C6E204337DA5A"]
 			description: ["&3Cold snowball!&r"]
+			entity_vis_size: 1.0f
 			id: "0009FE66EAFE0F0E"
 			rewards: [{
 				id: "0F2A8DA687152867"
@@ -296,6 +305,7 @@
 		{
 			dependencies: ["275783C4B86C1A51"]
 			description: ["&3Very powerful armor for the ice set! Though, you must feel bad for the guy!&r"]
+			entity_vis_size: 1.0f
 			id: "1D0584BBC5242AC9"
 			rewards: [{
 				id: "14312A32E2AC8339"
@@ -344,6 +354,7 @@
 		{
 			dependencies: ["4ED3195062A58E3D"]
 			description: ["&3You need those spider legs for these... Yuck!&r"]
+			entity_vis_size: 1.0f
 			id: "04AF0AA8C31E3CFF"
 			tasks: [{
 				id: "0CE850089830D1C0"
@@ -356,6 +367,7 @@
 		{
 			dependencies: ["1D0584BBC5242AC9"]
 			description: ["&3The ultimate Ice Gun!&r"]
+			entity_vis_size: 1.0f
 			id: "0C7BB7DA46BA47DB"
 			rewards: [{
 				id: "7C2D0CE4BC3AA9A8"
@@ -389,6 +401,7 @@
 		{
 			dependencies: ["275783C4B86C1A51"]
 			description: ["&3Good ol Ice Stick!&r"]
+			entity_vis_size: 1.0f
 			id: "3CDD20AC78793FD8"
 			rewards: [{
 				id: "7F3D09996EE1D632"

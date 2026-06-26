@@ -4,6 +4,2028 @@
 	filename: "chapter_ii"
 	group: "6D2B89F1088DF239"
 	id: "7978A173146F39D6"
+	images: [
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 26.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: 12.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.0d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 26.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 26.5d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.75d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.75d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.75d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.75d
+			y: 12.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.75d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 33.75d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 35.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.75d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.75d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.75d
+			y: 10.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.75d
+			y: 8.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.75d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 8.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 10.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 42.5d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 44.0d
+			y: 12.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 45.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 45.5d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 45.5d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 45.5d
+			y: 10.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 45.5d
+			y: 8.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 45.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 49.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 52.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 8.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 49.75d
+			y: 11.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.25d
+			y: 11.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 52.75d
+			y: 11.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.0d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.0d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 52.75d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.0d
+			y: 8.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 51.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 49.75d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 14.0d
+		}
+		{
+			height: 2.0d
+			image: "create:block/palettes/stone_types/brick/crimsite_cut_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 9.5d
+		}
+		{
+			color: 5635925
+			height: 4.0d
+			image: "block_factorys_bosses:textures/particle/yeti/circle_3.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.532738095238095d
+			y: -8.610119047619058d
+		}
+		{
+			color: 5635925
+			height: 2.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.5d
+			y: -11.5d
+		}
+		{
+			color: 16711680
+			height: 2.0d
+			image: "ftbquests:textures/gui/arrow_right.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.630952380952394d
+			y: 0.3392857142857295d
+		}
+		{
+			color: 16711680
+			height: 4.0d
+			image: "block_factorys_bosses:textures/particle/ring_5.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 51.02380952380953d
+			y: 0.410714285714306d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: -6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: -6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -2.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: -2.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -2.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: -8.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: -2.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.75d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 20.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 20.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 20.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 21.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 21.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 19.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.25d
+			y: 19.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.0d
+			y: 19.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.0d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.25d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.25d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.0d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.0d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.25d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.25d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.0d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 16.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 16.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.5d
+			y: 16.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: 19.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.25d
+			y: 19.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.75d
+			y: 18.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.0d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.25d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.75d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.75d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.75d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:textures/entity/asteroid/asteroid.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 7.25d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.75d
+			y: 7.25d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.75d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.75d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.75d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 10.75d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 12.25d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.25d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.25d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.25d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "block_factorys_bosses:block/iceparticules"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 7.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.75d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.25d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.25d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.75d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.25d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.0d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.75d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.75d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.75d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.5d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 18.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.25d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.25d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.25d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.25d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.75d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.75d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.0d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.5d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.75d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.0d
+			y: 3.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.25d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.25d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.25d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 43.0d
+			y: 0.25d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -15,6 +2037,8 @@
 				""
 				"&4&o\"We do not comprehend this anomaly's power. It lacks the ancient magic our races wield. Use whatever crude logic or power you have to shatter its lieutenants.\"&r&r"
 			]
+			entity_vis_size: 1.0f
+			icon: "iceandfire:dread_portal"
 			id: "5DBF17299A0DE31E"
 			rewards: [
 				{
@@ -30,14 +2054,16 @@
 					type: "gamestage"
 				}
 			]
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
 				id: "4EA2F82403092B2D"
 				title: "Story Continue"
 				type: "checkmark"
 			}]
 			title: "Story Continue"
-			x: 0.0d
-			y: -1.0d
+			x: 13.5d
+			y: -8.625d
 		}
 		{
 			dependencies: ["5DBF17299A0DE31E"]
@@ -46,7 +2072,7 @@
 				""
 				"&4&o\"Old ruins do not stay buried forever, and neither do their treasures.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "cataclysm:desert_eye"
 			id: "7E2ECADBF5753E0B"
 			rewards: [
@@ -69,14 +2095,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "48095B87EE5D9FF0"
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 3.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["7E2ECADBF5753E0B"]
@@ -85,7 +2122,7 @@
 				""
 				"&4&o\"Even what floats above the sea can still be claimed by the deep.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "cataclysm:storm_eye"
 			id: "5FB3D665CD41869F"
 			rewards: [
@@ -119,14 +2156,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:scylla"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "538E1F0F45C1723A"
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 0.375d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5FB3D665CD41869F"]
@@ -135,7 +2183,7 @@
 				""
 				"&4&o\"It is not just coming. It is announcing itself.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "cataclysm:mech_eye"
 			id: "0FE651D356CB46EF"
 			rewards: [
@@ -158,14 +2206,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "4D948E6A4EF4E792"
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: -1.875d
+			y: 6.375d
 		}
 		{
 			dependencies: ["0FE651D356CB46EF"]
@@ -174,7 +2233,7 @@
 				""
 				"&4&o\"The ruins are not empty, but they are not mindless either. It fights with strategy... with logic.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "cataclysm:cursed_eye"
 			id: "05D0DB6789B4538D"
 			rewards: [
@@ -208,14 +2267,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:maledictus"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "50ABED2EAE033CF4"
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: 5.625d
+			y: 9.375d
 		}
 		{
 			dependencies: ["05D0DB6789B4538D"]
@@ -224,7 +2294,7 @@
 				""
 				"&4&o\"The grave is losing its patience.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:tarnished_helmet"
@@ -270,14 +2340,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "67E5923E9C71AAB3"
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 4.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["7DAE690D826E7B66"]
@@ -286,7 +2367,7 @@
 				""
 				"&4&o\"If the world is being remade, it starts here in the flames.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "6E6E267A2E4701AC"
 			rewards: [
 				{
@@ -302,13 +2383,14 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "737CB8DBAC2F20B5"
 				title: "Story Continue"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 10.5d
+			y: 14.625d
 		}
 		{
 			dependencies: ["6E6E267A2E4701AC"]
@@ -317,7 +2399,7 @@
 				""
 				"&4&o\"Steel, flame, and broken vows. That is all the underworld seems to keep now.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "irons_spellbooks:tyros_statue"
 			id: "5843DA256AA06E05"
 			rewards: [
@@ -351,14 +2433,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "irons_spellbooks:fire_boss"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "1F6DAC2F92DFFC6F"
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
-			y: -3.0d
+			x: 18.0d
+			y: 17.25d
 		}
 		{
 			dependencies: ["5843DA256AA06E05"]
@@ -367,7 +2460,7 @@
 				""
 				"&4&o\"The fire has a keeper. Break it, and the lie begins to crack.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "block_factorys_bosses:knight_sword"
@@ -407,14 +2500,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "block_factorys_bosses:underworld_knight"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "03851B3CF7844F06"
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
-			y: 0.5d
+			x: 17.625d
+			y: 4.125d
 		}
 		{
 			dependencies: ["58617F3E045ACF32"]
@@ -423,7 +2527,7 @@
 				""
 				"&4&o\"Even the deepest furnace can hide a key.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "cataclysm:monstrous_eye"
 			id: "21CF7E618D1C486E"
 			rewards: [
@@ -457,14 +2561,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "6CB83A8CAAAC0B15"
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.0d
-			y: 4.5d
+			x: 26.625d
+			y: 0.0d
 		}
 		{
 			dependencies: ["21CF7E618D1C486E"]
@@ -473,7 +2588,7 @@
 				""
 				"&4&o\"When the trail goes silent, that is when the real hunt begins.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "cataclysm:flame_eye"
 			id: "1680504501FCFF80"
 			rewards: [
@@ -507,14 +2622,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:ignis"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "045951494557872A"
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.5d
-			y: 1.5d
+			x: 37.875d
+			y: 1.875d
 		}
 		{
 			dependencies: ["1680504501FCFF80"]
@@ -523,21 +2649,68 @@
 				""
 				"&4&o\"It attacks all races equally. As if holding an ancient grudge against both the magical and the mundane.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
+			icon: "iceandfire:dread_portal"
 			id: "46EDEABF8BD324D7"
 			rewards: [{
 				id: "668DCA508EFC4DD3"
 				type: "xp"
 				xp: 500
 			}]
+			shape: "octagon"
+			size: 2.5d
 			tasks: [{
 				id: "3E9CE5A5042C905C"
 				title: "End Again?"
 				type: "checkmark"
 			}]
-			x: 21.5d
-			y: -0.5d
+			x: 51.0d
+			y: 0.375d
+		}
+		{
+			dependencies: ["05D0DB6789B4538D"]
+			description: [
+				"&o&6With its cursified magic, comes a spawn of soulless entity that lurks within the shadows of the deep ocean. Its tentacles reap hardened flesh with no remorse. It fights with no strategy and all brute; a spark contrast to its predecessor. Hibernating under the structure of atlantis, it waits for the next challenger.&r&r"
+				""
+				"&o&4\"It pose no threat for now but we do not take compromises for our future\"&r&r"
+			]
+			entity_vis_size: 1.0f
+			id: "2B8194EF0313DB81"
+			rewards: [
+				{
+					id: "5DD9E067DC2C160D"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60A7F1DF868E7FCF"
+					table_id: 8286146373625818254L
+					type: "all_table"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: "cataclysm:abyss_eye"
+				id: "05305B9E32F1F729"
+				optional_task: true
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.125d
+			y: 1.125d
 		}
 	]
-	title: "Chapter II"
+	title: "&l&6Chapter II&r&r"
 }

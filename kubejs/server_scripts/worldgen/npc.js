@@ -29,46 +29,24 @@ BlockEvents.placed((event) => {
   }
 });
 
-// LevelEvents.loaded((event) => {
-//   const level = event.getLevel();
-//   const dimension = level.getDimension();
-//   const server = level.getServer();
+EntityEvents.spawned(event => {
 
-//   const serverData = server.persistentData;
+  let level = event.level
+  let dimension = level.getDimension()
 
-//   // console.log("[GATE]: FIRED")
-//   // server.tell("fired")
+  if(dimension.toString() == "gate:leaders_world") {
 
-//   if (serverData.getBoolean("hallwayGenerated")) return;
+    let entity = event.entity
+    let id = entity.getType()
+    if(entity.player) return
+    if(!entity.isLiving()) return
 
-//   // console.log("[GATE]: FIRED AGAIN")
+    if(!id.includes("easy_npc")) {
+      event.cancel()
+    }
 
-//   // if(dimension.toString() !== "gate:leaders_world") return
-
-//   server.runCommandSilent(
-//     "execute in gate:leaders_world run forceload add -30 -30 30 200",
-//   );
-
-//   // console.log("[GATE]: FIRED AGAIN!!")
-
-//   server.persistentData.merge({ hallwayGenerated: true });
-
-//   server.scheduleInTicks(20, (e) => {
-//     const result = server.runCommandSilent(
-//       "execute in gate:leaders_world run place template gate:story/main/leaders_hallway 0 100 0 none none",
-//     );
-//     server.runCommandSilent(
-//       "execute in gate:leaders_world run setworldspawn 15 103 99",
-//     );
-//     server.runCommandSilent(
-//       "execute in gate:leaders_world run forceload remove all",
-//     );
-
-//     // console.log("[GATE]: YAY")
-//   });
-
-//   //construct structure
-// });
+  }
+})
 
 LevelEvents.beforeExplosion((event) => {
   const level = event.getLevel();

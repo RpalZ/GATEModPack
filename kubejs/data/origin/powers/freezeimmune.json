@@ -3,7 +3,7 @@
   "name": "Frost Proof",
   "description": "You are entirely immune to freezing damage.",
   "damage_condition": {
-    "type": "origins:damage_type",
-    "damage_type": "minecraft:freeze"
+    "type": "origins:in_tag",
+    "damage_type": "minecraft:is_freezing"
   }
 }

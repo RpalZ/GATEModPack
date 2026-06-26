@@ -5,7 +5,8 @@
         "gate:orcwrath",
         "origins:more_exhaustion",
         "gate:strength",
-        "gate:orchp"
+        "gate:orchp",
+        "gate:bruteforce"
     ],
     "icon": "minecraft:bone",
     "order": 4,

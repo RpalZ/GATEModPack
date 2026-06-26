@@ -54,6 +54,7 @@ EntityEvents.death((event) => {
         const gunData = TaCZJSUtils.getGunIndex(gunId).getGunData()
         const maxAmmoAmount = gunData.ammoAmount
         
+        
         const currentAmmo = tagGun.getInt("GunCurrentAmmoCount")
         
         // player.tell(currentAmmo)

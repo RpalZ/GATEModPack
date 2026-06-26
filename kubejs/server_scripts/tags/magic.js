@@ -12,6 +12,8 @@ ServerEvents.tags("item", (event) => {
   event.add(techTag, "@fracturepoint");
   event.add(techTag, "@warbornrenewed");
   event.add(techTag, "@dragonrise_reforge");
+  event.add(techTag, "@ae2");
+
 });
 
 ServerEvents.tags("block", (event) => {
@@ -28,4 +30,5 @@ ServerEvents.tags("block", (event) => {
   event.add(techTag, "@fracturepoint");
   event.add(techTag, "@warbornrenewed");
   event.add(techTag, "@dragonrise_reforge");
+  event.add(techTag, "@ae2");
 });

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["&9You are born as Merfolk.&r"]
+			entity_vis_size: 1.0f
 			id: "4632A6E031717E3B"
 			tasks: [{
 				icon: "traveloptics:hullbreaker_scales"
@@ -31,6 +32,7 @@
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
+			entity_vis_size: 1.0f
 			id: "0AC4DC13F49D46FF"
 			rewards: [{
 				id: "7583829B58D3DD45"
@@ -68,6 +70,7 @@
 		{
 			dependencies: ["4632A6E031717E3B"]
 			description: ["&9If you havent already noticed, you are given an aqua echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			entity_vis_size: 1.0f
 			id: "3E32EA47C98F158A"
 			tasks: [{
 				id: "34852EA14CAA0C4F"
@@ -86,6 +89,7 @@
 		{
 			dependencies: ["4632A6E031717E3B"]
 			description: ["&9Merfolks can only eat seafood! Small price to pay for water abilities!&r"]
+			entity_vis_size: 1.0f
 			id: "49E8DE67EAAF6973"
 			tasks: [{
 				id: "0A68BCF3D6AD6D44"
@@ -98,6 +102,7 @@
 		{
 			dependencies: ["3E32EA47C98F158A"]
 			description: ["&9You gotta find these bad boys. These gives you essential pearls that makes up your build!&r"]
+			entity_vis_size: 1.0f
 			id: "1F19A25514768A0E"
 			rewards: [{
 				id: "121A40B3CA63DDDE"
@@ -115,6 +120,7 @@
 		{
 			dependencies: ["1F19A25514768A0E"]
 			description: ["&9Quite tedious to get but definitely worth it!&r"]
+			entity_vis_size: 1.0f
 			id: "2CCE593E9059D55D"
 			rewards: [{
 				id: "3A98976985336106"
@@ -132,6 +138,7 @@
 		{
 			dependencies: ["2CCE593E9059D55D"]
 			description: ["&9The basis of your aquatic powers!&r"]
+			entity_vis_size: 1.0f
 			id: "1B2D058B3EA29D8B"
 			rewards: [{
 				id: "1B2E406A655DDA99"
@@ -149,6 +156,7 @@
 		{
 			dependencies: ["1B2D058B3EA29D8B"]
 			description: ["&9One of the only sets but it is really powerful!&r"]
+			entity_vis_size: 1.0f
 			id: "1EE485C4CF7C0B09"
 			rewards: [{
 				id: "54112699925615D9"
@@ -216,6 +224,7 @@
 		{
 			dependencies: ["1EE485C4CF7C0B09"]
 			description: ["&9A slight upgrade but totally worth it!&r"]
+			entity_vis_size: 1.0f
 			id: "0AC93B046E7C56CA"
 			rewards: [{
 				id: "3D350F2FC7C6C0FF"
@@ -264,6 +273,7 @@
 		{
 			dependencies: ["1B2D058B3EA29D8B"]
 			description: ["&9Aqua upgrade orb!! Imbue these to all your gears and maximize your potential!&r"]
+			entity_vis_size: 1.0f
 			id: "7540421CEC6FD4B3"
 			rewards: [{
 				id: "7EF4981514B5B2EF"
@@ -287,6 +297,7 @@
 		{
 			dependencies: ["1B2D058B3EA29D8B"]
 			description: ["&9Aqua Book 1!&r"]
+			entity_vis_size: 1.0f
 			id: "7D4F5704A045D76F"
 			rewards: [{
 				id: "75ACD0DFA7F768AA"
@@ -315,6 +326,7 @@
 		{
 			dependencies: ["7D4F5704A045D76F"]
 			description: ["&9Aqua Book 2!&r"]
+			entity_vis_size: 1.0f
 			id: "6D6473F736791648"
 			rewards: [{
 				id: "024C2885FD400DF9"
@@ -353,6 +365,7 @@
 		{
 			dependencies: ["1B2D058B3EA29D8B"]
 			description: ["&9A quick cast weapon!&r"]
+			entity_vis_size: 1.0f
 			id: "585A102956B7E3BF"
 			tasks: [{
 				id: "41EB93F5AF3E7167"
@@ -376,6 +389,7 @@
 		{
 			dependencies: ["1B2D058B3EA29D8B"]
 			description: ["&9The cooler water blaster!&r"]
+			entity_vis_size: 1.0f
 			id: "2A6B0ECE06230499"
 			tasks: [{
 				id: "69C7B4C6D01832AD"

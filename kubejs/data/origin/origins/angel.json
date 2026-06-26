@@ -8,7 +8,8 @@
         "origins:aerial_combatant",
         "origins:claustrophobia",
         "gate:regen",
-        "origins:fresh_air"
+        "origins:fresh_air",
+        "gate:angelwings"
     ],
     "icon": "mekanism:hdpe_elytra",
     "order": 6,

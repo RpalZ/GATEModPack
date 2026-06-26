@@ -1,0 +1,5 @@
+{
+ "type": "origins:simple",
+ "name": "Brute Force",
+ "description": "Allows you to rob villagers by right clicking them with a bundle"   
+}

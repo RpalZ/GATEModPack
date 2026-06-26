@@ -4,6 +4,1460 @@
 	filename: "chapter_iii"
 	group: "6D2B89F1088DF239"
 	id: "1BA590D288B1A250"
+	images: [
+		{
+			color: 5635925
+			height: 4.0d
+			image: "block_factorys_bosses:textures/particle/yeti/circle_3.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.5357142857142918d
+			y: -4.882440476190478d
+		}
+		{
+			color: 5635925
+			height: 2.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			color: 16711680
+			height: 4.0d
+			image: "block_factorys_bosses:textures/particle/ring_5.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.14345238095239d
+			y: 17.285714285714278d
+		}
+		{
+			color: 16711680
+			height: 2.0d
+			image: "ftbquests:textures/gui/arrow_right.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.75d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.75d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.75d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.25d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.25d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.75d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.25d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.75d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.75d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.75d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 7.75d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.75d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.75d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.75d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 11.25d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 14.75d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 16.5d
+		}
+		{
+			height: 2.0d
+			image: "traveloptics:block/obsidian_shelf_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.75d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.25d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.75d
+			y: 1.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.25d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.75d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: -0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.75d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.25d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.5d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.25d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 21.0d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.75d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.5d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.5d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.5d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.5d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.25d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 31.0d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.75d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.75d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.75d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.75d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.75d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.75d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.25d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 31.0d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 38.25d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 40.0d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.75d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.5d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.5d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 36.5d
+			y: 11.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 38.25d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 40.0d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.75d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 43.25d
+			y: 11.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 43.25d
+			y: 9.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 41.5d
+			y: 9.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 39.75d
+			y: 9.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 43.25d
+			y: 6.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.5d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 50.0d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 48.25d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 46.5d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 50.0d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.5d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 56.25d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 58.0d
+			y: 4.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.0d
+			y: 8.25d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.0d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.0d
+			y: 11.75d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 54.75d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 56.5d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 58.25d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 59.75d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:block/enderite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 60.0d
+			y: 11.75d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -14,14 +1468,18 @@
 				""
 				"&4&o\"If the trail ends here, then whatever waits beyond has been waiting for us.\"&r&r"
 			]
+			entity_vis_size: 1.0f
+			icon: "iceandfire:dread_portal"
 			id: "61CA71F2A65B0171"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
 				id: "5DB44384BA783EB9"
 				title: "Final Step"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 1.5d
+			y: -4.875d
 		}
 		{
 			dependencies: ["61CA71F2A65B0171"]
@@ -30,7 +1488,7 @@
 				""
 				"&4&o\"There is no turning back now.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			id: "5E66F197D6DA73F9"
 			rewards: [
 				{
@@ -46,13 +1504,14 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "5A74B5D2B6A4FAEB"
 				type: "dimension"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 8.625d
+			y: 0.75d
 		}
 		{
 			dependencies: ["5E66F197D6DA73F9"]
@@ -61,7 +1520,7 @@
 				""
 				"&4&o\"A slain dragon leaves behind more than bones if the hunt was worthy.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "minecraft:dragon_head"
 			id: "023B9345FAF2ABCC"
 			rewards: [
@@ -79,14 +1538,26 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: "minecraft:dragon_breath"
 				id: "6E56CD7ACDB7CC7F"
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -4.5d
+			y: 1.875d
 		}
 		{
 			dependencies: ["023B9345FAF2ABCC"]
@@ -95,7 +1566,7 @@
 				""
 				"&4&o\"The End is still hiding its teeth.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "minecraft:shulker_box"
 			id: "69712D8B4DFADE6C"
 			rewards: [
@@ -118,14 +1589,25 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "47D161DC58170B48"
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["69712D8B4DFADE6C"]
@@ -134,7 +1616,7 @@
 				""
 				"&4&o\"Something is wearing our fear like a mask, desperate to guard its master.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: "darkdoppelganger:doppelganger_ring"
 			id: "7439F90F2ECE4041"
 			rewards: [
@@ -163,14 +1645,28 @@
 					type: "gamestage"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "darkdoppelganger:dark_doppelganger"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: "darkdoppelganger:shadow_orb"
 				id: "4F8555E94BA16D96"
+				title: "Kill the Dark Doppelganger"
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.0d
-			y: 7.5d
+			title: "Corrupted Copy"
+			x: -4.125d
+			y: 9.75d
 		}
 		{
 			dependencies: ["7439F90F2ECE4041"]
@@ -179,7 +1675,7 @@
 				""
 				"&4&o\"He traded his humanity for a reaper's shadow. He has no magic of his own, only the stolen echoes of the Void and the logic of a man who refused to be forgotten. Break the shadow.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "traveloptics:stellothorn"
@@ -218,14 +1714,25 @@
 					type: "all_table"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "traveloptics:the_nightwarden"
+				entity_use_tag: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "1181D05896168D61"
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: 9.5d
+			x: 6.0d
+			y: 11.625d
 		}
 		{
 			dependencies: ["79D58811F20E6909"]
@@ -234,16 +1741,19 @@
 				""
 				"&4&o\"A world he thought was dying was only ever waiting to be united. The corruption ends here.\"&r&r"
 			]
-			hide_until_deps_complete: true
+			entity_vis_size: 1.0f
+			icon: "iceandfire:dread_portal"
 			id: "4701732E94298B2A"
+			shape: "octagon"
+			size: 2.5d
 			tasks: [{
 				id: "3A4B4ADF226AA370"
 				title: "The Cosmos Breathe"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 11.5d
+			x: 13.125d
+			y: 17.25d
 		}
 	]
-	title: "Chapter III"
+	title: "&l&6Chapter III&r&r"
 }

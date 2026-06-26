@@ -16,6 +16,8 @@ function getStructure(level, id) {
   return reg.get(new ResourceLocation(id)); // returns a Structure instance
 }
 
+
+// deprecated
 function structureFinderInRadius(
   targetStructure,
   player,
@@ -82,16 +84,6 @@ function structureFinderInRadius(
 
     const insideStructure = boundingBox.isInside(playerPos);
 
-    // player.tell(insideStructure)
-    // player.tell(`found chunk: ${chunkXC}, ${chunkZC}`)
-    // player.tell(`player pos: ${playerPos.x}, ${playerPos.z}`)
-
-    // let dx = chunkXC - playerPos.x;
-    // let dz = chunkZC - playerPos.z;
-
-    // player.tell(`dx: ${dx}, dz: ${dz}`)
-    // let distance = Math.sqrt(dx * dx + dz * dz);
-    // player.tell(`found distance: ${distance}`)
     return insideStructure
   }
   return found;

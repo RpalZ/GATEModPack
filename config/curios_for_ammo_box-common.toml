@@ -1,0 +1,6 @@
+#Whether to use this config to change the number of curio slots. When changing the number using datapack etc. with modpack etc., please set this config to false.
+enableCurioSlotCountModification = false
+#The number of curio slots. This config is only effective when the above config is set to true.
+#Range: > 0
+curioSlotCount = 4
+

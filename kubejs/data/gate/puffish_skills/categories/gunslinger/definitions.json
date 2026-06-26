@@ -1,0 +1,97 @@
+{
+	"reload_speed+5%": {
+		"title": "+5% Reload Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "gunsmithlib:reload_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"aim_speed+5%": {
+		"title": "+5% Aim Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "taa:ads_time",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"accuracy+5%": {
+		"title": "+5% Accuracy",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "taa:inaccuracy_aim",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"hipfire_accuracy+5%": {
+		"title": "+5% Hipfire Accuracy",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "taa:inaccuracy",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprint_speed+5%": {
+		"title": "+5% Sprint Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "taa:move_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+}

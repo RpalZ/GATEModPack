@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["You are born as a human."]
+			entity_vis_size: 1.0f
 			id: "70928DDA102E2518"
 			tasks: [{
 				icon: "minecraft:player_head"
@@ -23,6 +24,7 @@
 		{
 			dependencies: ["70928DDA102E2518"]
 			description: ["As a human, you really got nothing to defend yourself. So why not get an everyday carry?"]
+			entity_vis_size: 1.0f
 			id: "6E37EE8CEC6AE081"
 			rewards: [
 				{
@@ -68,6 +70,7 @@
 		{
 			dependencies: ["6E37EE8CEC6AE081"]
 			description: ["A little bonus."]
+			entity_vis_size: 1.0f
 			id: "2130ECD13A039084"
 			rewards: [{
 				id: "1EFA4ED1F38ADAE1"
@@ -106,6 +109,7 @@
 				""
 				"Dont forget to check out the main chapters too! "
 			]
+			entity_vis_size: 1.0f
 			id: "5D14867DE98A0852"
 			tasks: [{
 				id: "1DB9D2F20AF11768"
@@ -119,6 +123,7 @@
 			can_repeat: true
 			dependencies: ["4172C7DA5E8A34AD"]
 			description: ["A starter shop"]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "tacz:ammo"
@@ -153,6 +158,7 @@
 		}
 		{
 			description: ["A shop for more... supplies."]
+			entity_vis_size: 1.0f
 			id: "4172C7DA5E8A34AD"
 			optional: true
 			tasks: [{
@@ -167,6 +173,7 @@
 			can_repeat: true
 			dependencies: ["4172C7DA5E8A34AD"]
 			description: ["A starter shop"]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "tacz:ammo"
@@ -203,6 +210,7 @@
 			can_repeat: true
 			dependencies: ["4172C7DA5E8A34AD"]
 			description: ["A starter shop"]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "tacz:ammo"
@@ -239,6 +247,7 @@
 			can_repeat: true
 			dependencies: ["4172C7DA5E8A34AD"]
 			description: ["A starter shop"]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "tacz:ammo"
@@ -275,6 +284,7 @@
 			can_repeat: true
 			dependencies: ["4172C7DA5E8A34AD"]
 			description: ["A starter shop"]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "tacz:ammo"

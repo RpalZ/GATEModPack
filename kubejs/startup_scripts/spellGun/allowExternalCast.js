@@ -18,8 +18,6 @@ if ($KubeJS.startupScriptManager.firstLoad) {
     false,
     $ClientTickEvent,
     (event) => {
-      // Only run on the END phase to avoid running twice per tick (Start/End)
-      // if (event.phase !== "END") return;
 
       const CastMapping = $ISSKeyMappings.SPELLBOOK_CAST_ACTIVE_KEYMAP;
       const isPressed = CastMapping.isDown();

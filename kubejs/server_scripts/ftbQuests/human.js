@@ -23,6 +23,8 @@ FTBQuestsEvents.customTask(taskHumanID, (event) => {
     if (isHuman) {
       task.setProgress(1);
       player.persistentData.merge({ isTech: true });
+      let isMagic = player.persistentData.getBoolean("isMagic")
+      if(isMagic) return
       player.setAttributeBaseValue("manaunification:max_mana", 0);
       player.setAttributeBaseValue("irons_spellbooks:max_mana", 0);
 

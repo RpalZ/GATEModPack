@@ -1,8 +1,8 @@
-const $ItemAttributeModifierEvent = Java.loadClass(
+let $ItemAttributeModifierEvent = Java.loadClass(
   "net.minecraftforge.event.ItemAttributeModifierEvent",
 );
 
-const $AttributeModifier = Java.loadClass(
+let $AttributeModifier = Java.loadClass(
   "net.minecraft.world.entity.ai.attributes.AttributeModifier",
 );
 NativeEvents.onEvent($ItemAttributeModifierEvent, (event) => {
@@ -60,24 +60,4 @@ NativeEvents.onEvent($ItemAttributeModifierEvent, (event) => {
 
   event.addModifier(topAttr.attribute, newModifier);
 
-  //   if (event.itemStack.id == "irons_spellbooks:netherite_mage_helmet" && event.slotType =="head") {
-  //     event.removeAttribute("irons_spellbooks:max_mana")
-  //     event.addModifier("irons_spellbooks:spell_power", aSPELL_MODIFIER)
-  //     event.addModifier("irons_spellbooks:max_mana", aMAX_MANA)
-  //   }
-  //   if (event.itemStack.id == "irons_spellbooks:netherite_mage_chestplate"&& event.slotType =="chest") {
-  //     event.removeAttribute("irons_spellbooks:max_mana")
-  //     event.addModifier("irons_spellbooks:spell_power", bSPELL_MODIFIER)
-  //     event.addModifier("irons_spellbooks:max_mana", bMAX_MANA)
-  //   }
-  //   if (event.itemStack.id == "irons_spellbooks:netherite_mage_leggings"&& event.slotType =="legs") {
-  //     event.removeAttribute("irons_spellbooks:max_mana")
-  //     event.addModifier("irons_spellbooks:spell_power", cSPELL_MODIFIER)
-  //     event.addModifier("irons_spellbooks:max_mana", cMAX_MANA)
-  //   }
-  //   if (event.itemStack.id == "irons_spellbooks:netherite_mage_boots"&& event.slotType =="feet") {
-  //     event.removeAttribute("irons_spellbooks:max_mana")
-  //     event.addModifier("irons_spellbooks:spell_power", dSPELL_MODIFIER)
-  //     event.addModifier("irons_spellbooks:max_mana", dMAX_MANA)
-  //   }
 });

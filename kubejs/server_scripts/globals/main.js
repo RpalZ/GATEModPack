@@ -1,1 +1,1 @@
-const $GameVersion = "0.1.5"
+const $GameVersion = "0.2.4"

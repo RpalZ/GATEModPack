@@ -16,6 +16,7 @@
 	quests: [
 		{
 			description: ["You are born as Dragonborne."]
+			entity_vis_size: 1.0f
 			id: "296B59F4C152F4F7"
 			tasks: [{
 				icon: {
@@ -35,6 +36,7 @@
 		{
 			dependencies: ["296B59F4C152F4F7"]
 			description: ["&6If you havent already noticed, you are given a fire echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
+			entity_vis_size: 1.0f
 			id: "29E73F772FC6F42E"
 			tasks: [{
 				id: "0C00C879A83FAB60"
@@ -53,6 +55,7 @@
 		{
 			dependencies: ["29E73F772FC6F42E"]
 			description: ["&6Dragons are carnivores so be sure to stack up on lots of livestock!&r"]
+			entity_vis_size: 1.0f
 			id: "3F402F322B47E478"
 			rewards: [{
 				id: "7F908AA691379784"
@@ -70,6 +73,7 @@
 		{
 			dependencies: ["3F402F322B47E478"]
 			description: ["&6These are your essential ingredients to make up YOUR runes. Quite tedious but hey it will be worth it.&r"]
+			entity_vis_size: 1.0f
 			id: "56691BB97FA8BA13"
 			rewards: [{
 				id: "7677C61E4356AC6B"
@@ -87,6 +91,7 @@
 		{
 			dependencies: ["56691BB97FA8BA13"]
 			description: ["&6The makeup of all your specialty!&r"]
+			entity_vis_size: 1.0f
 			id: "0E5C8787F916F1EE"
 			rewards: [{
 				id: "3B13BB275ADF3767"
@@ -113,6 +118,7 @@
 				""
 				"&4&lWARNING: BEFORE SUBMITTING, BE SURE ONLY THE SCROLLS YOU WANT TO SWAP IS IN YOUR INVENTORY. DISCARD ANY SCROLLS THAT YOU DONT WANT TO SWAP&r&r"
 			]
+			entity_vis_size: 1.0f
 			id: "398EC1DD5FEE38BF"
 			rewards: [{
 				id: "3C835EAF3D469297"
@@ -150,6 +156,7 @@
 		{
 			dependencies: ["0E5C8787F916F1EE"]
 			description: ["&6The FIRE ORB!&r"]
+			entity_vis_size: 1.0f
 			id: "2E0FD7F4C7D6DC24"
 			rewards: [{
 				id: "3980B59BA500A8C2"
@@ -173,6 +180,7 @@
 		{
 			dependencies: ["0E5C8787F916F1EE"]
 			description: ["&6You can get these through blazes!&r"]
+			entity_vis_size: 1.0f
 			id: "1653D2CF4D222B96"
 			rewards: [{
 				id: "0C0EF5CC40CEA61B"
@@ -201,6 +209,7 @@
 		{
 			dependencies: ["1653D2CF4D222B96"]
 			description: ["&6The Direct Upgrade!&r"]
+			entity_vis_size: 1.0f
 			id: "3A0F2BF5F463F6AD"
 			rewards: [{
 				id: "0E4B52494A94CE14"
@@ -247,6 +256,7 @@
 		{
 			dependencies: ["0E5C8787F916F1EE"]
 			description: ["&6Pyromancer is kind of a cool name!&r"]
+			entity_vis_size: 1.0f
 			id: "298BC0E777C7A3B1"
 			rewards: [{
 				id: "66921BF612589C25"
@@ -314,6 +324,7 @@
 		{
 			dependencies: ["298BC0E777C7A3B1"]
 			description: ["&6A cooler set!&r"]
+			entity_vis_size: 1.0f
 			id: "05C4059BE66BA37A"
 			rewards: [{
 				id: "0C706B2CAC783144"
@@ -362,6 +373,7 @@
 		{
 			dependencies: ["3A0F2BF5F463F6AD"]
 			description: ["&6A flame katana!&r"]
+			entity_vis_size: 1.0f
 			id: "36DA20B81AA61C71"
 			rewards: [{
 				id: "03AE0151DB054C14"
@@ -394,6 +406,7 @@
 		}
 		{
 			dependencies: ["2E0FD7F4C7D6DC24"]
+			entity_vis_size: 1.0f
 			id: "34C30CE484CAA0FC"
 			rewards: [{
 				id: "77EF70B56AE2971E"
@@ -411,6 +424,7 @@
 		{
 			dependencies: ["2E0FD7F4C7D6DC24"]
 			description: ["&6A peculiar one...&r"]
+			entity_vis_size: 1.0f
 			id: "523F8CE9CFABDAE4"
 			rewards: [{
 				id: "5B6FC768B267C4A5"
@@ -428,6 +442,7 @@
 		{
 			dependencies: ["2E0FD7F4C7D6DC24"]
 			description: ["&6Fire Gauntlet!&r"]
+			entity_vis_size: 1.0f
 			id: "53AB997C54258373"
 			rewards: [{
 				id: "46966442BBE1CB7D"
@@ -461,6 +476,7 @@
 		{
 			dependencies: ["2E0FD7F4C7D6DC24"]
 			description: ["&6Sure does a lot of damage!&r"]
+			entity_vis_size: 1.0f
 			id: "31B1590268976199"
 			rewards: [{
 				id: "42E6F89114DF4672"

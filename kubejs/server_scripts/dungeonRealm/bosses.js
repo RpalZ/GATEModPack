@@ -1,4 +1,4 @@
-const $JavaUtil = Java.loadClass("java.util.UUID");
+let $JavaUtil = Java.loadClass("java.util.UUID");
 
 const dungeonStage = "dungeonsunlocked";
 /**
@@ -27,6 +27,30 @@ function getMapUidFromBlock(block) {
   return mapUidRaw.toString();
 }
 
+function getGolemUUIDsByMap(server) {
+  let golemUUIDsByMap = server.persistentData.golemUUIDs || {};
+  return Array.isArray(golemUUIDsByMap) ? {} : golemUUIDsByMap;
+}
+
+function saveGolemUUIDsByMap(server, golemUUIDsByMap) {
+  Object.keys(golemUUIDsByMap).forEach((mapUid) => {
+    if (!golemUUIDsByMap[mapUid] || golemUUIDsByMap[mapUid].length === 0) {
+      delete golemUUIDsByMap[mapUid];
+    }
+  });
+
+  server.persistentData.merge({
+    golemUUIDs: golemUUIDsByMap,
+  });
+}
+
+function forgetMapGolems(server, mapUid) {
+  if (!mapUid || mapUid == "0") return;
+  let golemUUIDsByMap = getGolemUUIDsByMap(server);
+  delete golemUUIDsByMap[mapUid];
+  saveGolemUUIDsByMap(server, golemUUIDsByMap);
+}
+
 EntityEvents.spawned((event) => {
   const level = event.level;
   const dimension = level.getDimension();
@@ -41,10 +65,8 @@ EntityEvents.spawned((event) => {
   console.log("golemCooked");
 
   const golemPos = golem.blockPosition();
-  const serverPData = server.persistentData;
 
-  let golemUUIDsByMap = serverPData.golemUUIDs || {};
-  if (Array.isArray(golemUUIDsByMap)) golemUUIDsByMap = {};
+  let golemUUIDsByMap = getGolemUUIDsByMap(server);
 
   const golemUUID = golem.uuid.toString();
   const golemUUIDSliced = golemUUID.slice(0, 6);
@@ -119,7 +141,8 @@ EntityEvents.spawned((event) => {
           "minecraft:elder_guardian",
           "undergarden:forgotten_guardian",
           "darkdoppelganger:dark_doppelganger",
-          "cataclysm:ancient_remnant"
+          "cataclysm:ancient_remnant",
+          "cataclysm:the_leviathan"
         ].includes(entityId)
       );
     },
@@ -140,15 +163,14 @@ EntityEvents.spawned((event) => {
   golemUUIDs.push(golemUUIDSliced);
   golemUUIDsByMap[mapUid] = golemUUIDs;
 
-  event.server.persistentData.merge({
-    golemUUIDs: golemUUIDsByMap,
-  });
+  saveGolemUUIDsByMap(event.server, golemUUIDsByMap);
 
   newBossEntity.setPosition(golemPos.x, golemPos.y, golemPos.z);
   newBossEntity.tags.add("boss");
 
   newBossEntity.persistentData.merge({
     assignedGolem: golemUUID,
+    assignedGolemShort: golemUUIDSliced,
     mapUid: mapUid,
   });
 
@@ -167,24 +189,27 @@ EntityEvents.death((event) => {
 
   const blockPosBoss = entity.blockPosition();
   const assignedGolemUUID = entity.persistentData.getString("assignedGolem");
+  const assignedGolemShort =
+    entity.persistentData.getString("assignedGolemShort") ||
+    assignedGolemUUID.slice(0, 6);
   const mapUid = entity.persistentData.getString("mapUid") || "default";
 
   const golem = level
     .getEntities()
-    .find((ent) => ent.uuid.toString() == assignedGolemUUID);
+    .find((ent) => {
+      const uuid = ent.uuid.toString();
+      return uuid == assignedGolemUUID || uuid.slice(0, 6) == assignedGolemShort;
+    });
 
-  let golemUUIDsByMap = event.server.persistentData.golemUUIDs || {};
-  if (Array.isArray(golemUUIDsByMap)) golemUUIDsByMap = {};
+  let golemUUIDsByMap = getGolemUUIDsByMap(event.server);
 
   const golemUUIDs = (golemUUIDsByMap[mapUid] || []).filter(
-    (m) => m !== assignedGolemUUID.slice(0, 6),
+    (m) => m !== assignedGolemShort,
   );
 
   golemUUIDsByMap[mapUid] = golemUUIDs;
 
-  event.server.persistentData.merge({
-    golemUUIDs: golemUUIDsByMap,
-  });
+  saveGolemUUIDsByMap(event.server, golemUUIDsByMap);
 
   // Safety check added here just in case the golem chunk unloaded
   if (golem) {
@@ -221,15 +246,7 @@ BlockEvents.rightClicked((event) => {
 
   //check if exist and if exist destroy!
 
-  const mapCollection = event.server.persistentData.golemUUIDs;
-
-  if (mapCollection) {
-    mapCollection.remove(prevMapUid);
-
-    event.server.persistentData.merge({
-      golemUUIDs: mapCollection,
-    });
-  }
+  forgetMapGolems(event.server, prevMapUid);
 
   // Wait 1 tick to let the base mod assign the UID to the block
   event.server.scheduleInTicks(1, (callback) => {
@@ -250,14 +267,11 @@ BlockEvents.rightClicked((event) => {
       dungeonMapUid: mapUid,
     });
 
-    let golemUUIDsByMap = event.server.persistentData.golemUUIDs || {};
-    if (Array.isArray(golemUUIDsByMap)) golemUUIDsByMap = {};
+    let golemUUIDsByMap = getGolemUUIDsByMap(event.server);
 
     golemUUIDsByMap[mapUid] = [];
 
-    event.server.persistentData.merge({
-      golemUUIDs: golemUUIDsByMap,
-    });
+    saveGolemUUIDsByMap(event.server, golemUUIDsByMap);
 
     event.player.setStatusMessage(
       Text.of("A brave mistake...").yellow().italic(),
@@ -274,80 +288,5 @@ BlockEvents.broken((event) => {
 
   if (mapUid == "0") return;
 
-  const mapCollection = event.server.persistentData.golemUUIDs;
-
-  if (!mapCollection) return;
-
-  mapCollection.remove(mapUid);
-
-  event.server.persistentData.merge({
-    golemUUIDs: mapCollection,
-  });
+  forgetMapGolems(event.server, mapUid);
 });
-
-// BlockEvents.rightClicked((event) => {
-//   const player = event.getPlayer();
-//   const block = event.getBlock();
-//   const item = event.getItem();
-//   const server = event.getServer();
-//   const mapUid = getMapUidFromBlock(block) || "default";
-
-//   if (block.id !== "dungeon_realm:map_device") return;
-//   if (item.id !== "dungeon_realm:dungeon_map") return;
-
-//   // Save the mapUid to the player so the golem spawn event can find it
-//   player.persistentData.merge({
-//     dungeonMapUid: mapUid,
-//   });
-
-//   let golemUUIDsByMap = server.persistentData.golemUUIDs || {};
-//   if (Array.isArray(golemUUIDsByMap)) golemUUIDsByMap = {};
-
-//   golemUUIDsByMap[mapUid] = [];
-
-//   server.persistentData.merge({
-//     golemUUIDs: golemUUIDsByMap,
-//   });
-
-//   player.setStatusMessage(Text.of("Dungeon golem data cleared.").yellow().italic());
-// });
-
-// -------
-
-// BlockEvents.rightClicked((event) => {
-//   const player = event.getPlayer();
-//   const block = event.getBlock();
-//   const item = event.getItem();
-//   const server = event.getServer();
-
-//   if (block.id !== "dungeon_realm:map_device") return;
-//   if (item.id !== "dungeon_realm:dungeon_map") return;
-
-//   // This will now reliably grab an existing UID or force a new one
-//   const mapUid = getMapUidFromBlock(block);
-
-//   event.server.scheduleInTicks(10, () => {
-//     block.mergeEntityData({
-//       customuid: mapUid
-//     })
-//   })
-
-// const mapUidSliced = mapUid.slice(0,6)
-//   // Save the mapUid to the player so the golem spawn event can find it
-//   player.persistentData.merge({
-//     dungeonMapUid: mapUidSliced,
-//   });
-
-//   let golemUUIDsByMap = server.persistentData.golemUUIDs || {};
-//   if (Array.isArray(golemUUIDsByMap)) golemUUIDsByMap = {};
-
-//   golemUUIDsByMap[mapUidSliced] = [];
-
-//   server.persistentData.merge({
-//     golemUUIDs: golemUUIDsByMap,
-//   });
-
-//   player.setStatusMessage(Text.of("Dungeon golem data cleared.").yellow().italic());
-// });
-
-// -------

@@ -30,4 +30,17 @@ ServerEvents.recipes(event => {
                     A: 'minecraft:string'
             }
     )
+    event.shaped(
+            Item.of('dungeon_realm:dungeon_map'),
+            [
+                    'AAA',
+                    'ABA',
+                    'ACA'
+            ],
+            {
+                    C: 'minecraft:netherite_upgrade_smithing_template',
+                    A: 'minecraft:netherite_ingot',
+                    B: 'minecraft:nether_star'
+            }
+    )
 });

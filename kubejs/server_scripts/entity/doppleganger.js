@@ -1,6 +1,6 @@
 EntityEvents.spawned("darkdoppelganger:dark_doppelganger", event => {
     const entity = event.getEntity()
-    entity.setAttributeBaseValue("irons_spellbooks:spell_power", 5)
+    entity.setAttributeBaseValue("irons_spellbooks:spell_power", 3.5)
 
 
 })
@@ -9,7 +9,7 @@ EntityEvents.spawned("darkdoppelganger:dark_doppelganger", event => {
 ServerEvents.tick(event => {
     const server = event.server
 
-    // if(server.tickCount % 20 !== 0) return
+    if(server.tickCount % 20 !== 0) return
 
     //find dopplegangers
 

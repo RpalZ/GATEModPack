@@ -1,0 +1,56 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.432 + 10, 200)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"is_using_gun": {
+						"operations": [
+							{
+								"type": "get_weapon_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "tacz:modern_kinetic_gun"
+								}
+							}
+						]
+					},
+					"is_projectile_damage": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "tacz:bullet"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_using_gun",
+						"expression": "1"
+					}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 300
+				}
+			}
+		}
+	]
+}

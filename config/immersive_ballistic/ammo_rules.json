@@ -9,18 +9,35 @@
     "rifle": [
       "tacz:556x45",
       "tacz:58x42",
-      "tacz:46x30",
-      "tacz:57x28",
-      "tacz:357mag",
-      "tacz:50ae",
       "tacz:762x54",
       "tacz:762x39",
+      "tacz:545x39",
       "tacz:308",
+      "beans:300_blk",
+      "mk16:545x39",
+      "mk16:602x41",
+      "ronmc:300blk",
       "hamster:medium_ammo",
       "suffuse:12.7x55",
       "suffuse:6x35mm",
       "suffuse:boomstickshot",
-      "suffuse:545x39"
+      "suffuse:545x39",
+      "ronmc:65x48",
+      "ea:300blk",
+      "ea:3030win",
+      "ea:338arc",
+      "ea:366tkm",
+      "ea:458hamr",
+      "ea:458socom",
+      "ea:50beowulf",
+      "ea:556x30",
+      "ea:602x41",
+      "ea:6arc",
+      "ea:792x33",
+      "ea:86blk",
+      "ea:9x39",
+      "ea:127x55",
+      "maxstuff:nails"
     ],
     "sniper": [
       "tacz:338",
@@ -28,19 +45,43 @@
       "tacz:30_06",
       "hamster:long_ammo",
       "suffuse:.408ct",
-      "suffuse:6.8tvcm"
+      "suffuse:6.8tvcm",
+      "ea:65creedmoor",
+      "ea:68tvcm",
+      "ea:300winmag",
+      "ea:338norma",
+      "ea:408cheytac",
+      "ea:416barrett",
+      "ea:458winmag",
+      "ea:792x57"
     ],
     "shotgun": [
-      "tacz:12g"
+      "tacz:12g",
+      "beans:12g_short",
+      "ea:4g",
+      "ea:10g",
+      "ea:20g",
+      "ea:410bore",
+      "maxstuff:12g_db",
+      "maxstuff:12g_fl"
     ],
     "hcal": [
-      "tacz:50bmg"
+      "tacz:50bmg",
+      "ea:127x108",
+      "ea:145x114",
+      "ea:20x102",
+      "ea:950jdj"
     ],
     "rocket": [
       "tacz:rpg_rocket"
     ],
+    "laser": [
+      "maxstuff:laser"
+    ],
     "_ignore": [
-      "tacz:40mm"
+      "tacz:40mm",
+      "maxstuff:bannana",
+      "maxstuff:can_blanks"
     ]
   }
 }
