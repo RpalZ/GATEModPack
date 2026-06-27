@@ -2179,11 +2179,20 @@
 			entity_vis_size: 1.0f
 			icon: "iceandfire:dread_portal"
 			id: "3C6500736BA4FCB9"
-			rewards: [{
-				id: "1E485E0BD7E756C7"
-				item: "kubejs:hero_gem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1E485E0BD7E756C7"
+					item: "kubejs:hero_gem"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "53A542C75DC19DD0"
+					ignore_reward_blocking: true
+					stage: "witherdone"
+					type: "gamestage"
+				}
+			]
 			shape: "octagon"
 			size: 2.5d
 			tasks: [{
