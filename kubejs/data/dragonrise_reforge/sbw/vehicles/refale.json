@@ -11,7 +11,7 @@
       ],
       "Position": [
         0,
-        1.60,
+        1.6,
         5.016
       ]
     },
@@ -184,7 +184,7 @@
       "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm.png",
       "DefaultFireMode": "Auto",
       "AvailableFireModes": "Auto",
-      "AmmoType": "superbwarfare:small_shell",
+      "AmmoType": "superbwarfare:small_shell_ap",
       "Projectile": "superbwarfare:small_cannon_shell",
       "DefaultZoom": 2,
       "RPM": 1200,
@@ -444,7 +444,7 @@
   },
   "TurretPos": [
     -0.94,
-    0.3360,
+    0.336,
     0.9743
   ],
   "BarrelPos": [

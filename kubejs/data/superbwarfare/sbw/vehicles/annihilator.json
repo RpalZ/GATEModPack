@@ -1,5 +1,4 @@
 {
-  "ID": "superbwarfare:annihilator",
   "MaxHealth": 1200,
   "TurretPos": [
     0,
@@ -286,7 +285,8 @@
     },
     "Weapons": [
       "Main"
-    ]
+    ],
+    "HasThermalImaging": true
   },
   "Weapons": {
     "Main": {
@@ -345,6 +345,7 @@
   ],
   "DamageModifiers": [
     "#gate:magic_damage * 1.50",
+    "All - 12",
     "All * 0.1",
     "minecraft:arrow 0",
     "minecraft:trident 0",
@@ -365,8 +366,7 @@
     "#superbwarfare:projectile_absolute * 0.04",
     "@superbwarfare:c4 * 10",
     "@superbwarfare:gun_grenade * 3",
-    "@superbwarfare:cannon_shell * 3",
-    "All - 12"
+    "@superbwarfare:cannon_shell * 3"
   ],
   "VehicleContainerType": "Empty",
   "EngineType": "Fixed",

@@ -137,7 +137,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -166,7 +167,8 @@
         0.57,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     }
   ],
   "Weapons": {
@@ -192,11 +194,11 @@
       "ShootAnimationTime": 40,
       "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/cn_tank_cannon_cross.png",
       "CrosshairColor": "0x00ff66",
-      "Name": "dragonrise_dtc10105",
+      "Name": "dragonrise_reforge:dtc10105",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -339,7 +341,7 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "weapon.superbwarfare.50_cal_gun",
+      "Name": "dragonrise_reforge:W85",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",

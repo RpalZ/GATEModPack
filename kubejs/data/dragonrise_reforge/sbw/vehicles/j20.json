@@ -174,7 +174,8 @@
     "Weapons": [
       "Missile",
       "Missile2"
-    ]
+    ],
+    "HasThermalImaging": true
   },
   "HudType": "@Aircraft",
   "Weapons": {

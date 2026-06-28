@@ -138,14 +138,14 @@
         "Transform": "Vehicle",
         "Position": [
           0,
-          2.00,
+          2.0,
           2
         ],
         "UseFixedCameraPos": true,
         "UseAircraftCamera": true,
         "AircraftCameraPos": [
           0,
-          2.00,
+          2.0,
           -15
         ]
       },
@@ -166,7 +166,8 @@
           0.5,
           2.5
         ]
-      }
+      },
+      "HasThermalImaging": true
     }
   ],
   "Weapons": {
@@ -199,7 +200,7 @@
       "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/ru_heli_cannon_cross.png",
       "CrosshairColor": "0xFFC700",
       "SoundRadius": 24,
-      "AmmoType": "superbwarfare:small_shell",
+      "AmmoType": "superbwarfare:small_shell_ap",
       "ShootPos": {
         "Transform": "Vehicle",
         "Positions": [
@@ -323,12 +324,13 @@
   "EngineType": "Helicopter",
   "EngineInfo": {
     "EnergyCostRate": 320,
-    "Increment": 0.7,
-    "Decrement": 0.7,
-    "PitchSpeed": 0.7,
-    "YawSpeed": 0.8,
+    "Increment": 0.8,
+    "Decrement": 0.8,
+    "PitchSpeed": 0.75,
+    "YawSpeed": 0.85,
     "RollSpeed": 0.6,
-    "LiftSpeed": 0.7,
+    "LiftSpeed": 1,
+    "Speed": 0.97,
     "EngineStartSound": "superbwarfare:mi_28_engine_start",
     "EngineSoundVolume": 2
   },

@@ -164,7 +164,8 @@
           0.5,
           2.5
         ]
-      }
+      },
+      "HasThermalImaging": true
     },
     {
       "Transform": "Vehicle",
@@ -208,7 +209,8 @@
           0.3,
           3.5625
         ]
-      }
+      },
+      "HasThermalImaging": true
     }
   ],
   "Weapons": {
@@ -241,7 +243,7 @@
       "Crosshair": "@VehicleCommonGunDynamic",
       "CrosshairColor": "0xFFC700",
       "SoundRadius": 24,
-      "AmmoType": "superbwarfare:small_shell",
+      "AmmoType": "superbwarfare:small_shell_ap",
       "ShootPos": {
         "Transform": "Barrel",
         "Positions": [
@@ -323,7 +325,7 @@
       "EmptyReloadTime": 240,
       "AmmoType": "superbwarfare:medium_anti_ground_missile",
       "Projectile": "superbwarfare:wire_guide_missile",
-      "Name": "AKD-10",
+      "Name": "dragonrise_reforge:akd10",
       "Damage": 650,
       "ExplosionDamage": 80,
       "ExplosionRadius": 7,
@@ -429,6 +431,7 @@
       "Damage": 1100,
       "ExplosionDamage": 180,
       "ExplosionRadius": 12,
+      "ProjectileLife": 1200,
       "Velocity": 3,
       "SeekWeaponInfo": {
         "SeekDirection": "Barrel",
@@ -558,12 +561,13 @@
   "EngineType": "Helicopter",
   "EngineInfo": {
     "EnergyCostRate": 320,
-    "Increment": 0.6,
-    "Decrement": 0.6,
-    "PitchSpeed": 0.7,
-    "YawSpeed": 0.6,
+    "Increment": 0.8,
+    "Decrement": 0.8,
+    "PitchSpeed": 0.75,
+    "YawSpeed": 0.85,
     "RollSpeed": 0.6,
-    "LiftSpeed": 0.7,
+    "LiftSpeed": 1,
+    "Speed": 0.97,
     "EngineStartSound": "superbwarfare:mi_28_engine_start",
     "EngineSoundVolume": 2
   },
@@ -616,6 +620,7 @@
   "HUDColor": "0xFFC700",
   "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/z10a_icon.png",
   "ContainerIcon": "dragonrise_reforge:textures/gui/vehicle/type/cn_aircraft.png",
+  "VehicleContainerType": "Small",
   "Type": "Helicopter",
   "HudType": "@Helicopter",
   "TerrainCompat": [

@@ -1,7 +1,7 @@
 {
-  "ID": "superbwarfare:mortar",
   "MaxHealth": 40,
   "MaxEnergy": 0,
+  "KeepChunkLoaded": false,
   "TurretPitchRange": [
     20,
     89
@@ -14,6 +14,7 @@
       "Velocity": 10,
       "Gravity": 0.13,
       "Spread": 0.5,
+      "ProjectileLife": 1200,
       "ShootShake": [
         8,
         6,
@@ -33,8 +34,5 @@
   "SelfHurtPercent": 0,
   "VehicleContainerType": "One",
   "SendHitParticles": false,
-  "Type": "Artillery",
-  "DamageModifiers": [
-    "#gate:magic_damage * 1.50"
-  ]
+  "Type": "Artillery"
 }

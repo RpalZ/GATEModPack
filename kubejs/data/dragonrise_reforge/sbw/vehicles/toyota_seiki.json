@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:toyota_seiki",
-  "MaxHealth": 114514,
+  "MaxHealth": 150,
   "MaxEnergy": 5000000,
   "OBB": [
     {
@@ -62,7 +62,7 @@
       "Position": [
         0.54,
         0.0,
-        -0.50
+        -0.5
       ],
       "CanRotateBody": true,
       "MinPitch": -5,
@@ -76,7 +76,7 @@
       "Position": [
         -0.54,
         0.0,
-        -0.50
+        -0.5
       ],
       "CanRotateBody": true,
       "MinPitch": -5,
@@ -90,7 +90,7 @@
       "Position": [
         0,
         0.0,
-        -0.50
+        -0.5
       ],
       "CanRotateBody": true,
       "MinPitch": -5,
@@ -154,7 +154,7 @@
     1,
     5
   ],
-  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/ft_icon.png",
+  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/toyota_seiki_icon.png",
   "ContainerIcon": "superbwarfare:textures/gui/vehicle/type/civilian.png",
   "Type": "Car",
   "EngineSound": "superbwarfare:lav_150_engine",

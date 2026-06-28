@@ -135,7 +135,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -164,7 +165,8 @@
         0.57,
         0.55,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "BanHand": true,
@@ -172,7 +174,7 @@
       "Position": [
         1.625,
         -0.0625,
-        -4.10
+        -4.1
       ],
       "MinYaw": -95,
       "MaxYaw": 95
@@ -183,7 +185,7 @@
       "Position": [
         -1.625,
         -0.0625,
-        -4.10
+        -4.1
       ],
       "MinYaw": -95,
       "MaxYaw": 95
@@ -216,9 +218,9 @@
       "CrosshairColor": "#da2d2d",
       "Name": "dragonrise_reforge:newcnap",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -335,7 +337,7 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "weapon.superbwarfare.50_cal_gun",
+      "Name": "dragonrise_reforge:M2HB",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",

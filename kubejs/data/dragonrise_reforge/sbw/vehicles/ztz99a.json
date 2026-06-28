@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:ztz99a",
-  "MaxHealth": 400,
+  "MaxHealth": 500,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -101,17 +101,17 @@
     {
       "HidePassenger": true,
       "CameraPos": {
-        "UseFixedCameraPos": true,
+        "UseFixedCameraPos": false,
         "Position": [
-          0.8046875,
-          0.8694375,
-          0.414025
+          0.78125,
+          0.890625,
+          0.421875
         ],
         "Transform": "Barrel",
         "ZoomPosition": [
-          0.8046875,
-          0.8694375,
-          0.414025
+          0.78125,
+          0.890625,
+          0.421875
         ],
         "Direction": "Barrel"
       },
@@ -132,7 +132,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -141,7 +142,7 @@
         "Transform": "WeaponStationBarrel",
         "ZoomPosition": [
           0,
-          0.1,
+          0.5,
           0
         ],
         "Direction": "WeaponStationBarrel"
@@ -161,7 +162,8 @@
         0.57,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -225,9 +227,9 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:dtc10125",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -267,11 +269,11 @@
         }
       ],
       "SoundInfo": {
-        "Fire1P": "dragonrise_reforge:ztz99a_fire_1p",
-        "Fire3P": "dragonrise_reforge:ztz99a_fire_3p",
-        "Fire3PFar": "dragonrise_reforge:ztz99a_fire_3p_far",
-        "Fire3PVeryFar": "dragonrise_reforge:ztz99a_fire_3p_far",
-        "VehicleReload": "dragonrise_reforge:ztz99a_reload",
+        "Fire1P": "superbwarfare:ztz_99a_fire_1p",
+        "Fire3P": "superbwarfare:ztz_99a_fire_3p",
+        "Fire3PFar": "superbwarfare:ztz_99a_far",
+        "Fire3PVeryFar": "superbwarfare:ztz_99a_veryfar",
+        "VehicleReload": "superbwarfare:ztz_99a_reload",
         "Change": "superbwarfare:into_cannon",
         "CancellableSounds": [
           "dragonrise_reforge:ztz99a_reload"
@@ -328,10 +330,10 @@
       "Crosshair": "@VehicleCommonGun",
       "Name": "dragonrise_reforge:QJT",
       "SoundInfo": {
-        "Fire1P": "superbwarfare:qbz_191_fire_1p",
-        "Fire3P": "superbwarfare:qbz_191_fire_3p",
-        "Fire3PFar": "superbwarfare:qbz_191_hb_far",
-        "Fire3PVeryFar": "superbwarfare:qbz_191_hb_veryfar",
+        "Fire1P": "superbwarfare:coax_fire_1p",
+        "Fire3P": "superbwarfare:qbz_95_fire_3p",
+        "Fire3PFar": "superbwarfare:qbz_95_far",
+        "Fire3PVeryFar": "superbwarfare:qbz_95_veryfar",
         "Change": "superbwarfare:into_cannon"
       },
       "SoundRadius": 16
@@ -370,11 +372,11 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "weapon.superbwarfare.50_cal_gun",
+      "Name": "dragonrise_reforge:88C",
       "SoundInfo": {
-        "Fire1P": "superbwarfare:m_2_hb_fire_1p",
-        "Fire3P": "superbwarfare:m_2_hb_fire_3p",
-        "Fire3PFar": "superbwarfare:m_2_hb_far",
+        "Fire1P": "dragonrise_reforge:mgfire1",
+        "Fire3P": "dragonrise_reforge:mgfire1",
+        "Fire3PFar": "dragonrise_reforge:mgfire1",
         "Fire3PVeryFar": "superbwarfare:m_2_hb_veryfar",
         "Change": "superbwarfare:into_cannon"
       },
@@ -392,15 +394,15 @@
     "TrackDifferential": 0.6,
     "MaxForwardSpeedRate": 0.885,
     "MaxBackwardSpeedRate": 0.54,
-    "Increment": 0.0087,
-    "Decrement": 0.005,
+    "Increment": 0.01,
+    "Decrement": 0.012,
     "SteeringSpeed": 0.13,
     "EngineSoundVolume": 1.0
   },
   "TurretPos": [
-    0,
-    1.93,
-    0.19375
+    0.0,
+    1.875,
+    0.1875
   ],
   "BarrelPos": [
     0,
@@ -411,6 +413,7 @@
     2.625,
     3.575
   ],
+  "TurretCustomPitch": 2.5,
   "TurretPitchRange": [
     -7,
     15

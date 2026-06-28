@@ -145,7 +145,8 @@
         0.55,
         0.83,
         1
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -182,7 +183,8 @@
         0.57,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -291,7 +293,7 @@
       "Spread": 0.5,
       "Crosshair": "@VehicleUsApc",
       "CrosshairColor": "0xFFC700",
-      "Name": "drgonrise_reforge:mk44",
+      "Name": "dragonrise_reforge:mk44",
       "SoundInfo": {
         "Fire1P": "dragonrise_reforge:zbd04a_30mm_fire_1p",
         "Fire3P": "dragonrise_reforge:zbd04a_30mm_fire_3p",
@@ -300,7 +302,7 @@
         "Change": "superbwarfare:into_missile"
       },
       "SoundRadius": 24,
-      "AmmoType": "superbwarfare:small_shell",
+      "AmmoType": "superbwarfare:small_shell_ap",
       "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm.png",
       "ShootPos": {
         "Transform": "Barrel",

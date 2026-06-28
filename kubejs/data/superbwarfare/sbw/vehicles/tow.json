@@ -1,7 +1,7 @@
 {
-  "ID": "superbwarfare:tow",
   "MaxHealth": 60,
   "MaxEnergy": 0,
+  "KeepChunkLoaded": false,
   "TurretPos": [
     0,
     0.9689,
@@ -29,6 +29,7 @@
     ],
     "MinPitch": -40,
     "MaxPitch": 40,
+    "Pose": "Tow",
     "CameraPos": {
       "Transform": "Turret",
       "UseFixedCameraPos": true,
@@ -68,7 +69,7 @@
       "Magazine": 1,
       "Damage": 600,
       "ExplosionDamage": 60,
-      "ExplosionRadius": 6,
+      "ExplosionRadius": 8,
       "RPM": 8,
       "Velocity": 3,
       "ShootShake": [

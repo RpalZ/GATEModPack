@@ -41,6 +41,7 @@
       ]
     },
     {
+      "Part": "Turret",
       "Size": [
         1.375,
         0.46875,
@@ -115,7 +116,8 @@
         0.42,
         0.7,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     }
   ],
   "Weapons": {
@@ -145,9 +147,9 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:122mmAPHE",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/he.png",
             "IsArmorPiercingProjectile": false,
@@ -208,7 +210,7 @@
         "Transform": "Barrel",
         "Positions": [
           [
-            0.40,
+            0.4,
             0.15,
             0.85
           ]
@@ -352,7 +354,7 @@
     1.5,
     4
   ],
-  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/amx56_icon.png",
+  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/is2_icon.png",
   "ContainerIcon": "dragonrise_reforge:textures/gui/vehicle/type/ussr_land.png",
   "Type": "Tank",
   "CollisionLevel": {

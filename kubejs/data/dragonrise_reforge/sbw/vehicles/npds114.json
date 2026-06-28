@@ -83,7 +83,7 @@
       "Crosshair": "@VehicleDynamicCross",
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:type59ap",
-      "AmmoType": "superbwarfare:ap_5_inches",
+      "AmmoType": "superbwarfare:large_shell_ap",
       "SeekWeaponInfo": {
         "SeekDirection": "Barrel",
         "SeekRange": 384,
@@ -153,7 +153,7 @@
     "ExplosionDamage": 100,
     "ExplosionRadius": 7
   },
-  "VehicleIcon": "superbwarfare:textures/vehicle_icon/hpj_11_icon.png",
+  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/npds114_icon.png",
   "ContainerIcon": "superbwarfare:textures/gui/vehicle/type/defense.png",
   "Type": "Defense",
   "HudType": "@Artillery"

@@ -26,8 +26,5 @@
   "SelfHurtPercent": 0,
   "VehicleContainerType": "One",
   "SendHitParticles": false,
-  "Type": "Artillery",
-  "DamageModifiers": [
-    "#gate:magic_damage * 1.50"
-  ]
+  "Type": "Artillery"
 }

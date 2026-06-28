@@ -159,7 +159,7 @@
       },
       "Position": [
         0.2,
-        1.10,
+        1.1,
         -2.9375
       ],
       "MinPitch": -5,
@@ -167,13 +167,14 @@
       "MinYaw": -30,
       "MaxYaw": 30,
       "Sensitivity": [
-        0.60,
+        0.6,
         0.95,
         1.25
       ],
       "Weapons": [
         "Cannon"
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "IsEnclosed": false,
@@ -225,7 +226,7 @@
       "Spread": 0.6,
       "Crosshair": "@VehicleCommonGun",
       "CrosshairColor": "0xFFC700",
-      "Name": "drgonrise_reforge:mk19",
+      "Name": "dragonrise_reforge:mk19",
       "SoundInfo": {
         "Fire1P": "dragonrise_reforge:zbd04a_30mm_fire_1p",
         "Fire3P": "dragonrise_reforge:zbd04a_30mm_fire_3p",
@@ -304,7 +305,7 @@
     1,
     5
   ],
-  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/fav_icon.png",
+  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/fav_a_icon.png",
   "ContainerIcon": "superbwarfare:textures/gui/vehicle/type/civilian.png",
   "Type": "Car",
   "EngineSound": "superbwarfare:lav_150_engine",

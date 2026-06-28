@@ -4,6 +4,7 @@
   "MaxEnergy": 20000000,
   "OBB": [
     {
+      "Part": "Turret",
       "Rotation": "Turret",
       "Size": [
         1.25,
@@ -114,7 +115,8 @@
         0.42,
         0.7,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     }
   ],
   "Weapons": {
@@ -144,9 +146,9 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:88mmAPHE",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/he.png",
             "IsArmorPiercingProjectile": false,
@@ -207,7 +209,7 @@
         "Transform": "Barrel",
         "Positions": [
           [
-            0.40,
+            0.4,
             0.15,
             0.85
           ]
@@ -351,9 +353,9 @@
     1.5,
     4
   ],
-  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/amx56_icon.png",
+  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/tiger_icon.png",
   "ContainerIcon": "dragonrise_reforge:textures/gui/vehicle/type/dr_land.png",
-  "Type": "@Tank",
+  "Type": "Tank",
   "CollisionLevel": {
     "Level": 4,
     "PowerLimits": [
@@ -380,7 +382,7 @@
     ]
   },
   "EngineSound": "dragonrise_reforge:m2a3_engine_loop",
-  "HudType": "@Tank",
+  "HudType": "@Land",
   "InertiaRotateRate": 1.4,
   "TerrainCompat": [
     [

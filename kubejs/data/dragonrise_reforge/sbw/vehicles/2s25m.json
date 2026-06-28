@@ -190,7 +190,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -227,7 +228,8 @@
         0.57,
         0.55,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "BanHand": true,
@@ -277,11 +279,11 @@
       "ShootAnimationTime": 35,
       "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/ru_tank_cannon_cross.png",
       "CrosshairColor": "0x00ff66",
-      "Name": "dragonrise_reforge:m10_105mm_ap",
+      "Name": "dragonrise_reforge:3BM60",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -290,7 +292,7 @@
             "Damage": 220,
             "ExplosionDamage": 100,
             "ExplosionRadius": 10,
-            "Name": "dragonrise_reforge:m10_105mm_he"
+            "Name": "dragonrise_reforge:3OF46"
           }
         }
       ],
@@ -354,7 +356,7 @@
           "Barrel"
         ]
       },
-      "Name": "dragonrise_reforge:m240",
+      "Name": "dragonrise_reforge:pktm",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",
@@ -398,7 +400,7 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "weapon.superbwarfare.50_cal_gun",
+      "Name": "dragonrise_reforge:PKTM",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",

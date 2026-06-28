@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:m1a2sepv2",
-  "MaxHealth": 400,
+  "MaxHealth": 500,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -123,7 +123,8 @@
         0.52,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -152,7 +153,8 @@
         0.57,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "BanHand": true,
@@ -204,9 +206,9 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:M829A1",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -246,25 +248,25 @@
       }
     },
     "MachineGun": {
-      "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/gun_12_7mm.png",
+      "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/gun_7_62mm.png",
       "DefaultFireMode": "Auto",
       "AvailableFireModes": "Auto",
       "Spread": 0.25,
       "CrosshairColor": "0x00ff66",
       "Projectile": "superbwarfare:projectile",
       "DefaultZoom": 3,
-      "RPM": 575,
-      "Damage": 40,
+      "RPM": 700,
+      "Damage": 10,
       "BypassesArmor": 0.2,
       "Velocity": 25,
       "RecoilTime": 16,
       "RecoilForce": 0.05,
-      "Magazine": 800,
+      "Magazine": 1000,
       "EmptyReloadTime": 160,
-      "HeatPerShoot": 4,
+      "HeatPerShoot": 3.75,
       "NaturalCooldown": 1,
       "ShootAnimationTime": 1,
-      "AmmoType": "@HeavyAmmo",
+      "AmmoType": "@RifleAmmo",
       "ShootPos": {
         "Transform": "Barrel",
         "Positions": [
@@ -279,7 +281,7 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "dragonrise_reforge:m2hb",
+      "Name": "dragonrise_reforge:M240",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",
@@ -321,7 +323,7 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "weapon.superbwarfare.50_cal_gun",
+      "Name": "dragonrise_reforge:M2HB",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",
@@ -387,7 +389,7 @@
   "HasDecoy": true,
   "UpStep": 2.25,
   "RotateOffsetHeight": 3.5,
-  "Mass": 67.4,
+  "Mass": 64.6,
   "DamageModifiers": [
     "#gate:magic_damage * 1.50",
     "minecraft:lava - -20",

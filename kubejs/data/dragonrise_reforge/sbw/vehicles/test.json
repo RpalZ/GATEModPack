@@ -57,7 +57,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -86,7 +87,8 @@
         0.57,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -150,9 +152,9 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:ofl120f1",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -213,7 +215,7 @@
         "Transform": "Barrel",
         "Positions": [
           [
-            0.40,
+            0.4,
             0.15,
             0.85
           ]
@@ -375,7 +377,7 @@
     1.5,
     4
   ],
-  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/cv90_icon.png",
+  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/test_icon.png",
   "ContainerIcon": "superbwarfare:textures/gui/vehicle/type/land.png",
   "Type": "Tank",
   "CollisionLevel": {

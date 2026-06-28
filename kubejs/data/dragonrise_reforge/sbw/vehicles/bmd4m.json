@@ -38,7 +38,7 @@
         0.53125,
         -0.46875
       ],
-      "Part": "WheelLet"
+      "Part": "WheelLeft"
     },
     {
       "Size": [
@@ -118,7 +118,8 @@
         0.53,
         0.6,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": false,
@@ -179,7 +180,7 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:3of70",
       "AmmoType": [
-        "superbwarfare:he_5_inches",
+        "superbwarfare:large_shell_he",
         {
           "Ammo": "superbwarfare:medium_anti_ground_missile",
           "Override": {
@@ -308,7 +309,7 @@
         "Change": "superbwarfare:into_missile"
       },
       "SoundRadius": 24,
-      "AmmoType": "superbwarfare:small_shell",
+      "AmmoType": "superbwarfare:small_shell_ap",
       "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/cannon_30mm.png",
       "ShootPos": {
         "Transform": "Barrel",

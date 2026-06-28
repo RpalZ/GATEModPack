@@ -229,7 +229,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -238,7 +239,7 @@
         "Transform": "WeaponStationBarrel",
         "ZoomPosition": [
           0.8,
-          -2.20,
+          -2.2,
           0
         ],
         "Direction": "WeaponStationBarrel"
@@ -258,7 +259,8 @@
         0.57,
         0.55,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "BanHand": true,
@@ -284,71 +286,6 @@
     }
   ],
   "Weapons": {
-    "Laser": {
-      "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/laser.png",
-      "DefaultFireMode": "Semi",
-      "AvailableFireModes": "Semi",
-      "Projectile": "ray",
-      "Range": 512,
-      "DefaultZoom": 3,
-      "RPM": 30,
-      "Velocity": 6000000000,
-      "Damage": 350,
-      "ExplosionDamage": 72,
-      "ExplosionRadius": 12,
-      "Spread": 0,
-      "HeatPerShoot": 50,
-      "NaturalCooldown": 0.7,
-      "ShootAnimationTime": 3,
-      "AmmoCostPerShoot": 100000,
-      "AmmoType": [
-        "FE",
-        {
-          "Ammo": "FE",
-          "Override": {
-            "Name": "weapon.superbwarfare.laser_auto",
-            "DefaultFireMode": "Auto",
-            "RPM": 1200,
-            "Velocity": 6000000000,
-            "Damage": 15,
-            "HeatPerShoot": 3,
-            "ShootAnimationTime": 1,
-            "AmmoCostPerShoot": 5000,
-            "ExplosionDamage": 0,
-            "ExplosionRadius": 0,
-            "SoundInfo": {
-              "Fire1P": "superbwarfare:prism_tank_fire_low_1p",
-              "Fire3P": "superbwarfare:prism_tank_fire_low_3p",
-              "Fire3PFar": null,
-              "Fire3PVeryFar": null,
-              "Change": "superbwarfare:into_cannon"
-            }
-          }
-        }
-      ],
-      "Crosshair": "@VehicleCommonMissile",
-      "CrosshairColor": "0x00FFF6",
-      "Name": "weapon.superbwarfare.laser_semi",
-      "SoundInfo": {
-        "Fire1P": "superbwarfare:prism_tank_fire_high_1p",
-        "Fire3P": "superbwarfare:prism_tank_fire_high_3p",
-        "Change": "superbwarfare:into_missile"
-      },
-      "SoundRadius": 12,
-      "ShootPos": {
-        "Transform": "Barrel",
-        "Positions": [
-          [
-            0,
-            0.5,
-            0
-          ]
-        ],
-        "Directions": [
-          "Barrel"
-        ]
-      }
-    },
     "Cannon": {
       "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/ap_shell.png",
       "DefaultFireMode": "Semi",
@@ -373,11 +310,11 @@
       "ShootAnimationTime": 35,
       "Crosshair": "@VehicleUsTank",
       "CrosshairColor": "0x00ff66",
-      "Name": "dragonrise_reforge:m10_105mm_ap",
+      "Name": "dragonrise_reforge:M900",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -386,7 +323,7 @@
             "Damage": 220,
             "ExplosionDamage": 100,
             "ExplosionRadius": 10,
-            "Name": "dragonrise_reforge:m10_105mm_he"
+            "Name": "dragonrise_reforge:M393A2"
           }
         }
       ],
@@ -484,7 +421,7 @@
         "Transform": "WeaponStationBarrel",
         "Positions": [
           [
-            0.50,
+            0.5,
             -2.8,
             0
           ]
@@ -494,7 +431,7 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "weapon.superbwarfare.50_cal_gun",
+      "Name": "dragonrise_reforge:M2HB",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",
@@ -524,7 +461,7 @@
   "TurretPos": [
     -0.0935,
     0,
-    -0.7770
+    -0.777
   ],
   "BarrelPos": [
     -0.0784,
@@ -546,7 +483,7 @@
   ],
   "PassengerWeaponStationBarrelPos": [
     -0.5,
-    2.8310,
+    2.831,
     -0.5044
   ],
   "PassengerWeaponStationTurnSpeed": [

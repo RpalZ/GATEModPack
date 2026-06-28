@@ -41,6 +41,7 @@
       ]
     },
     {
+      "Part": "Turret",
       "Size": [
         0.71875,
         0.375,
@@ -114,7 +115,8 @@
         0.42,
         0.7,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     }
   ],
   "Weapons": {
@@ -144,9 +146,9 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:76mmAPHE",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "dragonrise_reforge:textures/overlay/vehicle/weapon/icons/he.png",
             "IsArmorPiercingProjectile": false,
@@ -207,7 +209,7 @@
         "Transform": "Barrel",
         "Positions": [
           [
-            0.40,
+            0.4,
             0.15,
             0.85
           ]

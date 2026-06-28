@@ -111,7 +111,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -141,7 +142,8 @@
         0.57,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -183,9 +185,9 @@
       "CrosshairColor": "0x00ff66",
       "Name": "dragonrise_reforge:fusion_battle_cannon_beam",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "IsArmorPiercingProjectile": false,
             "IsHighExplosiveProjectile": true,

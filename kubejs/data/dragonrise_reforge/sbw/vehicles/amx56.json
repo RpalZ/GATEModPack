@@ -30,7 +30,7 @@
     {
       "Part": "WheelLeft",
       "Size": [
-        0.40,
+        0.4,
         0.68,
         3.68
       ],
@@ -43,7 +43,7 @@
     {
       "Part": "WheelRight",
       "Size": [
-        -0.40,
+        -0.4,
         0.68,
         3.68
       ],
@@ -70,12 +70,12 @@
       "Part": "Turret",
       "Size": [
         1.71,
-        0.40,
+        0.4,
         1.78
       ],
       "Position": [
         0,
-        0.40,
+        0.4,
         -0.96
       ],
       "Transform": "Turret",
@@ -126,7 +126,8 @@
         0.52,
         0.72,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -163,7 +164,8 @@
         0.57,
         0.75,
         0.9
-      ]
+      ],
+      "HasThermalImaging": true
     },
     {
       "HidePassenger": true,
@@ -225,11 +227,11 @@
       "ShootAnimationTime": 40,
       "Crosshair": "dragonrise_reforge:textures/overlay/vehicle/crosshair/fr_tank_cannon_cross.png",
       "CrosshairColor": "0x00ff66",
-      "Name": "dragonrise_reforge:ofl120f1",
+      "Name": "dragonrise_reforge:OFL_120_F1",
       "AmmoType": [
-        "superbwarfare:ap_5_inches",
+        "superbwarfare:large_shell_ap",
         {
-          "Ammo": "superbwarfare:he_5_inches",
+          "Ammo": "superbwarfare:large_shell_he",
           "Override": {
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "IsArmorPiercingProjectile": false,
@@ -292,7 +294,7 @@
         "Transform": "Barrel",
         "Positions": [
           [
-            0.40,
+            0.4,
             0.15,
             0.85
           ]
@@ -302,7 +304,7 @@
         ]
       },
       "Crosshair": "@VehicleCommonGun",
-      "Name": "dragonrise_reforge:crcf1",
+      "Name": "dragonrise_reforge:CRC_F1",
       "SoundInfo": {
         "Fire1P": "superbwarfare:m_2_hb_fire_1p",
         "Fire3P": "superbwarfare:m_2_hb_fire_3p",

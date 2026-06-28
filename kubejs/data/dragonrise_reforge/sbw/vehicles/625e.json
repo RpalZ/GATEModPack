@@ -111,7 +111,8 @@
         0.55,
         0.73,
         1
-      ]
+      ],
+      "HasThermalImaging": true
     }
   ],
   "Weapons": {
@@ -135,7 +136,7 @@
       "ShootAnimationTime": 3,
       "Crosshair": "@VehicleUsApc",
       "CrosshairColor": "0x66FF00",
-      "Name": "dargonrise_refroge:pgz625",
+      "Name": "dragonrise_reforge:pgz625",
       "SoundInfo": {
         "Fire1P": "superbwarfare:lav_150_cannon_fire_1p",
         "Fire3P": "superbwarfare:lav_150_cannon_fire_3p",
@@ -144,7 +145,7 @@
         "Change": "superbwarfare:into_missile"
       },
       "SoundRadius": 24,
-      "AmmoType": "superbwarfare:small_shell",
+      "AmmoType": "superbwarfare:small_shell_ap",
       "ShootPos": {
         "Transform": "Barrel",
         "Positions": [
@@ -178,7 +179,7 @@
       "Magazine": 8,
       "EmptyReloadTime": 320,
       "Projectile": "superbwarfare:ru_9m336_missile",
-      "Name": "dragonrise_reforge.missile_fb10",
+      "Name": "dragonrise_reforge:missile_fb10",
       "Damage": 100,
       "ExplosionDamage": 170,
       "ExplosionRadius": 4,
@@ -328,7 +329,7 @@
     "ExplosionRadius": 4
   },
   "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/625e_icon.png",
-  "ContainerIcon": "superbwarfare:textures/gui/vehicle/type/land.png",
+  "ContainerIcon": "dragonrise_reforge:textures/gui/vehicle/type/cn_land.png",
   "Type": "APC",
   "CollisionLevel": {
     "Level": 3,

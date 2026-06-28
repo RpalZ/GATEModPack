@@ -116,7 +116,8 @@
           0.5,
           2.5
         ]
-      }
+      },
+      "HasThermalImaging": true
     },
     {
       "Transform": "Vehicle",
@@ -296,12 +297,13 @@
   "EngineType": "Helicopter",
   "EngineInfo": {
     "EnergyCostRate": 320,
-    "Increment": 0.6,
-    "Decrement": 0.6,
-    "PitchSpeed": 0.7,
-    "YawSpeed": 0.6,
+    "Increment": 0.8,
+    "Decrement": 0.8,
+    "PitchSpeed": 0.75,
+    "YawSpeed": 0.85,
     "RollSpeed": 0.6,
-    "LiftSpeed": 0.7,
+    "LiftSpeed": 1,
+    "Speed": 0.97,
     "EngineStartSound": "superbwarfare:mi_28_engine_start",
     "EngineSoundVolume": 2
   },
@@ -352,7 +354,7 @@
     "CrashPassengers": true
   },
   "HUDColor": "0xFFC700",
-  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/z10a_icon.png",
+  "VehicleIcon": "dragonrise_reforge:textures/vehicle_icon/nh90_icon.png",
   "ContainerIcon": "dragonrise_reforge:textures/gui/vehicle/type/gm_aircraft.png",
   "Type": "Helicopter",
   "HudType": "@Helicopter",
