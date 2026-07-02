@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:pershing",
-  "MaxHealth": 410,
+  "MaxHealth": 430,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -356,7 +356,7 @@
     "minecraft:player_attack 0",
     "@#superbwarfare:aerial_bomb * 3",
     "#superbwarfare:projectile 0",
-    "All * 0.24",
+    "All * 0.23",
     "superbwarfare:vehicle_strike * 2.5",
     "minecraft:explosion * 2",
     "superbwarfare:custom_explosion * 0.65",

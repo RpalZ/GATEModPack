@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:cyborg_tank",
-  "MaxHealth": 600,
+  "MaxHealth": 620,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -169,8 +169,8 @@
       "Magazine": 1,
       "EmptyReloadTime": 120,
       "Velocity": 25,
-      "Damage": 1500,
-      "ExplosionDamage": 100,
+      "Damage": 720,
+      "ExplosionDamage": 90,
       "ExplosionRadius": 6,
       "RecoilTime": 42,
       "RecoilForce": 1.0,
@@ -192,8 +192,8 @@
             "IsArmorPiercingProjectile": false,
             "IsHighExplosiveProjectile": true,
             "Velocity": 25,
-            "Damage": 150,
-            "ExplosionDamage": 500,
+            "Damage": 300,
+            "ExplosionDamage": 140,
             "ExplosionRadius": 12,
             "Name": "dragonrise_reforge:fusion_battle_cannon_explosive"
           }
@@ -389,7 +389,7 @@
     "minecraft:player_attack 0",
     "@#superbwarfare:aerial_bomb * 3",
     "#superbwarfare:projectile 0",
-    "All * 0.2",
+    "All * 0.18",
     "superbwarfare:vehicle_strike * 2.5",
     "minecraft:explosion * 2",
     "superbwarfare:custom_explosion * 0.65",

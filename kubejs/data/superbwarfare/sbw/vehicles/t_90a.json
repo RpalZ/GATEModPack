@@ -1,5 +1,5 @@
 {
-  "MaxHealth": 500,
+  "MaxHealth": 600,
   "MaxEnergy": 10000000,
   "OBB": [
     {
@@ -344,13 +344,13 @@
     "EnergyCostRate": 128,
     "WheelRotSpeed": 1.25,
     "WheelDifferential": 0.75,
-    "TrackRotSpeed": 1.9,
+    "TrackRotSpeed": 1.6,
     "TrackDifferential": 0.6,
     "MaxForwardSpeedRate": 0.78,
-    "MaxBackwardSpeedRate": 0.5,
-    "Increment": 0.02,
-    "Decrement": 0.01,
-    "SteeringSpeed": 0.1,
+    "MaxBackwardSpeedRate": 0.26,
+    "Increment": 0.017,
+    "Decrement": 0.014,
+    "SteeringSpeed": 0.11,
     "EngineSoundVolume": 0.6
   },
   "TurretPos": [

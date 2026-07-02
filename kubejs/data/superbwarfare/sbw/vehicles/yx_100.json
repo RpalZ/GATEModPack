@@ -1,5 +1,5 @@
 {
-  "MaxHealth": 800,
+  "MaxHealth": 650,
   "MaxEnergy": 20000000,
   "TrackDistanceMultiply": 0.5,
   "OBB": [
@@ -255,7 +255,7 @@
       "EmptyReloadTime": 70,
       "Velocity": 35,
       "ApDurability": 300,
-      "Damage": 1500,
+      "Damage": 720,
       "ExplosionDamage": 120,
       "ExplosionRadius": 5,
       "RecoilTime": 42,
@@ -279,8 +279,8 @@
             "Icon": "superbwarfare:textures/overlay/vehicle/weapon/icons/he_shell.png",
             "ShellType": "HE",
             "Velocity": 30,
-            "Damage": 750,
-            "ExplosionDamage": 200,
+            "Damage": 300,
+            "ExplosionDamage": 140,
             "ExplosionRadius": 11,
             "Name": "weapon.superbwarfare.cannon_he"
           }
@@ -652,10 +652,10 @@
     "minecraft:mob_projectile 0",
     "minecraft:player_attack 0",
     "#superbwarfare:projectile 0",
-    "All - 50",
+    "All - 20",
     "@minecraft:tnt * 2",
     "@#superbwarfare:aerial_bomb * 2",
-    "All * 0.1",
+    "All * 0.18",
     "superbwarfare:vehicle_strike * 2.5",
     "superbwarfare:custom_explosion * 0.25",
     "superbwarfare:projectile_explosion * 0.25",

@@ -1,5 +1,5 @@
 {
-  "MaxHealth": 400,
+  "MaxHealth": 600,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -169,8 +169,8 @@
       "DefaultZoom": 3,
       "RPM": 30,
       "Velocity": 6000000000,
-      "Damage": 350,
-      "ExplosionDamage": 72,
+      "Damage": 700,
+      "ExplosionDamage": 80,
       "ExplosionRadius": 12,
       "Spread": 0,
       "HeatPerShoot": 50,
@@ -265,12 +265,12 @@
   "Mass": 25,
   "DamageModifiers": [
     "#gate:magic_damage * 1.50",
-    "All - 13",
+    "All - 20",
     "minecraft:lava + 13",
     "minecraft:lava * 11.75",
     "@minecraft:tnt * 5",
     "@minecraft:tnt_minecart * 5",
-    "All * 0.17",
+    "All * 0.19",
     "minecraft:arrow * 1.5",
     "minecraft:trident * 1.5",
     "minecraft:mob_attack * 2.5",

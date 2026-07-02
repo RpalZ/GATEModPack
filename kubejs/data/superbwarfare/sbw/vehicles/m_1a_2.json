@@ -1,5 +1,5 @@
 {
-  "MaxHealth": 500,
+  "MaxHealth": 630,
   "MaxEnergy": 10000000,
   "OBB": [
     {
@@ -416,11 +416,11 @@
     "WheelDifferential": 0.75,
     "TrackRotSpeed": 1.9,
     "TrackDifferential": 0.6,
-    "MaxForwardSpeedRate": 0.78,
-    "MaxBackwardSpeedRate": 0.5,
-    "Increment": 0.02,
-    "Decrement": 0.01,
-    "SteeringSpeed": 0.1,
+    "MaxForwardSpeedRate": 0.82,
+    "MaxBackwardSpeedRate": 0.58,
+    "Increment": 0.018,
+    "Decrement": 0.014,
+    "SteeringSpeed": 0.12,
     "EngineSoundVolume": 0.6
   },
   "TurretPos": [
@@ -434,8 +434,8 @@
     1.838
   ],
   "TurretTurnSpeed": [
-    3.3,
-    3.3
+    4.2,
+    4.2
   ],
   "TurretPitchRange": [
     -9,
@@ -478,7 +478,7 @@
     "@minecraft:tnt * 4",
     "@minecraft:tnt_minecart * 4",
     "@#superbwarfare:aerial_bomb * 12",
-    "All * 0.2",
+    "All * 0.19",
     "superbwarfare:vehicle_strike * 2.5",
     "minecraft:explosion * 2",
     "superbwarfare:custom_explosion * 0.65",

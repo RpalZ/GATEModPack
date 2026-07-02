@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:ztz99a",
-  "MaxHealth": 500,
+  "MaxHealth": 630,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -211,7 +211,7 @@
       "Magazine": 1,
       "EmptyReloadTime": 120,
       "Velocity": 40,
-      "Damage": 500,
+      "Damage": 700,
       "ExplosionDamage": 80,
       "ExplosionRadius": 4,
       "RecoilTime": 42,
@@ -393,8 +393,8 @@
     "TrackRotSpeed": 1.3,
     "TrackDifferential": 0.6,
     "MaxForwardSpeedRate": 0.885,
-    "MaxBackwardSpeedRate": 0.54,
-    "Increment": 0.01,
+    "MaxBackwardSpeedRate": 0.34,
+    "Increment": 0.018,
     "Decrement": 0.012,
     "SteeringSpeed": 0.13,
     "EngineSoundVolume": 1.0
@@ -410,8 +410,8 @@
     0.6477125
   ],
   "TurretTurnSpeed": [
-    2.625,
-    3.575
+    5.5,
+    3.8
   ],
   "TurretCustomPitch": 2.5,
   "TurretPitchRange": [
@@ -454,7 +454,7 @@
     "minecraft:player_attack 0",
     "@#superbwarfare:aerial_bomb * 3",
     "#superbwarfare:projectile 0",
-    "All * 0.3",
+    "All * 0.19",
     "superbwarfare:vehicle_strike * 2.5",
     "minecraft:explosion * 2",
     "superbwarfare:custom_explosion * 0.65",

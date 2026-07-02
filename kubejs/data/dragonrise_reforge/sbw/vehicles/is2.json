@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:is2",
-  "MaxHealth": 400,
+  "MaxHealth": 420,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -325,7 +325,7 @@
     "minecraft:player_attack 0",
     "@#superbwarfare:aerial_bomb * 3",
     "#superbwarfare:projectile 0",
-    "All * 0.25",
+    "All * 0.24",
     "superbwarfare:vehicle_strike * 2.5",
     "minecraft:explosion * 2",
     "superbwarfare:custom_explosion * 0.65",

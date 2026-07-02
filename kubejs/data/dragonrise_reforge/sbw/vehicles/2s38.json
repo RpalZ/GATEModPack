@@ -162,9 +162,9 @@
       "Magazine": 20,
       "EmptyReloadTime": 120,
       "Velocity": 40,
-      "Damage": 550,
-      "RPM": 60,
-      "ExplosionDamage": 80,
+      "Damage": 500,
+      "RPM": 80,
+      "ExplosionDamage": 40,
       "ExplosionRadius": 2,
       "RecoilTime": 20,
       "RecoilForce": 0.1,
@@ -187,8 +187,8 @@
             "IsArmorPiercingProjectile": false,
             "IsHighExplosiveProjectile": true,
             "Velocity": 25,
-            "Damage": 250,
-            "ExplosionDamage": 60,
+            "Damage": 80,
+            "ExplosionDamage": 120,
             "ExplosionRadius": 4,
             "Name": "dragonrise_reforge:OR-281U"
           }

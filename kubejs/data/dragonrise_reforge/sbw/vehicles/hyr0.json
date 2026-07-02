@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:hyr0",
-  "MaxHealth": 1000,
+  "MaxHealth": 650,
   "MaxEnergy": 100000000,
   "OBB": [
     {
@@ -166,7 +166,7 @@
       "Magazine": 1,
       "EmptyReloadTime": 140,
       "Velocity": 40,
-      "Damage": 1400,
+      "Damage": 720,
       "ExplosionDamage": 80,
       "ExplosionRadius": 4,
       "RecoilTime": 42,
@@ -190,9 +190,9 @@
             "IsArmorPiercingProjectile": false,
             "IsHighExplosiveProjectile": true,
             "Velocity": 25,
-            "Damage": 1000,
-            "ExplosionDamage": 450,
-            "ExplosionRadius": 30,
+            "Damage": 300,
+            "ExplosionDamage": 140,
+            "ExplosionRadius": 12,
             "Name": "dragonrise_reforge:hyr0he"
           }
         }
@@ -398,7 +398,7 @@
     "minecraft:player_attack 0",
     "@#superbwarfare:aerial_bomb * 3",
     "#superbwarfare:projectile 0",
-    "All * 0.3",
+    "All * 0.18",
     "superbwarfare:vehicle_strike * 2.5",
     "minecraft:explosion * 2",
     "superbwarfare:custom_explosion * 0.65",

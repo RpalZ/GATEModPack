@@ -1,6 +1,6 @@
 {
   "ID": "dragonrise_reforge:strv103",
-  "MaxHealth": 420,
+  "MaxHealth": 520,
   "MaxEnergy": 20000000,
   "OBB": [
     {
@@ -152,7 +152,7 @@
       "Magazine": 1,
       "EmptyReloadTime": 120,
       "Velocity": 40,
-      "Damage": 500,
+      "Damage": 700,
       "ExplosionDamage": 80,
       "ExplosionRadius": 4,
       "RecoilTime": 40,
@@ -371,7 +371,7 @@
     "minecraft:player_attack 0",
     "@#superbwarfare:aerial_bomb * 3",
     "#superbwarfare:projectile 0",
-    "All * 0.3",
+    "All * 0.22",
     "superbwarfare:vehicle_strike * 2.5",
     "minecraft:explosion * 2",
     "superbwarfare:custom_explosion * 0.65",

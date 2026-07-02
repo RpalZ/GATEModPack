@@ -2,7 +2,7 @@
 #Settings for the ambient gunfire system, creating a 'battlefield' atmosphere.
 [Ambient]
 	#Globally enables or disables the ambient gunfire sound system.
-	enableAmbientGunfire = true
+	enableAmbientGunfire = false
 	#Minimum time in ticks between ambient gunfire events (20 ticks = 1 second).
 	#Range: 100 ~ 72000
 	minTimeBetweenShots = 1200
