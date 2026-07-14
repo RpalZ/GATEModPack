@@ -732,7 +732,7 @@
 		}
 		{
 			dependencies: ["6BAE5095065CF278"]
-			description: ["&6Mine the crytal quartz! However, dont mine the budding. Use a cardboard box to preserve their state! Already mined it? Oh well, you can get a free one!&r"]
+			description: ["&6Mine the crystal quartz! However, dont mine the budding. Use a cardboard box to preserve their state! Already mined it? Oh well, you can get a free one!&r"]
 			entity_vis_size: 1.0f
 			id: "3661C56EA3F47AEF"
 			rewards: [

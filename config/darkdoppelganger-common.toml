@@ -3,7 +3,7 @@
 [dark_doppelganger]
 	#Health of the Dark Doppelganger
 	#Range: 1.0 ~ 100000.0
-	health = 6000.0
+	health = 10000.0
 	#Attack Damage of the Dark Doppelganger
 	#Range: 1.0 ~ 100.0
 	attack_damage = 100.0

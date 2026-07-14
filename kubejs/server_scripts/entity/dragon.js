@@ -22,7 +22,7 @@ EntityEvents.spawned((event) => {
 
   if (!maxHealth) return;
 
-  const newMaxHealth = maxHealth * 1.35;
+  const newMaxHealth = maxHealth * 1.65;
 
   entity.maxHealth = newMaxHealth;
   entity.health = newMaxHealth;

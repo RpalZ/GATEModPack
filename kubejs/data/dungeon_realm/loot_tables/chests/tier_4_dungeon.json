@@ -16,10 +16,7 @@
           "type": "minecraft:loot_table",
           "name": "traveloptics:chests/frosted_prison_treasure_additions"
         },
-         {
-          "type": "minecraft:loot_table",
-          "name": "traveloptics:chests/catacombs_additions"
-        },
+        
         {
           "type": "minecraft:loot_table",
           "name": "traveloptics:chests/ancient_city_additions"

@@ -4,7 +4,7 @@
   "RecoilY": 0.018,
   "Damage": 300,
   "Projectile": "superbwarfare:rpg_rocket_tbg",
-  "ExplosionDamage": 150,
+  "ExplosionDamage": 300,
   "ExplosionRadius": 11,
   "ZoomReload": false,
   "Headshot": 0,
@@ -22,7 +22,7 @@
       "Ammo": "superbwarfare:rpg_rocket_standard",
       "Projectile": "superbwarfare:rpg_rocket_standard",
       "Override": {
-        "Damage": 450,
+        "Damage": 550,
         "ExplosionDamage": 40,
         "ExplosionRadius": 5,
         "Velocity": 6,

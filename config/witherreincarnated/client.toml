@@ -3,7 +3,7 @@
 	"Music Volume (default: 1.0)" = 1.0
 	"Music Obeys Music Volume Slider (default: false)" = false
 	"Only Play One Music Track (default: false)" = false
-	"Camera Shake Intensity (default: 1.0)" = 1.0
+	"Camera Shake Intensity (default: 1.0)" = 0.6
 	"Distant Fire Opacity (default: 0.1)" = 0.1
 	"Wither Shine Opacity (default: 0.1)" = 0.1
 	"Distant Fire Colour (default: 0xFF552A)" = 16733482

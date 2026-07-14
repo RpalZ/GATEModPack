@@ -1,16 +1,16 @@
 
 ["WITHER: STATS"]
-	"Health (default: 600.0)" = 800.0
+	"Health (default: 600.0)" = 1000.0
 	"Movement Speed (default: 0.0675)" = 0.025
-	"Wither Skull Damage (default: 16.0)" = 16.0
-	"Wither Skull Explosion Damage (default: 12.0)" = 12.0
+	"Wither Skull Damage (default: 16.0)" = 12.0
+	"Wither Skull Explosion Damage (default: 12.0)" = 8.0
 	"Wither Skull Explosion Size (default: 2.0)" = 2.0
-	"Dangerous Wither Skull Damage (default: 22.0)" = 22.0
-	"Dangerous Wither Skull Explosion Damage (default: 18.0)" = 18.0
-	"Dangerous Wither Skull Explosion Size (default: 5.0)" = 3.0
+	"Dangerous Wither Skull Damage (default: 22.0)" = 16.0
+	"Dangerous Wither Skull Explosion Damage (default: 18.0)" = 13.0
+	"Dangerous Wither Skull Explosion Size (default: 5.0)" = 2.0
 	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 30.0
-	"Laser Damage (default: 3.0)" = 3.0
-	"Charge Damage (default: 30.0)" = 30.0
+	"Laser Damage (default: 3.0)" = 1.5
+	"Charge Damage (default: 30.0)" = 24.0
 	"Charge Disable Shield Time (in ticks, default: 400)" = 100
 
 ["WITHER: AI"]

@@ -57,14 +57,14 @@ ForgeEvents.onEvent($ProjectileImpactEvent, (event) => {
     let { lightProjectiles } = global.customTags;
 
     if (proj.contains(heavyProjectiles)) {
-      damageModifier = 0.75;
+      damageModifier = 0.65;
     }
 
     if (proj.contains(mediumProjectiles)) {
-      damageModifier = 0.5;
+      damageModifier = 0.3;
     }
     if (proj.contains(lightProjectiles)) {
-      damageModifier = 0.25;
+      damageModifier = 0.1;
     }
 
     let nbt = projectile.getNbt();

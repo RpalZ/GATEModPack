@@ -22,10 +22,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "traveloptics:chests/catacombs_additions"
-        },
-        {
-          "type": "minecraft:loot_table",
           "name": "traveloptics:chests/random_imbue_curio_loot"
         },
         {

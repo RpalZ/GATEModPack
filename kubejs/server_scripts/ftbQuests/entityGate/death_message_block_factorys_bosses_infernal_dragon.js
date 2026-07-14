@@ -1,6 +1,6 @@
 {
     let entityId = "block_factorys_bosses:infernal_dragon"
-    let deathMessage = "I dont know what got me..."
+    let deathMessage = "I don't know what has gotten into me..."
 
     EntityEvents.death(entityId, event => {
         let entityName = event.entity.getName().getString()

@@ -4,7 +4,7 @@
   "Magazine": 1,
   "Weight": 10,
   "EmptyReloadTime": 78,
-  "Damage": 650,
+  "Damage": 900,
   "ExplosionDamage": 120,
   "ExplosionRadius": 9,
   "Headshot": 0,

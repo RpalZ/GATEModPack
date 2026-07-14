@@ -2,9 +2,9 @@ EntityEvents.spawned("block_factorys_bosses:sandworm", event => {
     const radius = 100
     const entity = event.getEntity()
 
-
-    entity.maxHealth = 1024
-    entity.health = 1024
+    let hp = 800
+    entity.maxHealth = hp
+    entity.health = hp
     const currentPos = entity.blockPosition()
     entity.persistentData.merge({
         oX: currentPos.x,

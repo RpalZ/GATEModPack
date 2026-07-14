@@ -825,10 +825,27 @@ set.health=[20, 75]
 [[mob]]
 name="minecraft:elder_guardian"
 [[mob.rule]]
-set.health=450
+set.health=750
 type="all"
 
 
+[[mob]]
+name="minecraft:pillager"
+[[mob.rule]]
+set.health=[25, 50]
+type="all"
+
+[[mob]]
+name="mowziesmobs:umvuthi"
+[[mob.rule]]
+set.health=500
+type="all"
+
+[[mob]]
+name="mowziesmobs:frostmaw"
+[[mob.rule]]
+set.health=1500
+type="all"
 ################################################################################
 # Add your custom rules above the previous line
 ################################################################################
