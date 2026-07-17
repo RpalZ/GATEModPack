@@ -62,8 +62,8 @@
       "infiniteAmmoDisablesConsumption": false
     },
     "crawl": {
-      "pitchUpperLimit": 25.0,
-      "pitchLowerLimit": -10.0,
+      "pitchUpperLimit": 65.0,
+      "pitchLowerLimit": -60.0,
       "dynamicPitchLimit": false
     }
   },

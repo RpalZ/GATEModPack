@@ -1287,6 +1287,17 @@
         "value": 1024
       }
     },
+    "parcool:stamina_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "attributeslib:fire_damage": {
       "enabled": false,
       "min": {
@@ -1747,6 +1758,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "parcool:max_stamina": {
+      "enabled": false,
+      "min": {
+        "default": 10,
+        "value": 10
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "attributeslib:arrow_velocity": {

@@ -11,7 +11,7 @@ let gunTypeModifier = {
     spellPower: 0.35,
   },
   sniper: {
-    spellPower: 2.5,
+    spellPower: 5,
   },
   smg: {
     spellPower: 0.8,
