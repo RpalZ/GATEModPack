@@ -1,0 +1,63 @@
+{
+  "caseName": "GATE Supply Case",
+  "caseId": 1001,
+  "XP_price": false,
+  "XP": 0,
+  "Item_price": false,
+  "Item": "minecraft:tripwire_hook",
+  "Item_count": 1,
+  "Command_price": false,
+  "Command": "",
+  "loot": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 3,
+      "max": 8,
+      "weight": 35,
+      "rarity": "common"
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 2,
+      "max": 5,
+      "weight": 25,
+      "rarity": "uncommon"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence",
+      "min": 2,
+      "max": 6,
+      "weight": 18,
+      "rarity": "uncommon"
+    },
+    {
+      "item": "superbwarfare:ammo_box",
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "rarity": "rare"
+    },
+    {
+      "item": "ars_nouveau:source_gem",
+      "min": 2,
+      "max": 4,
+      "weight": 7,
+      "rarity": "rare"
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "min": 1,
+      "max": 1,
+      "weight": 4,
+      "rarity": "epic"
+    },
+    {
+      "item": "kubejs:hero_gem",
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "rarity": "legendary",
+      "displayName": "§6Hero Gem"
+    }
+  ]
+}

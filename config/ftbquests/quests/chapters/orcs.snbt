@@ -17,6 +17,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				icon: "alexsmobs:bone_serpent_tooth"
 				id: "5F4D1FECEB56E979"
@@ -44,6 +45,7 @@
 				table_id: 1239938732284874214L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -82,6 +84,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "1B9A63B5F9BDC900"
 				item: {
@@ -106,6 +109,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "188A07825522F434"
 				item: "minecraft:emerald"
@@ -124,6 +128,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "1EA4FEE04582DE5D"
 				item: "irons_spellbooks:evocation_rune"
@@ -137,6 +142,7 @@
 			description: ["&aThe Essential Orb for the dark magician!&r"]
 			entity_vis_size: 1.0f
 			id: "1FBE05191DC138F3"
+			size: 1.5d
 			tasks: [{
 				id: "66DF8500E29201B1"
 				item: {
@@ -161,6 +167,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "21CEE94F72C16784"
@@ -224,6 +231,7 @@
 			description: ["&aThe only Evocation Power up Book!&r"]
 			entity_vis_size: 1.0f
 			id: "1DCCD983F2CD345F"
+			size: 1.5d
 			tasks: [{
 				id: "3483FF5D6594FE9B"
 				item: {

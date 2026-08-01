@@ -12,6 +12,7 @@
 			description: ["&9You are born as Merfolk.&r"]
 			entity_vis_size: 1.0f
 			id: "4632A6E031717E3B"
+			size: 1.5d
 			tasks: [{
 				icon: "traveloptics:hullbreaker_scales"
 				id: "7EC6B96F6D25DE7B"
@@ -39,6 +40,7 @@
 				table_id: 3736362546917244830L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -72,6 +74,7 @@
 			description: ["&9If you havent already noticed, you are given an aqua echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			entity_vis_size: 1.0f
 			id: "3E32EA47C98F158A"
+			size: 1.5d
 			tasks: [{
 				id: "34852EA14CAA0C4F"
 				item: {
@@ -91,6 +94,7 @@
 			description: ["&9Merfolks can only eat seafood! Small price to pay for water abilities!&r"]
 			entity_vis_size: 1.0f
 			id: "49E8DE67EAAF6973"
+			size: 1.5d
 			tasks: [{
 				id: "0A68BCF3D6AD6D44"
 				item: "minecraft:salmon"
@@ -109,6 +113,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "355A1153F1A924F7"
 				item: "alexscaves:mussel"
@@ -127,6 +132,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "40C2DE0690D2E275"
 				item: "alexscaves:pearl"
@@ -145,6 +151,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "66D59190983D02E3"
 				item: "traveloptics:aqua_rune"
@@ -163,6 +170,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "3CD6A383903B650E"
@@ -231,6 +239,7 @@
 				type: "xp"
 				xp: 1000
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "0DA83DD776873843"
@@ -280,6 +289,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "59D6F308528523FE"
 				item: {
@@ -304,6 +314,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "262C01D380B691F8"
 				item: {
@@ -333,6 +344,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "39C722621F920182"
 				item: {
@@ -367,6 +379,7 @@
 			description: ["&9A quick cast weapon!&r"]
 			entity_vis_size: 1.0f
 			id: "585A102956B7E3BF"
+			size: 1.5d
 			tasks: [{
 				id: "41EB93F5AF3E7167"
 				item: {
@@ -391,6 +404,7 @@
 			description: ["&9The cooler water blaster!&r"]
 			entity_vis_size: 1.0f
 			id: "2A6B0ECE06230499"
+			size: 1.5d
 			tasks: [{
 				id: "69C7B4C6D01832AD"
 				item: {

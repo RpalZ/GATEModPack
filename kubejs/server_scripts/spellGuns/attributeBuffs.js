@@ -11,7 +11,7 @@ let gunTypeModifier = {
     spellPower: 0.35,
   },
   sniper: {
-    spellPower: 5,
+    spellPower: 10,
   },
   smg: {
     spellPower: 0.8,
@@ -56,9 +56,7 @@ NativeEvents.onEvent($ItemAttributeModifierEvent, (event) => {
   /**@type {Internal.Multimap<Internal.Attribute, Internal.AttributeModifier>} */
   let modifiers = event.getModifiers();
 
-//   let spellModifer = modifiers.get("irons_spellbooks:spell_power");  
 
-  // console.log(containsModifier)
 
   let newAttribute = new $AttributeModifier(
     randomUuid,

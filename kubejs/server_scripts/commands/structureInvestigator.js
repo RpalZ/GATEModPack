@@ -13,7 +13,6 @@ ServerEvents.customCommand("locateStructure", (event) => {
 
   const sM = level.structureManager();
 
-  // sM.getStructureAt().getBoundingBox().intersects()
 
   const stuff = level.server
     .registryAccess()
@@ -29,7 +28,6 @@ ServerEvents.customCommand("locateStructure", (event) => {
 
     player.tell(stuff)
   const target = [
-    // "#gate:dungeon",
     "dungeons_enhanced:deep_crypt",
     "minecraft:village_plains",
   ];
@@ -42,8 +40,4 @@ ServerEvents.customCommand("locateStructure", (event) => {
   );
 
   player.tell(findStructureResult);
-
-  //   target.forEach((m) => {
-  //     locator(m);
-  //   });
 });

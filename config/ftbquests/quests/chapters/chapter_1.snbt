@@ -15,6 +15,7 @@
 			]
 			entity_vis_size: 1.0f
 			id: "72DE04CAE8F6BF13"
+			size: 1.5d
 			subtitle: "Welcome"
 			tasks: [{
 				icon: {
@@ -54,7 +55,13 @@
 					item: "minecraft:iron_block"
 					type: "item"
 				}
+				{
+					id: "6F9D67BAA49FEDCC"
+					item: "superbwarfare:rare_material_pack"
+					type: "item"
+				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "2B014C89CBD3FE3C"
 				item: "tacz:gun_smith_table"
@@ -75,6 +82,7 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "27763B668C07D3D4"
@@ -108,6 +116,7 @@
 			description: ["&6&6Make your weapons look &oCOOL&r&6 by putting &ocool&r&6 things on it.&r&r&r&r"]
 			entity_vis_size: 1.0f
 			id: "13E2E4C2C47A6F5E"
+			size: 1.5d
 			tasks: [{
 				id: "353E0AA7FEC28C55"
 				item: {
@@ -144,6 +153,7 @@
 				item: "superbwarfare:rpg_blueprint"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				consume_items: true
 				count: 512L
@@ -164,6 +174,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "027136097D8D6DE8"
 				title: "Heavy Hitters"
@@ -182,6 +193,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "24B2FCF6548FB1D0"
 				item: {
@@ -203,6 +215,7 @@
 			description: ["&9Cant hurt to bring a nade or two&r"]
 			entity_vis_size: 1.0f
 			id: "2E7D488619B1E9F8"
+			size: 1.5d
 			tasks: [{
 				id: "07663F72FD168110"
 				item: "superbwarfare:hand_grenade"
@@ -221,6 +234,7 @@
 				item: "superbwarfare:detonator"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "05A125E3CA305E7E"
 				item: {
@@ -245,6 +259,7 @@
 				item: "superbwarfare:large_motor"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "7A7DF59B0D32BECE"
 				item: "superbwarfare:vehicle_assembling_table"
@@ -264,6 +279,7 @@
 				item: "superbwarfare:medium_battery_pack"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4CC4CCABF96D2304"
 				item: "superbwarfare:container"
@@ -278,6 +294,7 @@
 			description: ["&6Many Vehicles require specific ammo types for their weapons. Here is a quick guide for it.&r"]
 			entity_vis_size: 1.0f
 			id: "3F117041BE0C2184"
+			size: 1.5d
 			tasks: [{
 				id: "025737D62A87D150"
 				title: "Mechanized Weapons"
@@ -296,6 +313,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4634ED41F2929AD7"
 				item: "superbwarfare:rifle_ammo"
@@ -314,6 +332,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "2FF6D88CF1FC6B0A"
 				item: "superbwarfare:small_shell"
@@ -332,6 +351,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "0F768FFDF06D5FC5"
 				item: { Count: 64, id: "superbwarfare:medium_rocket_ap" }
@@ -350,6 +370,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4339ECE4328E3059"
 				item: { Count: 64, id: "superbwarfare:medium_rocket_he" }
@@ -368,6 +389,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "52BF04E3E2C9F74F"
 				item: "superbwarfare:medium_rocket_cm"
@@ -386,6 +408,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "67CEEDBB1415A6CF"
 				item: { Count: 4, id: "superbwarfare:medium_anti_ground_missile" }
@@ -404,6 +427,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "14327390A4641226"
 				item: "superbwarfare:medium_anti_air_missile"
@@ -417,6 +441,7 @@
 			description: ["&9A Larger Ground ATGM&r"]
 			entity_vis_size: 1.0f
 			id: "0DADEC0B270E33C9"
+			size: 1.5d
 			tasks: [{
 				id: "78E4E08F5F806384"
 				item: { Count: 2, id: "superbwarfare:large_anti_ground_missile" }
@@ -435,6 +460,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4ACDFF090621E267"
 				item: "superbwarfare:small_rocket"
@@ -453,6 +479,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "09E2615B0A771789"
 				item: "mekanismgenerators:heat_generator"
@@ -471,6 +498,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "5536A85CDD366435"
 				item: "mekanismgenerators:wind_generator"
@@ -489,6 +517,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "451BD8C485A37459"
 				item: "mekanismgenerators:bio_generator"
@@ -507,6 +536,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "17C916896E7AACE9"
 				item: "mekanismgenerators:gas_burning_generator"
@@ -525,6 +555,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "44B2618A9DF4A212"
 				item: "powah:book"
@@ -544,6 +575,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "37016DB59080F15B"
 				title: "Tech Armor!"
@@ -562,6 +594,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "184EC14517984FF0"
@@ -621,6 +654,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "2AB6122E4CC662D6"
 				item: {
@@ -638,6 +672,7 @@
 			description: ["&9The Ultimate Techarmor. Makes you almost invincible!&r"]
 			entity_vis_size: 1.0f
 			id: "459947473ACE913E"
+			size: 1.5d
 			tasks: [
 				{
 					id: "155CCACCEDFAFC0C"
@@ -674,6 +709,7 @@
 			description: ["&6With all the constant demand for resources, logistics become a massive hurdle. Thats why automation should be your best friend!&r"]
 			entity_vis_size: 1.0f
 			id: "451EC034EB67335B"
+			size: 1.5d
 			tasks: [{
 				id: "56E96952A8C8FDBD"
 				title: "Logistics !01"
@@ -692,6 +728,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "58AB933B576D63BE"
 				structure: "ae2:meteorite"
@@ -705,6 +742,7 @@
 			description: ["&6Dig down the meteorite and mine the mysterious block in the middle!&r"]
 			entity_vis_size: 1.0f
 			id: "6BAE5095065CF278"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5931A862F05756C1"
@@ -747,6 +785,7 @@
 					xp: 500
 				}
 			]
+			size: 1.5d
 			tasks: [
 				{
 					id: "3916AAC048190600"
@@ -772,6 +811,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "61DE3CE40C2B8C56"
@@ -805,6 +845,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "030735531EB9B743"
 				item: "ae2:controller"
@@ -823,6 +864,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "0FBCBDA130A87138"
 				item: "ae2:storage_bus"
@@ -836,6 +878,7 @@
 			description: ["&6Do note it doesnt matter how you wire them up in ae2. As long as it is connected, it is part of your system! However, do be mindful of how many channels you are taking up though! Thats basic bandwidth knowledge!&r"]
 			entity_vis_size: 1.0f
 			id: "6FB5FB3E2F3AFC27"
+			size: 1.5d
 			tasks: [{
 				id: "3EB7D299B2664B8A"
 				title: "TIP"
@@ -855,6 +898,7 @@
 				item: "ae2:fluix_covered_dense_cable"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "22E0FBAE83E15CA9"
 				item: "ae2:fluix_covered_dense_cable"
@@ -873,6 +917,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "2DB7CCD778E6A6D6"
 				item: "ae2netanalyser:network_analyser"
@@ -891,6 +936,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "6E0BFA9201C5C3EC"
 				item: "ae2:me_p2p_tunnel"
@@ -909,6 +955,7 @@
 				type: "xp"
 				xp: 5000
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "2F7050F0EB61E784"
@@ -950,6 +997,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "7FD0F9CD90F2A209"
@@ -985,6 +1033,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "345E06EBFE650BAD"
 				title: "Steps"
@@ -1003,6 +1052,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "13232DE0CEFBA885"
 				item: { Count: 61, id: "packagedauto:recipe_holder" }
@@ -1021,6 +1071,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4D3B3CD4EB2BA311"
 				title: "Gunslinger"

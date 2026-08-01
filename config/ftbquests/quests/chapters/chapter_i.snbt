@@ -14,6 +14,7 @@
 			entity_vis_size: 1.0f
 			icon: "effortlessbuilding:building_techniques_book"
 			id: "0A6F2D1E9C7B4F20"
+			size: 1.5d
 			tasks: [{
 				id: "0AE2E233D87BCAFF"
 				title: "Mageeck!"
@@ -33,6 +34,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "3D5E7F9A1B2C3D4E"
 				item: "irons_spellbooks:copper_spell_book"
@@ -52,6 +54,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "257DA8850B2658EB"
 				title: "Interrupted!"
@@ -71,6 +74,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "5F708192A3B4C5D6"
 				item: "irons_spellbooks:inscription_table"
@@ -90,6 +94,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "718293A4B5C6D7E8"
@@ -116,6 +121,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "6680FF862A417007"
@@ -142,6 +148,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "2A0B1C2D3E4F5061"
 				item: "irons_spellbooks:arcane_essence"
@@ -161,6 +168,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "741AC505A8A650BC"
 				item: "irons_spellbooks:arcane_anvil"
@@ -180,6 +188,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "684F32B9CD0C75FD"
 				title: "Level up"
@@ -199,6 +208,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "065B40714EDB1501"
 				title: "Imbue!"
@@ -218,6 +228,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "577B42BB1E545619"
 				item: "irons_spellbooks:alchemist_cauldron"
@@ -237,6 +248,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "1738495A6B7C8D9E"
@@ -263,6 +275,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "5A6B7C8D9E0F1021"
 				item: "irons_spellbooks:iron_spell_book"
@@ -282,6 +295,7 @@
 				type: "xp"
 				xp: 250
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "333327EED298FF38"
 				item: "irons_spellbooks:gold_spell_book"
@@ -301,6 +315,7 @@
 				type: "xp"
 				xp: 300
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "1021324354657687"
 				item: "irons_spellbooks:diamond_spell_book"
@@ -320,6 +335,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "435465768798A9BA"
 				item: "irons_spellbooks:ruined_book"
@@ -339,6 +355,7 @@
 				type: "xp"
 				xp: 250
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "768798A9BACBDCED"
@@ -365,6 +382,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "1223344556677889"
@@ -391,6 +409,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "45566778899AABBC"
@@ -417,6 +436,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "2D3C4B5A6978899A"
@@ -443,6 +463,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "6A7B8C9D0E1F2031"
@@ -464,6 +485,7 @@
 			description: ["&6Knowing how to plan your mana is very important!&r"]
 			entity_vis_size: 1.0f
 			id: "0DA121181C9CB14B"
+			size: 1.5d
 			tasks: [{
 				id: "7A08E37AC76DFD77"
 				title: "Budgeting"
@@ -483,6 +505,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "78899AABBCCDDEEF"
@@ -509,6 +532,7 @@
 				type: "xp"
 				xp: 150
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "69D6A01E311A5CCF"
@@ -540,6 +564,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "52ABF01BD9F1ED2F"
 				item: "ars_nouveau:imbuement_chamber"
@@ -559,6 +584,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "6D32FA17F3DFE3EB"
@@ -590,6 +616,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "3E084C12270201C3"
@@ -621,6 +648,7 @@
 				type: "xp"
 				xp: 250
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "33445566778899AA"
@@ -647,6 +675,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "2C3D4E5F60718293"
@@ -673,6 +702,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "28B48BC17208A39D"
 				item: "ars_nouveau:apprentice_spell_book"
@@ -692,6 +722,7 @@
 				type: "xp"
 				xp: 300
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "440FE8BF453BB839"
 				item: "ars_nouveau:archmage_spell_book"
@@ -711,6 +742,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				icon: "waystones:bound_scroll"
 				id: "3CD98C0AC429E1B8"
@@ -730,6 +762,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "3431D25EBB877A95"
 				item: "irons_spellbooks:concentration_amulet"
@@ -748,6 +781,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "75B277F8CFE7FBFB"
 				item: "ars_nouveau:storage_lectern"
@@ -766,6 +800,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "54B0F73AF3CFEFCC"
 				item: "ars_nouveau:bookwyrm_charm"
@@ -779,6 +814,7 @@
 			description: ["&6Use this wand to link the inventories together!&r"]
 			entity_vis_size: 1.0f
 			id: "40E67C4879CC30E5"
+			size: 1.5d
 			tasks: [{
 				id: "58D7FE9265BC3E9D"
 				item: {
@@ -806,6 +842,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "3E62FC09B027BA62"
 				item: {
@@ -828,6 +865,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "6969DB476005C771"
 				title: "Stats"

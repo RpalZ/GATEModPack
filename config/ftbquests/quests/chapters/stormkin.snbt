@@ -18,6 +18,7 @@
 			description: ["You are born as Stormkin."]
 			entity_vis_size: 1.0f
 			id: "3082533183B9DA39"
+			size: 1.5d
 			tasks: [{
 				icon: {
 					Count: 1
@@ -51,6 +52,7 @@
 				table_id: 557507714661325008L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -89,6 +91,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "5AE417282177B994"
 				item: {
@@ -113,6 +116,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "7A09541A2B205BC7"
 				item: "irons_spellbooks:lightning_bottle"
@@ -126,6 +130,7 @@
 			description: ["&bStormkins are elemental beings. Thus, they can propel themselves up into the air!&r"]
 			entity_vis_size: 1.0f
 			id: "004A026F63A19544"
+			size: 1.5d
 			tasks: [{
 				id: "4827D05CCCBA7C99"
 				title: "Vertical Dash"
@@ -144,6 +149,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "42F5688BBF69F12D"
 				item: "irons_spellbooks:lightning_rune"
@@ -162,6 +168,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "773F895A0AE8E6BF"
 				item: {
@@ -186,6 +193,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "07C35CA2600A69E2"
 				item: {
@@ -215,6 +223,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "29CC51468258D807"
@@ -264,6 +273,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "178FDC6D9D9276F1"
@@ -332,6 +342,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "5B3BC9A607F8765E"
@@ -376,6 +387,7 @@
 			description: ["&bInduced EMF!&r"]
 			entity_vis_size: 1.0f
 			id: "4B851155DD16183E"
+			size: 1.5d
 			tasks: [{
 				id: "45B1B06181C84EF6"
 				item: {
@@ -405,6 +417,7 @@
 			description: ["&bQuite drippy if you ask me&r"]
 			entity_vis_size: 1.0f
 			id: "27625F62829F653D"
+			size: 1.5d
 			tasks: [{
 				id: "3043C2BFB98F2838"
 				item: "traveloptics:titanlord_scepter_retro"
@@ -418,6 +431,7 @@
 			description: ["&bQuite the befitting weapon for the set?&r"]
 			entity_vis_size: 1.0f
 			id: "359C2096D15E702C"
+			size: 1.5d
 			tasks: [{
 				id: "6E9F6E247E6AE77A"
 				item: {
@@ -447,6 +461,7 @@
 			description: ["&bThe alternative.&r"]
 			entity_vis_size: 1.0f
 			id: "6CF1282D10738A4E"
+			size: 1.5d
 			tasks: [{
 				id: "39E2E4B9065D4E46"
 				item: {

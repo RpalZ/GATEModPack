@@ -12,6 +12,7 @@
 			description: ["You are born as an elf"]
 			entity_vis_size: 1.0f
 			id: "7C4474A24A9EF35C"
+			size: 1.5d
 			tasks: [{
 				icon: "minecraft:feather"
 				id: "2ED0C04B474E8B81"
@@ -39,6 +40,7 @@
 				table_id: 2531735422939381735L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -75,6 +77,7 @@
 			description: ["&2Despite its looks, it is one the key ingredients to nurture the nature element! Dont throw it away!&r"]
 			entity_vis_size: 1.0f
 			id: "6F29BD98EB206BA7"
+			size: 1.5d
 			tasks: [{
 				id: "0FC5BDFA71AA3C21"
 				item: "minecraft:poisonous_potato"
@@ -88,6 +91,7 @@
 			description: ["&2The specific rune for Nature!&r"]
 			entity_vis_size: 1.0f
 			id: "7988DA96BA823373"
+			size: 1.5d
 			tasks: [{
 				id: "491903410219A4C9"
 				item: "irons_spellbooks:nature_rune"
@@ -101,6 +105,7 @@
 			description: ["&2If you havent already noticed, you are given a nature echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			entity_vis_size: 1.0f
 			id: "0AF286964246E0A0"
+			size: 1.5d
 			tasks: [{
 				id: "005A2B9560DA250B"
 				item: {
@@ -125,6 +130,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "143F975F3833A415"
@@ -193,6 +199,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "0DF58B8D146FB5BC"
@@ -261,6 +268,7 @@
 				type: "xp"
 				xp: 2000
 			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "6B36D42E6E3DF9B8"
@@ -305,6 +313,7 @@
 			description: ["&2The ULTIMATE Nature ORB&r"]
 			entity_vis_size: 1.0f
 			id: "141B2F2DDD1FBE62"
+			size: 1.5d
 			tasks: [{
 				id: "5B843831894EF8A8"
 				item: {
@@ -329,6 +338,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "3B1FF94D337BD609"
 				item: {
@@ -353,6 +363,7 @@
 			description: ["&2The previous' cooler brother&r"]
 			entity_vis_size: 1.0f
 			id: "73D6F90C30877A74"
+			size: 1.5d
 			tasks: [{
 				id: "11A1CFB2A9F2344C"
 				item: {
@@ -382,6 +393,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "0CACE26C1793439A"
 				title: "Weaponmaster"
@@ -400,6 +412,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "181D86103663D63D"
 				item: "traveloptics:titanlord_scepter"
@@ -418,6 +431,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "76E9B2B1734EB42A"
 				item: {
@@ -452,6 +466,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "1EB2FB05C5C25870"
 				item: {

@@ -33,12 +33,30 @@
           "type": "minecraft:loot_table",
           "name": "mes:mega_ship_treasure"
         },
-            {
+        {
           "type": "minecraft:loot_table",
           "name": "dungeons_arise:chests/mines_treasure_big"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "libraryferret:netherite_coins_jtl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
     }
-  
   ]
 }

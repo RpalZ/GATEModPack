@@ -1,0 +1,69 @@
+{
+  "caseName": "EMX Arms Legendary Case",
+  "caseId": 1103,
+  "XP_price": false,
+  "XP": 0,
+  "Item_price": false,
+  "Item": "minecraft:tripwire_hook",
+  "Item_count": 1,
+  "Command_price": false,
+  "Command": "",
+  "loot": [
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.17,
+      "rarity": "legendary",
+      "NBT": "AttachmentEXTENDED_MAG:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:ammo_sh3r\"}},AttachmentLASER:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:laser_emx_compiler\"}},AttachmentMUZZLE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:muzzle_emx_encapsulation\"}},AttachmentSCOPE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"gucci_attachments:scope_bojin1\"}},AttachmentSTOCK:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:bayonet_emx_lightupgrade\"}},GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"emxarms:emx_mg90\",HasBulletInBarrel:0b,\"ironsarms:Mana\":937"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.12,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"emxarms:emx_mk88\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.1,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"emxarms:emx_enforcer\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.17,
+      "rarity": "legendary",
+      "NBT": "AttachmentEXTENDED_MAG:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:emx_lightweight_mag_2\"}},AttachmentGRIP:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"gucci_attachments:grip_vert6\"}},AttachmentLASER:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:laser_emx_double\"}},AttachmentMUZZLE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:muzzle_emx_encapsulation\"}},AttachmentSCOPE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"maxstuff:sight_rmr_dot_raised\"}},AttachmentSTOCK:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:bayonet_emx_lightupgrade\"}},GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"emxarms:emx_draftsman\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.01,
+      "rarity": "legendary",
+      "NBT": "AttachmentEXTENDED_MAG:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:emx_sfmag_3if\"}},AttachmentGRIP:{Count:1b,id:\"minecraft:air\",tag:{Damage:0}},AttachmentMUZZLE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:muzzle_sf7b_super6\"}},AttachmentSTOCK:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:bayonet_emx_doom\"}},GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"emxarms:emx_sf7b\",HasBulletInBarrel:0b,HeatAmount:0.0f,InscribedSpell:{Level:1,SpellID:\"irons_spellbooks:eldritch_blast\"},OverHeated:0b,\"ironsarms:Mana\":1355"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.03,
+      "rarity": "legendary",
+      "NBT": "AttachmentEXTENDED_MAG:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:ammo_h3r\"}},AttachmentGRIP:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"gucci_attachments:grip_bipod1\"}},AttachmentMUZZLE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:muzzle_emx_encapsulation\"}},AttachmentSCOPE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:sight_emx_array\",ZoomNumber:1}},AttachmentSTOCK:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"emxarms:bayonet_emx_lightupgrade\"}},GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"emxarms:emx_pmg90\",HasBulletInBarrel:0b,\"arsarms:Mana\":0"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.18,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"rainbow:rb60_gs\",HasBulletInBarrel:0b"
+    }
+  ]
+}

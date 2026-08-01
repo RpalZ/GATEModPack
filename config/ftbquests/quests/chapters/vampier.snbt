@@ -12,6 +12,7 @@
 			description: ["You are born as a vampire"]
 			entity_vis_size: 1.0f
 			id: "5D1963C8299480E9"
+			size: 1.5d
 			tasks: [{
 				icon: "undergarden:blood_globule"
 				id: "051700C9843FD136"
@@ -26,6 +27,7 @@
 			description: ["&4Vampires can heal themselves based on damage and blood spell power. ANY damage type whether it is melee, range or even magic will work.&r"]
 			entity_vis_size: 1.0f
 			id: "204917A9050461E2"
+			size: 1.5d
 			tasks: [{
 				id: "42DAA98A43609E38"
 				title: "Lifesteal"
@@ -39,6 +41,7 @@
 			description: ["&4As a vampire, it is VERY important to not touch sunlight otherwise well... You will burn. Despite that you can still enjoy the day. Just use an Umbrella.&r"]
 			entity_vis_size: 1.0f
 			id: "08124073C05A5A54"
+			size: 1.5d
 			tasks: [
 				{
 					id: "6416EE7C2CE2C735"
@@ -66,6 +69,7 @@
 			description: ["&4Blood Power is VERY important. Here are some guides to get more of them.&r"]
 			entity_vis_size: 1.0f
 			id: "5974036B50C95E88"
+			size: 1.5d
 			tasks: [{
 				id: "07D8BEFC1A73EBDA"
 				title: "BloodMaxx"
@@ -79,6 +83,7 @@
 			description: ["&4If you havent already noticed, you are given a blood echo. This is a special necklace that allows you to use a random imbued spell. However, you do need 10 levels prior to start imbuing.&r"]
 			entity_vis_size: 1.0f
 			id: "525CCD65EAC44ED0"
+			size: 1.5d
 			tasks: [{
 				id: "4A0E35306293C3B2"
 				item: {
@@ -98,6 +103,7 @@
 			description: ["&4This is the best spellbook for vampires&r"]
 			entity_vis_size: 1.0f
 			id: "2908DBC4E7E4ADD3"
+			size: 1.5d
 			tasks: [{
 				id: "08138DD5B00AF124"
 				item: {
@@ -133,6 +139,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "476F3D9F348E8410"
 				item: "irons_spellbooks:ruined_book"
@@ -155,6 +162,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4CCC0123CE3FF4C2"
 				item: "irons_spellbooks:blood_vial"
@@ -173,6 +181,7 @@
 				type: "xp"
 				xp: 500
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "5323F4308C03F51E"
 				item: "irons_spellbooks:blood_rune"
@@ -186,6 +195,7 @@
 			description: ["&4Time for your first Blood Helmet!&r"]
 			entity_vis_size: 1.0f
 			id: "6DDA5F9220C826E3"
+			size: 1.5d
 			tasks: [{
 				id: "1992B9733DF86088"
 				item: {
@@ -205,6 +215,7 @@
 			description: ["&4Time for your first Blood Chestplate!&r"]
 			entity_vis_size: 1.0f
 			id: "6DBAF17639728E64"
+			size: 1.5d
 			tasks: [{
 				id: "377AE08D5FCF8A72"
 				item: {
@@ -230,6 +241,7 @@
 			description: ["&4Time for your first Blood Leggings!&r"]
 			entity_vis_size: 1.0f
 			id: "5719FD0F0F3AA272"
+			size: 1.5d
 			tasks: [{
 				id: "6C8D250AA34B8AEE"
 				item: {
@@ -249,6 +261,7 @@
 			description: ["&4Time for your first Blood Boots!&r"]
 			entity_vis_size: 1.0f
 			id: "39DCC725A03B18DF"
+			size: 1.5d
 			tasks: [{
 				id: "11CCEF3DDBFD8D8C"
 				item: {
@@ -268,6 +281,7 @@
 			description: ["&4A Very Grindy Helmet&r"]
 			entity_vis_size: 1.0f
 			id: "1868912FB34D79A8"
+			size: 1.5d
 			tasks: [{
 				id: "15A28BFDEE36D8BB"
 				item: "traveloptics:forlorn_harbinger_hood"
@@ -281,6 +295,7 @@
 			description: ["&4Grindy but worth it!&r"]
 			entity_vis_size: 1.0f
 			id: "0E55CE7A909818AA"
+			size: 1.5d
 			tasks: [{
 				id: "0D26AE5EA6B51DB2"
 				item: {
@@ -305,6 +320,7 @@
 			description: ["&4It takes a lot of grinding.&r"]
 			entity_vis_size: 1.0f
 			id: "73304277622433E7"
+			size: 1.5d
 			tasks: [{
 				id: "22FD411AE8EFA8F4"
 				item: "traveloptics:forlorn_harbinger_leggings"
@@ -318,6 +334,7 @@
 			description: ["&4You made it!&r"]
 			entity_vis_size: 1.0f
 			id: "36B9CE16B1831567"
+			size: 1.5d
 			tasks: [{
 				id: "5DA7F21815CCCBC4"
 				item: "traveloptics:forlorn_harbinger_boots"
@@ -331,6 +348,7 @@
 			description: ["&4Use these orbs to upgrade your sets!&r"]
 			entity_vis_size: 1.0f
 			id: "6211AF8D50907902"
+			size: 1.5d
 			tasks: [{
 				id: "05E3778BF9813904"
 				item: {
@@ -361,6 +379,7 @@
 				table_id: 2045434586276917832L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				consume_items: true
 				count: 20L

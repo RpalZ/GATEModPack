@@ -1,8 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "0FFECF43B1AA7173", title: "The Beginning" }
-		{ id: "512657B907DC593B", title: "Technology" }
-		{ id: "7A2C563D6EFC2809", title: "Magic" }
-		{ id: "6D2B89F1088DF239", title: "Main" }
+		{ id: "0FFECF43B1AA7173", title: "&6&l✦ The Beginning ✦&r" }
+		{ id: "512657B907DC593B", title: "&b&l⚙ Technology ⚙&r" }
+		{ id: "7A2C563D6EFC2809", title: "&d&l✧ Magic ✧&r" }
+		{ id: "6D2B89F1088DF239", title: "&e&l◆ Main ◆&r" }
+		{ id: "52A583B9426D0091", title: "&5&l♜ Shop ♜&r" }
 	]
 }

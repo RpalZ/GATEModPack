@@ -1,13 +1,13 @@
 
 ["Possibility_of_Actions(Some_do_not_have_to_work)"]
 	can_BreakfallReady = true
-	can_CatLeap = true
+	can_CatLeap = false
 	can_ChargeJump = true
 	can_ClimbPoles = true
 	can_ClimbUp = true
 	can_ClingToCliff = true
 	can_HideInBlock = true
-	can_Crawl = false
+	can_Crawl = true
 	can_Dive = true
 	can_Dodge = false
 	can_FastRun = true
@@ -30,7 +30,7 @@
 
 [Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide
-	stamina_hud_type = "Light"
+	stamina_hud_type = "Hide"
 	#horizontal alignment
 	#Allowed Values: Left, Right
 	align_h_s_hud = "Right"
@@ -110,7 +110,7 @@
 [Control]
 	#Control of Fast Run
 	#Allowed Values: PressKey, Toggle, Auto
-	fast-run_control = "PressKey"
+	fast-run_control = "Auto"
 	#Control of Crawl
 	#Allowed Values: PressKey, Toggle
 	crawl_control = "PressKey"
@@ -220,7 +220,7 @@
 	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
 	#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 	#Please check 'parcool-server.toml' in 'serverconfig' directory
-	infinite_stamina = false
+	infinite_stamina = true
 	#Infinite Stamina while player is creative mode
 	infinite_stamina_if_creative_mode = true
 	#Enable slowing down of stamina exhaustion

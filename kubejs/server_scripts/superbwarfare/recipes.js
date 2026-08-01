@@ -57,15 +57,26 @@ ServerEvents.recipes((event) => {
     "maxstuff:gun/db_short_d",
   ];
 
+  const disabledGunRecipeNamespaces = ["hamster", "emxarms", "rainbow"];
+
   blacklist.forEach((val) => {
     event.remove({ id: val });
   });
 
   event.forEachRecipe({ type: "tacz:gun_smith_table_crafting" }, (recipe) => {
     const json = recipe.json;
-    const id = recipe.getId();
+    const id = recipe.getId().toString();
 
     const jsonObj = JSON.parse(json);
+    const type = jsonObj.result.type;
+    const isGun = type == "gun";
+    const recipeNamespace = id.split(":")[0];
+
+    if (isGun && disabledGunRecipeNamespaces.includes(recipeNamespace)) {
+      event.remove({ id: id });
+      return;
+    }
+
     let pack = "superbwarfare:rare_material_pack";
     if (blacklist.includes(id)) return;
 
@@ -74,9 +85,6 @@ ServerEvents.recipes((event) => {
     } else if (epics.includes(id)) {
       pack = "superbwarfare:epic_material_pack";
     }
-
-    const type = jsonObj.result.type;
-    const isGun = type == "gun";
 
     if (!isGun) return;
     jsonObj.materials.push({

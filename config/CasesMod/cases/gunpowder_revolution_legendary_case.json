@@ -1,0 +1,69 @@
+{
+  "caseName": "Gunpowder Revolution Legendary Case",
+  "caseId": 1102,
+  "XP_price": false,
+  "XP": 0,
+  "Item_price": false,
+  "Item": "minecraft:tripwire_hook",
+  "Item_count": 1,
+  "Command_price": false,
+  "Command": "",
+  "loot": [
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.5,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"hamster:m1887\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.5,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"hamster:mosin9130\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.5,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"hamster:mosin91\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:mp18\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"hamster:auto5\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"hamster:martinihenry\",HasBulletInBarrel:0b"
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunCurrentAmmoCount:0,GunId:\"hamster:sharps\",HasBulletInBarrel:0b"
+    }
+  ]
+}

@@ -13,7 +13,6 @@ NativeEvents.onEvent($ItemAttributeModifierEvent, (event) => {
 
   const attrModMap = modifiers.asMap();
 
-//   console.log("yep");
   /**
    * @typedef {Object} TopAttrObj
    * @property {Internal.Attribute | null} attribute
@@ -36,7 +35,6 @@ NativeEvents.onEvent($ItemAttributeModifierEvent, (event) => {
 
     let firstAtt = arrayModi.sort((a, b) => b.amount - a.amount)[0];
 
-    // console.log(`firstAttr: ${firstAtt}`);
     if (firstAtt.amount > topAttr.amount) {
       topAttr.attribute = attribute;
       topAttr.attributeModifier = firstAtt;

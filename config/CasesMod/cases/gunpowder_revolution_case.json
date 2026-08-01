@@ -1,0 +1,293 @@
+{
+  "caseName": "Gunpowder Revolution Case",
+  "caseId": 1002,
+  "XP_price": false,
+  "XP": 0,
+  "Item_price": false,
+  "Item": "minecraft:tripwire_hook",
+  "Item_count": 1,
+  "Command_price": false,
+  "Command": "",
+  "loot": [
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 14,
+      "rarity": "common",
+      "NBT": "GunId:\"hamster:lugerp08\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 14,
+      "rarity": "common",
+      "NBT": "GunId:\"hamster:makarov\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:mp18\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 11,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:coltm1892\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 11,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:coltm1892pair\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 9,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:coltm1851\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 9,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:nagantm1895\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 7.5,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:nagantcarbine\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 7.5,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:sw_mk2\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 7,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:madsen\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 7,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:mg1417\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 7,
+      "rarity": "uncommon",
+      "NBT": "GunId:\"hamster:sks\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "rarity": "rare",
+      "NBT": "GunId:\"hamster:m1879revolver\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "rarity": "rare",
+      "NBT": "GunId:\"hamster:sw_mk2_41\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "rarity": "rare",
+      "NBT": "GunId:\"hamster:webley\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 4.5,
+      "rarity": "rare",
+      "NBT": "GunId:\"hamster:win1873\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 4,
+      "rarity": "rare",
+      "NBT": "GunId:\"hamster:m1garand\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 2.4,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:colt1873\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 2.4,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:krag\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 2.4,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:luger1906\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 2.4,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:type99\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 1.9,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:gew98\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 1.5,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:berthier\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 1.5,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:m1903\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 1.5,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:smle_mk3\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 1.5,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:win1894\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 1.15,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:gras1874\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 1.15,
+      "rarity": "epic",
+      "NBT": "GunId:\"hamster:lebel1886\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.5,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:m1887\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.5,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:mosin9130\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.5,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:mosin91\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 14,
+      "rarity": "common",
+      "NBT": "GunId:\"hamster:one_barrel\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:auto5\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:martinihenry\""
+    },
+    {
+      "item": "tacz:modern_kinetic_gun",
+      "min": 1,
+      "max": 1,
+      "weight": 0.25,
+      "rarity": "legendary",
+      "NBT": "GunId:\"hamster:sharps\""
+    }
+  ]
+}

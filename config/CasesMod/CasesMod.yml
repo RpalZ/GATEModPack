@@ -1,0 +1,70 @@
+# CasesMod — Server configuration
+# Path: /config/CasesMod/CasesMod.yml
+#
+# Loaded on the logical server (integrated single-player or dedicated).
+# In multiplayer the client receives these values via PacketSyncConfig
+# on login and never reads this file directly.
+
+spin:
+
+  # Duration of the roulette spin animation in ticks.
+  # 20 ticks = 1 second. Default: 100 (5 s). Range: [20, 600].
+  duration_ticks: 100
+
+  # Show the "Open x5" button when the player holds ≥5 cases.
+  # true = enabled, false = disabled
+  multi_open_enabled: true
+
+legendary:
+
+  # Message broadcast to ALL players in chat when a legendary item is won.
+  # Variables: {player} = player name, {item} = item name
+  # Colour codes: §6=gold §c=red §a=green §b=aqua §5=purple §r=reset
+  # Leave empty to disable: message: ""
+  message: "§6[CasesMod] §r{player} §6obtained §r{item} §6(Legendary)!"
+
+  # Enable or disable the legendary sound effect.
+  # true = enabled, false = disabled
+  sound_enabled: true
+
+  # true  = every connected player hears the sound
+  # false = only the player who won the legendary item hears it
+  sound_broadcast: true
+
+  # Sound event identifier (ResourceLocation format: namespace:path)
+  # Examples:
+  #   minecraft:entity.wither.spawn
+  #   minecraft:ui.toast.challenge_complete
+  #   minecraft:entity.ender_dragon.death
+  sound_id: "minecraft:entity.wither.spawn"
+
+particles:
+
+  # Particles spawned around the player when they claim a reward.
+  # type: SimpleParticleType ResourceLocation (e.g. minecraft:heart)
+  # count: number of particles to spawn. Range: [0, 500].
+
+  common:
+    enabled: false
+    type: "minecraft:cloud"
+    count: 8
+
+  uncommon:
+    enabled: false
+    type: "minecraft:happy_villager"
+    count: 12
+
+  rare:
+    enabled: true
+    type: "minecraft:enchant"
+    count: 15
+
+  epic:
+    enabled: true
+    type: "minecraft:heart"
+    count: 20
+
+  legendary:
+    enabled: true
+    type: "minecraft:totem_of_undying"
+    count: 50
